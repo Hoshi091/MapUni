@@ -1,0 +1,2 @@
+C:\Users\tamar\OneDrive\Dokumenty\AR_Unity\UniNav\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\CMakeLists.txt
+C:\Users\tamar\OneDrive\Dokumenty\AR_Unity\UniNav\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\CMakeLists.txt
