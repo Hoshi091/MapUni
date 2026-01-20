@@ -7912,7 +7912,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RotateOverTime_Update_m1B18476750C54D7412641CEA4E0D5D7854684FA1 (RotateOverTime_t9294BB1C38F3A62ADB9334BAFCFB6A6BC515F37B* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/RotateOverTime.cs:23>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
 		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = __this->___m_Axis;
@@ -7921,7 +7920,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RotateOverTime_Update_m1B18476750C54D741
 		L_3 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
 		NullCheck(L_0);
 		Transform_Rotate_m35B44707FE16FF8015D519D8C162C0B4A85D6D1F(L_0, L_1, ((float)il2cpp_codegen_multiply(L_2, L_3)), NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/RotateOverTime.cs:24>
 		return;
 	}
 }
@@ -7929,12 +7927,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RotateOverTime_Update_m1B18476750C54D741
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RotateOverTime__ctor_m19D240BC5ADCAC681E3722A6A905C456B12B6728 (RotateOverTime_t9294BB1C38F3A62ADB9334BAFCFB6A6BC515F37B* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/RotateOverTime.cs:17>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0;
 		memset((&L_0), 0, sizeof(L_0));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_0), (0.0f), (1.0f), (0.0f), NULL);
 		__this->___m_Axis = L_0;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/RotateOverTime.cs:19>
 		__this->___m_Speed = (40.0f);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -7952,7 +7948,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RotateOverTime__ctor_m19D240BC5ADCAC681E
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneTemplate_RotateCube_Update_mAF2FB34B99E325443A80D60A7EB73DC092EAE9A6 (SceneTemplate_RotateCube_tB6D99CC88F0E89517A2E6E071F0334FE69FB44CC* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Settings/Project Configuration/SceneTemplate_RotateCube.cs:20>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
 		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = __this->___objectRotation;
@@ -7965,7 +7960,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneTemplate_RotateCube_Update_mAF2FB34
 		L_5 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_3, L_4, NULL);
 		NullCheck(L_0);
 		Transform_Rotate_m2A308205498AFEEA3DF784B1C86E4F7C126CA2EE(L_0, L_5, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Settings/Project Configuration/SceneTemplate_RotateCube.cs:21>
 		return;
 	}
 }
@@ -7973,7 +7967,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneTemplate_RotateCube_Update_mAF2FB34
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneTemplate_RotateCube__ctor_mC7E11C05D25FFF6F8D7EA06AAE5598B497365CD2 (SceneTemplate_RotateCube_tB6D99CC88F0E89517A2E6E071F0334FE69FB44CC* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Settings/Project Configuration/SceneTemplate_RotateCube.cs:10>
 		__this->___rotateSpeed = (1.0f);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -8120,13 +8113,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomLocalization_Start_mDF6996CE463C85
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/CustomLocalization.cs:37>
 		il2cpp_codegen_runtime_class_init_inline(ImmersalSDK_tA2B473468505E492034E77501B051A95E8923AE7_il2cpp_TypeInfo_var);
 		ImmersalSDK_tA2B473468505E492034E77501B051A95E8923AE7* L_0;
 		L_0 = ImmersalSDK_get_Instance_m05A1121F137AE7ABA31ADC594C9DD81D0F9A9452(NULL);
 		__this->___sdk = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___sdk), (void*)L_0);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/CustomLocalization.cs:38>
 		ImmersalSDK_tA2B473468505E492034E77501B051A95E8923AE7* L_1 = __this->___sdk;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
@@ -8137,18 +8128,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomLocalization_Start_mDF6996CE463C85
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/CustomLocalization.cs:40>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
 		L_3 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_3);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_3, (bool)0, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/CustomLocalization.cs:41>
 		return;
 	}
 
 IL_0025:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/CustomLocalization.cs:44>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_4 = __this->___m_LocalizeButton;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_5;
@@ -8159,7 +8147,6 @@ IL_0025:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/CustomLocalization.cs:45>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_6 = __this->___m_LocalizeButton;
 		NullCheck(L_6);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_7;
@@ -8172,7 +8159,6 @@ IL_0025:
 
 IL_004e:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/CustomLocalization.cs:46>
 		return;
 	}
 }
@@ -8188,7 +8174,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomLocalization_OnDestroy_m2AC6201201
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/CustomLocalization.cs:50>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_0 = __this->___m_LocalizeButton;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -8199,7 +8184,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomLocalization_OnDestroy_m2AC6201201
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/CustomLocalization.cs:51>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_2 = __this->___m_LocalizeButton;
 		NullCheck(L_2);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_3;
@@ -8212,7 +8196,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomLocalization_OnDestroy_m2AC6201201
 
 IL_0029:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/CustomLocalization.cs:52>
 		return;
 	}
 }
@@ -8220,10 +8203,8 @@ IL_0029:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomLocalization_BufferedLocalization_m31E2150A98105808D2BEB300ABFEE8F9BB674B28 (CustomLocalization_t7D0AD91681EFCE0387224A0FEDA620BB15863A1B* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/CustomLocalization.cs:56>
 		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_0;
 		L_0 = CustomLocalization_BufferAndLocalize_m1D920604931EC292251967A7703AD0A832BCC633(__this, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/CustomLocalization.cs:57>
 		return;
 	}
 }
@@ -8359,7 +8340,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA857
 	uint8_t* V_5 = NULL;
 	int32_t V_6 = 0;
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/CustomLocalization.cs:181>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = ___0_imageData;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = L_0;
 		V_1 = L_1;
@@ -8392,65 +8372,53 @@ IL_000f:
 
 IL_0018:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/CustomLocalization.cs:183>
 		int32_t L_4 = ___1_width;
 		int32_t L_5 = ___3_channels;
 		V_2 = ((int32_t)il2cpp_codegen_multiply(L_4, L_5));
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/CustomLocalization.cs:184>
 		uint8_t* L_6 = V_0;
 		V_3 = L_6;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/CustomLocalization.cs:185>
 		uint8_t* L_7 = V_0;
 		int32_t L_8 = ___2_height;
 		int32_t L_9 = V_2;
 		V_4 = ((uint8_t*)il2cpp_codegen_add((intptr_t)L_7, ((int32_t)il2cpp_codegen_multiply(((int32_t)il2cpp_codegen_subtract(L_8, 1)), L_9))));
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/CustomLocalization.cs:186>
 		int32_t L_10 = V_2;
 		uintptr_t L_11 = ((uintptr_t)L_10);
 		int8_t* L_12 = (int8_t*) (L_11 ? alloca(L_11) : NULL);
 		memset(L_12, 0, L_11);
 		V_5 = (uint8_t*)(L_12);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/CustomLocalization.cs:188>
 		V_6 = 0;
 		goto IL_0067;
 	}
 
 IL_0032:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/CustomLocalization.cs:190>
 		uint8_t* L_13 = V_3;
 		uint8_t* L_14 = V_5;
 		int32_t L_15 = V_2;
 		int32_t L_16 = V_2;
 		Buffer_MemoryCopy_mC1717FCF88DEBC2DAEA8B51C352628F4D2402F69((void*)L_13, (void*)L_14, ((int64_t)L_15), ((int64_t)L_16), NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/CustomLocalization.cs:191>
 		uint8_t* L_17 = V_4;
 		uint8_t* L_18 = V_3;
 		int32_t L_19 = V_2;
 		int32_t L_20 = V_2;
 		Buffer_MemoryCopy_mC1717FCF88DEBC2DAEA8B51C352628F4D2402F69((void*)L_17, (void*)L_18, ((int64_t)L_19), ((int64_t)L_20), NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/CustomLocalization.cs:192>
 		uint8_t* L_21 = V_5;
 		uint8_t* L_22 = V_4;
 		int32_t L_23 = V_2;
 		int32_t L_24 = V_2;
 		Buffer_MemoryCopy_mC1717FCF88DEBC2DAEA8B51C352628F4D2402F69((void*)L_21, (void*)L_22, ((int64_t)L_23), ((int64_t)L_24), NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/CustomLocalization.cs:193>
 		uint8_t* L_25 = V_3;
 		int32_t L_26 = V_2;
 		V_3 = ((uint8_t*)il2cpp_codegen_add((intptr_t)L_25, L_26));
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/CustomLocalization.cs:194>
 		uint8_t* L_27 = V_4;
 		int32_t L_28 = V_2;
 		V_4 = ((uint8_t*)il2cpp_codegen_subtract((intptr_t)L_27, L_28));
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/CustomLocalization.cs:188>
 		int32_t L_29 = V_6;
 		V_6 = ((int32_t)il2cpp_codegen_add(L_29, 1));
 	}
 
 IL_0067:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/CustomLocalization.cs:188>
 		int32_t L_30 = V_6;
 		int32_t L_31 = ___2_height;
 		if ((((int32_t)L_30) < ((int32_t)((int32_t)(L_31/2)))))
@@ -8460,7 +8428,6 @@ IL_0067:
 	}
 	{
 		V_1 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)NULL;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/CustomLocalization.cs:198>
 		il2cpp_codegen_runtime_class_init_inline(Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_il2cpp_TypeInfo_var);
 		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_32;
 		L_32 = Task_get_CompletedTask_m1567097D0142D009DC8F9B70DA2C55DA651D55E9_inline(NULL);
@@ -8480,7 +8447,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomLocalization_UpdateGUI_m5B5D71382E
 	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* G_B2_0 = NULL;
 	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* G_B1_0 = NULL;
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/CustomLocalization.cs:203>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_0 = __this->___m_ImageCountText;
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_1 = L_0;
 		if (L_1)
@@ -8509,7 +8475,6 @@ IL_000b:
 		L_9 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteral76B3BA43C3454FAA04005EA0E04156A31475B5DA, L_5, L_8, NULL);
 		NullCheck(G_B2_0);
 		TMP_Text_SetText_m5DCA387D68F6109E1B86327384B249B6900BFDE2(G_B2_0, L_9, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/CustomLocalization.cs:204>
 		return;
 	}
 }
@@ -8524,9 +8489,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomLocalization__ctor_m9D899A4C45D9BC
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/CustomLocalization.cs:27>
 		__this->___m_LocalizationCount = 3;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/CustomLocalization.cs:33>
 		List_1_tEB7480DDEEF0CD2B0BC998DF565CF0BFAC20C3FD* L_0 = (List_1_tEB7480DDEEF0CD2B0BC998DF565CF0BFAC20C3FD*)il2cpp_codegen_object_new(List_1_tEB7480DDEEF0CD2B0BC998DF565CF0BFAC20C3FD_il2cpp_TypeInfo_var);
 		List_1__ctor_m19106EDA01E0AC5E47BB4426C4F716BE33449614(L_0, List_1__ctor_m19106EDA01E0AC5E47BB4426C4F716BE33449614_RuntimeMethod_var);
 		__this->___m_PlatformUpdateResults = L_0;
@@ -8572,7 +8535,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mD2AB8025C938FBD020C0EB763
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CBufferAndLocalizeU3Eb__10_0_m135AB0AC3A7E7731301253C0AC06E23C2CF073DC (U3CU3Ec_t9B048FE21E8935C334E1288C42F6AB2497F55DE5* __this, bool ___0_r, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/CustomLocalization.cs:80>
 		bool L_0 = ___0_r;
 		return L_0;
 	}
@@ -8663,7 +8625,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CBufferAndLocalizeU3Ed__10_MoveNext_mD
 			}
 		}
 		{
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/CustomLocalization.cs:62>
 			CustomLocalization_t7D0AD91681EFCE0387224A0FEDA620BB15863A1B* L_4 = V_1;
 			NullCheck(L_4);
 			List_1_tEB7480DDEEF0CD2B0BC998DF565CF0BFAC20C3FD* L_5 = L_4->___m_PlatformUpdateResults;
@@ -8724,11 +8685,9 @@ IL_0085_1:
 			List_1_Add_m02F0F296A23E2C5E50F2E6A6138BE8AA764818AA_inline(L_19, L_20, List_1_Add_m02F0F296A23E2C5E50F2E6A6138BE8AA764818AA_RuntimeMethod_var);
 			__this->___U3CU3E7__wrap1 = (List_1_tEB7480DDEEF0CD2B0BC998DF565CF0BFAC20C3FD*)NULL;
 			Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E7__wrap1), (void*)(List_1_tEB7480DDEEF0CD2B0BC998DF565CF0BFAC20C3FD*)NULL);
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/CustomLocalization.cs:64>
 			CustomLocalization_t7D0AD91681EFCE0387224A0FEDA620BB15863A1B* L_21 = V_1;
 			NullCheck(L_21);
 			CustomLocalization_UpdateGUI_m5B5D71382E25D011987E3A5CF946E50615F21880(L_21, NULL);
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/CustomLocalization.cs:67>
 			CustomLocalization_t7D0AD91681EFCE0387224A0FEDA620BB15863A1B* L_22 = V_1;
 			NullCheck(L_22);
 			List_1_tEB7480DDEEF0CD2B0BC998DF565CF0BFAC20C3FD* L_23 = L_22->___m_PlatformUpdateResults;
@@ -8744,17 +8703,14 @@ IL_0085_1:
 			}
 		}
 		{
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/CustomLocalization.cs:67>
 			goto IL_0201;
 		}
 
 IL_00c0_1:
 		{
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/CustomLocalization.cs:72>
 			List_1_t22E28C383FB16DFCB2256BD7FCC6E0562B78FB79* L_27 = (List_1_t22E28C383FB16DFCB2256BD7FCC6E0562B78FB79*)il2cpp_codegen_object_new(List_1_t22E28C383FB16DFCB2256BD7FCC6E0562B78FB79_il2cpp_TypeInfo_var);
 			List_1__ctor_mCF5F4F83D030F3D3247541DDC47FB08E41E562C2(L_27, List_1__ctor_mCF5F4F83D030F3D3247541DDC47FB08E41E562C2_RuntimeMethod_var);
 			V_2 = L_27;
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/CustomLocalization.cs:73>
 			CustomLocalization_t7D0AD91681EFCE0387224A0FEDA620BB15863A1B* L_28 = V_1;
 			NullCheck(L_28);
 			List_1_tEB7480DDEEF0CD2B0BC998DF565CF0BFAC20C3FD* L_29 = L_28->___m_PlatformUpdateResults;
@@ -8794,11 +8750,9 @@ IL_0108_1:
 
 IL_00d5_2:
 				{
-					//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/CustomLocalization.cs:73>
 					RuntimeObject* L_32;
 					L_32 = Enumerator_get_Current_mD18E20C5CAC56598224B979082C09C27D512D556_inline((&V_6), Enumerator_get_Current_mD18E20C5CAC56598224B979082C09C27D512D556_RuntimeMethod_var);
 					V_7 = L_32;
-					//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/CustomLocalization.cs:75>
 					List_1_t22E28C383FB16DFCB2256BD7FCC6E0562B78FB79* L_33 = V_2;
 					CustomLocalization_t7D0AD91681EFCE0387224A0FEDA620BB15863A1B* L_34 = V_1;
 					RuntimeObject* L_35 = V_7;
@@ -8811,7 +8765,6 @@ IL_00d5_2:
 
 IL_00ec_2:
 				{
-					//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/CustomLocalization.cs:73>
 					bool L_37;
 					L_37 = Enumerator_MoveNext_mE67854425D66185A103450E0F4D3D89FCE998DE0((&V_6), Enumerator_MoveNext_mE67854425D66185A103450E0F4D3D89FCE998DE0_RuntimeMethod_var);
 					if (L_37)
@@ -8831,7 +8784,6 @@ IL_00ec_2:
 
 IL_0109_1:
 		{
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/CustomLocalization.cs:79>
 			List_1_t22E28C383FB16DFCB2256BD7FCC6E0562B78FB79* L_38 = V_2;
 			il2cpp_codegen_runtime_class_init_inline(Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_il2cpp_TypeInfo_var);
 			Task_1_t69C91E4C5122CE3A171C7090781C6B14BE5D63DA* L_39;
@@ -8875,7 +8827,6 @@ IL_0160_1:
 		{
 			BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_48;
 			L_48 = TaskAwaiter_1_GetResult_m9E60DF87586FEA272F359FB65EF7497F9CB22CED((&V_8), TaskAwaiter_1_GetResult_m9E60DF87586FEA272F359FB65EF7497F9CB22CED_RuntimeMethod_var);
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/CustomLocalization.cs:80>
 			il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t9B048FE21E8935C334E1288C42F6AB2497F55DE5_il2cpp_TypeInfo_var);
 			Func_2_t66AC14B29DD8B1DDD05693A14E55CF7707C762DB* L_49 = ((U3CU3Ec_t9B048FE21E8935C334E1288C42F6AB2497F55DE5_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t9B048FE21E8935C334E1288C42F6AB2497F55DE5_il2cpp_TypeInfo_var))->___U3CU3E9__10_0;
 			Func_2_t66AC14B29DD8B1DDD05693A14E55CF7707C762DB* L_50 = L_49;
@@ -8905,7 +8856,6 @@ IL_0186_1:
 			int32_t L_54;
 			L_54 = Enumerable_Count_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m15C353FAE0C2AEC4787453007D09C647E5FD9FA6((RuntimeObject*)G_B21_1, G_B21_0, Enumerable_Count_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m15C353FAE0C2AEC4787453007D09C647E5FD9FA6_RuntimeMethod_var);
 			V_3 = L_54;
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/CustomLocalization.cs:83>
 			CustomLocalization_t7D0AD91681EFCE0387224A0FEDA620BB15863A1B* L_55 = V_1;
 			NullCheck(L_55);
 			NotificationManager_t382AAD0D328D20384698BB77251AB486FE88D1C6* L_56 = L_55->___m_NotificationManager;
@@ -8918,7 +8868,6 @@ IL_0186_1:
 			}
 		}
 		{
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/CustomLocalization.cs:85>
 			int32_t L_58 = V_3;
 			if ((((int32_t)L_58) <= ((int32_t)0)))
 			{
@@ -8926,7 +8875,6 @@ IL_0186_1:
 			}
 		}
 		{
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/CustomLocalization.cs:87>
 			CustomLocalization_t7D0AD91681EFCE0387224A0FEDA620BB15863A1B* L_59 = V_1;
 			NullCheck(L_59);
 			NotificationManager_t382AAD0D328D20384698BB77251AB486FE88D1C6* L_60 = L_59->___m_NotificationManager;
@@ -8947,7 +8895,6 @@ IL_0186_1:
 
 IL_01c5_1:
 		{
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/CustomLocalization.cs:91>
 			CustomLocalization_t7D0AD91681EFCE0387224A0FEDA620BB15863A1B* L_69 = V_1;
 			NullCheck(L_69);
 			NotificationManager_t382AAD0D328D20384698BB77251AB486FE88D1C6* L_70 = L_69->___m_NotificationManager;
@@ -8957,13 +8904,11 @@ IL_01c5_1:
 
 IL_01d5_1:
 		{
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/CustomLocalization.cs:96>
 			CustomLocalization_t7D0AD91681EFCE0387224A0FEDA620BB15863A1B* L_71 = V_1;
 			NullCheck(L_71);
 			List_1_tEB7480DDEEF0CD2B0BC998DF565CF0BFAC20C3FD* L_72 = L_71->___m_PlatformUpdateResults;
 			NullCheck(L_72);
 			List_1_Clear_m0CB2F3EF4BE3EA599A683161BAE6CC5EB5F5307D_inline(L_72, List_1_Clear_m0CB2F3EF4BE3EA599A683161BAE6CC5EB5F5307D_RuntimeMethod_var);
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/CustomLocalization.cs:98>
 			CustomLocalization_t7D0AD91681EFCE0387224A0FEDA620BB15863A1B* L_73 = V_1;
 			NullCheck(L_73);
 			CustomLocalization_UpdateGUI_m5B5D71382E25D011987E3A5CF946E50615F21880(L_73, NULL);
@@ -8995,7 +8940,6 @@ CATCH_01e8:
 
 IL_0201:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/CustomLocalization.cs:99>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_77 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder);
 		il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
@@ -9086,7 +9030,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDoSomethingWithDataU3Ed__12_MoveNext_
 			}
 		}
 		{
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/CustomLocalization.cs:145>
 			RuntimeObject* L_3 = __this->___data;
 			NullCheck(L_3);
 			RuntimeObject* L_4;
@@ -9140,12 +9083,10 @@ IL_011b_1:
 					}
 				}
 				{
-					//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/CustomLocalization.cs:150>
 					RuntimeObject* L_9 = __this->___U3CimageDataU3E5__2;
 					NullCheck(L_9);
 					intptr_t L_10;
 					L_10 = InterfaceFuncInvoker0< intptr_t >::Invoke(0, IImageData_t40BE2B8396213BB97C3CC339C546340FA6502F04_il2cpp_TypeInfo_var, L_9);
-					//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/CustomLocalization.cs:154>
 					RuntimeObject* L_11 = __this->___U3CimageDataU3E5__2;
 					V_3 = ((ARFImageData_tCB3C6E9C1609F72954FD024D32447692B44AEFAF*)IsInstClass((RuntimeObject*)L_11, ARFImageData_tCB3C6E9C1609F72954FD024D32447692B44AEFAF_il2cpp_TypeInfo_var));
 					ARFImageData_tCB3C6E9C1609F72954FD024D32447692B44AEFAF* L_12 = V_3;
@@ -9155,7 +9096,6 @@ IL_011b_1:
 					}
 				}
 				{
-					//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/CustomLocalization.cs:156>
 					ARFImageData_tCB3C6E9C1609F72954FD024D32447692B44AEFAF* L_13 = V_3;
 					NullCheck(L_13);
 					XRCpuImage_t36F512AD65D5B0AA1CC458C3666873D741C60A57 L_14 = L_13->___Image;
@@ -9163,14 +9103,12 @@ IL_011b_1:
 
 IL_004b_2:
 				{
-					//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/CustomLocalization.cs:162>
 					RuntimeObject* L_15 = __this->___data;
 					NullCheck(L_15);
 					ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_16;
 					L_16 = InterfaceFuncInvoker0< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* >::Invoke(1, ICameraData_t94BDE0B3579766E7DE82E2F843FFD08E649E2E6F_il2cpp_TypeInfo_var, L_15);
 					__this->___U3CbytesU3E5__3 = L_16;
 					Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CbytesU3E5__3), (void*)L_16);
-					//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/CustomLocalization.cs:165>
 					CustomLocalization_t7D0AD91681EFCE0387224A0FEDA620BB15863A1B* L_17 = V_1;
 					NullCheck(L_17);
 					bool L_18 = L_17->___m_FlipImage;
@@ -9180,7 +9118,6 @@ IL_004b_2:
 					}
 				}
 				{
-					//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/CustomLocalization.cs:166>
 					ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_19 = __this->___U3CbytesU3E5__3;
 					RuntimeObject* L_20 = __this->___data;
 					NullCheck(L_20);
@@ -9238,7 +9175,6 @@ IL_00e4_2:
 
 IL_00eb_2:
 				{
-					//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/CustomLocalization.cs:170>
 					RuntimeObject* L_35 = __this->___data;
 					ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_36 = __this->___U3CbytesU3E5__3;
 					SimpleImageData_tD6EC65562C8855347B64D9749AB07A368DFCF679* L_37 = (SimpleImageData_tD6EC65562C8855347B64D9749AB07A368DFCF679*)il2cpp_codegen_object_new(SimpleImageData_tD6EC65562C8855347B64D9749AB07A368DFCF679_il2cpp_TypeInfo_var);
@@ -9246,7 +9182,6 @@ IL_00eb_2:
 					NullCheck(L_35);
 					CameraData_tA65D4E0D2439473822C07B87E535D25E8CF10930* L_38;
 					L_38 = InterfaceFuncInvoker1< CameraData_tA65D4E0D2439473822C07B87E535D25E8CF10930*, RuntimeObject* >::Invoke(2, ICameraData_t94BDE0B3579766E7DE82E2F843FFD08E649E2E6F_il2cpp_TypeInfo_var, L_35, L_37);
-					//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/CustomLocalization.cs:176>
 					V_2 = L_38;
 					goto IL_0143;
 				}
@@ -9286,7 +9221,6 @@ CATCH_011c:
 
 IL_0143:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/CustomLocalization.cs:177>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		__this->___U3CimageDataU3E5__2 = (RuntimeObject*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CimageDataU3E5__2), (void*)(RuntimeObject*)NULL);
@@ -9414,7 +9348,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLocalizeU3Ed__11_MoveNext_mE81316168F
 			}
 		}
 		{
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/CustomLocalization.cs:103>
 			RuntimeObject* L_3 = __this->___platformUpdateResult;
 			NullCheck(L_3);
 			bool L_4;
@@ -9425,20 +9358,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLocalizeU3Ed__11_MoveNext_mE81316168F
 			}
 		}
 		{
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/CustomLocalization.cs:103>
 			V_2 = (bool)0;
 			goto IL_0255;
 		}
 
 IL_0034_1:
 		{
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/CustomLocalization.cs:106>
 			RuntimeObject* L_5 = __this->___platformUpdateResult;
 			NullCheck(L_5);
 			RuntimeObject* L_6;
 			L_6 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(2, IPlatformUpdateResult_tE98081D9E411823150F300E1CCBB89961F0BDAC9_il2cpp_TypeInfo_var, L_5);
 			V_3 = L_6;
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/CustomLocalization.cs:109>
 			CustomLocalization_t7D0AD91681EFCE0387224A0FEDA620BB15863A1B* L_7 = V_1;
 			RuntimeObject* L_8 = V_3;
 			NullCheck(L_7);
@@ -9487,7 +9417,6 @@ IL_0098_1:
 			CameraData_tA65D4E0D2439473822C07B87E535D25E8CF10930* L_19 = V_5;
 			__this->___U3CadjustedDataU3E5__2 = L_19;
 			Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CadjustedDataU3E5__2), (void*)L_19);
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/CustomLocalization.cs:113>
 			il2cpp_codegen_runtime_class_init_inline(ImmersalSDK_tA2B473468505E492034E77501B051A95E8923AE7_il2cpp_TypeInfo_var);
 			ImmersalSDK_tA2B473468505E492034E77501B051A95E8923AE7* L_20;
 			L_20 = ImmersalSDK_get_Instance_m05A1121F137AE7ABA31ADC594C9DD81D0F9A9452(NULL);
@@ -9541,9 +9470,7 @@ IL_010f_1:
 			RuntimeObject* L_33 = V_7;
 			__this->___U3ClocResultsU3E5__3 = L_33;
 			Il2CppCodeGenWriteBarrier((void**)(&__this->___U3ClocResultsU3E5__3), (void*)L_33);
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/CustomLocalization.cs:117>
 			V_4 = (bool)0;
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/CustomLocalization.cs:118>
 			RuntimeObject* L_34 = __this->___U3ClocResultsU3E5__3;
 			NullCheck(L_34);
 			ILocalizationResultU5BU5D_t1EDAE9FBB4C0535E6A2517062A77770ECE9CC9E4* L_35;
@@ -9556,14 +9483,12 @@ IL_010f_1:
 
 IL_0140_1:
 		{
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/CustomLocalization.cs:118>
 			ILocalizationResultU5BU5D_t1EDAE9FBB4C0535E6A2517062A77770ECE9CC9E4* L_36 = __this->___U3CU3E7__wrap3;
 			int32_t L_37 = __this->___U3CU3E7__wrap4;
 			NullCheck(L_36);
 			int32_t L_38 = L_37;
 			RuntimeObject* L_39 = (L_36)->GetAt(static_cast<il2cpp_array_size_t>(L_38));
 			V_9 = L_39;
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/CustomLocalization.cs:121>
 			RuntimeObject* L_40 = V_9;
 			NullCheck(L_40);
 			bool L_41;
@@ -9574,7 +9499,6 @@ IL_0140_1:
 			}
 		}
 		{
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/CustomLocalization.cs:124>
 			RuntimeObject* L_42 = V_9;
 			NullCheck(L_42);
 			int32_t L_43;
@@ -9588,7 +9512,6 @@ IL_0140_1:
 			}
 		}
 		{
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/CustomLocalization.cs:127>
 			CustomLocalization_t7D0AD91681EFCE0387224A0FEDA620BB15863A1B* L_45 = V_1;
 			NullCheck(L_45);
 			ImmersalSDK_tA2B473468505E492034E77501B051A95E8923AE7* L_46 = L_45->___sdk;
@@ -9639,7 +9562,6 @@ IL_01b9_1:
 IL_01d6_1:
 		{
 			TaskAwaiter_GetResult_mC1D712500AE49B4A89C85D6B79D87D1BA9A6B94D((&V_11), NULL);
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/CustomLocalization.cs:129>
 			V_4 = (bool)1;
 		}
 
@@ -9651,7 +9573,6 @@ IL_01e0_1:
 
 IL_01ee_1:
 		{
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/CustomLocalization.cs:118>
 			int32_t L_61 = __this->___U3CU3E7__wrap4;
 			ILocalizationResultU5BU5D_t1EDAE9FBB4C0535E6A2517062A77770ECE9CC9E4* L_62 = __this->___U3CU3E7__wrap3;
 			NullCheck(L_62);
@@ -9663,7 +9584,6 @@ IL_01ee_1:
 		{
 			__this->___U3CU3E7__wrap3 = (ILocalizationResultU5BU5D_t1EDAE9FBB4C0535E6A2517062A77770ECE9CC9E4*)NULL;
 			Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E7__wrap3), (void*)(ILocalizationResultU5BU5D_t1EDAE9FBB4C0535E6A2517062A77770ECE9CC9E4*)NULL);
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/CustomLocalization.cs:133>
 			CustomLocalization_t7D0AD91681EFCE0387224A0FEDA620BB15863A1B* L_63 = V_1;
 			NullCheck(L_63);
 			ImmersalSDK_tA2B473468505E492034E77501B051A95E8923AE7* L_64 = L_63->___sdk;
@@ -9677,7 +9597,6 @@ IL_01ee_1:
 			RuntimeObject* L_68 = __this->___U3ClocResultsU3E5__3;
 			NullCheck(L_65);
 			InterfaceActionInvoker2< RuntimeObject*, RuntimeObject* >::Invoke(1, ITrackingAnalyzer_t8615AFA8C34BBF606DDD3C797F6D3BE4F0F100B5_il2cpp_TypeInfo_var, L_65, L_67, L_68);
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/CustomLocalization.cs:135>
 			bool L_69 = V_4;
 			V_2 = L_69;
 			goto IL_0255;
@@ -9712,7 +9631,6 @@ CATCH_022e:
 
 IL_0255:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/CustomLocalization.cs:136>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		__this->___U3CadjustedDataU3E5__2 = (CameraData_tA65D4E0D2439473822C07B87E535D25E8CF10930*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CadjustedDataU3E5__2), (void*)(CameraData_tA65D4E0D2439473822C07B87E535D25E8CF10930*)NULL);
@@ -9780,13 +9698,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalizerSettingsPanel_Awake_m6C5A127D3F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/LocalizerSettingsPanel.cs:24>
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		XRSpace_tC870F552BC1481C38048217BEF525758956B2B20* L_0;
 		L_0 = Object_FindFirstObjectByType_TisXRSpace_tC870F552BC1481C38048217BEF525758956B2B20_mC36343A2D14D8D247F01994880A4FB919DFD56FE(Object_FindFirstObjectByType_TisXRSpace_tC870F552BC1481C38048217BEF525758956B2B20_mC36343A2D14D8D247F01994880A4FB919DFD56FE_RuntimeMethod_var);
 		__this->___m_Space = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Space), (void*)L_0);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/LocalizerSettingsPanel.cs:25>
 		return;
 	}
 }
@@ -9800,14 +9716,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalizerSettingsPanel_Downsample_mB56C0
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/LocalizerSettingsPanel.cs:29>
 		il2cpp_codegen_runtime_class_init_inline(ImmersalSDK_tA2B473468505E492034E77501B051A95E8923AE7_il2cpp_TypeInfo_var);
 		ImmersalSDK_tA2B473468505E492034E77501B051A95E8923AE7* L_0;
 		L_0 = ImmersalSDK_get_Instance_m05A1121F137AE7ABA31ADC594C9DD81D0F9A9452(NULL);
 		bool L_1 = ___0_value;
 		NullCheck(L_0);
 		ImmersalSDK_set_downsample_m8C5271B4F195D342DF66450849FC94E1C489C5F0(L_0, L_1, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/LocalizerSettingsPanel.cs:30>
 		return;
 	}
 }
@@ -9821,7 +9735,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalizerSettingsPanel_UseProcessing_m6F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/LocalizerSettingsPanel.cs:34>
 		XRSpace_tC870F552BC1481C38048217BEF525758956B2B20* L_0 = __this->___m_Space;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -9832,18 +9745,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalizerSettingsPanel_UseProcessing_m6F
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/LocalizerSettingsPanel.cs:35>
 		return;
 	}
 
 IL_000f:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/LocalizerSettingsPanel.cs:37>
 		XRSpace_tC870F552BC1481C38048217BEF525758956B2B20* L_2 = __this->___m_Space;
 		bool L_3 = ___0_value;
 		NullCheck(L_2);
 		XRSpace_set_ProcessPoses_mEEC56B7B5103627096A107D309B2FBEB0B862A8D_inline(L_2, L_3, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/LocalizerSettingsPanel.cs:38>
 		return;
 	}
 }
@@ -9865,7 +9775,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalizerSettingsPanel_SetSolverType_mFA
 	DefaultLocalizationMethodConfiguration_t294C9E46A49B435C620A47126C6D1E8194F11EFD V_2;
 	memset((&V_2), 0, sizeof(V_2));
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/LocalizerSettingsPanel.cs:42>
 		il2cpp_codegen_runtime_class_init_inline(ImmersalSDK_tA2B473468505E492034E77501B051A95E8923AE7_il2cpp_TypeInfo_var);
 		ImmersalSDK_tA2B473468505E492034E77501B051A95E8923AE7* L_0;
 		L_0 = ImmersalSDK_get_Instance_m05A1121F137AE7ABA31ADC594C9DD81D0F9A9452(NULL);
@@ -9882,16 +9791,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalizerSettingsPanel_SetSolverType_mFA
 
 IL_0014:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/LocalizerSettingsPanel.cs:42>
 		ILocalizationMethodU5BU5D_tDB5A1A5457203114EAA969CEB8BC3B67290D543F* L_3 = V_0;
 		int32_t L_4 = V_1;
 		NullCheck(L_3);
 		int32_t L_5 = L_4;
 		RuntimeObject* L_6 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/LocalizerSettingsPanel.cs:44>
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/LocalizerSettingsPanel.cs:45>
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/LocalizerSettingsPanel.cs:46>
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/LocalizerSettingsPanel.cs:47>
 		il2cpp_codegen_initobj((&V_2), sizeof(DefaultLocalizationMethodConfiguration_t294C9E46A49B435C620A47126C6D1E8194F11EFD));
 		int32_t L_7 = ___0_solverTypeIndex;
 		Nullable_1_tFE29EE76CA62F47945074E240EEE6F08130AC4BE L_8;
@@ -9910,7 +9814,6 @@ IL_0014:
 
 IL_003c:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/LocalizerSettingsPanel.cs:42>
 		int32_t L_14 = V_1;
 		ILocalizationMethodU5BU5D_tDB5A1A5457203114EAA969CEB8BC3B67290D543F* L_15 = V_0;
 		NullCheck(L_15);
@@ -9920,7 +9823,6 @@ IL_003c:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/LocalizerSettingsPanel.cs:49>
 		return;
 	}
 }
@@ -9943,12 +9845,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalizerSettingsPanel_SetPriorNNCount_m
 	DefaultLocalizationMethodConfiguration_t294C9E46A49B435C620A47126C6D1E8194F11EFD V_3;
 	memset((&V_3), 0, sizeof(V_3));
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/LocalizerSettingsPanel.cs:53>
 		String_t* L_0 = ___0_input;
 		int32_t L_1;
 		L_1 = Int32_Parse_m273CA1A9C7717C99641291A95C543711C0202AF0(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/LocalizerSettingsPanel.cs:54>
 		il2cpp_codegen_runtime_class_init_inline(ImmersalSDK_tA2B473468505E492034E77501B051A95E8923AE7_il2cpp_TypeInfo_var);
 		ImmersalSDK_tA2B473468505E492034E77501B051A95E8923AE7* L_2;
 		L_2 = ImmersalSDK_get_Instance_m05A1121F137AE7ABA31ADC594C9DD81D0F9A9452(NULL);
@@ -9965,16 +9865,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalizerSettingsPanel_SetPriorNNCount_m
 
 IL_001b:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/LocalizerSettingsPanel.cs:54>
 		ILocalizationMethodU5BU5D_tDB5A1A5457203114EAA969CEB8BC3B67290D543F* L_5 = V_1;
 		int32_t L_6 = V_2;
 		NullCheck(L_5);
 		int32_t L_7 = L_6;
 		RuntimeObject* L_8 = (L_5)->GetAt(static_cast<il2cpp_array_size_t>(L_7));
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/LocalizerSettingsPanel.cs:56>
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/LocalizerSettingsPanel.cs:57>
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/LocalizerSettingsPanel.cs:58>
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/LocalizerSettingsPanel.cs:59>
 		il2cpp_codegen_initobj((&V_3), sizeof(DefaultLocalizationMethodConfiguration_t294C9E46A49B435C620A47126C6D1E8194F11EFD));
 		int32_t L_9 = V_0;
 		Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 L_10;
@@ -9993,7 +9888,6 @@ IL_001b:
 
 IL_0043:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/LocalizerSettingsPanel.cs:54>
 		int32_t L_16 = V_2;
 		ILocalizationMethodU5BU5D_tDB5A1A5457203114EAA969CEB8BC3B67290D543F* L_17 = V_1;
 		NullCheck(L_17);
@@ -10003,7 +9897,6 @@ IL_0043:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/LocalizerSettingsPanel.cs:61>
 		return;
 	}
 }
@@ -10026,12 +9919,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalizerSettingsPanel_SetPriorRadius_mD
 	DefaultLocalizationMethodConfiguration_t294C9E46A49B435C620A47126C6D1E8194F11EFD V_3;
 	memset((&V_3), 0, sizeof(V_3));
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/LocalizerSettingsPanel.cs:65>
 		String_t* L_0 = ___0_input;
 		float L_1;
 		L_1 = Single_Parse_m621F610BB84997A2E3C4686913F482316CD3E6B8(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/LocalizerSettingsPanel.cs:66>
 		il2cpp_codegen_runtime_class_init_inline(ImmersalSDK_tA2B473468505E492034E77501B051A95E8923AE7_il2cpp_TypeInfo_var);
 		ImmersalSDK_tA2B473468505E492034E77501B051A95E8923AE7* L_2;
 		L_2 = ImmersalSDK_get_Instance_m05A1121F137AE7ABA31ADC594C9DD81D0F9A9452(NULL);
@@ -10048,16 +9939,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalizerSettingsPanel_SetPriorRadius_mD
 
 IL_001b:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/LocalizerSettingsPanel.cs:66>
 		ILocalizationMethodU5BU5D_tDB5A1A5457203114EAA969CEB8BC3B67290D543F* L_5 = V_1;
 		int32_t L_6 = V_2;
 		NullCheck(L_5);
 		int32_t L_7 = L_6;
 		RuntimeObject* L_8 = (L_5)->GetAt(static_cast<il2cpp_array_size_t>(L_7));
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/LocalizerSettingsPanel.cs:68>
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/LocalizerSettingsPanel.cs:69>
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/LocalizerSettingsPanel.cs:70>
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/LocalizerSettingsPanel.cs:71>
 		il2cpp_codegen_initobj((&V_3), sizeof(DefaultLocalizationMethodConfiguration_t294C9E46A49B435C620A47126C6D1E8194F11EFD));
 		float L_9 = V_0;
 		Nullable_1_t3D746CBB6123D4569FF4DEA60BC4240F32C6FE75 L_10;
@@ -10076,7 +9962,6 @@ IL_001b:
 
 IL_0043:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/LocalizerSettingsPanel.cs:66>
 		int32_t L_16 = V_2;
 		ILocalizationMethodU5BU5D_tDB5A1A5457203114EAA969CEB8BC3B67290D543F* L_17 = V_1;
 		NullCheck(L_17);
@@ -10086,7 +9971,6 @@ IL_0043:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/LocalizerSettingsPanel.cs:73>
 		return;
 	}
 }
@@ -10101,7 +9985,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalizerSettingsPanel_Pause_m1CBA063480
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/LocalizerSettingsPanel.cs:78>
 		il2cpp_codegen_runtime_class_init_inline(ImmersalSDK_tA2B473468505E492034E77501B051A95E8923AE7_il2cpp_TypeInfo_var);
 		ImmersalSDK_tA2B473468505E492034E77501B051A95E8923AE7* L_0;
 		L_0 = ImmersalSDK_get_Instance_m05A1121F137AE7ABA31ADC594C9DD81D0F9A9452(NULL);
@@ -10110,7 +9993,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalizerSettingsPanel_Pause_m1CBA063480
 		L_1 = ImmersalSDK_get_Session_m1B93628049FD0EF9407D80E60394C4140D92E8B7(L_0, NULL);
 		NullCheck(L_1);
 		InterfaceActionInvoker0::Invoke(0, IImmersalSession_t476B9DCD02525A6537A40B4E4B2C6C3E370012B6_il2cpp_TypeInfo_var, L_1);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/LocalizerSettingsPanel.cs:79>
 		return;
 	}
 }
@@ -10125,7 +10007,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalizerSettingsPanel_Resume_mEABC177DD
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/LocalizerSettingsPanel.cs:83>
 		il2cpp_codegen_runtime_class_init_inline(ImmersalSDK_tA2B473468505E492034E77501B051A95E8923AE7_il2cpp_TypeInfo_var);
 		ImmersalSDK_tA2B473468505E492034E77501B051A95E8923AE7* L_0;
 		L_0 = ImmersalSDK_get_Instance_m05A1121F137AE7ABA31ADC594C9DD81D0F9A9452(NULL);
@@ -10134,7 +10015,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalizerSettingsPanel_Resume_mEABC177DD
 		L_1 = ImmersalSDK_get_Session_m1B93628049FD0EF9407D80E60394C4140D92E8B7(L_0, NULL);
 		NullCheck(L_1);
 		InterfaceActionInvoker0::Invoke(1, IImmersalSession_t476B9DCD02525A6537A40B4E4B2C6C3E370012B6_il2cpp_TypeInfo_var, L_1);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/LocalizerSettingsPanel.cs:84>
 		return;
 	}
 }
@@ -10149,7 +10029,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalizerSettingsPanel_StopLocalizing_m1
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/LocalizerSettingsPanel.cs:88>
 		il2cpp_codegen_runtime_class_init_inline(ImmersalSDK_tA2B473468505E492034E77501B051A95E8923AE7_il2cpp_TypeInfo_var);
 		ImmersalSDK_tA2B473468505E492034E77501B051A95E8923AE7* L_0;
 		L_0 = ImmersalSDK_get_Instance_m05A1121F137AE7ABA31ADC594C9DD81D0F9A9452(NULL);
@@ -10159,7 +10038,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalizerSettingsPanel_StopLocalizing_m1
 		NullCheck(L_1);
 		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_2;
 		L_2 = InterfaceFuncInvoker1< Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*, bool >::Invoke(3, IImmersalSession_t476B9DCD02525A6537A40B4E4B2C6C3E370012B6_il2cpp_TypeInfo_var, L_1, (bool)1);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/LocalizerSettingsPanel.cs:89>
 		return;
 	}
 }
@@ -10174,7 +10052,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalizerSettingsPanel_StartLocalizing_m
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/LocalizerSettingsPanel.cs:92>
 		il2cpp_codegen_runtime_class_init_inline(ImmersalSDK_tA2B473468505E492034E77501B051A95E8923AE7_il2cpp_TypeInfo_var);
 		ImmersalSDK_tA2B473468505E492034E77501B051A95E8923AE7* L_0;
 		L_0 = ImmersalSDK_get_Instance_m05A1121F137AE7ABA31ADC594C9DD81D0F9A9452(NULL);
@@ -10183,7 +10060,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalizerSettingsPanel_StartLocalizing_m
 		L_1 = ImmersalSDK_get_Session_m1B93628049FD0EF9407D80E60394C4140D92E8B7(L_0, NULL);
 		NullCheck(L_1);
 		InterfaceActionInvoker0::Invoke(4, IImmersalSession_t476B9DCD02525A6537A40B4E4B2C6C3E370012B6_il2cpp_TypeInfo_var, L_1);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/LocalizerSettingsPanel.cs:93>
 		return;
 	}
 }
@@ -10198,7 +10074,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalizerSettingsPanel_Localize_mF5822A4
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/LocalizerSettingsPanel.cs:96>
 		il2cpp_codegen_runtime_class_init_inline(ImmersalSDK_tA2B473468505E492034E77501B051A95E8923AE7_il2cpp_TypeInfo_var);
 		ImmersalSDK_tA2B473468505E492034E77501B051A95E8923AE7* L_0;
 		L_0 = ImmersalSDK_get_Instance_m05A1121F137AE7ABA31ADC594C9DD81D0F9A9452(NULL);
@@ -10208,7 +10083,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalizerSettingsPanel_Localize_mF5822A4
 		NullCheck(L_1);
 		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_2;
 		L_2 = InterfaceFuncInvoker0< Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* >::Invoke(5, IImmersalSession_t476B9DCD02525A6537A40B4E4B2C6C3E370012B6_il2cpp_TypeInfo_var, L_1);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/LocalizerSettingsPanel.cs:97>
 		return;
 	}
 }
@@ -10222,12 +10096,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalizerSettingsPanel_ClosePanel_m5F0DB
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/LocalizerSettingsPanel.cs:101>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
 		L_0 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_0, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/LocalizerSettingsPanel.cs:102>
 		return;
 	}
 }
@@ -10276,16 +10148,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MapListController_Start_m2C9D71A504C8BB3
 	int32_t G_B3_0 = 0;
 	MapLoadingOption_t36A0C5507561B5C00A03E4A482ABF9C57574DF06* G_B3_1 = NULL;
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:41>
 		TMP_Dropdown_t73B37BFDA0D005451C7B750938AFB1748E5EA504* L_0;
 		L_0 = Component_GetComponent_TisTMP_Dropdown_t73B37BFDA0D005451C7B750938AFB1748E5EA504_mA71EFA5792332E2F54A044CF9EBFE77C01F55FC8(__this, Component_GetComponent_TisTMP_Dropdown_t73B37BFDA0D005451C7B750938AFB1748E5EA504_mA71EFA5792332E2F54A044CF9EBFE77C01F55FC8_RuntimeMethod_var);
 		__this->___m_Dropdown = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Dropdown), (void*)L_0);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:42>
 		TMP_Dropdown_t73B37BFDA0D005451C7B750938AFB1748E5EA504* L_1 = __this->___m_Dropdown;
 		NullCheck(L_1);
 		TMP_Dropdown_ClearOptions_m9888C23BC3033268E5C2D8613C0854661E7BDEB5(L_1, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:43>
 		TMP_Dropdown_t73B37BFDA0D005451C7B750938AFB1748E5EA504* L_2 = __this->___m_Dropdown;
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_3 = (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*)il2cpp_codegen_object_new(List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_il2cpp_TypeInfo_var);
 		List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E(L_3, List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E_RuntimeMethod_var);
@@ -10294,9 +10163,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MapListController_Start_m2C9D71A504C8BB3
 		List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_inline(L_4, _stringLiteral941A62749513E9E0966276F73FD446608A9D0349, List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_RuntimeMethod_var);
 		NullCheck(L_2);
 		TMP_Dropdown_AddOptions_m6EB4E175FE6B5555BDC2C31EFBCC3B115DE85FF5(L_2, L_4, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:45>
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:46>
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:47>
 		MapLoadingOption_t36A0C5507561B5C00A03E4A482ABF9C57574DF06* L_5 = __this->___m_MLO;
 		int32_t L_6 = __this->___m_LocMethodChoice;
 		if (!L_6)
@@ -10322,14 +10188,11 @@ IL_0044:
 	{
 		NullCheck(G_B3_1);
 		G_B3_1->___m_SerializedDataSource = G_B3_0;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:49>
 		List_1_t8FD0ED0B64E425A02064AC335E12AE7F148FB1F0* L_7 = (List_1_t8FD0ED0B64E425A02064AC335E12AE7F148FB1F0*)il2cpp_codegen_object_new(List_1_t8FD0ED0B64E425A02064AC335E12AE7F148FB1F0_il2cpp_TypeInfo_var);
 		List_1__ctor_m74905D283BD731D5CD98FB4118546F70B6AA0D14(L_7, List_1__ctor_m74905D283BD731D5CD98FB4118546F70B6AA0D14_RuntimeMethod_var);
 		__this->___m_Maps = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Maps), (void*)L_7);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:51>
 		MonoBehaviour_Invoke_mF724350C59362B0F1BFE26383209A274A29A63FB(__this, _stringLiteral870C477D70D33AFF502BB279F81586FD828D6810, (0.5f), NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:52>
 		return;
 	}
 }
@@ -10344,7 +10207,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MapListController_Update_m60BB30CF4BB379
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:56>
 		int32_t L_0 = __this->___m_JobLock;
 		if ((!(((uint32_t)L_0) == ((uint32_t)1))))
 		{
@@ -10352,13 +10214,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MapListController_Update_m60BB30CF4BB379
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:57>
 		return;
 	}
 
 IL_000a:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:59>
 		List_1_t277F9D4E3547A17A88159DC9D84A6C075EE982BE* L_1 = __this->___m_Jobs;
 		NullCheck(L_1);
 		int32_t L_2;
@@ -10369,9 +10229,7 @@ IL_000a:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:61>
 		__this->___m_JobLock = 1;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:62>
 		List_1_t277F9D4E3547A17A88159DC9D84A6C075EE982BE* L_3 = __this->___m_Jobs;
 		NullCheck(L_3);
 		RuntimeObject* L_4;
@@ -10381,7 +10239,6 @@ IL_000a:
 
 IL_0031:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:64>
 		return;
 	}
 }
@@ -10398,13 +10255,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MapListController_OnValueChanged_m89DF6E
 	SDKJob_t01F134DF9E3126773C8E9417E99DB578691AEEB4 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:68>
 		TMP_Dropdown_t73B37BFDA0D005451C7B750938AFB1748E5EA504* L_0 = ___0_dropdown;
 		NullCheck(L_0);
 		int32_t L_1;
 		L_1 = TMP_Dropdown_get_value_m5916A6D1897431E8ED789FEC24551A311D1B5C70_inline(L_0, NULL);
 		V_0 = ((int32_t)il2cpp_codegen_subtract(L_1, 1));
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:69>
 		int32_t L_2 = V_0;
 		if ((((int32_t)L_2) < ((int32_t)0)))
 		{
@@ -10412,21 +10267,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MapListController_OnValueChanged_m89DF6E
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:71>
 		List_1_t8FD0ED0B64E425A02064AC335E12AE7F148FB1F0* L_3 = __this->___m_Maps;
 		int32_t L_4 = V_0;
 		NullCheck(L_3);
 		SDKJob_t01F134DF9E3126773C8E9417E99DB578691AEEB4 L_5;
 		L_5 = List_1_get_Item_mFBB77A0DD26273736F041FDA3633FE9F3621B471(L_3, L_4, List_1_get_Item_mFBB77A0DD26273736F041FDA3633FE9F3621B471_RuntimeMethod_var);
 		V_1 = L_5;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:72>
 		SDKJob_t01F134DF9E3126773C8E9417E99DB578691AEEB4 L_6 = V_1;
 		MapListController_LoadMap_m891B17B1A63B0546AB29CAE76B43BE0BEA1FA4AC(__this, L_6, NULL);
 	}
 
 IL_0021:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:74>
 		return;
 	}
 }
@@ -10445,11 +10297,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MapListController_GetMaps_m5A0B6AF812B52
 	}
 	JobListJobsAsync_tB5BA67A25CC248235C54954E36A9E1FBE7B2D9F4* V_0 = NULL;
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:78>
 		JobListJobsAsync_tB5BA67A25CC248235C54954E36A9E1FBE7B2D9F4* L_0 = (JobListJobsAsync_tB5BA67A25CC248235C54954E36A9E1FBE7B2D9F4*)il2cpp_codegen_object_new(JobListJobsAsync_tB5BA67A25CC248235C54954E36A9E1FBE7B2D9F4_il2cpp_TypeInfo_var);
 		JobListJobsAsync__ctor_mD0E5219D86884844E618DC683DA01AA8886E6D14(L_0, NULL);
 		V_0 = L_0;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:79>
 		JobListJobsAsync_tB5BA67A25CC248235C54954E36A9E1FBE7B2D9F4* L_1 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(ImmersalSDK_tA2B473468505E492034E77501B051A95E8923AE7_il2cpp_TypeInfo_var);
 		ImmersalSDK_tA2B473468505E492034E77501B051A95E8923AE7* L_2;
@@ -10459,22 +10309,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MapListController_GetMaps_m5A0B6AF812B52
 		NullCheck(L_1);
 		((JobAsync_1_tA3668C14B52047E7B16F2A6EF95AF959E3833409*)L_1)->___token = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&((JobAsync_1_tA3668C14B52047E7B16F2A6EF95AF959E3833409*)L_1)->___token), (void*)L_3);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:80>
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:81>
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:82>
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:83>
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:84>
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:85>
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:86>
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:87>
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:88>
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:89>
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:90>
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:91>
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:92>
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:93>
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:94>
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:95>
 		JobListJobsAsync_tB5BA67A25CC248235C54954E36A9E1FBE7B2D9F4* L_4 = V_0;
 		JobListJobsAsync_tB5BA67A25CC248235C54954E36A9E1FBE7B2D9F4* L_5 = L_4;
 		NullCheck(L_5);
@@ -10486,12 +10320,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MapListController_GetMaps_m5A0B6AF812B52
 		NullCheck(L_5);
 		((JobAsync_1_tA3668C14B52047E7B16F2A6EF95AF959E3833409*)L_5)->___OnResult = ((Action_1_t3FC90CC0409AD8B9D7CD3DD9E3155EA38FEF1F91*)Castclass((RuntimeObject*)L_8, Action_1_t3FC90CC0409AD8B9D7CD3DD9E3155EA38FEF1F91_il2cpp_TypeInfo_var));
 		Il2CppCodeGenWriteBarrier((void**)(&((JobAsync_1_tA3668C14B52047E7B16F2A6EF95AF959E3833409*)L_5)->___OnResult), (void*)((Action_1_t3FC90CC0409AD8B9D7CD3DD9E3155EA38FEF1F91*)Castclass((RuntimeObject*)L_8, Action_1_t3FC90CC0409AD8B9D7CD3DD9E3155EA38FEF1F91_il2cpp_TypeInfo_var)));
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:97>
 		List_1_t277F9D4E3547A17A88159DC9D84A6C075EE982BE* L_9 = __this->___m_Jobs;
 		JobListJobsAsync_tB5BA67A25CC248235C54954E36A9E1FBE7B2D9F4* L_10 = V_0;
 		NullCheck(L_9);
 		List_1_Add_m9E76B7F75C1DBB1DE56888DF805C801CB215CC7E_inline(L_9, L_10, List_1_Add_m9E76B7F75C1DBB1DE56888DF805C801CB215CC7E_RuntimeMethod_var);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:98>
 		return;
 	}
 }
@@ -10505,14 +10337,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MapListController_ClearMaps_m74904D02021
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:102>
 		il2cpp_codegen_runtime_class_init_inline(MapManager_t32B48D5C141E6CBCD5170DE5FD8D8C608B5956A5_il2cpp_TypeInfo_var);
 		MapManager_RemoveAllMaps_mF58CEFDAE29205DE8779AF7AF5F5523110BF372D((bool)1, (bool)1, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:103>
 		TMP_Dropdown_t73B37BFDA0D005451C7B750938AFB1748E5EA504* L_0 = __this->___m_Dropdown;
 		NullCheck(L_0);
 		TMP_Dropdown_SetValueWithoutNotify_m619A7D38D1EBCCA60EB1F5891FAD9FD0FB4839FD(L_0, 0, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:104>
 		return;
 	}
 }
@@ -10530,29 +10359,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MapListController_LoadMap_m891B17B1A63B0
 	}
 	JobMapMetadataGetAsync_t0033799320660288D474881B9386F5AC2D353800* V_0 = NULL;
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:108>
 		JobMapMetadataGetAsync_t0033799320660288D474881B9386F5AC2D353800* L_0 = (JobMapMetadataGetAsync_t0033799320660288D474881B9386F5AC2D353800*)il2cpp_codegen_object_new(JobMapMetadataGetAsync_t0033799320660288D474881B9386F5AC2D353800_il2cpp_TypeInfo_var);
 		JobMapMetadataGetAsync__ctor_mA07285E145A676C04B69C9CE85358744F8852468(L_0, NULL);
 		V_0 = L_0;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:109>
 		JobMapMetadataGetAsync_t0033799320660288D474881B9386F5AC2D353800* L_1 = V_0;
 		SDKJob_t01F134DF9E3126773C8E9417E99DB578691AEEB4 L_2 = ___0_job;
 		int32_t L_3 = L_2.___id;
 		NullCheck(L_1);
 		L_1->___id = L_3;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:110>
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:111>
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:112>
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:113>
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:114>
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:115>
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:116>
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:117>
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:118>
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:119>
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:120>
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:121>
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:122>
 		JobMapMetadataGetAsync_t0033799320660288D474881B9386F5AC2D353800* L_4 = V_0;
 		JobMapMetadataGetAsync_t0033799320660288D474881B9386F5AC2D353800* L_5 = L_4;
 		NullCheck(L_5);
@@ -10564,12 +10378,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MapListController_LoadMap_m891B17B1A63B0
 		NullCheck(L_5);
 		((JobAsync_1_t7F4FA4EB4F236A002C1776B1E2A19FAA0212D0F7*)L_5)->___OnResult = ((Action_1_t2A6A49A32AA117679460C4D1C5C810ABE1CD6DB1*)Castclass((RuntimeObject*)L_8, Action_1_t2A6A49A32AA117679460C4D1C5C810ABE1CD6DB1_il2cpp_TypeInfo_var));
 		Il2CppCodeGenWriteBarrier((void**)(&((JobAsync_1_t7F4FA4EB4F236A002C1776B1E2A19FAA0212D0F7*)L_5)->___OnResult), (void*)((Action_1_t2A6A49A32AA117679460C4D1C5C810ABE1CD6DB1*)Castclass((RuntimeObject*)L_8, Action_1_t2A6A49A32AA117679460C4D1C5C810ABE1CD6DB1_il2cpp_TypeInfo_var)));
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:123>
 		List_1_t277F9D4E3547A17A88159DC9D84A6C075EE982BE* L_9 = __this->___m_Jobs;
 		JobMapMetadataGetAsync_t0033799320660288D474881B9386F5AC2D353800* L_10 = V_0;
 		NullCheck(L_9);
 		List_1_Add_m9E76B7F75C1DBB1DE56888DF805C801CB215CC7E_inline(L_9, L_10, List_1_Add_m9E76B7F75C1DBB1DE56888DF805C801CB215CC7E_RuntimeMethod_var);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:124>
 		return;
 	}
 }
@@ -10621,12 +10433,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MapListController__ctor_m4E9CF5DB413A224
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:34>
 		List_1_t277F9D4E3547A17A88159DC9D84A6C075EE982BE* L_0 = (List_1_t277F9D4E3547A17A88159DC9D84A6C075EE982BE*)il2cpp_codegen_object_new(List_1_t277F9D4E3547A17A88159DC9D84A6C075EE982BE_il2cpp_TypeInfo_var);
 		List_1__ctor_m5EF2525D1B4A356EF9FC6BF2B4D74B46CA415179(L_0, List_1__ctor_m5EF2525D1B4A356EF9FC6BF2B4D74B46CA415179_RuntimeMethod_var);
 		__this->___m_Jobs = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Jobs), (void*)L_0);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:37>
 		MapLoadingOption_t36A0C5507561B5C00A03E4A482ABF9C57574DF06* L_1 = (MapLoadingOption_t36A0C5507561B5C00A03E4A482ABF9C57574DF06*)il2cpp_codegen_object_new(MapLoadingOption_t36A0C5507561B5C00A03E4A482ABF9C57574DF06_il2cpp_TypeInfo_var);
 		MapLoadingOption__ctor_mEC3EE014C2AF440E0DE8FACC8CD6473EDE4E9C61(L_1, NULL);
 		MapLoadingOption_t36A0C5507561B5C00A03E4A482ABF9C57574DF06* L_2 = L_1;
@@ -10661,7 +10471,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MapListController_U3CGetMapsU3Eb__9_0_m5
 	SDKJob_t01F134DF9E3126773C8E9417E99DB578691AEEB4 V_3;
 	memset((&V_3), 0, sizeof(V_3));
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:82>
 		SDKJobsResult_t6AF14202059DAEE858F559F5CA2067415A4A6AD6 L_0 = ___0_result;
 		int32_t L_1 = L_0.___count;
 		if ((((int32_t)L_1) > ((int32_t)0)))
@@ -10670,17 +10479,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MapListController_U3CGetMapsU3Eb__9_0_m5
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:82>
 		return;
 	}
 
 IL_000a:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:83>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_2 = (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*)il2cpp_codegen_object_new(List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_il2cpp_TypeInfo_var);
 		List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E(L_2, List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E_RuntimeMethod_var);
 		V_0 = L_2;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:85>
 		SDKJobsResult_t6AF14202059DAEE858F559F5CA2067415A4A6AD6 L_3 = ___0_result;
 		SDKJobU5BU5D_tB0B41E983BDF80D1A8B98F906EE5A49532984520* L_4 = L_3.___jobs;
 		V_1 = L_4;
@@ -10690,14 +10496,12 @@ IL_000a:
 
 IL_001b:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:85>
 		SDKJobU5BU5D_tB0B41E983BDF80D1A8B98F906EE5A49532984520* L_5 = V_1;
 		int32_t L_6 = V_2;
 		NullCheck(L_5);
 		int32_t L_7 = L_6;
 		SDKJob_t01F134DF9E3126773C8E9417E99DB578691AEEB4 L_8 = (L_5)->GetAt(static_cast<il2cpp_array_size_t>(L_7));
 		V_3 = L_8;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:87>
 		SDKJob_t01F134DF9E3126773C8E9417E99DB578691AEEB4 L_9 = V_3;
 		int32_t L_10 = L_9.___type;
 		if ((((int32_t)L_10) == ((int32_t)2)))
@@ -10728,12 +10532,10 @@ IL_001b:
 
 IL_0050:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:89>
 		List_1_t8FD0ED0B64E425A02064AC335E12AE7F148FB1F0* L_17 = __this->___m_Maps;
 		SDKJob_t01F134DF9E3126773C8E9417E99DB578691AEEB4 L_18 = V_3;
 		NullCheck(L_17);
 		List_1_Add_mB5B718A93903C2092177689B9E4C2A43887C48BE_inline(L_17, L_18, List_1_Add_mB5B718A93903C2092177689B9E4C2A43887C48BE_RuntimeMethod_var);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:90>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_19 = V_0;
 		SDKJob_t01F134DF9E3126773C8E9417E99DB578691AEEB4 L_20 = V_3;
 		String_t* L_21 = L_20.___name;
@@ -10749,7 +10551,6 @@ IL_0068:
 
 IL_006c:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:85>
 		int32_t L_23 = V_2;
 		SDKJobU5BU5D_tB0B41E983BDF80D1A8B98F906EE5A49532984520* L_24 = V_1;
 		NullCheck(L_24);
@@ -10759,12 +10560,10 @@ IL_006c:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:94>
 		TMP_Dropdown_t73B37BFDA0D005451C7B750938AFB1748E5EA504* L_25 = __this->___m_Dropdown;
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_26 = V_0;
 		NullCheck(L_25);
 		TMP_Dropdown_AddOptions_m6EB4E175FE6B5555BDC2C31EFBCC3B115DE85FF5(L_25, L_26, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:95>
 		return;
 	}
 }
@@ -10881,14 +10680,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3CLoadMapU3Eb__11_0U3Ed_MoveNext_m7F
 			}
 		}
 		{
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:112>
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:113>
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:114>
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:115>
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:116>
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:117>
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:118>
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:119>
 			MapCreationParameters_tBBFF010474FE389FB410983E389B181DEF865A31* L_3 = (MapCreationParameters_tBBFF010474FE389FB410983E389B181DEF865A31*)il2cpp_codegen_object_new(MapCreationParameters_tBBFF010474FE389FB410983E389B181DEF865A31_il2cpp_TypeInfo_var);
 			MapCreationParameters__ctor_m85E6F1527F0D6D4FB301AAB9FBE36145058271C3(L_3, NULL);
 			V_2 = L_3;
@@ -10973,7 +10764,6 @@ IL_004a_1:
 			L_14->___MapOptions = L_16;
 			Il2CppCodeGenWriteBarrier((void**)(&L_14->___MapOptions), (void*)L_16);
 			MapCreationParameters_tBBFF010474FE389FB410983E389B181DEF865A31* L_19 = V_2;
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:121>
 			il2cpp_codegen_runtime_class_init_inline(MapManager_t32B48D5C141E6CBCD5170DE5FD8D8C608B5956A5_il2cpp_TypeInfo_var);
 			Task_1_t60083091D8D075B44614F493513B86B35B28F662* L_20;
 			L_20 = MapManager_TryCreateMap_m8FA4A497E452C9A7F3D631CF32D4D5C78987A3F1(L_19, (bool)0, NULL);
@@ -11042,7 +10832,6 @@ CATCH_00c0:
 
 IL_00d9:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:122>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_33 = (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*)(&__this->___U3CU3Et__builder);
 		AsyncVoidMethodBuilder_SetResult_m008490FDF057D5F5D871F537C7A58BE36027F3DC(L_33, NULL);
@@ -11121,7 +10910,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRunJobU3Ed__12_MoveNext_mC83D6F151438
 			}
 		}
 		{
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:128>
 			RuntimeObject* L_3 = __this->___j;
 			il2cpp_codegen_initobj((&V_3), sizeof(CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED));
 			CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED L_4 = V_3;
@@ -11165,7 +10953,6 @@ IL_0054_1:
 IL_0070_1:
 		{
 			TaskAwaiter_GetResult_mC1D712500AE49B4A89C85D6B79D87D1BA9A6B94D((&V_2), NULL);
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:129>
 			MapListController_tB15BE69DB716A1BDBEA46B2135583CF43358D4EB* L_14 = V_1;
 			NullCheck(L_14);
 			List_1_t277F9D4E3547A17A88159DC9D84A6C075EE982BE* L_15 = L_14->___m_Jobs;
@@ -11178,7 +10965,6 @@ IL_0070_1:
 			}
 		}
 		{
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:130>
 			MapListController_tB15BE69DB716A1BDBEA46B2135583CF43358D4EB* L_17 = V_1;
 			NullCheck(L_17);
 			List_1_t277F9D4E3547A17A88159DC9D84A6C075EE982BE* L_18 = L_17->___m_Jobs;
@@ -11188,7 +10974,6 @@ IL_0070_1:
 
 IL_0091_1:
 		{
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:131>
 			MapListController_tB15BE69DB716A1BDBEA46B2135583CF43358D4EB* L_19 = V_1;
 			NullCheck(L_19);
 			L_19->___m_JobLock = 0;
@@ -11219,7 +11004,6 @@ CATCH_009a:
 
 IL_00b3:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/MapListController.cs:132>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_23 = (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*)(&__this->___U3CU3Et__builder);
 		AsyncVoidMethodBuilder_SetResult_m008490FDF057D5F5D871F537C7A58BE36027F3DC(L_23, NULL);
@@ -11277,7 +11061,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResolutionListController_Awake_mA0B5B9D4
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/ResolutionListController.cs:30>
 		il2cpp_codegen_runtime_class_init_inline(ImmersalSDK_tA2B473468505E492034E77501B051A95E8923AE7_il2cpp_TypeInfo_var);
 		ImmersalSDK_tA2B473468505E492034E77501B051A95E8923AE7* L_0;
 		L_0 = ImmersalSDK_get_Instance_m05A1121F137AE7ABA31ADC594C9DD81D0F9A9452(NULL);
@@ -11286,7 +11069,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResolutionListController_Awake_mA0B5B9D4
 		L_1 = ImmersalSDK_get_PlatformSupport_m68CA87CBACCE4ABDF3871D7B0FE680DC20EF4CFF(L_0, NULL);
 		__this->___m_ARFSupport = ((ARFoundationSupport_tFD7ACC2F0021DE3039E9509D493CB7ACC30BC398*)IsInstClass((RuntimeObject*)L_1, ARFoundationSupport_tFD7ACC2F0021DE3039E9509D493CB7ACC30BC398_il2cpp_TypeInfo_var));
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_ARFSupport), (void*)((ARFoundationSupport_tFD7ACC2F0021DE3039E9509D493CB7ACC30BC398*)IsInstClass((RuntimeObject*)L_1, ARFoundationSupport_tFD7ACC2F0021DE3039E9509D493CB7ACC30BC398_il2cpp_TypeInfo_var)));
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/ResolutionListController.cs:32>
 		ARFoundationSupport_tFD7ACC2F0021DE3039E9509D493CB7ACC30BC398* L_2 = __this->___m_ARFSupport;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_3;
@@ -11297,27 +11079,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResolutionListController_Awake_mA0B5B9D4
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/ResolutionListController.cs:34>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral5B314998A61D01D333446581F73D2F86180268FB, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/ResolutionListController.cs:35>
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(__this, (bool)0, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/ResolutionListController.cs:36>
 		return;
 	}
 
 IL_0035:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/ResolutionListController.cs:39>
 		TMP_Dropdown_t73B37BFDA0D005451C7B750938AFB1748E5EA504* L_4;
 		L_4 = Component_GetComponent_TisTMP_Dropdown_t73B37BFDA0D005451C7B750938AFB1748E5EA504_mA71EFA5792332E2F54A044CF9EBFE77C01F55FC8(__this, Component_GetComponent_TisTMP_Dropdown_t73B37BFDA0D005451C7B750938AFB1748E5EA504_mA71EFA5792332E2F54A044CF9EBFE77C01F55FC8_RuntimeMethod_var);
 		__this->___m_Dropdown = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Dropdown), (void*)L_4);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/ResolutionListController.cs:40>
 		TMP_Dropdown_t73B37BFDA0D005451C7B750938AFB1748E5EA504* L_5 = __this->___m_Dropdown;
 		NullCheck(L_5);
 		TMP_Dropdown_ClearOptions_m9888C23BC3033268E5C2D8613C0854661E7BDEB5(L_5, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/ResolutionListController.cs:41>
 		return;
 	}
 }
@@ -11341,11 +11117,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResolutionListController_Start_m6D05A8B8
 	int32_t V_2 = 0;
 	RuntimeObject* V_3 = NULL;
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/ResolutionListController.cs:45>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_0 = (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*)il2cpp_codegen_object_new(List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_il2cpp_TypeInfo_var);
 		List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E(L_0, List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E_RuntimeMethod_var);
 		V_0 = L_0;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/ResolutionListController.cs:47>
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_1 = { reinterpret_cast<intptr_t> (CameraResolution_t653AD281A149F2070CCF9E449F2C8B9B8684A505_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
 		Type_t* L_2;
@@ -11393,13 +11167,11 @@ IL_0056:
 
 IL_001d_1:
 			{
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/ResolutionListController.cs:47>
 				RuntimeObject* L_8 = V_1;
 				NullCheck(L_8);
 				RuntimeObject* L_9;
 				L_9 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(1, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, L_8);
 				V_2 = ((*(int32_t*)UnBox(L_9, CameraResolution_t653AD281A149F2070CCF9E449F2C8B9B8684A505_il2cpp_TypeInfo_var)));
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/ResolutionListController.cs:49>
 				List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_10 = V_0;
 				Il2CppFakeBox<int32_t> L_11(CameraResolution_t653AD281A149F2070CCF9E449F2C8B9B8684A505_il2cpp_TypeInfo_var, (&V_2));
 				String_t* L_12;
@@ -11410,7 +11182,6 @@ IL_001d_1:
 
 IL_003c_1:
 			{
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/ResolutionListController.cs:47>
 				RuntimeObject* L_13 = V_1;
 				NullCheck(L_13);
 				bool L_14;
@@ -11432,12 +11203,10 @@ IL_003c_1:
 
 IL_0057:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/ResolutionListController.cs:52>
 		TMP_Dropdown_t73B37BFDA0D005451C7B750938AFB1748E5EA504* L_15 = __this->___m_Dropdown;
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_16 = V_0;
 		NullCheck(L_15);
 		TMP_Dropdown_AddOptions_m6EB4E175FE6B5555BDC2C31EFBCC3B115DE85FF5(L_15, L_16, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/ResolutionListController.cs:53>
 		return;
 	}
 }
@@ -11453,7 +11222,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResolutionListController_OnValueChanged_
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/ResolutionListController.cs:57>
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_0 = { reinterpret_cast<intptr_t> (CameraResolution_t653AD281A149F2070CCF9E449F2C8B9B8684A505_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
 		Type_t* L_1;
@@ -11461,7 +11229,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResolutionListController_OnValueChanged_
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.enum_class);
 		RuntimeArray* L_2;
 		L_2 = Enum_GetValues_m803B9D68C367FAABC5AFB6B5B52775C8A573CEF9(L_1, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/ResolutionListController.cs:58>
 		TMP_Dropdown_t73B37BFDA0D005451C7B750938AFB1748E5EA504* L_3 = ___0_dropdown;
 		NullCheck(L_3);
 		int32_t L_4;
@@ -11470,12 +11237,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResolutionListController_OnValueChanged_
 		RuntimeObject* L_5;
 		L_5 = Array_GetValue_m702167FB0D2CEB4C7AE06B9340B7E19C3E7140BE(L_2, ((int64_t)L_4), NULL);
 		V_0 = ((*(int32_t*)UnBox(L_5, CameraResolution_t653AD281A149F2070CCF9E449F2C8B9B8684A505_il2cpp_TypeInfo_var)));
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/ResolutionListController.cs:60>
 		ARFoundationSupport_tFD7ACC2F0021DE3039E9509D493CB7ACC30BC398* L_6 = __this->___m_ARFSupport;
 		int32_t L_7 = V_0;
 		NullCheck(L_6);
 		ARFoundationSupport_set_androidResolution_m40FA94AFF7C5F9C93E7610ADAA16A011393EF5FB(L_6, L_7, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/ResolutionListController.cs:64>
 		return;
 	}
 }
@@ -11499,9 +11264,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResolutionListController__ctor_mBEDCAE43
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActivateFromOrientation_Start_mA10CB1FD8EF79EBC4DBD420E5F1454B365CD6ED6 (ActivateFromOrientation_t7FCF720E991F4E01E80ED27FEADE0616A2D52FA6* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/ActivateFromOrientation.cs:30>
 		ActivateFromOrientation_UpdateOrientation_m1ED1C0CC24D59518EA7AF51B90CD772EDC35D0C5(__this, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/ActivateFromOrientation.cs:31>
 		return;
 	}
 }
@@ -11509,9 +11272,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActivateFromOrientation_Start_mA10CB1FD8
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActivateFromOrientation_Update_m756766C82B4D79727AFB60F325DC10F698F3435C (ActivateFromOrientation_t7FCF720E991F4E01E80ED27FEADE0616A2D52FA6* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/ActivateFromOrientation.cs:35>
 		ActivateFromOrientation_UpdateOrientation_m1ED1C0CC24D59518EA7AF51B90CD772EDC35D0C5(__this, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/ActivateFromOrientation.cs:36>
 		return;
 	}
 }
@@ -11526,7 +11287,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActivateFromOrientation_UpdateOrientatio
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/ActivateFromOrientation.cs:40>
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_0 = __this->___m_portraitGroup;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -11559,17 +11319,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActivateFromOrientation_UpdateOrientatio
 
 IL_002a:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/ActivateFromOrientation.cs:41>
 		return;
 	}
 
 IL_002b:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/ActivateFromOrientation.cs:43>
 		int32_t L_6;
 		L_6 = Input_get_deviceOrientation_mC6761FD3F3123DC994FCD2BFAF5BCF0D21DFE91C(NULL);
 		V_0 = L_6;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/ActivateFromOrientation.cs:45>
 		int32_t L_7 = V_0;
 		if (L_7)
 		{
@@ -11577,13 +11334,11 @@ IL_002b:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/ActivateFromOrientation.cs:46>
 		return;
 	}
 
 IL_0035:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/ActivateFromOrientation.cs:48>
 		int32_t L_8 = V_0;
 		int32_t L_9 = __this->___m_previousOrientation;
 		if ((((int32_t)L_8) == ((int32_t)L_9)))
@@ -11592,7 +11347,6 @@ IL_0035:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/ActivateFromOrientation.cs:50>
 		int32_t L_10 = V_0;
 		__this->___m_previousOrientation = L_10;
 		int32_t L_11 = V_0;
@@ -11614,75 +11368,64 @@ IL_0035:
 
 IL_0052:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/ActivateFromOrientation.cs:55>
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_13 = __this->___m_landscapeLeftGroup;
 		NullCheck(L_13);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14;
 		L_14 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_13, NULL);
 		NullCheck(L_14);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_14, (bool)1, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/ActivateFromOrientation.cs:56>
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_15 = __this->___m_landscapeRightGroup;
 		NullCheck(L_15);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_16;
 		L_16 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_15, NULL);
 		NullCheck(L_16);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_16, (bool)0, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/ActivateFromOrientation.cs:57>
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_17 = __this->___m_portraitGroup;
 		NullCheck(L_17);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_18;
 		L_18 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_17, NULL);
 		NullCheck(L_18);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_18, (bool)0, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/ActivateFromOrientation.cs:58>
 		return;
 	}
 
 IL_0086:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/ActivateFromOrientation.cs:60>
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_19 = __this->___m_landscapeLeftGroup;
 		NullCheck(L_19);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_20;
 		L_20 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_19, NULL);
 		NullCheck(L_20);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_20, (bool)0, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/ActivateFromOrientation.cs:61>
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_21 = __this->___m_landscapeRightGroup;
 		NullCheck(L_21);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_22;
 		L_22 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_21, NULL);
 		NullCheck(L_22);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_22, (bool)1, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/ActivateFromOrientation.cs:62>
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_23 = __this->___m_portraitGroup;
 		NullCheck(L_23);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_24;
 		L_24 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_23, NULL);
 		NullCheck(L_24);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_24, (bool)0, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/ActivateFromOrientation.cs:63>
 		return;
 	}
 
 IL_00ba:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/ActivateFromOrientation.cs:65>
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_25 = __this->___m_landscapeLeftGroup;
 		NullCheck(L_25);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_26;
 		L_26 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_25, NULL);
 		NullCheck(L_26);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_26, (bool)0, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/ActivateFromOrientation.cs:66>
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_27 = __this->___m_landscapeRightGroup;
 		NullCheck(L_27);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_28;
 		L_28 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_27, NULL);
 		NullCheck(L_28);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_28, (bool)0, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/ActivateFromOrientation.cs:67>
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_29 = __this->___m_portraitGroup;
 		NullCheck(L_29);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_30;
@@ -11693,7 +11436,6 @@ IL_00ba:
 
 IL_00ed:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/ActivateFromOrientation.cs:71>
 		return;
 	}
 }
@@ -11722,15 +11464,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CreateNotification_SetIconAndText_mCD806
 	int32_t V_3 = 0;
 	int32_t V_4 = 0;
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/CreateNotification.cs:53>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_0 = __this->___m_TextMeshProUGUI;
 		String_t* L_1 = ___1_text;
 		NullCheck(L_0);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_0, L_1);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/CreateNotification.cs:55>
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_2 = __this->___m_InfoIcon;
 		V_0 = L_2;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/CreateNotification.cs:56>
 		V_1 = ((int32_t)64);
 		int32_t L_3 = ___0_notificationType;
 		switch (L_3)
@@ -11759,55 +11498,44 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CreateNotification_SetIconAndText_mCD806
 
 IL_002e:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/CreateNotification.cs:61>
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_4 = __this->___m_SuccessIcon;
 		V_0 = L_4;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/CreateNotification.cs:62>
 		goto IL_0059;
 	}
 
 IL_0037:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/CreateNotification.cs:64>
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_5 = __this->___m_InfoIcon;
 		V_0 = L_5;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/CreateNotification.cs:65>
 		goto IL_0059;
 	}
 
 IL_0040:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/CreateNotification.cs:67>
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_6 = __this->___m_WarningIcon;
 		V_0 = L_6;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/CreateNotification.cs:68>
 		goto IL_0059;
 	}
 
 IL_0049:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/CreateNotification.cs:70>
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_7 = __this->___m_ErrorIcon;
 		V_0 = L_7;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/CreateNotification.cs:71>
 		goto IL_0059;
 	}
 
 IL_0052:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/CreateNotification.cs:73>
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_8 = __this->___m_InfoIcon;
 		V_0 = L_8;
 	}
 
 IL_0059:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/CreateNotification.cs:77>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_9 = __this->___m_Image;
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_10 = V_0;
 		NullCheck(L_9);
 		Image_set_sprite_mC0C248340BA27AAEE56855A3FAFA0D8CA12956DE(L_9, L_10, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/CreateNotification.cs:79>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_11 = __this->___m_TextMeshProUGUI;
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_12 = __this->___m_TextMeshProUGUI;
 		NullCheck(L_12);
@@ -11816,14 +11544,12 @@ IL_0059:
 		NullCheck(L_11);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_14;
 		L_14 = TMP_Text_GetPreferredValues_m398215E34C2F85F6073BB4FFAD99E077319B2726(L_11, L_13, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/CreateNotification.cs:81>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_15 = L_14;
 		float L_16 = L_15.___x;
 		int32_t L_17 = __this->___m_MaxWidth;
 		float L_18;
 		L_18 = ceilf(((float)(L_16/((float)L_17))));
 		V_2 = L_18;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/CreateNotification.cs:82>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_19 = L_15;
 		float L_20 = L_19.___x;
 		int32_t L_21 = __this->___m_MaxWidth;
@@ -11834,7 +11560,6 @@ IL_0059:
 		L_24 = Mathf_Max_m7FA442918DE37E3A00106D1F2E789D65829792B8_inline(L_22, L_23, NULL);
 		int32_t L_25 = V_1;
 		V_3 = ((int32_t)il2cpp_codegen_add(L_24, ((int32_t)il2cpp_codegen_multiply(3, L_25))));
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/CreateNotification.cs:83>
 		float L_26 = L_19.___y;
 		float L_27 = V_2;
 		int32_t L_28 = __this->___m_MaxHeight;
@@ -11845,7 +11570,6 @@ IL_0059:
 		L_31 = Mathf_Max_m7FA442918DE37E3A00106D1F2E789D65829792B8_inline(L_29, L_30, NULL);
 		int32_t L_32 = __this->___m_Padding;
 		V_4 = ((int32_t)il2cpp_codegen_add(L_31, L_32));
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/CreateNotification.cs:85>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_33 = __this->___m_RectTransform;
 		int32_t L_34 = V_3;
 		int32_t L_35 = V_4;
@@ -11854,18 +11578,15 @@ IL_0059:
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_36), ((float)L_34), ((float)L_35), NULL);
 		NullCheck(L_33);
 		RectTransform_set_sizeDelta_mC9A980EA6036E6725EF24CEDF3EE80A9B2B50EE5(L_33, L_36, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/CreateNotification.cs:86>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_37 = __this->___m_TextMeshProUGUI;
 		NullCheck(L_37);
 		VirtualActionInvoker2< bool, bool >::Invoke(106, L_37, (bool)0, (bool)0);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/CreateNotification.cs:88>
 		float L_38 = __this->___m_FadeOutDuration;
 		float L_39 = __this->___m_DurationBeforeFadeOut;
 		RuntimeObject* L_40;
 		L_40 = CreateNotification_FadeOut_mF4D056A0C59320408DCB851E8D6EDA5C8121F63C(__this, L_38, L_39, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_41;
 		L_41 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_40, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/CreateNotification.cs:89>
 		return;
 	}
 }
@@ -11873,14 +11594,12 @@ IL_0059:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CreateNotification_Start_mFD6DC020A4F1502E6C7A5A97598F5AAD5E383095 (CreateNotification_t37CDFBCE326DAC4EEA54BED01DEFF0CC1B77F0DE* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/CreateNotification.cs:93>
 		float L_0 = __this->___m_FadeOutDuration;
 		float L_1 = __this->___m_DurationBeforeFadeOut;
 		RuntimeObject* L_2;
 		L_2 = CreateNotification_FadeOut_mF4D056A0C59320408DCB851E8D6EDA5C8121F63C(__this, L_0, L_1, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_3;
 		L_3 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_2, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/CreateNotification.cs:94>
 		return;
 	}
 }
@@ -11915,19 +11634,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CreateNotification_FadeOut_mF4
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CreateNotification__ctor_mFB801D863E28C8A548AF72D42AC6C6FEEDADD1CA (CreateNotification_t37CDFBCE326DAC4EEA54BED01DEFF0CC1B77F0DE* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/CreateNotification.cs:33>
 		__this->___m_DurationBeforeFadeOut = (0.5f);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/CreateNotification.cs:35>
 		__this->___m_FadeOutDuration = (1.0f);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/CreateNotification.cs:45>
 		__this->___m_MinWidth = ((int32_t)192);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/CreateNotification.cs:46>
 		__this->___m_MaxWidth = ((int32_t)800);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/CreateNotification.cs:47>
 		__this->___m_MinHeight = ((int32_t)128);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/CreateNotification.cs:48>
 		__this->___m_MaxHeight = ((int32_t)512);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/CreateNotification.cs:49>
 		__this->___m_Padding = ((int32_t)32);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -12003,14 +11715,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CFadeOutU3Ed__17_MoveNext_mFFABC271F4C
 IL_0017:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/CreateNotification.cs:98>
 		CreateNotification_t37CDFBCE326DAC4EEA54BED01DEFF0CC1B77F0DE* L_4 = V_1;
 		NullCheck(L_4);
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_5;
 		L_5 = Component_GetComponent_TisCanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094_mA3B0428368982ED39ADEBB220EE67D1E99D8B2D2(L_4, Component_GetComponent_TisCanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094_mA3B0428368982ED39ADEBB220EE67D1E99D8B2D2_RuntimeMethod_var);
 		__this->___U3CcanvasGroupU3E5__2 = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CcanvasGroupU3E5__2), (void*)L_5);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/CreateNotification.cs:99>
 		float L_6 = __this->___startAfter;
 		__this->___U3CtU3E5__3 = ((-L_6));
 		goto IL_009f;
@@ -12018,7 +11728,6 @@ IL_0017:
 
 IL_0039:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/CreateNotification.cs:101>
 		float L_7 = __this->___U3CtU3E5__3;
 		float L_8;
 		L_8 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline(L_7, (0.0f), NULL);
@@ -12027,12 +11736,10 @@ IL_0039:
 		float L_10;
 		L_10 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline((1.0f), (0.0f), L_9, NULL);
 		V_2 = L_10;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/CreateNotification.cs:102>
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_11 = __this->___U3CcanvasGroupU3E5__2;
 		float L_12 = V_2;
 		NullCheck(L_11);
 		CanvasGroup_set_alpha_m5C06839316D948BB4F75ED72C87FA1F1A20C333F(L_11, L_12, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/CreateNotification.cs:103>
 		__this->___U3CU3E2__current = NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)NULL);
 		__this->___U3CU3E1__state = 1;
@@ -12042,7 +11749,6 @@ IL_0039:
 IL_007f:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/CreateNotification.cs:99>
 		float L_13 = __this->___U3CtU3E5__3;
 		float L_14;
 		L_14 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
@@ -12052,7 +11758,6 @@ IL_007f:
 
 IL_009f:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/CreateNotification.cs:99>
 		float L_16 = __this->___U3CtU3E5__3;
 		if ((((float)L_16) < ((float)(1.0f))))
 		{
@@ -12060,14 +11765,12 @@ IL_009f:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/CreateNotification.cs:105>
 		CreateNotification_t37CDFBCE326DAC4EEA54BED01DEFF0CC1B77F0DE* L_17 = V_1;
 		NullCheck(L_17);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_18;
 		L_18 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_17, NULL);
 		NullCheck(L_18);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_18, (bool)0, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/CreateNotification.cs:106>
 		return (bool)0;
 	}
 }
@@ -12119,25 +11822,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CryptoUtil_MD5_m8D5ECAF04E3C889CFBC
 	String_t* V_1 = NULL;
 	int32_t V_2 = 0;
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/CryptoUtil.cs:21>
 		MD5CryptoServiceProvider_tEBA22E49E733DDFE74A3F52711BB1EF82FBF653B* L_0 = (MD5CryptoServiceProvider_tEBA22E49E733DDFE74A3F52711BB1EF82FBF653B*)il2cpp_codegen_object_new(MD5CryptoServiceProvider_tEBA22E49E733DDFE74A3F52711BB1EF82FBF653B_il2cpp_TypeInfo_var);
 		MD5CryptoServiceProvider__ctor_m3A1A5B12FFB04CB3A02E525558BA83A24F828067(L_0, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/CryptoUtil.cs:22>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = ___0_bytes;
 		NullCheck(L_0);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_2;
 		L_2 = HashAlgorithm_ComputeHash_mC9CD24714D75A8D61F12509BF952A26347FF22FB(L_0, L_1, NULL);
 		V_0 = L_2;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/CryptoUtil.cs:24>
 		V_1 = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/CryptoUtil.cs:26>
 		V_2 = 0;
 		goto IL_0033;
 	}
 
 IL_0016:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/CryptoUtil.cs:27>
 		String_t* L_3 = V_1;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4 = V_0;
 		int32_t L_5 = V_2;
@@ -12153,14 +11851,12 @@ IL_0016:
 		String_t* L_10;
 		L_10 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_3, L_9, NULL);
 		V_1 = L_10;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/CryptoUtil.cs:26>
 		int32_t L_11 = V_2;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_11, 1));
 	}
 
 IL_0033:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/CryptoUtil.cs:26>
 		int32_t L_12 = V_2;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_13 = V_0;
 		NullCheck(L_13);
@@ -12170,7 +11866,6 @@ IL_0033:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/CryptoUtil.cs:29>
 		String_t* L_14 = V_1;
 		NullCheck(L_14);
 		String_t* L_15;
@@ -12193,25 +11888,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CryptoUtil_SHA256_mFD9CC76491129278
 	String_t* V_1 = NULL;
 	int32_t V_2 = 0;
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/CryptoUtil.cs:34>
 		SHA256CryptoServiceProvider_tB0E3BCAF476E7ECF44758043292360E022EEF129* L_0 = (SHA256CryptoServiceProvider_tB0E3BCAF476E7ECF44758043292360E022EEF129*)il2cpp_codegen_object_new(SHA256CryptoServiceProvider_tB0E3BCAF476E7ECF44758043292360E022EEF129_il2cpp_TypeInfo_var);
 		SHA256CryptoServiceProvider__ctor_m22C39E2AC37B7887A831BDE414778BDDFAFA1029(L_0, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/CryptoUtil.cs:35>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = ___0_bytes;
 		NullCheck(L_0);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_2;
 		L_2 = HashAlgorithm_ComputeHash_mC9CD24714D75A8D61F12509BF952A26347FF22FB(L_0, L_1, NULL);
 		V_0 = L_2;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/CryptoUtil.cs:36>
 		V_1 = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/CryptoUtil.cs:37>
 		V_2 = 0;
 		goto IL_0033;
 	}
 
 IL_0016:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/CryptoUtil.cs:38>
 		String_t* L_3 = V_1;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4 = V_0;
 		int32_t L_5 = V_2;
@@ -12227,14 +11917,12 @@ IL_0016:
 		String_t* L_10;
 		L_10 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_3, L_9, NULL);
 		V_1 = L_10;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/CryptoUtil.cs:37>
 		int32_t L_11 = V_2;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_11, 1));
 	}
 
 IL_0033:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/CryptoUtil.cs:37>
 		int32_t L_12 = V_2;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_13 = V_0;
 		NullCheck(L_13);
@@ -12244,7 +11932,6 @@ IL_0033:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/CryptoUtil.cs:39>
 		String_t* L_14 = V_1;
 		NullCheck(L_14);
 		String_t* L_15;
@@ -12273,7 +11960,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DebugConsole_tFCFBED0D55A578CAA34301AD4672F9E
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/DebugConsole.cs:42>
 		DebugConsole_tFCFBED0D55A578CAA34301AD4672F9ED16965974* L_0 = ((DebugConsole_tFCFBED0D55A578CAA34301AD4672F9ED16965974_StaticFields*)il2cpp_codegen_static_fields_for(DebugConsole_tFCFBED0D55A578CAA34301AD4672F9ED16965974_il2cpp_TypeInfo_var))->___m_instance;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -12284,14 +11970,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DebugConsole_tFCFBED0D55A578CAA34301AD4672F9E
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/DebugConsole.cs:44>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral18CE428831DFCD65A2FFA6915AAFF24DD31646BE, NULL);
 	}
 
 IL_0017:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/DebugConsole.cs:46>
 		DebugConsole_tFCFBED0D55A578CAA34301AD4672F9ED16965974* L_2 = ((DebugConsole_tFCFBED0D55A578CAA34301AD4672F9ED16965974_StaticFields*)il2cpp_codegen_static_fields_for(DebugConsole_tFCFBED0D55A578CAA34301AD4672F9ED16965974_il2cpp_TypeInfo_var))->___m_instance;
 		return L_2;
 	}
@@ -12309,7 +11993,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugConsole_Awake_m3EA4CCFBDB30155312A4
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/DebugConsole.cs:52>
 		DebugConsole_tFCFBED0D55A578CAA34301AD4672F9ED16965974* L_0 = ((DebugConsole_tFCFBED0D55A578CAA34301AD4672F9ED16965974_StaticFields*)il2cpp_codegen_static_fields_for(DebugConsole_tFCFBED0D55A578CAA34301AD4672F9ED16965974_il2cpp_TypeInfo_var))->___m_instance;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -12320,14 +12003,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugConsole_Awake_m3EA4CCFBDB30155312A4
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/DebugConsole.cs:54>
 		((DebugConsole_tFCFBED0D55A578CAA34301AD4672F9ED16965974_StaticFields*)il2cpp_codegen_static_fields_for(DebugConsole_tFCFBED0D55A578CAA34301AD4672F9ED16965974_il2cpp_TypeInfo_var))->___m_instance = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&((DebugConsole_tFCFBED0D55A578CAA34301AD4672F9ED16965974_StaticFields*)il2cpp_codegen_static_fields_for(DebugConsole_tFCFBED0D55A578CAA34301AD4672F9ED16965974_il2cpp_TypeInfo_var))->___m_instance), (void*)__this);
 	}
 
 IL_0013:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/DebugConsole.cs:56>
 		DebugConsole_tFCFBED0D55A578CAA34301AD4672F9ED16965974* L_2 = ((DebugConsole_tFCFBED0D55A578CAA34301AD4672F9ED16965974_StaticFields*)il2cpp_codegen_static_fields_for(DebugConsole_tFCFBED0D55A578CAA34301AD4672F9ED16965974_il2cpp_TypeInfo_var))->___m_instance;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_3;
@@ -12338,17 +12019,14 @@ IL_0013:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/DebugConsole.cs:58>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral01C9C56FB0F881C9EC5295B7F0932FEBDD28E45A, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/DebugConsole.cs:59>
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_DestroyImmediate_m6336EBC83591A5DB64EC70C92132824C6E258705(__this, NULL);
 	}
 
 IL_0030:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/DebugConsole.cs:61>
 		return;
 	}
 }
@@ -12356,12 +12034,10 @@ IL_0030:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugConsole_Start_m57753E75F888F5B5843425CA06B3126E4594124B (DebugConsole_tFCFBED0D55A578CAA34301AD4672F9ED16965974* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/DebugConsole.cs:64>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___m_ContentParent;
 		bool L_1 = __this->___m_ShowOnAppStart;
 		NullCheck(L_0);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, L_1, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/DebugConsole.cs:65>
 		return;
 	}
 }
@@ -12377,12 +12053,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugConsole_OnEnable_mEF0DA35C2D6673925
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/DebugConsole.cs:68>
 		LogCallback_tCFFF3C009186124A6A83A1E6BB7E360C5674C413* L_0 = (LogCallback_tCFFF3C009186124A6A83A1E6BB7E360C5674C413*)il2cpp_codegen_object_new(LogCallback_tCFFF3C009186124A6A83A1E6BB7E360C5674C413_il2cpp_TypeInfo_var);
 		LogCallback__ctor_m327A4C69691F8A4B01D405858E48B8A7D9D2A79D(L_0, __this, (intptr_t)((void*)DebugConsole_HandleLog_mB21376A6184FA516EEC343DA4AEB13015D0C78DD_RuntimeMethod_var), NULL);
 		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		Application_add_logMessageReceived_mE45B1D93B44D26B8FE979595D5346FC8C7B8E38C(L_0, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/DebugConsole.cs:69>
 		return;
 	}
 }
@@ -12398,12 +12072,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugConsole_OnDisable_mD2D56A17348F9AE7
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/DebugConsole.cs:73>
 		LogCallback_tCFFF3C009186124A6A83A1E6BB7E360C5674C413* L_0 = (LogCallback_tCFFF3C009186124A6A83A1E6BB7E360C5674C413*)il2cpp_codegen_object_new(LogCallback_tCFFF3C009186124A6A83A1E6BB7E360C5674C413_il2cpp_TypeInfo_var);
 		LogCallback__ctor_m327A4C69691F8A4B01D405858E48B8A7D9D2A79D(L_0, __this, (intptr_t)((void*)DebugConsole_HandleLog_mB21376A6184FA516EEC343DA4AEB13015D0C78DD_RuntimeMethod_var), NULL);
 		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		Application_remove_logMessageReceived_m559439A73DD283295DE44A21F6D3C92D157777CC(L_0, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/DebugConsole.cs:74>
 		return;
 	}
 }
@@ -12411,7 +12083,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugConsole_OnDisable_mD2D56A17348F9AE7
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DebugConsole_get_isShown_m2AF13277DFDA8FC2839F291277C535D81558DC27 (DebugConsole_tFCFBED0D55A578CAA34301AD4672F9ED16965974* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/DebugConsole.cs:75>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___m_ContentParent;
 		NullCheck(L_0);
 		bool L_1;
@@ -12436,7 +12107,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugConsole_Show_m8A93C45CC4C89D8AE994D
 	String_t* G_B5_0 = NULL;
 	String_t* G_B5_1 = NULL;
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/DebugConsole.cs:78>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___m_ContentParent;
 		NullCheck(L_0);
 		bool L_1;
@@ -12448,18 +12118,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugConsole_Show_m8A93C45CC4C89D8AE994D
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/DebugConsole.cs:78>
 		return;
 	}
 
 IL_000f:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/DebugConsole.cs:80>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = __this->___m_ContentParent;
 		bool L_4 = ___0_show;
 		NullCheck(L_3);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_3, L_4, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/DebugConsole.cs:81>
 		bool L_5 = ___0_show;
 		if (L_5)
 		{
@@ -12486,7 +12153,6 @@ IL_002f:
 		L_6 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(G_B5_1, G_B5_0, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_6, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/DebugConsole.cs:82>
 		return;
 	}
 }
@@ -12494,13 +12160,11 @@ IL_002f:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugConsole_ToggleShow_m5E2233E62530C1329272769A5D3AAC6767692DFF (DebugConsole_tFCFBED0D55A578CAA34301AD4672F9ED16965974* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/DebugConsole.cs:86>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___m_ContentParent;
 		NullCheck(L_0);
 		bool L_1;
 		L_1 = GameObject_get_activeSelf_m4F3E5240E138B66AAA080EA30759A3D0517DA368(L_0, NULL);
 		DebugConsole_Show_m8A93C45CC4C89D8AE994DFADC6772642FB97E985(__this, (bool)((((int32_t)L_1) == ((int32_t)0))? 1 : 0), NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/DebugConsole.cs:87>
 		return;
 	}
 }
@@ -12546,18 +12210,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugConsole_HandleLog_mB21376A6184FA516
 
 IL_001c:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/DebugConsole.cs:94>
 		String_t* L_1 = ___0_logString;
 		String_t* L_2;
 		L_2 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral3CB47980C71189564B33D7677D72674A91B27570, L_1, NULL);
 		___0_logString = L_2;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/DebugConsole.cs:95>
 		goto IL_003e;
 	}
 
 IL_002b:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/DebugConsole.cs:98>
 		String_t* L_3 = ___0_logString;
 		String_t* L_4;
 		L_4 = Environment_get_NewLine_m8BF68A4EFDAFFB66500984CE779629811BA98FFF(NULL);
@@ -12569,10 +12230,8 @@ IL_002b:
 
 IL_003e:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/DebugConsole.cs:101>
 		String_t* L_7 = ___0_logString;
 		DebugConsole_AddText_mF61CBA2E10048D0C2590E5979FD4C4C63EFCAA58(__this, L_7, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/DebugConsole.cs:102>
 		return;
 	}
 }
@@ -12592,7 +12251,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugConsole_AddText_mF61CBA2E10048D0C25
 	}
 	float V_0 = 0.0f;
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/DebugConsole.cs:106>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_0 = __this->___m_DebugLogLines;
 		NullCheck(L_0);
 		int32_t L_1;
@@ -12604,7 +12262,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugConsole_AddText_mF61CBA2E10048D0C25
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/DebugConsole.cs:108>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_3 = __this->___m_DebugLogLines;
 		NullCheck(L_3);
 		List_1_RemoveAt_m031D3A21689276A872FCA7566C8F2F79F9581F0D(L_3, 0, List_1_RemoveAt_m031D3A21689276A872FCA7566C8F2F79F9581F0D_RuntimeMethod_var);
@@ -12612,7 +12269,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugConsole_AddText_mF61CBA2E10048D0C25
 
 IL_001f:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/DebugConsole.cs:111>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_4 = __this->___m_DebugLogLines;
 		float L_5;
 		L_5 = Time_get_realtimeSinceStartup_m73B3CB73175D79A44333D59BB70F9EDE55EC9510(NULL);
@@ -12624,13 +12280,11 @@ IL_001f:
 		L_8 = String_Concat_m093934F71A9B351911EE46311674ED463B180006(_stringLiteralD9691C4FD8A1F6B09DB1147CA32B442772FB46A1, L_6, _stringLiteral10A105116F1400FFCE661E402C3C12DDCA0D688C, L_7, NULL);
 		NullCheck(L_4);
 		List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_inline(L_4, L_8, List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_RuntimeMethod_var);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/DebugConsole.cs:113>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_9 = __this->___m_DebugLogText;
 		String_t* L_10;
 		L_10 = DebugConsole_ConstructLogText_m0D0BB0E757354580BED7C7A58653F89E86EB67CC(__this, NULL);
 		NullCheck(L_9);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_9, L_10);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/DebugConsole.cs:114>
 		return;
 	}
 }
@@ -12646,12 +12300,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* DebugConsole_ConstructLogText_m0D0B
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/DebugConsole.cs:118>
 		StringBuilder_t* L_0 = __this->___m_stringBuilder;
 		NullCheck(L_0);
 		StringBuilder_t* L_1;
 		L_1 = StringBuilder_Clear_m2D76F6533574F40A4E3E2DC4E730277CBD0AF8F6(L_0, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/DebugConsole.cs:120>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_2 = __this->___m_DebugLogLines;
 		NullCheck(L_2);
 		int32_t L_3;
@@ -12662,7 +12314,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* DebugConsole_ConstructLogText_m0D0B
 
 IL_001c:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/DebugConsole.cs:122>
 		StringBuilder_t* L_4 = __this->___m_stringBuilder;
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_5 = __this->___m_DebugLogLines;
 		int32_t L_6 = V_0;
@@ -12672,14 +12323,12 @@ IL_001c:
 		NullCheck(L_4);
 		StringBuilder_t* L_8;
 		L_8 = StringBuilder_AppendLine_mF75744CE941C63E33188E22E936B71A24D3CBF88(L_4, L_7, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/DebugConsole.cs:120>
 		int32_t L_9 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_subtract(L_9, 1));
 	}
 
 IL_0038:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/DebugConsole.cs:120>
 		int32_t L_10 = V_0;
 		if ((((int32_t)L_10) >= ((int32_t)0)))
 		{
@@ -12687,7 +12336,6 @@ IL_0038:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/DebugConsole.cs:125>
 		StringBuilder_t* L_11 = __this->___m_stringBuilder;
 		NullCheck(L_11);
 		String_t* L_12;
@@ -12707,14 +12355,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugConsole__ctor_m993A09450C3E887B92FA
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/DebugConsole.cs:25>
 		__this->___m_DebugLogLineMaxCount = ((int32_t)100);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/DebugConsole.cs:27>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_0 = (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*)il2cpp_codegen_object_new(List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_il2cpp_TypeInfo_var);
 		List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E(L_0, List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E_RuntimeMethod_var);
 		__this->___m_DebugLogLines = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_DebugLogLines), (void*)L_0);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/DebugConsole.cs:28>
 		StringBuilder_t* L_1 = (StringBuilder_t*)il2cpp_codegen_object_new(StringBuilder_t_il2cpp_TypeInfo_var);
 		StringBuilder__ctor_m1D99713357DE05DAFA296633639DB55F8C30587D(L_1, NULL);
 		__this->___m_stringBuilder = L_1;
@@ -12741,12 +12386,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugConsoleToggleBehaviour_Awake_m2485F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/DebugConsoleToggleBehaviour.cs:25>
 		Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F* L_0;
 		L_0 = Component_GetComponent_TisToggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F_mCFD123E76114133A77ECEF96A5474F07B97F5CEE(__this, Component_GetComponent_TisToggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F_mCFD123E76114133A77ECEF96A5474F07B97F5CEE_RuntimeMethod_var);
 		__this->___m_Toggle = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Toggle), (void*)L_0);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/DebugConsoleToggleBehaviour.cs:26>
 		return;
 	}
 }
@@ -12754,7 +12397,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugConsoleToggleBehaviour_Awake_m2485F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugConsoleToggleBehaviour_OnEnable_mCF8A08D2FEA755362EE1DBD9E96619B475684A6E (DebugConsoleToggleBehaviour_t87669499807A3EB3563CFCC777C55694CE67B318* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/DebugConsoleToggleBehaviour.cs:30>
 		Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F* L_0 = __this->___m_Toggle;
 		DebugConsole_tFCFBED0D55A578CAA34301AD4672F9ED16965974* L_1;
 		L_1 = DebugConsole_get_Instance_m7752A0401FE3F2B128AB5B6AC752375995FED249(NULL);
@@ -12763,7 +12405,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugConsoleToggleBehaviour_OnEnable_mCF
 		L_2 = DebugConsole_get_isShown_m2AF13277DFDA8FC2839F291277C535D81558DC27(L_1, NULL);
 		NullCheck(L_0);
 		Toggle_set_isOn_m61D6AB073668E87530A9F49D990A3B3631D2061F(L_0, L_2, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/DebugConsoleToggleBehaviour.cs:31>
 		return;
 	}
 }
@@ -12793,12 +12434,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventNotifications_OnSDKInitialization_m
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/EventNotifications.cs:25>
 		NotificationManager_t382AAD0D328D20384698BB77251AB486FE88D1C6* L_0;
 		L_0 = NotificationManager_get_Instance_m7E6E1470622ED62CBE0A81D64FE0FE4C6EFA7D62(NULL);
 		NullCheck(L_0);
 		NotificationManager_GenerateSuccess_mD1AD22D8F1107AFEC2EBDC288712EE039BC56D8A(L_0, _stringLiteralE20DA005F9067EF623913F916257DA706FF3B419, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/EventNotifications.cs:26>
 		return;
 	}
 }
@@ -12812,12 +12451,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventNotifications_OnSDKReset_m25222AC95
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/EventNotifications.cs:30>
 		NotificationManager_t382AAD0D328D20384698BB77251AB486FE88D1C6* L_0;
 		L_0 = NotificationManager_get_Instance_m7E6E1470622ED62CBE0A81D64FE0FE4C6EFA7D62(NULL);
 		NullCheck(L_0);
 		NotificationManager_GenerateNotification_m3E7D0AA20A3C495CC41DA8F5C33F96A668D75757(L_0, _stringLiteral45E10DA7B4CBA92BB89CDAC3B3ACE8B3B0DD6585, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/EventNotifications.cs:31>
 		return;
 	}
 }
@@ -12831,12 +12468,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventNotifications_OnSessionPause_m770B5
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/EventNotifications.cs:35>
 		NotificationManager_t382AAD0D328D20384698BB77251AB486FE88D1C6* L_0;
 		L_0 = NotificationManager_get_Instance_m7E6E1470622ED62CBE0A81D64FE0FE4C6EFA7D62(NULL);
 		NullCheck(L_0);
 		NotificationManager_GenerateNotification_m3E7D0AA20A3C495CC41DA8F5C33F96A668D75757(L_0, _stringLiteral331EFBAB8F328BA1DA585A246BE9BE0065660FE1, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/EventNotifications.cs:36>
 		return;
 	}
 }
@@ -12850,12 +12485,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventNotifications_OnSessionResume_m59CD
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/EventNotifications.cs:40>
 		NotificationManager_t382AAD0D328D20384698BB77251AB486FE88D1C6* L_0;
 		L_0 = NotificationManager_get_Instance_m7E6E1470622ED62CBE0A81D64FE0FE4C6EFA7D62(NULL);
 		NullCheck(L_0);
 		NotificationManager_GenerateNotification_m3E7D0AA20A3C495CC41DA8F5C33F96A668D75757(L_0, _stringLiteralC17A37ABA283CD7295314EBC281AFEEA18AAD157, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/EventNotifications.cs:41>
 		return;
 	}
 }
@@ -12869,12 +12502,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventNotifications_OnSessionReset_mACFB5
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/EventNotifications.cs:45>
 		NotificationManager_t382AAD0D328D20384698BB77251AB486FE88D1C6* L_0;
 		L_0 = NotificationManager_get_Instance_m7E6E1470622ED62CBE0A81D64FE0FE4C6EFA7D62(NULL);
 		NullCheck(L_0);
 		NotificationManager_GenerateNotification_m3E7D0AA20A3C495CC41DA8F5C33F96A668D75757(L_0, _stringLiteral4624CDE0A7D7419AD66E51E9EFA55495CFC01B6D, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/EventNotifications.cs:46>
 		return;
 	}
 }
@@ -12888,12 +12519,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventNotifications_OnLocalizerFirstSucce
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/EventNotifications.cs:50>
 		NotificationManager_t382AAD0D328D20384698BB77251AB486FE88D1C6* L_0;
 		L_0 = NotificationManager_get_Instance_m7E6E1470622ED62CBE0A81D64FE0FE4C6EFA7D62(NULL);
 		NullCheck(L_0);
 		NotificationManager_GenerateSuccess_mD1AD22D8F1107AFEC2EBDC288712EE039BC56D8A(L_0, _stringLiteral82921DDA98EED6341D5D83840CA969302F5777E6, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/EventNotifications.cs:51>
 		return;
 	}
 }
@@ -12907,12 +12536,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventNotifications_OnLocalizerSuccess_m3
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/EventNotifications.cs:55>
 		NotificationManager_t382AAD0D328D20384698BB77251AB486FE88D1C6* L_0;
 		L_0 = NotificationManager_get_Instance_m7E6E1470622ED62CBE0A81D64FE0FE4C6EFA7D62(NULL);
 		NullCheck(L_0);
 		NotificationManager_GenerateSuccess_mD1AD22D8F1107AFEC2EBDC288712EE039BC56D8A(L_0, _stringLiteralBF0211638637F3C641121ACCDD5FDED7AB9993F2, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/EventNotifications.cs:56>
 		return;
 	}
 }
@@ -12926,7 +12553,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventNotifications_OnLocalizerSuccess_m7
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/EventNotifications.cs:60>
 		NotificationManager_t382AAD0D328D20384698BB77251AB486FE88D1C6* L_0;
 		L_0 = NotificationManager_get_Instance_m7E6E1470622ED62CBE0A81D64FE0FE4C6EFA7D62(NULL);
 		int32_t L_1 = ___0_previousMapId;
@@ -12939,7 +12565,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventNotifications_OnLocalizerSuccess_m7
 		L_7 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteral12EA7EFE18AFFBB99F9725FB18296908240248BA, L_3, L_6, NULL);
 		NullCheck(L_0);
 		NotificationManager_GenerateSuccess_mD1AD22D8F1107AFEC2EBDC288712EE039BC56D8A(L_0, L_7, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/EventNotifications.cs:61>
 		return;
 	}
 }
@@ -12953,12 +12578,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventNotifications_OnLocalizerFail_mE051
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/EventNotifications.cs:65>
 		NotificationManager_t382AAD0D328D20384698BB77251AB486FE88D1C6* L_0;
 		L_0 = NotificationManager_get_Instance_m7E6E1470622ED62CBE0A81D64FE0FE4C6EFA7D62(NULL);
 		NullCheck(L_0);
 		NotificationManager_GenerateWarning_mF2FB53E3FFEA4C8D58A17BF1B7A0B9881C7A1CEB(L_0, _stringLiteralE77D198DB5B9D4A5D9B683F6EC1B3C2021039430, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/EventNotifications.cs:66>
 		return;
 	}
 }
@@ -12992,11 +12615,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventNotifications_OnLocalizationResult_
 	LocalizeInfo_tA0505013EA7ED00C81F69F0F75F4D81346ECF60D V_6;
 	memset((&V_6), 0, sizeof(V_6));
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/EventNotifications.cs:70>
 		List_1_tA1EF9195E65056865952580C7F81FB9B32699B57* L_0 = (List_1_tA1EF9195E65056865952580C7F81FB9B32699B57*)il2cpp_codegen_object_new(List_1_tA1EF9195E65056865952580C7F81FB9B32699B57_il2cpp_TypeInfo_var);
 		List_1__ctor_m37EFAEC770430F536BB993FB8AE7F574789A0826(L_0, List_1__ctor_m37EFAEC770430F536BB993FB8AE7F574789A0826_RuntimeMethod_var);
 		V_0 = L_0;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/EventNotifications.cs:71>
 		RuntimeObject* L_1 = ___0_results;
 		NullCheck(L_1);
 		ILocalizationResultU5BU5D_t1EDAE9FBB4C0535E6A2517062A77770ECE9CC9E4* L_2;
@@ -13008,14 +12629,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventNotifications_OnLocalizationResult_
 
 IL_0011:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/EventNotifications.cs:71>
 		ILocalizationResultU5BU5D_t1EDAE9FBB4C0535E6A2517062A77770ECE9CC9E4* L_3 = V_2;
 		int32_t L_4 = V_3;
 		NullCheck(L_3);
 		int32_t L_5 = L_4;
 		RuntimeObject* L_6 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
 		V_4 = L_6;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/EventNotifications.cs:73>
 		RuntimeObject* L_7 = V_4;
 		NullCheck(L_7);
 		bool L_8;
@@ -13026,7 +12645,6 @@ IL_0011:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/EventNotifications.cs:74>
 		List_1_tA1EF9195E65056865952580C7F81FB9B32699B57* L_9 = V_0;
 		RuntimeObject* L_10 = V_4;
 		NullCheck(L_10);
@@ -13044,7 +12662,6 @@ IL_002c:
 
 IL_0030:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/EventNotifications.cs:71>
 		int32_t L_13 = V_3;
 		ILocalizationResultU5BU5D_t1EDAE9FBB4C0535E6A2517062A77770ECE9CC9E4* L_14 = V_2;
 		NullCheck(L_14);
@@ -13054,7 +12671,6 @@ IL_0030:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/EventNotifications.cs:77>
 		List_1_tA1EF9195E65056865952580C7F81FB9B32699B57* L_15 = V_0;
 		NullCheck(L_15);
 		int32_t L_16;
@@ -13065,15 +12681,12 @@ IL_0030:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/EventNotifications.cs:78>
 		return;
 	}
 
 IL_003f:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/EventNotifications.cs:80>
 		V_1 = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/EventNotifications.cs:81>
 		List_1_tA1EF9195E65056865952580C7F81FB9B32699B57* L_17 = V_0;
 		NullCheck(L_17);
 		Enumerator_t60E77CC80BCBF68969DCCE6F7E096B35B2F8EDF1 L_18;
@@ -13098,11 +12711,9 @@ FINALLY_0087:
 
 IL_004f_1:
 			{
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/EventNotifications.cs:81>
 				LocalizeInfo_tA0505013EA7ED00C81F69F0F75F4D81346ECF60D L_19;
 				L_19 = Enumerator_get_Current_mD92DFDFB9EA3A8CD9023A3C220B2A5BE0042655A_inline((&V_5), Enumerator_get_Current_mD92DFDFB9EA3A8CD9023A3C220B2A5BE0042655A_RuntimeMethod_var);
 				V_6 = L_19;
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/EventNotifications.cs:83>
 				String_t* L_20 = V_1;
 				LocalizeInfo_tA0505013EA7ED00C81F69F0F75F4D81346ECF60D L_21 = V_6;
 				int32_t L_22 = L_21.___mapId;
@@ -13119,7 +12730,6 @@ IL_004f_1:
 
 IL_007c_1:
 			{
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/EventNotifications.cs:81>
 				bool L_30;
 				L_30 = Enumerator_MoveNext_mBB9F7B06B68D30B16E3CFA12E842826B00AD9D24((&V_5), Enumerator_MoveNext_mBB9F7B06B68D30B16E3CFA12E842826B00AD9D24_RuntimeMethod_var);
 				if (L_30)
@@ -13139,13 +12749,11 @@ IL_007c_1:
 
 IL_0095:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/EventNotifications.cs:86>
 		NotificationManager_t382AAD0D328D20384698BB77251AB486FE88D1C6* L_31;
 		L_31 = NotificationManager_get_Instance_m7E6E1470622ED62CBE0A81D64FE0FE4C6EFA7D62(NULL);
 		String_t* L_32 = V_1;
 		NullCheck(L_31);
 		NotificationManager_GenerateSuccess_mD1AD22D8F1107AFEC2EBDC288712EE039BC56D8A(L_31, L_32, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/EventNotifications.cs:87>
 		return;
 	}
 }
@@ -13159,12 +12767,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventNotifications_OnPlatformTrackingLos
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/EventNotifications.cs:91>
 		NotificationManager_t382AAD0D328D20384698BB77251AB486FE88D1C6* L_0;
 		L_0 = NotificationManager_get_Instance_m7E6E1470622ED62CBE0A81D64FE0FE4C6EFA7D62(NULL);
 		NullCheck(L_0);
 		NotificationManager_GenerateNotification_m3E7D0AA20A3C495CC41DA8F5C33F96A668D75757(L_0, _stringLiteral95FAD0FED87BC99B0F3E238E42E9F84F99510B86, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/EventNotifications.cs:92>
 		return;
 	}
 }
@@ -13178,12 +12784,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventNotifications_OnTrackingWell_m21B98
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/EventNotifications.cs:96>
 		NotificationManager_t382AAD0D328D20384698BB77251AB486FE88D1C6* L_0;
 		L_0 = NotificationManager_get_Instance_m7E6E1470622ED62CBE0A81D64FE0FE4C6EFA7D62(NULL);
 		NullCheck(L_0);
 		NotificationManager_GenerateSuccess_mD1AD22D8F1107AFEC2EBDC288712EE039BC56D8A(L_0, _stringLiteral807AEE3BDEA4E649C6D6756A244503350A2EA0A9, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/EventNotifications.cs:97>
 		return;
 	}
 }
@@ -13197,12 +12801,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventNotifications_OnTrackingLost_m546EC
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/EventNotifications.cs:101>
 		NotificationManager_t382AAD0D328D20384698BB77251AB486FE88D1C6* L_0;
 		L_0 = NotificationManager_get_Instance_m7E6E1470622ED62CBE0A81D64FE0FE4C6EFA7D62(NULL);
 		NullCheck(L_0);
 		NotificationManager_GenerateWarning_mF2FB53E3FFEA4C8D58A17BF1B7A0B9881C7A1CEB(L_0, _stringLiteral1A655518059B91043445CA2A944BA864BB26F663, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/EventNotifications.cs:102>
 		return;
 	}
 }
@@ -13216,12 +12818,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventNotifications_OnMapChange_m8A5713F1
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/EventNotifications.cs:106>
 		NotificationManager_t382AAD0D328D20384698BB77251AB486FE88D1C6* L_0;
 		L_0 = NotificationManager_get_Instance_m7E6E1470622ED62CBE0A81D64FE0FE4C6EFA7D62(NULL);
 		NullCheck(L_0);
 		NotificationManager_GenerateNotification_m3E7D0AA20A3C495CC41DA8F5C33F96A668D75757(L_0, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/EventNotifications.cs:107>
 		return;
 	}
 }
@@ -13245,7 +12845,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventNotifications__ctor_mF43579B7B37E20
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Fader_Start_m783844997EB47CAE69B04F614DD4C60BAFCC574B (Fader_t2463B0BC0C96E704608F7901B8D53FAF06249AC7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/Fader.cs:27>
 		return;
 	}
 }
@@ -13259,12 +12858,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Fader_OnEnable_m3B6E41437130A0BF3953CD36
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/Fader.cs:31>
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_0;
 		L_0 = Component_GetComponent_TisCanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094_mA3B0428368982ED39ADEBB220EE67D1E99D8B2D2(__this, Component_GetComponent_TisCanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094_mA3B0428368982ED39ADEBB220EE67D1E99D8B2D2_RuntimeMethod_var);
 		__this->___m_canvasGroup = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_canvasGroup), (void*)L_0);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/Fader.cs:32>
 		return;
 	}
 }
@@ -13272,7 +12869,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Fader_OnEnable_m3B6E41437130A0BF3953CD36
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Fader_ToggleFade_m52FE1D0ABDD3B3A81AAD65D9F070CE3ACB99872C (Fader_t2463B0BC0C96E704608F7901B8D53FAF06249AC7* __this, bool ___0_isOn, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/Fader.cs:36>
 		bool L_0 = ___0_isOn;
 		if (!L_0)
 		{
@@ -13280,16 +12876,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Fader_ToggleFade_m52FE1D0ABDD3B3A81AAD65
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/Fader.cs:37>
 		Fader_FadeIn_m38A38CD13D01CEC66696E5C22358FA1D438804DC(__this, NULL);
 		return;
 	}
 
 IL_000a:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/Fader.cs:39>
 		Fader_FadeOut_m04E3824D66BF15B9A07A04843DC116164F8AB125(__this, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/Fader.cs:40>
 		return;
 	}
 }
@@ -13297,7 +12890,6 @@ IL_000a:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Fader_FadeOut_m04E3824D66BF15B9A07A04843DC116164F8AB125 (Fader_t2463B0BC0C96E704608F7901B8D53FAF06249AC7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/Fader.cs:44>
 		RuntimeObject* L_0 = __this->___m_fade;
 		if (!L_0)
 		{
@@ -13305,14 +12897,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Fader_FadeOut_m04E3824D66BF15B9A07A04843
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/Fader.cs:46>
 		RuntimeObject* L_1 = __this->___m_fade;
 		MonoBehaviour_StopCoroutine_mF9E93B82091E804595BE13AA29F9AB7517F7E04A(__this, L_1, NULL);
 	}
 
 IL_0014:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/Fader.cs:49>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2;
 		L_2 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_2);
@@ -13324,26 +12914,21 @@ IL_0014:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/Fader.cs:50>
 		return;
 	}
 
 IL_0022:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/Fader.cs:52>
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_4 = __this->___m_canvasGroup;
 		NullCheck(L_4);
 		CanvasGroup_set_alpha_m5C06839316D948BB4F75ED72C87FA1F1A20C333F(L_4, (1.0f), NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/Fader.cs:54>
 		RuntimeObject* L_5;
 		L_5 = Fader_FadeOutCoroutine_m31C41AB8BE142DC0BE434D03C75073AC035F4119(__this, NULL);
 		__this->___m_fade = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_fade), (void*)L_5);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/Fader.cs:55>
 		RuntimeObject* L_6 = __this->___m_fade;
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_7;
 		L_7 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_6, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/Fader.cs:56>
 		return;
 	}
 }
@@ -13351,7 +12936,6 @@ IL_0022:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Fader_FadeIn_m38A38CD13D01CEC66696E5C22358FA1D438804DC (Fader_t2463B0BC0C96E704608F7901B8D53FAF06249AC7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/Fader.cs:60>
 		RuntimeObject* L_0 = __this->___m_fade;
 		if (!L_0)
 		{
@@ -13359,14 +12943,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Fader_FadeIn_m38A38CD13D01CEC66696E5C223
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/Fader.cs:62>
 		RuntimeObject* L_1 = __this->___m_fade;
 		MonoBehaviour_StopCoroutine_mF9E93B82091E804595BE13AA29F9AB7517F7E04A(__this, L_1, NULL);
 	}
 
 IL_0014:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/Fader.cs:65>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2;
 		L_2 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_2);
@@ -13378,12 +12960,10 @@ IL_0014:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/Fader.cs:67>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4;
 		L_4 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_4);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_4, (bool)1, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/Fader.cs:68>
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_5 = __this->___m_canvasGroup;
 		NullCheck(L_5);
 		CanvasGroup_set_alpha_m5C06839316D948BB4F75ED72C87FA1F1A20C333F(L_5, (0.0f), NULL);
@@ -13391,16 +12971,13 @@ IL_0014:
 
 IL_003d:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/Fader.cs:71>
 		RuntimeObject* L_6;
 		L_6 = Fader_FadeInCoroutine_mD15C380CD15F12C2AEB9C8936677911F49A4484C(__this, NULL);
 		__this->___m_fade = L_6;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_fade), (void*)L_6);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/Fader.cs:72>
 		RuntimeObject* L_7 = __this->___m_fade;
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_8;
 		L_8 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_7, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/Fader.cs:73>
 		return;
 	}
 }
@@ -13446,7 +13023,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Fader_FadeInCoroutine_mD15C380
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Fader__ctor_m1CFD0DA759637C05A16D3C3D711A4A337A20D94D (Fader_t2463B0BC0C96E704608F7901B8D53FAF06249AC7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/Fader.cs:21>
 		__this->___fadeTime = (1.0f);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -13521,7 +13097,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CFadeInCoroutineU3Ed__9_MoveNext_mA940
 IL_0026:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/Fader.cs:89>
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_3 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_3, (0.100000001f), NULL);
 		__this->___U3CU3E2__current = L_3;
@@ -13538,7 +13113,6 @@ IL_0046:
 
 IL_004f:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/Fader.cs:92>
 		Fader_t2463B0BC0C96E704608F7901B8D53FAF06249AC7* L_4 = V_1;
 		NullCheck(L_4);
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_5 = L_4->___m_canvasGroup;
@@ -13553,7 +13127,6 @@ IL_004f:
 		float L_10 = L_9->___fadeTime;
 		NullCheck(L_6);
 		CanvasGroup_set_alpha_m5C06839316D948BB4F75ED72C87FA1F1A20C333F(L_6, ((float)il2cpp_codegen_add(L_7, ((float)(L_8/L_10)))), NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/Fader.cs:93>
 		__this->___U3CU3E2__current = NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)NULL);
 		__this->___U3CU3E1__state = 2;
@@ -13567,7 +13140,6 @@ IL_007d:
 
 IL_0084:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/Fader.cs:90>
 		Fader_t2463B0BC0C96E704608F7901B8D53FAF06249AC7* L_11 = V_1;
 		NullCheck(L_11);
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_12 = L_11->___m_canvasGroup;
@@ -13580,13 +13152,11 @@ IL_0084:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/Fader.cs:95>
 		Fader_t2463B0BC0C96E704608F7901B8D53FAF06249AC7* L_14 = V_1;
 		NullCheck(L_14);
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_15 = L_14->___m_canvasGroup;
 		NullCheck(L_15);
 		CanvasGroup_set_alpha_m5C06839316D948BB4F75ED72C87FA1F1A20C333F(L_15, (1.0f), NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/Fader.cs:96>
 		__this->___U3CU3E2__current = NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)NULL);
 		__this->___U3CU3E1__state = 3;
@@ -13596,7 +13166,6 @@ IL_0084:
 IL_00b6:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/Fader.cs:97>
 		return (bool)0;
 	}
 }
@@ -13694,7 +13263,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CFadeOutCoroutineU3Ed__8_MoveNext_m0DC
 IL_0026:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/Fader.cs:77>
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_3 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_3, (0.100000001f), NULL);
 		__this->___U3CU3E2__current = L_3;
@@ -13711,7 +13279,6 @@ IL_0046:
 
 IL_004f:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/Fader.cs:80>
 		Fader_t2463B0BC0C96E704608F7901B8D53FAF06249AC7* L_4 = V_1;
 		NullCheck(L_4);
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_5 = L_4->___m_canvasGroup;
@@ -13726,7 +13293,6 @@ IL_004f:
 		float L_10 = L_9->___fadeTime;
 		NullCheck(L_6);
 		CanvasGroup_set_alpha_m5C06839316D948BB4F75ED72C87FA1F1A20C333F(L_6, ((float)il2cpp_codegen_subtract(L_7, ((float)(L_8/L_10)))), NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/Fader.cs:81>
 		__this->___U3CU3E2__current = NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)NULL);
 		__this->___U3CU3E1__state = 2;
@@ -13740,7 +13306,6 @@ IL_007d:
 
 IL_0084:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/Fader.cs:78>
 		Fader_t2463B0BC0C96E704608F7901B8D53FAF06249AC7* L_11 = V_1;
 		NullCheck(L_11);
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_12 = L_11->___m_canvasGroup;
@@ -13753,14 +13318,12 @@ IL_0084:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/Fader.cs:83>
 		Fader_t2463B0BC0C96E704608F7901B8D53FAF06249AC7* L_14 = V_1;
 		NullCheck(L_14);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15;
 		L_15 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_14, NULL);
 		NullCheck(L_15);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_15, (bool)0, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/Fader.cs:84>
 		__this->___U3CU3E2__current = NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)NULL);
 		__this->___U3CU3E1__state = 3;
@@ -13770,7 +13333,6 @@ IL_0084:
 IL_00b2:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/Fader.cs:85>
 		return (bool)0;
 	}
 }
@@ -13811,7 +13373,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CFadeOutCoroutineU3Ed__8_Sys
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t HorizontalProgressBar_get_currentValue_mEF82171E561FB3C8A98C04B68D20599DCA112DF2 (HorizontalProgressBar_tC74C46C4430F2F8F8526EC55ADB3B5A1F7007E47* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/HorizontalProgressBar.cs:31>
 		int32_t L_0 = __this->___m_CurrentValue;
 		return L_0;
 	}
@@ -13826,16 +13387,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HorizontalProgressBar_set_currentValue_m
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/HorizontalProgressBar.cs:34>
 		int32_t L_0 = ___0_value;
 		__this->___m_CurrentValue = L_0;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/HorizontalProgressBar.cs:35>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_1 = __this->___m_ForegroundImage;
 		int32_t L_2 = ___0_value;
 		int32_t L_3 = __this->___maxValue;
 		NullCheck(L_1);
 		Image_set_fillAmount_m8A9B55F47F966A3214EAC4ACBFE198776A98FAA7(L_1, ((float)(((float)L_2)/((float)L_3))), NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/HorizontalProgressBar.cs:37>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_4 = __this->___m_LabelText;
 		int32_t L_5 = ___0_value;
 		int32_t L_6 = L_5;
@@ -13844,7 +13402,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HorizontalProgressBar_set_currentValue_m
 		L_8 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral517C1E9240257ADB3B22BB9D500C1A9DA0CF2A66, L_7, NULL);
 		NullCheck(L_4);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_4, L_8);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/HorizontalProgressBar.cs:38>
 		return;
 	}
 }
@@ -13852,9 +13409,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HorizontalProgressBar_set_currentValue_m
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HorizontalProgressBar_Start_m54077527257DE7AD2CF5F1B83EF1BD3720E1E7B1 (HorizontalProgressBar_tC74C46C4430F2F8F8526EC55ADB3B5A1F7007E47* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/HorizontalProgressBar.cs:43>
 		HorizontalProgressBar_Reset_mE399C5F1063DE2B0F72A82F8E2B776B76D79D1F9(__this, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/HorizontalProgressBar.cs:44>
 		return;
 	}
 }
@@ -13862,9 +13417,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HorizontalProgressBar_Start_m54077527257
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HorizontalProgressBar_Reset_mE399C5F1063DE2B0F72A82F8E2B776B76D79D1F9 (HorizontalProgressBar_tC74C46C4430F2F8F8526EC55ADB3B5A1F7007E47* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/HorizontalProgressBar.cs:48>
 		HorizontalProgressBar_set_currentValue_mC14AD24B39CBC22694C74CE15E02DF78FF7E8AA3(__this, 0, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/HorizontalProgressBar.cs:49>
 		return;
 	}
 }
@@ -13872,7 +13425,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HorizontalProgressBar_Reset_mE399C5F1063
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HorizontalProgressBar__ctor_mE148F99E0A1ADBB8AF2D695E5CBF2963804472F9 (HorizontalProgressBar_tC74C46C4430F2F8F8526EC55ADB3B5A1F7007E47* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/HorizontalProgressBar.cs:27>
 		__this->___maxValue = ((int32_t)100);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -13914,7 +13466,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IDispatch_Dispatch_m9AF0657E53D0DD1D2AE8
 		NullCheck(L_3);
 		L_3->___U3CU3E4__this = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&L_3->___U3CU3E4__this), (void*)__this);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/IDispatcher.cs:28>
 		U3CU3Ec__DisplayClass5_0_tB5BE06CE8067B320FAFBC9066EED937979EFBCA6* L_4 = V_0;
 		NullCheck(L_4);
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_5 = L_4->___action;
@@ -13924,13 +13475,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IDispatch_Dispatch_m9AF0657E53D0DD1D2AE8
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/IDispatcher.cs:28>
 		return;
 	}
 
 IL_001d:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/IDispatcher.cs:29>
 		U3CU3Ec__DisplayClass5_0_tB5BE06CE8067B320FAFBC9066EED937979EFBCA6* L_6 = V_0;
 		U3CU3Ec__DisplayClass5_0_tB5BE06CE8067B320FAFBC9066EED937979EFBCA6* L_7 = V_0;
 		NullCheck(L_7);
@@ -13938,7 +13487,6 @@ IL_001d:
 		NullCheck(L_6);
 		L_6->___actionWrapper = L_8;
 		Il2CppCodeGenWriteBarrier((void**)(&L_6->___actionWrapper), (void*)L_8);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/IDispatcher.cs:30>
 		bool L_9 = ___1_repeating;
 		if (!L_9)
 		{
@@ -13946,11 +13494,6 @@ IL_001d:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/IDispatcher.cs:30>
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/IDispatcher.cs:31>
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/IDispatcher.cs:32>
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/IDispatcher.cs:33>
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/IDispatcher.cs:34>
 		U3CU3Ec__DisplayClass5_0_tB5BE06CE8067B320FAFBC9066EED937979EFBCA6* L_10 = V_0;
 		U3CU3Ec__DisplayClass5_0_tB5BE06CE8067B320FAFBC9066EED937979EFBCA6* L_11 = V_0;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_12 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
@@ -13962,7 +13505,6 @@ IL_001d:
 
 IL_003e:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/IDispatcher.cs:35>
 		Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* L_13;
 		L_13 = Thread_get_CurrentThread_m6D4719F4993DB9200490531FF02D4076FF9CA9BD(NULL);
 		NullCheck(L_13);
@@ -13985,7 +13527,6 @@ IL_003e:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/IDispatcher.cs:35>
 		U3CU3Ec__DisplayClass5_0_tB5BE06CE8067B320FAFBC9066EED937979EFBCA6* L_18 = V_0;
 		NullCheck(L_18);
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_19 = L_18->___actionWrapper;
@@ -13996,7 +13537,6 @@ IL_003e:
 
 IL_0064:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/IDispatcher.cs:36>
 		RuntimeObject* L_20 = __this->___queueLock;
 		V_1 = L_20;
 		V_2 = (bool)0;
@@ -14029,7 +13569,6 @@ IL_0091:
 		{
 			RuntimeObject* L_23 = V_1;
 			Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149(L_23, (&V_2), NULL);
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/IDispatcher.cs:36>
 			List_1_tDB72209F35D56F62A287633F9450978E90B90987* L_24 = __this->___pending;
 			U3CU3Ec__DisplayClass5_0_tB5BE06CE8067B320FAFBC9066EED937979EFBCA6* L_25 = V_0;
 			NullCheck(L_25);
@@ -14046,7 +13585,6 @@ IL_0091:
 
 IL_0092:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/IDispatcher.cs:37>
 		return;
 	}
 }
@@ -14063,29 +13601,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IDispatch_Release_m8C14650BBDABBD9F8851A
 	}
 	List_1_tDB72209F35D56F62A287633F9450978E90B90987* V_0 = NULL;
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/IDispatcher.cs:41>
 		CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* L_0 = ((Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_StaticFields*)il2cpp_codegen_static_fields_for(Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_il2cpp_TypeInfo_var))->___onPostRender;
 		CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* L_1 = __this->___updateLoop;
 		Delegate_t* L_2;
 		L_2 = Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3(L_0, L_1, NULL);
 		((Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_StaticFields*)il2cpp_codegen_static_fields_for(Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_il2cpp_TypeInfo_var))->___onPostRender = ((CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD*)CastclassSealed((RuntimeObject*)L_2, CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD_il2cpp_TypeInfo_var));
 		Il2CppCodeGenWriteBarrier((void**)(&((Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_StaticFields*)il2cpp_codegen_static_fields_for(Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_il2cpp_TypeInfo_var))->___onPostRender), (void*)((CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD*)CastclassSealed((RuntimeObject*)L_2, CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD_il2cpp_TypeInfo_var)));
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/IDispatcher.cs:42>
 		List_1_tDB72209F35D56F62A287633F9450978E90B90987* L_3 = __this->___pending;
 		NullCheck(L_3);
 		List_1_Clear_m344AD90676A608EA37B9DF93050BA9F80C23D17E_inline(L_3, List_1_Clear_m344AD90676A608EA37B9DF93050BA9F80C23D17E_RuntimeMethod_var);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/IDispatcher.cs:42>
 		List_1_tDB72209F35D56F62A287633F9450978E90B90987* L_4 = __this->___executing;
 		NullCheck(L_4);
 		List_1_Clear_m344AD90676A608EA37B9DF93050BA9F80C23D17E_inline(L_4, List_1_Clear_m344AD90676A608EA37B9DF93050BA9F80C23D17E_RuntimeMethod_var);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/IDispatcher.cs:43>
 		V_0 = (List_1_tDB72209F35D56F62A287633F9450978E90B90987*)NULL;
 		__this->___executing = (List_1_tDB72209F35D56F62A287633F9450978E90B90987*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___executing), (void*)(List_1_tDB72209F35D56F62A287633F9450978E90B90987*)NULL);
 		List_1_tDB72209F35D56F62A287633F9450978E90B90987* L_5 = V_0;
 		__this->___pending = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___pending), (void*)L_5);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/IDispatcher.cs:44>
 		return;
 	}
 }
@@ -14110,7 +13643,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IDispatch_Update_m45337445516F9CDC9060C3
 	Action_1_t3137749576010DD307B29662A2E47C43C7F7D04C* G_B6_0 = NULL;
 	List_1_tDB72209F35D56F62A287633F9450978E90B90987* G_B6_1 = NULL;
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/IDispatcher.cs:48>
 		RuntimeObject* L_0 = __this->___queueLock;
 		V_0 = L_0;
 		V_1 = (bool)0;
@@ -14143,16 +13675,13 @@ IL_0038:
 		{
 			RuntimeObject* L_3 = V_0;
 			Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149(L_3, (&V_1), NULL);
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/IDispatcher.cs:49>
 			List_1_tDB72209F35D56F62A287633F9450978E90B90987* L_4 = __this->___executing;
 			List_1_tDB72209F35D56F62A287633F9450978E90B90987* L_5 = __this->___pending;
 			NullCheck(L_4);
 			List_1_AddRange_m475DC02C782750D4036B11E287BC01ECB8313D1D(L_4, L_5, List_1_AddRange_m475DC02C782750D4036B11E287BC01ECB8313D1D_RuntimeMethod_var);
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/IDispatcher.cs:50>
 			List_1_tDB72209F35D56F62A287633F9450978E90B90987* L_6 = __this->___pending;
 			NullCheck(L_6);
 			List_1_Clear_m344AD90676A608EA37B9DF93050BA9F80C23D17E_inline(L_6, List_1_Clear_m344AD90676A608EA37B9DF93050BA9F80C23D17E_RuntimeMethod_var);
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/IDispatcher.cs:51>
 			goto IL_0039;
 		}
 		catch(Il2CppExceptionWrapper& e)
@@ -14163,7 +13692,6 @@ IL_0038:
 
 IL_0039:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/IDispatcher.cs:52>
 		List_1_tDB72209F35D56F62A287633F9450978E90B90987* L_7 = __this->___executing;
 		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t6DB8E1524B6FC23A851FBB591A501C5611010BD7_il2cpp_TypeInfo_var);
 		Action_1_t3137749576010DD307B29662A2E47C43C7F7D04C* L_8 = ((U3CU3Ec_t6DB8E1524B6FC23A851FBB591A501C5611010BD7_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t6DB8E1524B6FC23A851FBB591A501C5611010BD7_il2cpp_TypeInfo_var))->___U3CU3E9__7_0;
@@ -14193,11 +13721,9 @@ IL_005e:
 	{
 		NullCheck(G_B7_1);
 		List_1_ForEach_mDAB7432FD67F98CE122DDE396ECCC8E153699BC7(G_B7_1, G_B7_0, List_1_ForEach_mDAB7432FD67F98CE122DDE396ECCC8E153699BC7_RuntimeMethod_var);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/IDispatcher.cs:53>
 		List_1_tDB72209F35D56F62A287633F9450978E90B90987* L_13 = __this->___executing;
 		NullCheck(L_13);
 		List_1_Clear_m344AD90676A608EA37B9DF93050BA9F80C23D17E_inline(L_13, List_1_Clear_m344AD90676A608EA37B9DF93050BA9F80C23D17E_RuntimeMethod_var);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/IDispatcher.cs:54>
 		return;
 	}
 }
@@ -14215,29 +13741,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IDispatch__ctor_m8548EB3E0AD2385326AE7C4
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/IDispatcher.cs:24>
 		RuntimeObject* L_0 = (RuntimeObject*)il2cpp_codegen_object_new(RuntimeObject_il2cpp_TypeInfo_var);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(L_0, NULL);
 		__this->___queueLock = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___queueLock), (void*)L_0);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/IDispatcher.cs:56>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/IDispatcher.cs:58>
 		CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* L_1 = (CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD*)il2cpp_codegen_object_new(CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD_il2cpp_TypeInfo_var);
 		CameraCallback__ctor_mB48D13F30E749B551E4692E4F2D762C375F62B41(L_1, __this, (intptr_t)((void*)IDispatch_U3C_ctorU3Eb__8_0_m55432D5F8AF5649542F1EF477413741CCD347FFE_RuntimeMethod_var), NULL);
 		__this->___updateLoop = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___updateLoop), (void*)L_1);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/IDispatcher.cs:59>
 		List_1_tDB72209F35D56F62A287633F9450978E90B90987* L_2 = (List_1_tDB72209F35D56F62A287633F9450978E90B90987*)il2cpp_codegen_object_new(List_1_tDB72209F35D56F62A287633F9450978E90B90987_il2cpp_TypeInfo_var);
 		List_1__ctor_mBFD6DF02E045EDF3C322E2112C922457016C8212(L_2, List_1__ctor_mBFD6DF02E045EDF3C322E2112C922457016C8212_RuntimeMethod_var);
 		__this->___pending = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___pending), (void*)L_2);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/IDispatcher.cs:60>
 		List_1_tDB72209F35D56F62A287633F9450978E90B90987* L_3 = (List_1_tDB72209F35D56F62A287633F9450978E90B90987*)il2cpp_codegen_object_new(List_1_tDB72209F35D56F62A287633F9450978E90B90987_il2cpp_TypeInfo_var);
 		List_1__ctor_mBFD6DF02E045EDF3C322E2112C922457016C8212(L_3, List_1__ctor_mBFD6DF02E045EDF3C322E2112C922457016C8212_RuntimeMethod_var);
 		__this->___executing = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___executing), (void*)L_3);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/IDispatcher.cs:61>
 		return;
 	}
 }
@@ -14245,7 +13765,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IDispatch__ctor_m8548EB3E0AD2385326AE7C4
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IDispatch_U3C_ctorU3Eb__8_0_m55432D5F8AF5649542F1EF477413741CCD347FFE (IDispatch_t696BAFC9A93A0E18FC6FE36DDD07BB537BDFFB79* __this, Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___0_cam, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/IDispatcher.cs:58>
 		VirtualActionInvoker0::Invoke(6, __this);
 		return;
 	}
@@ -14287,7 +13806,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mEA54AAC3B3548A466A3B1B324
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CUpdateU3Eb__7_0_m25DD76DF7FE66A38BBA8377F97B370EA71E372CE (U3CU3Ec_t6DB8E1524B6FC23A851FBB591A501C5611010BD7* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_e, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/IDispatcher.cs:52>
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ___0_e;
 		NullCheck(L_0);
 		Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline(L_0, NULL);
@@ -14322,11 +13840,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass5_0_U3CDispatchU3Eb
 	RuntimeObject* V_0 = NULL;
 	bool V_1 = false;
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/IDispatcher.cs:32>
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = __this->___action;
 		NullCheck(L_0);
 		Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline(L_0, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/IDispatcher.cs:33>
 		IDispatch_t696BAFC9A93A0E18FC6FE36DDD07BB537BDFFB79* L_1 = __this->___U3CU3E4__this;
 		NullCheck(L_1);
 		RuntimeObject* L_2 = L_1->___queueLock;
@@ -14361,7 +13877,6 @@ IL_0042:
 		{
 			RuntimeObject* L_5 = V_0;
 			Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149(L_5, (&V_1), NULL);
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/IDispatcher.cs:33>
 			IDispatch_t696BAFC9A93A0E18FC6FE36DDD07BB537BDFFB79* L_6 = __this->___U3CU3E4__this;
 			NullCheck(L_6);
 			List_1_tDB72209F35D56F62A287633F9450978E90B90987* L_7 = L_6->___pending;
@@ -14378,7 +13893,6 @@ IL_0042:
 
 IL_0043:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/IDispatcher.cs:34>
 		return;
 	}
 }
@@ -14401,18 +13915,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalizationStatus_Start_mF7515842D6EBA9
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/LocalizationStatus.cs:30>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_0;
 		L_0 = Component_GetComponent_TisTextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957_m23F8F2F9DD5A54329CEB47D53B4CAA8BC4A562AA(__this, Component_GetComponent_TisTextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957_m23F8F2F9DD5A54329CEB47D53B4CAA8BC4A562AA_RuntimeMethod_var);
 		__this->___m_LabelText = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_LabelText), (void*)L_0);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/LocalizationStatus.cs:31>
 		il2cpp_codegen_runtime_class_init_inline(ImmersalSDK_tA2B473468505E492034E77501B051A95E8923AE7_il2cpp_TypeInfo_var);
 		ImmersalSDK_tA2B473468505E492034E77501B051A95E8923AE7* L_1;
 		L_1 = ImmersalSDK_get_Instance_m05A1121F137AE7ABA31ADC594C9DD81D0F9A9452(NULL);
 		__this->___m_Sdk = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Sdk), (void*)L_1);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/LocalizationStatus.cs:32>
 		return;
 	}
 }
@@ -14429,7 +13940,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalizationStatus_Update_mE47E72D464A0C
 	}
 	RuntimeObject* V_0 = NULL;
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/LocalizationStatus.cs:36>
 		ImmersalSDK_tA2B473468505E492034E77501B051A95E8923AE7* L_0 = __this->___m_Sdk;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -14440,19 +13950,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalizationStatus_Update_mE47E72D464A0C
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/LocalizationStatus.cs:37>
 		return;
 	}
 
 IL_000f:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/LocalizationStatus.cs:39>
 		ImmersalSDK_tA2B473468505E492034E77501B051A95E8923AE7* L_2 = __this->___m_Sdk;
 		NullCheck(L_2);
 		RuntimeObject* L_3;
 		L_3 = ImmersalSDK_get_TrackingStatus_m98D03DCC5158A8A67EA33E535A6FDC6F5B8593FF(L_2, NULL);
 		V_0 = L_3;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/LocalizationStatus.cs:40>
 		RuntimeObject* L_4 = V_0;
 		if (!L_4)
 		{
@@ -14460,7 +13967,6 @@ IL_000f:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/LocalizationStatus.cs:42>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_5 = __this->___m_LabelText;
 		RuntimeObject* L_6 = V_0;
 		NullCheck(L_6);
@@ -14482,7 +13988,6 @@ IL_000f:
 
 IL_0049:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/LocalizationStatus.cs:46>
 		return;
 	}
 }
@@ -14506,7 +14011,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalizationStatus__ctor_m6FF474070C8E9A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double LocationUtil_toRadians_m7AC80F4404096F3F9A8CF9825F091A8B716D33D6 (double ___0_angle, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/LocationUtil.cs:10>
 		double L_0 = ___0_angle;
 		return ((double)il2cpp_codegen_multiply((0.017453292519943295), L_0));
 	}
@@ -14528,38 +14032,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double LocationUtil_DistanceBetweenPoints_m02
 	double V_5 = 0.0;
 	double V_6 = 0.0;
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/LocationUtil.cs:16>
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/LocationUtil.cs:17>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___0_p1;
 		float L_1 = L_0.___x;
 		double L_2;
 		L_2 = LocationUtil_toRadians_m7AC80F4404096F3F9A8CF9825F091A8B716D33D6(((double)L_1), NULL);
 		V_0 = L_2;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/LocationUtil.cs:18>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_3 = ___1_p2;
 		float L_4 = L_3.___x;
 		double L_5;
 		L_5 = LocationUtil_toRadians_m7AC80F4404096F3F9A8CF9825F091A8B716D33D6(((double)L_4), NULL);
 		V_1 = L_5;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/LocationUtil.cs:19>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6 = ___0_p1;
 		float L_7 = L_6.___y;
 		double L_8;
 		L_8 = LocationUtil_toRadians_m7AC80F4404096F3F9A8CF9825F091A8B716D33D6(((double)L_7), NULL);
 		V_2 = L_8;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/LocationUtil.cs:20>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_9 = ___1_p2;
 		float L_10 = L_9.___y;
 		double L_11;
 		L_11 = LocationUtil_toRadians_m7AC80F4404096F3F9A8CF9825F091A8B716D33D6(((double)L_10), NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/LocationUtil.cs:21>
 		double L_12 = V_1;
 		double L_13 = V_0;
 		V_3 = ((double)il2cpp_codegen_subtract(L_12, L_13));
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/LocationUtil.cs:22>
 		double L_14 = V_2;
 		V_4 = ((double)il2cpp_codegen_subtract(L_11, L_14));
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/LocationUtil.cs:25>
 		double L_15 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
 		double L_16;
@@ -14580,7 +14076,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double LocationUtil_DistanceBetweenPoints_m02
 		double L_26;
 		L_26 = sin(((double)(L_25/(2.0))));
 		V_5 = ((double)il2cpp_codegen_add(((double)il2cpp_codegen_multiply(L_16, L_18)), ((double)il2cpp_codegen_multiply(((double)il2cpp_codegen_multiply(((double)il2cpp_codegen_multiply(L_20, L_22)), L_24)), L_26))));
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/LocationUtil.cs:27>
 		double L_27 = V_5;
 		double L_28;
 		L_28 = sqrt(L_27);
@@ -14590,9 +14085,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double LocationUtil_DistanceBetweenPoints_m02
 		double L_31;
 		L_31 = atan2(L_28, L_30);
 		V_6 = ((double)il2cpp_codegen_multiply((2.0), L_31));
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/LocationUtil.cs:29>
 		double L_32 = V_6;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/LocationUtil.cs:31>
 		return ((double)il2cpp_codegen_multiply((6371000.0), L_32));
 	}
 }
@@ -14615,21 +14108,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainThreadDispatch__ctor_m5AFA79CFD751D8
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/MainThreadDispatch.cs:8>
 		IDispatch__ctor_m8548EB3E0AD2385326AE7C4A10B452CB25CC6EAE(__this, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/MainThreadDispatch.cs:10>
 		Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* L_0;
 		L_0 = Thread_get_CurrentThread_m6D4719F4993DB9200490531FF02D4076FF9CA9BD(NULL);
 		((IDispatch_t696BAFC9A93A0E18FC6FE36DDD07BB537BDFFB79*)__this)->___targetThread = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&((IDispatch_t696BAFC9A93A0E18FC6FE36DDD07BB537BDFFB79*)__this)->___targetThread), (void*)L_0);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/MainThreadDispatch.cs:11>
 		CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* L_1 = ((Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_StaticFields*)il2cpp_codegen_static_fields_for(Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_il2cpp_TypeInfo_var))->___onPostRender;
 		CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* L_2 = ((IDispatch_t696BAFC9A93A0E18FC6FE36DDD07BB537BDFFB79*)__this)->___updateLoop;
 		Delegate_t* L_3;
 		L_3 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00(L_1, L_2, NULL);
 		((Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_StaticFields*)il2cpp_codegen_static_fields_for(Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_il2cpp_TypeInfo_var))->___onPostRender = ((CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD*)CastclassSealed((RuntimeObject*)L_3, CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD_il2cpp_TypeInfo_var));
 		Il2CppCodeGenWriteBarrier((void**)(&((Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_StaticFields*)il2cpp_codegen_static_fields_for(Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_il2cpp_TypeInfo_var))->___onPostRender), (void*)((CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD*)CastclassSealed((RuntimeObject*)L_3, CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD_il2cpp_TypeInfo_var)));
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/MainThreadDispatch.cs:12>
 		return;
 	}
 }
@@ -14654,7 +14143,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NotificationManager_t382AAD0D328D20384698BB77
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/NotificationManager.cs:33>
 		NotificationManager_t382AAD0D328D20384698BB77251AB486FE88D1C6* L_0 = ((NotificationManager_t382AAD0D328D20384698BB77251AB486FE88D1C6_StaticFields*)il2cpp_codegen_static_fields_for(NotificationManager_t382AAD0D328D20384698BB77251AB486FE88D1C6_il2cpp_TypeInfo_var))->___instance;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -14665,14 +14153,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NotificationManager_t382AAD0D328D20384698BB77
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/NotificationManager.cs:35>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteralC9B5C1E82555EFDB85D760DB579138E796057F20, NULL);
 	}
 
 IL_0017:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/NotificationManager.cs:37>
 		NotificationManager_t382AAD0D328D20384698BB77251AB486FE88D1C6* L_2 = ((NotificationManager_t382AAD0D328D20384698BB77251AB486FE88D1C6_StaticFields*)il2cpp_codegen_static_fields_for(NotificationManager_t382AAD0D328D20384698BB77251AB486FE88D1C6_il2cpp_TypeInfo_var))->___instance;
 		return L_2;
 	}
@@ -14691,7 +14177,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotificationManager_Awake_mB84A8CC07CA8C
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/NotificationManager.cs:45>
 		NotificationManager_t382AAD0D328D20384698BB77251AB486FE88D1C6* L_0 = ((NotificationManager_t382AAD0D328D20384698BB77251AB486FE88D1C6_StaticFields*)il2cpp_codegen_static_fields_for(NotificationManager_t382AAD0D328D20384698BB77251AB486FE88D1C6_il2cpp_TypeInfo_var))->___instance;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -14702,14 +14187,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotificationManager_Awake_mB84A8CC07CA8C
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/NotificationManager.cs:47>
 		((NotificationManager_t382AAD0D328D20384698BB77251AB486FE88D1C6_StaticFields*)il2cpp_codegen_static_fields_for(NotificationManager_t382AAD0D328D20384698BB77251AB486FE88D1C6_il2cpp_TypeInfo_var))->___instance = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&((NotificationManager_t382AAD0D328D20384698BB77251AB486FE88D1C6_StaticFields*)il2cpp_codegen_static_fields_for(NotificationManager_t382AAD0D328D20384698BB77251AB486FE88D1C6_il2cpp_TypeInfo_var))->___instance), (void*)__this);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/NotificationManager.cs:49>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___m_Notification;
 		NullCheck(L_2);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_2, (bool)0, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/NotificationManager.cs:50>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = __this->___m_Notification;
 		NullCheck(L_3);
 		CreateNotification_t37CDFBCE326DAC4EEA54BED01DEFF0CC1B77F0DE* L_4;
@@ -14720,7 +14202,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotificationManager_Awake_mB84A8CC07CA8C
 
 IL_0030:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/NotificationManager.cs:52>
 		NotificationManager_t382AAD0D328D20384698BB77251AB486FE88D1C6* L_5 = ((NotificationManager_t382AAD0D328D20384698BB77251AB486FE88D1C6_StaticFields*)il2cpp_codegen_static_fields_for(NotificationManager_t382AAD0D328D20384698BB77251AB486FE88D1C6_il2cpp_TypeInfo_var))->___instance;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_6;
@@ -14731,19 +14212,15 @@ IL_0030:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/NotificationManager.cs:54>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteralB514D2BDF73F179B47BA8AC372DB0B5C0106BD60, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/NotificationManager.cs:55>
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_DestroyImmediate_m6336EBC83591A5DB64EC70C92132824C6E258705(__this, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/NotificationManager.cs:56>
 		return;
 	}
 
 IL_004e:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/NotificationManager.cs:58>
 		return;
 	}
 }
@@ -14751,17 +14228,14 @@ IL_004e:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotificationManager_InitNotification_mFE6BFB17132D5361F272C1CFFC6E193C4F4B5067 (NotificationManager_t382AAD0D328D20384698BB77251AB486FE88D1C6* __this, int32_t ___0_type, String_t* ___1_text, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/NotificationManager.cs:62>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___m_Notification;
 		NullCheck(L_0);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)1, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/NotificationManager.cs:63>
 		CreateNotification_t37CDFBCE326DAC4EEA54BED01DEFF0CC1B77F0DE* L_1 = __this->___m_CreateNotification;
 		int32_t L_2 = ___0_type;
 		String_t* L_3 = ___1_text;
 		NullCheck(L_1);
 		CreateNotification_SetIconAndText_mCD80652A960138BE5B599735CD04B838E98CB5CC(L_1, L_2, L_3, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/NotificationManager.cs:64>
 		return;
 	}
 }
@@ -14769,10 +14243,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotificationManager_InitNotification_mFE
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotificationManager_GenerateNotification_m3E7D0AA20A3C495CC41DA8F5C33F96A668D75757 (NotificationManager_t382AAD0D328D20384698BB77251AB486FE88D1C6* __this, String_t* ___0_text, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/NotificationManager.cs:68>
 		String_t* L_0 = ___0_text;
 		NotificationManager_InitNotification_mFE6BFB17132D5361F272C1CFFC6E193C4F4B5067(__this, 1, L_0, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/NotificationManager.cs:69>
 		return;
 	}
 }
@@ -14780,10 +14252,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotificationManager_GenerateNotification
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotificationManager_GenerateWarning_mF2FB53E3FFEA4C8D58A17BF1B7A0B9881C7A1CEB (NotificationManager_t382AAD0D328D20384698BB77251AB486FE88D1C6* __this, String_t* ___0_text, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/NotificationManager.cs:73>
 		String_t* L_0 = ___0_text;
 		NotificationManager_InitNotification_mFE6BFB17132D5361F272C1CFFC6E193C4F4B5067(__this, 2, L_0, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/NotificationManager.cs:74>
 		return;
 	}
 }
@@ -14791,10 +14261,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotificationManager_GenerateWarning_mF2F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotificationManager_GenerateError_m2071E4DE09F7678B4327372AA76B95A6101C60A7 (NotificationManager_t382AAD0D328D20384698BB77251AB486FE88D1C6* __this, String_t* ___0_text, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/NotificationManager.cs:78>
 		String_t* L_0 = ___0_text;
 		NotificationManager_InitNotification_mFE6BFB17132D5361F272C1CFFC6E193C4F4B5067(__this, 3, L_0, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/NotificationManager.cs:79>
 		return;
 	}
 }
@@ -14802,10 +14270,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotificationManager_GenerateError_m2071E
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotificationManager_GenerateSuccess_mD1AD22D8F1107AFEC2EBDC288712EE039BC56D8A (NotificationManager_t382AAD0D328D20384698BB77251AB486FE88D1C6* __this, String_t* ___0_text, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/NotificationManager.cs:83>
 		String_t* L_0 = ___0_text;
 		NotificationManager_InitNotification_mFE6BFB17132D5361F272C1CFFC6E193C4F4B5067(__this, 0, L_0, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/NotificationManager.cs:84>
 		return;
 	}
 }
@@ -14836,18 +14302,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PoseIndicator_Start_m686DE804FFF2840E902
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/PoseIndicator.cs:37>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_0;
 		L_0 = Component_GetComponent_TisImage_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_mE74EE63C85A63FC34DCFC631BC229207B420BC79(__this, Component_GetComponent_TisImage_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_mE74EE63C85A63FC34DCFC631BC229207B420BC79_RuntimeMethod_var);
 		__this->___m_Image = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Image), (void*)L_0);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/PoseIndicator.cs:38>
 		il2cpp_codegen_runtime_class_init_inline(ImmersalSDK_tA2B473468505E492034E77501B051A95E8923AE7_il2cpp_TypeInfo_var);
 		ImmersalSDK_tA2B473468505E492034E77501B051A95E8923AE7* L_1;
 		L_1 = ImmersalSDK_get_Instance_m05A1121F137AE7ABA31ADC594C9DD81D0F9A9452(NULL);
 		__this->___m_Sdk = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Sdk), (void*)L_1);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/PoseIndicator.cs:40>
 		int32_t L_2 = __this->___indicatorMode;
 		if (L_2)
 		{
@@ -14855,7 +14318,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PoseIndicator_Start_m686DE804FFF2840E902
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/PoseIndicator.cs:42>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_3 = __this->___m_Image;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_4 = __this->___noPose;
 		NullCheck(L_3);
@@ -14864,7 +14326,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PoseIndicator_Start_m686DE804FFF2840E902
 
 IL_0030:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/PoseIndicator.cs:44>
 		return;
 	}
 }
@@ -14882,7 +14343,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PoseIndicator_Update_mD5A201CEEF9B45B055
 	RuntimeObject* G_B1_0 = NULL;
 	int32_t G_B3_0 = 0;
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/PoseIndicator.cs:48>
 		ImmersalSDK_tA2B473468505E492034E77501B051A95E8923AE7* L_0 = __this->___m_Sdk;
 		NullCheck(L_0);
 		RuntimeObject* L_1;
@@ -14911,7 +14371,6 @@ IL_0012:
 IL_0017:
 	{
 		V_0 = G_B3_0;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/PoseIndicator.cs:50>
 		int32_t L_4 = __this->___indicatorMode;
 		if (L_4)
 		{
@@ -14942,51 +14401,42 @@ IL_0017:
 
 IL_0034:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/PoseIndicator.cs:55>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_6 = __this->___m_Image;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_7 = __this->___noPose;
 		NullCheck(L_6);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_6, L_7);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/PoseIndicator.cs:56>
 		return;
 	}
 
 IL_0046:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/PoseIndicator.cs:58>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_8 = __this->___m_Image;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_9 = __this->___weakPose;
 		NullCheck(L_8);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_8, L_9);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/PoseIndicator.cs:59>
 		return;
 	}
 
 IL_0058:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/PoseIndicator.cs:61>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_10 = __this->___m_Image;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_11 = __this->___goodPose;
 		NullCheck(L_10);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_10, L_11);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/PoseIndicator.cs:62>
 		return;
 	}
 
 IL_006a:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/PoseIndicator.cs:64>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_12 = __this->___m_Image;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_13 = __this->___excellentPose;
 		NullCheck(L_12);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_12, L_13);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/PoseIndicator.cs:65>
 		return;
 	}
 
 IL_007c:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/PoseIndicator.cs:68>
 		int32_t L_14 = __this->___indicatorMode;
 		if ((!(((uint32_t)L_14) == ((uint32_t)1))))
 		{
@@ -15017,40 +14467,33 @@ IL_007c:
 
 IL_0099:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/PoseIndicator.cs:73>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_16 = __this->___m_Image;
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_17 = __this->___noPoseSprite;
 		NullCheck(L_16);
 		Image_set_sprite_mC0C248340BA27AAEE56855A3FAFA0D8CA12956DE(L_16, L_17, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/PoseIndicator.cs:74>
 		return;
 	}
 
 IL_00ab:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/PoseIndicator.cs:76>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_18 = __this->___m_Image;
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_19 = __this->___weakPoseSprite;
 		NullCheck(L_18);
 		Image_set_sprite_mC0C248340BA27AAEE56855A3FAFA0D8CA12956DE(L_18, L_19, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/PoseIndicator.cs:77>
 		return;
 	}
 
 IL_00bd:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/PoseIndicator.cs:79>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_20 = __this->___m_Image;
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_21 = __this->___goodPoseSprite;
 		NullCheck(L_20);
 		Image_set_sprite_mC0C248340BA27AAEE56855A3FAFA0D8CA12956DE(L_20, L_21, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/PoseIndicator.cs:80>
 		return;
 	}
 
 IL_00cf:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/PoseIndicator.cs:82>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_22 = __this->___m_Image;
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_23 = __this->___excellentPoseSprite;
 		NullCheck(L_22);
@@ -15059,7 +14502,6 @@ IL_00cf:
 
 IL_00e0:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Util/PoseIndicator.cs:86>
 		return;
 	}
 }
@@ -15099,23 +14541,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AddNode_Start_mCC30D622C85E8F8F1E4EC0BD7
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/AddNode.cs:53>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_0;
 		L_0 = Component_GetComponent_TisButton_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098_mFF8BA4CA5D7158D1D6249559A3289E7A6DF0A2BB(__this, Component_GetComponent_TisButton_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098_mFF8BA4CA5D7158D1D6249559A3289E7A6DF0A2BB_RuntimeMethod_var);
 		__this->___button = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___button), (void*)L_0);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/AddNode.cs:54>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_1;
 		L_1 = Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF(NULL);
 		__this->___mainCamera = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___mainCamera), (void*)L_1);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/AddNode.cs:55>
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		XRSpace_tC870F552BC1481C38048217BEF525758956B2B20* L_2;
 		L_2 = Object_FindObjectOfType_TisXRSpace_tC870F552BC1481C38048217BEF525758956B2B20_m20826FC476132959EFD6FD04AA54621BFE301D7E(Object_FindObjectOfType_TisXRSpace_tC870F552BC1481C38048217BEF525758956B2B20_m20826FC476132959EFD6FD04AA54621BFE301D7E_RuntimeMethod_var);
 		__this->___arspace = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___arspace), (void*)L_2);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/AddNode.cs:56>
 		return;
 	}
 }
@@ -15131,7 +14569,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AddNode_Update_m5C143C08386BEF213871407B
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/AddNode.cs:60>
 		bool L_0 = __this->___isPressed;
 		if (!L_0)
 		{
@@ -15139,7 +14576,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AddNode_Update_m5C143C08386BEF213871407B
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/AddNode.cs:62>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->___nodeInstance;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
@@ -15150,7 +14586,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AddNode_Update_m5C143C08386BEF213871407B
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/AddNode.cs:64>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_3 = __this->___mainCamera;
 		NullCheck(L_3);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4;
@@ -15170,7 +14605,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AddNode_Update_m5C143C08386BEF213871407B
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10;
 		L_10 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_5, L_9, NULL);
 		__this->___pos = L_10;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/AddNode.cs:65>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11;
 		L_11 = Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline(NULL);
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_12 = __this->___mainCamera;
@@ -15182,13 +14616,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AddNode_Update_m5C143C08386BEF213871407B
 		L_14 = Transform_get_forward_mFCFACF7165FDAB21E80E384C494DF278386CEE2F(L_13, NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_15;
 		L_15 = Vector3_Cross_mF93A280558BCE756D13B6CC5DCD7DE8A43148987_inline(L_11, L_14, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/AddNode.cs:66>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16;
 		L_16 = Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline(NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17;
 		L_17 = Vector3_Cross_mF93A280558BCE756D13B6CC5DCD7DE8A43148987_inline(L_15, L_16, NULL);
 		V_0 = L_17;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/AddNode.cs:68>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_18 = V_0;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_19;
 		L_19 = Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline(NULL);
@@ -15198,7 +14630,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AddNode_Update_m5C143C08386BEF213871407B
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_22;
 		L_22 = Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_inline(L_20, L_21, NULL);
 		__this->___rot = L_22;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/AddNode.cs:70>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_23 = __this->___nodeInstance;
 		NullCheck(L_23);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_24;
@@ -15206,7 +14637,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AddNode_Update_m5C143C08386BEF213871407B
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_25 = __this->___pos;
 		NullCheck(L_24);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_24, L_25, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/AddNode.cs:71>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_26 = __this->___nodeInstance;
 		NullCheck(L_26);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_27;
@@ -15218,7 +14648,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AddNode_Update_m5C143C08386BEF213871407B
 
 IL_00be:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/AddNode.cs:74>
 		return;
 	}
 }
@@ -15241,7 +14670,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AddNode_OnPointerDown_m7B8250B86B9C01473
 	MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* V_4 = NULL;
 	int32_t V_5 = 0;
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/AddNode.cs:78>
 		NavigationManager_tFB37C91E0F34482AA82FD6B0090B5A1C0FE5BB53* L_0;
 		L_0 = NavigationManager_get_Instance_m34C8D227FAFBF3E74409758EE201755351704251(NULL);
 		NullCheck(L_0);
@@ -15252,9 +14680,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AddNode_OnPointerDown_m7B8250B86B9C01473
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/AddNode.cs:80>
 		__this->___isPressed = (bool)1;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/AddNode.cs:82>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___nodeInstance;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_3;
@@ -15285,7 +14711,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AddNode_OnPointerDown_m7B8250B86B9C01473
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/AddNode.cs:84>
 		int32_t L_8 = __this->___m_NodeToAdd;
 		V_0 = L_8;
 		int32_t L_9 = V_0;
@@ -15307,33 +14732,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AddNode_OnPointerDown_m7B8250B86B9C01473
 
 IL_0059:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/AddNode.cs:87>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11 = __this->___waypointObject;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12;
 		L_12 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m10D87C6E0708CA912BBB02555BF7D0FBC5D7A2B3(L_11, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m10D87C6E0708CA912BBB02555BF7D0FBC5D7A2B3_RuntimeMethod_var);
 		__this->___nodeInstance = L_12;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___nodeInstance), (void*)L_12);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/AddNode.cs:88>
 		goto IL_0090;
 	}
 
 IL_006c:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/AddNode.cs:90>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13 = __this->___targetObject;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14;
 		L_14 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m10D87C6E0708CA912BBB02555BF7D0FBC5D7A2B3(L_13, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m10D87C6E0708CA912BBB02555BF7D0FBC5D7A2B3_RuntimeMethod_var);
 		__this->___nodeInstance = L_14;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___nodeInstance), (void*)L_14);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/AddNode.cs:91>
 		goto IL_0090;
 	}
 
 IL_007f:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/AddNode.cs:93>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15 = __this->___waypointObject;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_16;
@@ -15344,7 +14764,6 @@ IL_007f:
 
 IL_0090:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/AddNode.cs:99>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_17 = __this->___overrideMaterial;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_18;
@@ -15355,7 +14774,6 @@ IL_0090:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/AddNode.cs:101>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_19 = __this->___nodeInstance;
 		NullCheck(L_19);
 		MeshRendererU5BU5D_tDF429EF168050A5CE085D0B51909A6AE2067E446* L_20;
@@ -15367,14 +14785,12 @@ IL_0090:
 
 IL_00ae:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/AddNode.cs:101>
 		MeshRendererU5BU5D_tDF429EF168050A5CE085D0B51909A6AE2067E446* L_21 = V_1;
 		int32_t L_22 = V_2;
 		NullCheck(L_21);
 		int32_t L_23 = L_22;
 		MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE* L_24 = (L_21)->GetAt(static_cast<il2cpp_array_size_t>(L_23));
 		V_3 = L_24;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/AddNode.cs:103>
 		MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE* L_25 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_26;
@@ -15385,7 +14801,6 @@ IL_00ae:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/AddNode.cs:105>
 		MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE* L_27 = V_3;
 		NullCheck(L_27);
 		MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* L_28;
@@ -15393,28 +14808,24 @@ IL_00ae:
 		NullCheck(L_28);
 		MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* L_29 = (MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D*)(MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D*)SZArrayNew(MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D_il2cpp_TypeInfo_var, (uint32_t)((int32_t)(((RuntimeArray*)L_28)->max_length)));
 		V_4 = L_29;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/AddNode.cs:107>
 		V_5 = 0;
 		goto IL_00e0;
 	}
 
 IL_00cf:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/AddNode.cs:109>
 		MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* L_30 = V_4;
 		int32_t L_31 = V_5;
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_32 = __this->___overrideMaterial;
 		NullCheck(L_30);
 		ArrayElementTypeCheck (L_30, L_32);
 		(L_30)->SetAt(static_cast<il2cpp_array_size_t>(L_31), (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3*)L_32);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/AddNode.cs:107>
 		int32_t L_33 = V_5;
 		V_5 = ((int32_t)il2cpp_codegen_add(L_33, 1));
 	}
 
 IL_00e0:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/AddNode.cs:107>
 		int32_t L_34 = V_5;
 		MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* L_35 = V_4;
 		NullCheck(L_35);
@@ -15424,7 +14835,6 @@ IL_00e0:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/AddNode.cs:112>
 		MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE* L_36 = V_3;
 		MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* L_37 = V_4;
 		NullCheck(L_36);
@@ -15439,7 +14849,6 @@ IL_00f0:
 
 IL_00f4:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/AddNode.cs:101>
 		int32_t L_39 = V_2;
 		MeshRendererU5BU5D_tDF429EF168050A5CE085D0B51909A6AE2067E446* L_40 = V_1;
 		NullCheck(L_40);
@@ -15451,7 +14860,6 @@ IL_00f4:
 
 IL_00fa:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/AddNode.cs:117>
 		float L_41;
 		L_41 = Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494((0.0f), (360.0f), NULL);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_42;
@@ -15461,7 +14869,6 @@ IL_00fa:
 
 IL_011e:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/AddNode.cs:119>
 		return;
 	}
 }
@@ -15478,9 +14885,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AddNode_OnPointerUp_m13FCE14DA5D96665DF4
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_0 = NULL;
 	int32_t V_1 = 0;
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/AddNode.cs:123>
 		__this->___isPressed = (bool)0;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/AddNode.cs:125>
 		NavigationManager_tFB37C91E0F34482AA82FD6B0090B5A1C0FE5BB53* L_0;
 		L_0 = NavigationManager_get_Instance_m34C8D227FAFBF3E74409758EE201755351704251(NULL);
 		NullCheck(L_0);
@@ -15491,7 +14896,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AddNode_OnPointerUp_m13FCE14DA5D96665DF4
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/AddNode.cs:127>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___nodeInstance;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_3;
@@ -15502,7 +14906,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AddNode_OnPointerUp_m13FCE14DA5D96665DF4
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/AddNode.cs:129>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = __this->___nodeInstance;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_4, NULL);
@@ -15510,7 +14913,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AddNode_OnPointerUp_m13FCE14DA5D96665DF4
 
 IL_002f:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/AddNode.cs:133>
 		XRSpace_tC870F552BC1481C38048217BEF525758956B2B20* L_5 = __this->___arspace;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_6;
@@ -15521,7 +14923,6 @@ IL_002f:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/AddNode.cs:137>
 		int32_t L_7 = __this->___m_NodeToAdd;
 		V_1 = L_7;
 		int32_t L_8 = V_1;
@@ -15543,7 +14944,6 @@ IL_002f:
 
 IL_004d:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/AddNode.cs:140>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = __this->___waypointObject;
 		XRSpace_tC870F552BC1481C38048217BEF525758956B2B20* L_11 = __this->___arspace;
 		NullCheck(L_11);
@@ -15553,13 +14953,11 @@ IL_004d:
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13;
 		L_13 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811(L_10, L_12, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811_RuntimeMethod_var);
 		V_0 = L_13;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/AddNode.cs:141>
 		goto IL_0096;
 	}
 
 IL_0066:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/AddNode.cs:143>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14 = __this->___targetObject;
 		XRSpace_tC870F552BC1481C38048217BEF525758956B2B20* L_15 = __this->___arspace;
 		NullCheck(L_15);
@@ -15569,13 +14967,11 @@ IL_0066:
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_17;
 		L_17 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811(L_14, L_16, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811_RuntimeMethod_var);
 		V_0 = L_17;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/AddNode.cs:144>
 		goto IL_0096;
 	}
 
 IL_007f:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/AddNode.cs:146>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_18 = __this->___waypointObject;
 		XRSpace_tC870F552BC1481C38048217BEF525758956B2B20* L_19 = __this->___arspace;
 		NullCheck(L_19);
@@ -15589,7 +14985,6 @@ IL_007f:
 
 IL_0096:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/AddNode.cs:151>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_22 = V_0;
 		NullCheck(L_22);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_23;
@@ -15597,7 +14992,6 @@ IL_0096:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_24 = __this->___pos;
 		NullCheck(L_23);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_23, L_24, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/AddNode.cs:152>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_25 = V_0;
 		NullCheck(L_25);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_26;
@@ -15609,7 +15003,6 @@ IL_0096:
 
 IL_00b8:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/AddNode.cs:155>
 		return;
 	}
 }
@@ -15617,15 +15010,12 @@ IL_00b8:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AddNode__ctor_m2795C7D66F0B9C87EFAD64F70CB929CAB8B99F81 (AddNode_t5DE354E9190D94F2D7D8C3D213AB67EAA9BAD6F7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/AddNode.cs:45>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0;
 		L_0 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		__this->___pos = L_0;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/AddNode.cs:46>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_1;
 		L_1 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
 		__this->___rot = L_1;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/AddNode.cs:47>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_2;
 		L_2 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
 		__this->___randomRotation = L_2;
@@ -15660,17 +15050,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Node__ctor_mB487A7E29E7F85625A595242B00A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:21>
 		List_1_t72348F2C3073FE0378B61B298CD4C295AA31AE3C* L_0 = (List_1_t72348F2C3073FE0378B61B298CD4C295AA31AE3C*)il2cpp_codegen_object_new(List_1_t72348F2C3073FE0378B61B298CD4C295AA31AE3C_il2cpp_TypeInfo_var);
 		List_1__ctor_m212E1A06556A60134F1FDCCA0A7B1084311859BD(L_0, List_1__ctor_m212E1A06556A60134F1FDCCA0A7B1084311859BD_RuntimeMethod_var);
 		__this->___neighbours = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___neighbours), (void*)L_0);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:24>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:26>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___0_position;
 		__this->___position = L_1;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:27>
 		return;
 	}
 }
@@ -15685,14 +15071,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Node__ctor_m2409666665B47D9AEFA71D751860
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:21>
 		List_1_t72348F2C3073FE0378B61B298CD4C295AA31AE3C* L_0 = (List_1_t72348F2C3073FE0378B61B298CD4C295AA31AE3C*)il2cpp_codegen_object_new(List_1_t72348F2C3073FE0378B61B298CD4C295AA31AE3C_il2cpp_TypeInfo_var);
 		List_1__ctor_m212E1A06556A60134F1FDCCA0A7B1084311859BD(L_0, List_1__ctor_m212E1A06556A60134F1FDCCA0A7B1084311859BD_RuntimeMethod_var);
 		__this->___neighbours = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___neighbours), (void*)L_0);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:29>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:32>
 		return;
 	}
 }
@@ -15707,21 +15090,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Node__ctor_m489AAEE3BD46FC286DB7B282C484
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:21>
 		List_1_t72348F2C3073FE0378B61B298CD4C295AA31AE3C* L_0 = (List_1_t72348F2C3073FE0378B61B298CD4C295AA31AE3C*)il2cpp_codegen_object_new(List_1_t72348F2C3073FE0378B61B298CD4C295AA31AE3C_il2cpp_TypeInfo_var);
 		List_1__ctor_m212E1A06556A60134F1FDCCA0A7B1084311859BD(L_0, List_1__ctor_m212E1A06556A60134F1FDCCA0A7B1084311859BD_RuntimeMethod_var);
 		__this->___neighbours = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___neighbours), (void*)L_0);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:34>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:36>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___0_position;
 		__this->___position = L_1;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:37>
 		List_1_t72348F2C3073FE0378B61B298CD4C295AA31AE3C* L_2 = ___1_neighbours;
 		__this->___neighbours = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___neighbours), (void*)L_2);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:38>
 		return;
 	}
 }
@@ -15729,7 +15107,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Node__ctor_m489AAEE3BD46FC286DB7B282C484
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Node_get_Cost_mA3E0216EAB834B6850DB5DB363EB0A7BD6403DED (Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:42>
 		float L_0 = __this->___U3CCostU3Ek__BackingField;
 		return L_0;
 	}
@@ -15738,7 +15115,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Node_get_Cost_mA3E0216EAB834B6850DB5DB3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Node_set_Cost_m7F44CBBA8F32420C851E7A5211FEA6752E0EDA2B (Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:42>
 		float L_0 = ___0_value;
 		__this->___U3CCostU3Ek__BackingField = L_0;
 		return;
@@ -15748,7 +15124,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Node_set_Cost_m7F44CBBA8F32420C851E7A521
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* Node_get_Parent_m79420FE958130241E10E3B9A8710F0DEAE99128A (Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:47>
 		Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* L_0 = __this->___U3CParentU3Ek__BackingField;
 		return L_0;
 	}
@@ -15757,7 +15132,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CD
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Node_set_Parent_m16D6DCD3A872D18790A5BDCA3BB25CEECFCE2906 (Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* __this, Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:47>
 		Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* L_0 = ___0_value;
 		__this->___U3CParentU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CParentU3Ek__BackingField), (void*)L_0);
@@ -15785,7 +15159,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NavigationGraphManager_t49268BEC9BE27EB2F3270
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:101>
 		NavigationGraphManager_t49268BEC9BE27EB2F3270945081B34C4005FFB50* L_0 = ((NavigationGraphManager_t49268BEC9BE27EB2F3270945081B34C4005FFB50_StaticFields*)il2cpp_codegen_static_fields_for(NavigationGraphManager_t49268BEC9BE27EB2F3270945081B34C4005FFB50_il2cpp_TypeInfo_var))->___instance;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -15796,14 +15169,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NavigationGraphManager_t49268BEC9BE27EB2F3270
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:103>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral1F573DC655597E2A481F10F0BD777F04F8225F5F, NULL);
 	}
 
 IL_0017:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:105>
 		NavigationGraphManager_t49268BEC9BE27EB2F3270945081B34C4005FFB50* L_2 = ((NavigationGraphManager_t49268BEC9BE27EB2F3270945081B34C4005FFB50_StaticFields*)il2cpp_codegen_static_fields_for(NavigationGraphManager_t49268BEC9BE27EB2F3270945081B34C4005FFB50_il2cpp_TypeInfo_var))->___instance;
 		return L_2;
 	}
@@ -15821,7 +15192,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationGraphManager_Awake_m19E38C136E
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:110>
 		NavigationGraphManager_t49268BEC9BE27EB2F3270945081B34C4005FFB50* L_0 = ((NavigationGraphManager_t49268BEC9BE27EB2F3270945081B34C4005FFB50_StaticFields*)il2cpp_codegen_static_fields_for(NavigationGraphManager_t49268BEC9BE27EB2F3270945081B34C4005FFB50_il2cpp_TypeInfo_var))->___instance;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -15832,14 +15202,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationGraphManager_Awake_m19E38C136E
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:112>
 		((NavigationGraphManager_t49268BEC9BE27EB2F3270945081B34C4005FFB50_StaticFields*)il2cpp_codegen_static_fields_for(NavigationGraphManager_t49268BEC9BE27EB2F3270945081B34C4005FFB50_il2cpp_TypeInfo_var))->___instance = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&((NavigationGraphManager_t49268BEC9BE27EB2F3270945081B34C4005FFB50_StaticFields*)il2cpp_codegen_static_fields_for(NavigationGraphManager_t49268BEC9BE27EB2F3270945081B34C4005FFB50_il2cpp_TypeInfo_var))->___instance), (void*)__this);
 	}
 
 IL_0013:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:114>
 		NavigationGraphManager_t49268BEC9BE27EB2F3270945081B34C4005FFB50* L_2 = ((NavigationGraphManager_t49268BEC9BE27EB2F3270945081B34C4005FFB50_StaticFields*)il2cpp_codegen_static_fields_for(NavigationGraphManager_t49268BEC9BE27EB2F3270945081B34C4005FFB50_il2cpp_TypeInfo_var))->___instance;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_3;
@@ -15850,19 +15218,15 @@ IL_0013:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:116>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral559D1D796B138B4CA43D0984D285837AEF4CF455, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:117>
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_DestroyImmediate_m6336EBC83591A5DB64EC70C92132824C6E258705(__this, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:118>
 		return;
 	}
 
 IL_0031:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:120>
 		return;
 	}
 }
@@ -15877,15 +15241,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationGraphManager_Start_mDEDF4CF2FC
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:125>
 		NavigationGraphManager_InitializeMeshRenderer_m451CF831A2856FA09244E5A0206B084C9664BB30(__this, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:127>
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		XRSpace_tC870F552BC1481C38048217BEF525758956B2B20* L_0;
 		L_0 = Object_FindObjectOfType_TisXRSpace_tC870F552BC1481C38048217BEF525758956B2B20_m20826FC476132959EFD6FD04AA54621BFE301D7E(Object_FindObjectOfType_TisXRSpace_tC870F552BC1481C38048217BEF525758956B2B20_m20826FC476132959EFD6FD04AA54621BFE301D7E_RuntimeMethod_var);
 		__this->___m_XRSpace = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_XRSpace), (void*)L_0);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:128>
 		return;
 	}
 }
@@ -15893,7 +15254,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationGraphManager_Start_mDEDF4CF2FC
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationGraphManager_Update_m12D24C93AD896869FE04F13086012107BEE92BEA (NavigationGraphManager_t49268BEC9BE27EB2F3270945081B34C4005FFB50* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:132>
 		NavigationManager_tFB37C91E0F34482AA82FD6B0090B5A1C0FE5BB53* L_0;
 		L_0 = NavigationManager_get_Instance_m34C8D227FAFBF3E74409758EE201755351704251(NULL);
 		NullCheck(L_0);
@@ -15904,11 +15264,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationGraphManager_Update_m12D24C93A
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:134>
 		MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE* L_2 = __this->___m_MeshRenderer;
 		NullCheck(L_2);
 		Renderer_set_enabled_m015E6D7B825528A31182F267234CC6A925F71DA8(L_2, (bool)1, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:135>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_3 = __this->___m_Mesh;
 		NavigationGraphManager_DrawConnections_mA0C7D3C5CA79DF1D00EF49ED67437E2249FDB148(__this, (0.075000003f), L_3, NULL);
 		return;
@@ -15916,11 +15274,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationGraphManager_Update_m12D24C93A
 
 IL_002a:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:139>
 		MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE* L_4 = __this->___m_MeshRenderer;
 		NullCheck(L_4);
 		Renderer_set_enabled_m015E6D7B825528A31182F267234CC6A925F71DA8(L_4, (bool)0, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:141>
 		return;
 	}
 }
@@ -15939,7 +15295,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationGraphManager_InitializeMeshRen
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:145>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_0 = __this->___m_Mesh;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -15950,7 +15305,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationGraphManager_InitializeMeshRen
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:146>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_2 = (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4*)il2cpp_codegen_object_new(Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4_il2cpp_TypeInfo_var);
 		Mesh__ctor_m5A9AECEDDAFFD84811ED8928012BDE97A9CEBD00(L_2, NULL);
 		__this->___m_Mesh = L_2;
@@ -15959,17 +15313,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationGraphManager_InitializeMeshRen
 
 IL_0019:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:148>
 		MeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5* L_3;
 		L_3 = Component_GetComponent_TisMeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5_mB82F66059DFB5715DD85BDED1D90BC03A6C9E623(__this, Component_GetComponent_TisMeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5_mB82F66059DFB5715DD85BDED1D90BC03A6C9E623_RuntimeMethod_var);
 		__this->___m_MeshFilter = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_MeshFilter), (void*)L_3);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:149>
 		MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE* L_4;
 		L_4 = Component_GetComponent_TisMeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE_m0EDA0079FA3617687C4A28623B79A37D618D9CFB(__this, Component_GetComponent_TisMeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE_m0EDA0079FA3617687C4A28623B79A37D618D9CFB_RuntimeMethod_var);
 		__this->___m_MeshRenderer = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_MeshRenderer), (void*)L_4);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:151>
 		MeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5* L_5 = __this->___m_MeshFilter;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_6;
@@ -15980,7 +15331,6 @@ IL_0019:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:152>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7;
 		L_7 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_7);
@@ -15992,7 +15342,6 @@ IL_0019:
 
 IL_0050:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:154>
 		MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE* L_9 = __this->___m_MeshRenderer;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_10;
@@ -16003,7 +15352,6 @@ IL_0050:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:155>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11;
 		L_11 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_11);
@@ -16015,12 +15363,10 @@ IL_0050:
 
 IL_006f:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:157>
 		MeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5* L_13 = __this->___m_MeshFilter;
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_14 = __this->___m_Mesh;
 		NullCheck(L_13);
 		MeshFilter_set_mesh_mD2988E2D835205FD6B6CD35A61E1592844D971F8(L_13, L_14, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:158>
 		return;
 	}
 }
@@ -16081,11 +15427,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationGraphManager_DrawConnections_m
 	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 V_20;
 	memset((&V_20), 0, sizeof(V_20));
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:162>
 		List_1_t2A3E7AAEBB924531E858FB3D02E87C2350007CE5* L_0 = (List_1_t2A3E7AAEBB924531E858FB3D02E87C2350007CE5*)il2cpp_codegen_object_new(List_1_t2A3E7AAEBB924531E858FB3D02E87C2350007CE5_il2cpp_TypeInfo_var);
 		List_1__ctor_m2EEB1BC59C7DE85AFC741A86470A5063FBA444C3(L_0, List_1__ctor_m2EEB1BC59C7DE85AFC741A86470A5063FBA444C3_RuntimeMethod_var);
 		V_0 = L_0;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:164>
 		List_1_t7729E1060F41FC6EECBE2CC680D48E9C9B707C7A* L_1 = __this->___m_Waypoints;
 		NullCheck(L_1);
 		Enumerator_tAEFE80FE013DDF0B8E3B8D48B467F5F680EF6900 L_2;
@@ -16110,11 +15454,9 @@ FINALLY_0082:
 
 IL_0015_1:
 			{
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:164>
 				Waypoint_t58FFDDE716BD6194164ED3C46533EB5A24F27C4E* L_3;
 				L_3 = Enumerator_get_Current_mD843CC2E381BBDD2CA4EE4B153512D26E4FE29C1_inline((&V_5), Enumerator_get_Current_mD843CC2E381BBDD2CA4EE4B153512D26E4FE29C1_RuntimeMethod_var);
 				V_6 = L_3;
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:166>
 				Waypoint_t58FFDDE716BD6194164ED3C46533EB5A24F27C4E* L_4 = V_6;
 				NullCheck(L_4);
 				List_1_t7729E1060F41FC6EECBE2CC680D48E9C9B707C7A* L_5 = L_4->___neighbours;
@@ -16141,11 +15483,9 @@ FINALLY_0069_1:
 
 IL_002e_2:
 					{
-						//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:166>
 						Waypoint_t58FFDDE716BD6194164ED3C46533EB5A24F27C4E* L_7;
 						L_7 = Enumerator_get_Current_mD843CC2E381BBDD2CA4EE4B153512D26E4FE29C1_inline((&V_7), Enumerator_get_Current_mD843CC2E381BBDD2CA4EE4B153512D26E4FE29C1_RuntimeMethod_var);
 						V_8 = L_7;
-						//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:168>
 						Waypoint_t58FFDDE716BD6194164ED3C46533EB5A24F27C4E* L_8 = V_8;
 						il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 						bool L_9;
@@ -16156,7 +15496,6 @@ IL_002e_2:
 						}
 					}
 					{
-						//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:170>
 						Waypoint_t58FFDDE716BD6194164ED3C46533EB5A24F27C4E* L_10 = V_6;
 						NullCheck(L_10);
 						Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11;
@@ -16168,7 +15507,6 @@ IL_002e_2:
 						LineSegment_tAD0436D367891A411B8CB024703F7EF56FCA65FA* L_14 = (LineSegment_tAD0436D367891A411B8CB024703F7EF56FCA65FA*)il2cpp_codegen_object_new(LineSegment_tAD0436D367891A411B8CB024703F7EF56FCA65FA_il2cpp_TypeInfo_var);
 						LineSegment__ctor_mB88F9C46644D489060931FA23F47871DE3EF7ACF(L_14, L_11, L_13, NULL);
 						V_9 = L_14;
-						//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:171>
 						List_1_t2A3E7AAEBB924531E858FB3D02E87C2350007CE5* L_15 = V_0;
 						LineSegment_tAD0436D367891A411B8CB024703F7EF56FCA65FA* L_16 = V_9;
 						NullCheck(L_15);
@@ -16177,7 +15515,6 @@ IL_002e_2:
 
 IL_005e_2:
 					{
-						//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:166>
 						bool L_17;
 						L_17 = Enumerator_MoveNext_mDBEA7762D2D4DAE128AC8A7709FEF436D5016CEA((&V_7), Enumerator_MoveNext_mDBEA7762D2D4DAE128AC8A7709FEF436D5016CEA_RuntimeMethod_var);
 						if (L_17)
@@ -16197,7 +15534,6 @@ IL_005e_2:
 
 IL_0077_1:
 			{
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:164>
 				bool L_18;
 				L_18 = Enumerator_MoveNext_mDBEA7762D2D4DAE128AC8A7709FEF436D5016CEA((&V_5), Enumerator_MoveNext_mDBEA7762D2D4DAE128AC8A7709FEF436D5016CEA_RuntimeMethod_var);
 				if (L_18)
@@ -16217,7 +15553,6 @@ IL_0077_1:
 
 IL_0090:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:176>
 		List_1_t2A3E7AAEBB924531E858FB3D02E87C2350007CE5* L_19 = V_0;
 		NullCheck(L_19);
 		int32_t L_20;
@@ -16228,35 +15563,27 @@ IL_0090:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:178>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_21 = ___1_mesh;
 		NullCheck(L_21);
 		Mesh_Clear_m0F95397EA143D31AD0B4D332E8C6FA25A7957BC0(L_21, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:179>
 		return;
 	}
 
 IL_00a0:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:182>
 		List_1_t2A3E7AAEBB924531E858FB3D02E87C2350007CE5* L_22 = V_0;
 		NullCheck(L_22);
 		int32_t L_23;
 		L_23 = List_1_get_Count_mC2F07FF870AC6FC3D120AEDE87499FB8F9B89A25_inline(L_22, List_1_get_Count_mC2F07FF870AC6FC3D120AEDE87499FB8F9B89A25_RuntimeMethod_var);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:183>
 		V_1 = 0;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:185>
 		int32_t L_24 = L_23;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_25 = (Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)SZArrayNew(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C_il2cpp_TypeInfo_var, (uint32_t)((int32_t)il2cpp_codegen_multiply(L_24, 4)));
 		V_2 = L_25;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:186>
 		int32_t L_26 = L_24;
 		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_27 = (Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA*)(Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA*)SZArrayNew(Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA_il2cpp_TypeInfo_var, (uint32_t)((int32_t)il2cpp_codegen_multiply(L_26, 4)));
 		V_3 = L_27;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:187>
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_28 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)((int32_t)il2cpp_codegen_multiply(L_26, 6)));
 		V_4 = L_28;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:189>
 		List_1_t2A3E7AAEBB924531E858FB3D02E87C2350007CE5* L_29 = V_0;
 		NullCheck(L_29);
 		Enumerator_tA46F09C37DE07EB270A03301B37677D8BB3BF1F9 L_30;
@@ -16281,11 +15608,9 @@ FINALLY_02ee:
 
 IL_00d0_1:
 			{
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:189>
 				LineSegment_tAD0436D367891A411B8CB024703F7EF56FCA65FA* L_31;
 				L_31 = Enumerator_get_Current_mC41EC77313E3DF13B53B224D10DFED3A5DB2CD9C_inline((&V_10), Enumerator_get_Current_mC41EC77313E3DF13B53B224D10DFED3A5DB2CD9C_RuntimeMethod_var);
 				V_11 = L_31;
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:192>
 				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_32;
 				L_32 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 				NullCheck(L_32);
@@ -16298,7 +15623,6 @@ IL_00d0_1:
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_36;
 				L_36 = Matrix4x4_MultiplyPoint_m20E910B65693559BFDE99382472D8DD02C862E7E((&V_20), L_35, NULL);
 				V_12 = L_36;
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:193>
 				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_37;
 				L_37 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 				NullCheck(L_37);
@@ -16310,7 +15634,6 @@ IL_00d0_1:
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_40 = L_39->___endPosition;
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_41;
 				L_41 = Matrix4x4_MultiplyPoint_m20E910B65693559BFDE99382472D8DD02C862E7E((&V_20), L_40, NULL);
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:195>
 				Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_42;
 				L_42 = Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF(NULL);
 				NullCheck(L_42);
@@ -16320,7 +15643,6 @@ IL_00d0_1:
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_44;
 				L_44 = Transform_get_forward_mFCFACF7165FDAB21E80E384C494DF278386CEE2F(L_43, NULL);
 				V_13 = L_44;
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:198>
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_45 = L_41;
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_46 = V_12;
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_47;
@@ -16329,7 +15651,6 @@ IL_00d0_1:
 				Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_49;
 				L_49 = Quaternion_LookRotation_mFB02EDC8F733774DFAC3BEA4B4BB265A228F8307(L_47, L_48, NULL);
 				V_14 = L_49;
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:200>
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_50 = V_12;
 				Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_51 = V_14;
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_52;
@@ -16337,14 +15658,12 @@ IL_00d0_1:
 				Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_53;
 				L_53 = Matrix4x4_TRS_mCC04FD47347234B451ACC6CCD2CE6D02E1E0E1E3(L_50, L_51, L_52, NULL);
 				V_15 = L_53;
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:201>
 				Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_54 = V_14;
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_55;
 				L_55 = Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline(NULL);
 				Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_56;
 				L_56 = Matrix4x4_TRS_mCC04FD47347234B451ACC6CCD2CE6D02E1E0E1E3(L_45, L_54, L_55, NULL);
 				V_16 = L_56;
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:204>
 				Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_57 = (Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)SZArrayNew(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C_il2cpp_TypeInfo_var, (uint32_t)2);
 				Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_58 = L_57;
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_59;
@@ -16359,18 +15678,14 @@ IL_00d0_1:
 				NullCheck(L_60);
 				(L_60)->SetAt(static_cast<il2cpp_array_size_t>(1), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_61);
 				V_17 = L_60;
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:205>
 				SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_62 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)2);
 				SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_63 = L_62;
 				NullCheck(L_63);
 				(L_63)->SetAt(static_cast<il2cpp_array_size_t>(1), (float)(1.0f));
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:207>
 				int32_t L_64 = V_1;
 				V_18 = ((int32_t)il2cpp_codegen_multiply(L_64, 4));
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:208>
 				int32_t L_65 = V_1;
 				V_19 = ((int32_t)il2cpp_codegen_multiply(L_65, 6));
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:210>
 				Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_66 = V_2;
 				int32_t L_67 = V_18;
 				Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_68 = V_17;
@@ -16384,7 +15699,6 @@ IL_00d0_1:
 				L_73 = Matrix4x4_MultiplyPoint_m20E910B65693559BFDE99382472D8DD02C862E7E((&V_15), L_72, NULL);
 				NullCheck(L_66);
 				(L_66)->SetAt(static_cast<il2cpp_array_size_t>(L_67), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_73);
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:211>
 				Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_74 = V_2;
 				int32_t L_75 = V_18;
 				Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_76 = V_17;
@@ -16398,7 +15712,6 @@ IL_00d0_1:
 				L_81 = Matrix4x4_MultiplyPoint_m20E910B65693559BFDE99382472D8DD02C862E7E((&V_15), L_80, NULL);
 				NullCheck(L_74);
 				(L_74)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_75, 1))), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_81);
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:212>
 				Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_82 = V_2;
 				int32_t L_83 = V_18;
 				Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_84 = V_17;
@@ -16412,7 +15725,6 @@ IL_00d0_1:
 				L_89 = Matrix4x4_MultiplyPoint_m20E910B65693559BFDE99382472D8DD02C862E7E((&V_16), L_88, NULL);
 				NullCheck(L_82);
 				(L_82)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_83, 2))), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_89);
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:213>
 				Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_90 = V_2;
 				int32_t L_91 = V_18;
 				Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_92 = V_17;
@@ -16426,7 +15738,6 @@ IL_00d0_1:
 				L_97 = Matrix4x4_MultiplyPoint_m20E910B65693559BFDE99382472D8DD02C862E7E((&V_16), L_96, NULL);
 				NullCheck(L_90);
 				(L_90)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_91, 3))), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_97);
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:215>
 				Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_98 = V_3;
 				int32_t L_99 = V_18;
 				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_100;
@@ -16434,7 +15745,6 @@ IL_00d0_1:
 				Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_100), (0.0f), (1.0f), NULL);
 				NullCheck(L_98);
 				(L_98)->SetAt(static_cast<il2cpp_array_size_t>(L_99), (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7)L_100);
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:216>
 				Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_101 = V_3;
 				int32_t L_102 = V_18;
 				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_103;
@@ -16442,7 +15752,6 @@ IL_00d0_1:
 				Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_103), (0.0f), (0.0f), NULL);
 				NullCheck(L_101);
 				(L_101)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_102, 1))), (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7)L_103);
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:217>
 				Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_104 = V_3;
 				int32_t L_105 = V_18;
 				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_106;
@@ -16450,7 +15759,6 @@ IL_00d0_1:
 				Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_106), (1.0f), (0.0f), NULL);
 				NullCheck(L_104);
 				(L_104)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_105, 2))), (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7)L_106);
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:218>
 				Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_107 = V_3;
 				int32_t L_108 = V_18;
 				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_109;
@@ -16458,60 +15766,49 @@ IL_00d0_1:
 				Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_109), (1.0f), (1.0f), NULL);
 				NullCheck(L_107);
 				(L_107)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_108, 3))), (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7)L_109);
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:220>
 				Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_110 = V_4;
 				int32_t L_111 = V_19;
 				int32_t L_112 = V_18;
 				NullCheck(L_110);
 				(L_110)->SetAt(static_cast<il2cpp_array_size_t>(L_111), (int32_t)L_112);
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:221>
 				Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_113 = V_4;
 				int32_t L_114 = V_19;
 				int32_t L_115 = V_18;
 				NullCheck(L_113);
 				(L_113)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_114, 1))), (int32_t)((int32_t)il2cpp_codegen_add(L_115, 1)));
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:222>
 				Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_116 = V_4;
 				int32_t L_117 = V_19;
 				int32_t L_118 = V_18;
 				NullCheck(L_116);
 				(L_116)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_117, 2))), (int32_t)((int32_t)il2cpp_codegen_add(L_118, 2)));
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:223>
 				Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_119 = V_4;
 				int32_t L_120 = V_19;
 				int32_t L_121 = V_18;
 				NullCheck(L_119);
 				(L_119)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_120, 3))), (int32_t)L_121);
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:224>
 				Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_122 = V_4;
 				int32_t L_123 = V_19;
 				int32_t L_124 = V_18;
 				NullCheck(L_122);
 				(L_122)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_123, 4))), (int32_t)((int32_t)il2cpp_codegen_add(L_124, 2)));
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:225>
 				Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_125 = V_4;
 				int32_t L_126 = V_19;
 				int32_t L_127 = V_18;
 				NullCheck(L_125);
 				(L_125)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_126, 5))), (int32_t)((int32_t)il2cpp_codegen_add(L_127, 3)));
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:227>
 				int32_t L_128 = V_1;
 				V_1 = ((int32_t)il2cpp_codegen_add(L_128, 1));
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:230>
 				Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_129 = ___1_mesh;
 				NullCheck(L_129);
 				Mesh_Clear_m0F95397EA143D31AD0B4D332E8C6FA25A7957BC0(L_129, NULL);
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:231>
 				Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_130 = ___1_mesh;
 				Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_131 = V_2;
 				NullCheck(L_130);
 				Mesh_set_vertices_m5BB814D89E9ACA00DBF19F7D8E22CB73AC73FE5C(L_130, L_131, NULL);
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:232>
 				Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_132 = ___1_mesh;
 				Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_133 = V_3;
 				NullCheck(L_132);
 				Mesh_set_uv_m6ED9C50E0DA8166DD48AC40FD6C828B9AD2E9617(L_132, L_133, NULL);
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:233>
 				Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_134 = ___1_mesh;
 				Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_135 = V_4;
 				NullCheck(L_134);
@@ -16520,7 +15817,6 @@ IL_00d0_1:
 
 IL_02e0_1:
 			{
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:189>
 				bool L_136;
 				L_136 = Enumerator_MoveNext_mF598062553EC0DCF0DB953294ABAFB747F934BB7((&V_10), Enumerator_MoveNext_mF598062553EC0DCF0DB953294ABAFB747F934BB7_RuntimeMethod_var);
 				if (L_136)
@@ -16540,7 +15836,6 @@ IL_02e0_1:
 
 IL_02fc:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:235>
 		return;
 	}
 }
@@ -16555,7 +15850,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationGraphManager_AddWaypoint_m99C2
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:239>
 		List_1_t7729E1060F41FC6EECBE2CC680D48E9C9B707C7A* L_0 = __this->___m_Waypoints;
 		Waypoint_t58FFDDE716BD6194164ED3C46533EB5A24F27C4E* L_1 = ___0_wp;
 		NullCheck(L_0);
@@ -16567,7 +15861,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationGraphManager_AddWaypoint_m99C2
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:241>
 		List_1_t7729E1060F41FC6EECBE2CC680D48E9C9B707C7A* L_3 = __this->___m_Waypoints;
 		Waypoint_t58FFDDE716BD6194164ED3C46533EB5A24F27C4E* L_4 = ___0_wp;
 		NullCheck(L_3);
@@ -16576,7 +15869,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationGraphManager_AddWaypoint_m99C2
 
 IL_001a:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:243>
 		return;
 	}
 }
@@ -16591,7 +15883,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationGraphManager_RemoveWaypoint_m4
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:247>
 		List_1_t7729E1060F41FC6EECBE2CC680D48E9C9B707C7A* L_0 = __this->___m_Waypoints;
 		Waypoint_t58FFDDE716BD6194164ED3C46533EB5A24F27C4E* L_1 = ___0_wp;
 		NullCheck(L_0);
@@ -16603,7 +15894,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationGraphManager_RemoveWaypoint_m4
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:249>
 		List_1_t7729E1060F41FC6EECBE2CC680D48E9C9B707C7A* L_3 = __this->___m_Waypoints;
 		Waypoint_t58FFDDE716BD6194164ED3C46533EB5A24F27C4E* L_4 = ___0_wp;
 		NullCheck(L_3);
@@ -16613,7 +15903,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationGraphManager_RemoveWaypoint_m4
 
 IL_001b:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:251>
 		return;
 	}
 }
@@ -16634,7 +15923,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationGraphManager_DeleteAllWaypoint
 	Enumerator_tAEFE80FE013DDF0B8E3B8D48B467F5F680EF6900 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:255>
 		List_1_t7729E1060F41FC6EECBE2CC680D48E9C9B707C7A* L_0 = __this->___m_Waypoints;
 		NullCheck(L_0);
 		Enumerator_tAEFE80FE013DDF0B8E3B8D48B467F5F680EF6900 L_1;
@@ -16659,10 +15947,8 @@ FINALLY_002a:
 
 IL_000e_1:
 			{
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:255>
 				Waypoint_t58FFDDE716BD6194164ED3C46533EB5A24F27C4E* L_2;
 				L_2 = Enumerator_get_Current_mD843CC2E381BBDD2CA4EE4B153512D26E4FE29C1_inline((&V_0), Enumerator_get_Current_mD843CC2E381BBDD2CA4EE4B153512D26E4FE29C1_RuntimeMethod_var);
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:257>
 				NullCheck(L_2);
 				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
 				L_3 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_2, NULL);
@@ -16672,7 +15958,6 @@ IL_000e_1:
 
 IL_001f_1:
 			{
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:255>
 				bool L_4;
 				L_4 = Enumerator_MoveNext_mDBEA7762D2D4DAE128AC8A7709FEF436D5016CEA((&V_0), Enumerator_MoveNext_mDBEA7762D2D4DAE128AC8A7709FEF436D5016CEA_RuntimeMethod_var);
 				if (L_4)
@@ -16692,11 +15977,9 @@ IL_001f_1:
 
 IL_0038:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:260>
 		List_1_t7729E1060F41FC6EECBE2CC680D48E9C9B707C7A* L_5 = __this->___m_Waypoints;
 		NullCheck(L_5);
 		List_1_Clear_m2F516672CE7F8AF07428783E8DC166D689E77030_inline(L_5, List_1_Clear_m2F516672CE7F8AF07428783E8DC166D689E77030_RuntimeMethod_var);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:261>
 		return;
 	}
 }
@@ -16711,7 +15994,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationGraphManager_AddTarget_mDB6E9B
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:265>
 		List_1_t142DAD19FC6734A1170B04D060D0AB33D6396848* L_0 = __this->___m_NavigationTargets;
 		IsNavigationTarget_t6F09EE82CB69EF5F481C1F4BEC15B0A8BC01DE6A* L_1 = ___0_target;
 		NullCheck(L_0);
@@ -16723,7 +16005,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationGraphManager_AddTarget_mDB6E9B
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:267>
 		List_1_t142DAD19FC6734A1170B04D060D0AB33D6396848* L_3 = __this->___m_NavigationTargets;
 		IsNavigationTarget_t6F09EE82CB69EF5F481C1F4BEC15B0A8BC01DE6A* L_4 = ___0_target;
 		NullCheck(L_3);
@@ -16732,7 +16013,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationGraphManager_AddTarget_mDB6E9B
 
 IL_001a:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:269>
 		return;
 	}
 }
@@ -16747,7 +16027,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationGraphManager_RemoveTarget_mB46
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:273>
 		List_1_t142DAD19FC6734A1170B04D060D0AB33D6396848* L_0 = __this->___m_NavigationTargets;
 		IsNavigationTarget_t6F09EE82CB69EF5F481C1F4BEC15B0A8BC01DE6A* L_1 = ___0_target;
 		NullCheck(L_0);
@@ -16759,7 +16038,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationGraphManager_RemoveTarget_mB46
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:275>
 		List_1_t142DAD19FC6734A1170B04D060D0AB33D6396848* L_3 = __this->___m_NavigationTargets;
 		IsNavigationTarget_t6F09EE82CB69EF5F481C1F4BEC15B0A8BC01DE6A* L_4 = ___0_target;
 		NullCheck(L_3);
@@ -16769,7 +16047,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationGraphManager_RemoveTarget_mB46
 
 IL_001b:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:277>
 		return;
 	}
 }
@@ -16790,7 +16067,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationGraphManager_DeleteAllNavigati
 	Enumerator_tF4749DED6182E5E3641FE6FED1D3D832BDD82417 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:281>
 		List_1_t142DAD19FC6734A1170B04D060D0AB33D6396848* L_0 = __this->___m_NavigationTargets;
 		NullCheck(L_0);
 		Enumerator_tF4749DED6182E5E3641FE6FED1D3D832BDD82417 L_1;
@@ -16815,10 +16091,8 @@ FINALLY_002a:
 
 IL_000e_1:
 			{
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:281>
 				IsNavigationTarget_t6F09EE82CB69EF5F481C1F4BEC15B0A8BC01DE6A* L_2;
 				L_2 = Enumerator_get_Current_m07AA642720698FD06281B644464269D3033474EB_inline((&V_0), Enumerator_get_Current_m07AA642720698FD06281B644464269D3033474EB_RuntimeMethod_var);
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:283>
 				NullCheck(L_2);
 				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
 				L_3 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_2, NULL);
@@ -16828,7 +16102,6 @@ IL_000e_1:
 
 IL_001f_1:
 			{
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:281>
 				bool L_4;
 				L_4 = Enumerator_MoveNext_mA9855900BCFA087F7DEF2C878B27435B92735F56((&V_0), Enumerator_MoveNext_mA9855900BCFA087F7DEF2C878B27435B92735F56_RuntimeMethod_var);
 				if (L_4)
@@ -16848,11 +16121,9 @@ IL_001f_1:
 
 IL_0038:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:286>
 		List_1_t142DAD19FC6734A1170B04D060D0AB33D6396848* L_5 = __this->___m_NavigationTargets;
 		NullCheck(L_5);
 		List_1_Clear_m74D4F16E31190494C92F9E101841EEEC69CA9354_inline(L_5, List_1_Clear_m74D4F16E31190494C92F9E101841EEEC69CA9354_RuntimeMethod_var);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:287>
 		return;
 	}
 }
@@ -16911,11 +16182,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t77B94703E05C519A9010DD0614F757F974E1C
 	List_1_t72348F2C3073FE0378B61B298CD4C295AA31AE3C* V_12 = NULL;
 	Waypoint_t58FFDDE716BD6194164ED3C46533EB5A24F27C4E* V_13 = NULL;
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:291>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_0 = (List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B*)il2cpp_codegen_object_new(List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B_il2cpp_TypeInfo_var);
 		List_1__ctor_mC54E2BCBE43279A96FC082F5CDE2D76388BD8F9C(L_0, List_1__ctor_mC54E2BCBE43279A96FC082F5CDE2D76388BD8F9C_RuntimeMethod_var);
 		V_0 = L_0;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:293>
 		List_1_t7729E1060F41FC6EECBE2CC680D48E9C9B707C7A* L_1 = __this->___m_Waypoints;
 		NullCheck(L_1);
 		int32_t L_2;
@@ -16926,22 +16195,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t77B94703E05C519A9010DD0614F757F974E1C
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:295>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_3 = V_0;
 		return L_3;
 	}
 
 IL_0016:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:302>
 		Dictionary_2_t69D6BE248BD77CC7A3C1C0FA714B28E504DACF9B* L_4 = (Dictionary_2_t69D6BE248BD77CC7A3C1C0FA714B28E504DACF9B*)il2cpp_codegen_object_new(Dictionary_2_t69D6BE248BD77CC7A3C1C0FA714B28E504DACF9B_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_mF287C9E9CA707D07F509FD52715E2D692B5E5008(L_4, Dictionary_2__ctor_mF287C9E9CA707D07F509FD52715E2D692B5E5008_RuntimeMethod_var);
 		V_1 = L_4;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:303>
 		Dictionary_2_tD8D72C3964E04617BB6A9CA4914AC8133D1138AD* L_5 = (Dictionary_2_tD8D72C3964E04617BB6A9CA4914AC8133D1138AD*)il2cpp_codegen_object_new(Dictionary_2_tD8D72C3964E04617BB6A9CA4914AC8133D1138AD_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_m0244E189DC849C1595F50E293A0D2D6722F91300(L_5, Dictionary_2__ctor_m0244E189DC849C1595F50E293A0D2D6722F91300_RuntimeMethod_var);
 		V_2 = L_5;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:305>
 		List_1_t7729E1060F41FC6EECBE2CC680D48E9C9B707C7A* L_6 = __this->___m_Waypoints;
 		NullCheck(L_6);
 		Enumerator_tAEFE80FE013DDF0B8E3B8D48B467F5F680EF6900 L_7;
@@ -16966,11 +16231,9 @@ FINALLY_006b:
 
 IL_0031_1:
 			{
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:305>
 				Waypoint_t58FFDDE716BD6194164ED3C46533EB5A24F27C4E* L_8;
 				L_8 = Enumerator_get_Current_mD843CC2E381BBDD2CA4EE4B153512D26E4FE29C1_inline((&V_7), Enumerator_get_Current_mD843CC2E381BBDD2CA4EE4B153512D26E4FE29C1_RuntimeMethod_var);
 				V_8 = L_8;
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:307>
 				Waypoint_t58FFDDE716BD6194164ED3C46533EB5A24F27C4E* L_9 = V_8;
 				NullCheck(L_9);
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10;
@@ -16978,7 +16241,6 @@ IL_0031_1:
 				Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* L_11 = (Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF*)il2cpp_codegen_object_new(Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF_il2cpp_TypeInfo_var);
 				Node__ctor_mB487A7E29E7F85625A595242B00A44E3AC62D84A(L_11, L_10, NULL);
 				V_9 = L_11;
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:308>
 				Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* L_12 = V_9;
 				Waypoint_t58FFDDE716BD6194164ED3C46533EB5A24F27C4E* L_13 = V_8;
 				NullCheck(L_13);
@@ -16987,7 +16249,6 @@ IL_0031_1:
 				NullCheck(L_12);
 				L_12->___nodeName = L_14;
 				Il2CppCodeGenWriteBarrier((void**)(&L_12->___nodeName), (void*)L_14);
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:309>
 				Dictionary_2_t69D6BE248BD77CC7A3C1C0FA714B28E504DACF9B* L_15 = V_1;
 				Waypoint_t58FFDDE716BD6194164ED3C46533EB5A24F27C4E* L_16 = V_8;
 				Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* L_17 = V_9;
@@ -16997,7 +16258,6 @@ IL_0031_1:
 
 IL_0060_1:
 			{
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:305>
 				bool L_18;
 				L_18 = Enumerator_MoveNext_mDBEA7762D2D4DAE128AC8A7709FEF436D5016CEA((&V_7), Enumerator_MoveNext_mDBEA7762D2D4DAE128AC8A7709FEF436D5016CEA_RuntimeMethod_var);
 				if (L_18)
@@ -17017,7 +16277,6 @@ IL_0060_1:
 
 IL_0079:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:312>
 		Dictionary_2_t69D6BE248BD77CC7A3C1C0FA714B28E504DACF9B* L_19 = V_1;
 		NullCheck(L_19);
 		KeyCollection_tDF96BBBFA671018DA31931913FC30A8D08FC3CCF* L_20;
@@ -17045,15 +16304,12 @@ FINALLY_00f4:
 
 IL_0088_1:
 			{
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:312>
 				Waypoint_t58FFDDE716BD6194164ED3C46533EB5A24F27C4E* L_22;
 				L_22 = Enumerator_get_Current_m505748DFAE38D120623DC9DD69B3A63D9EF65F4B_inline((&V_10), Enumerator_get_Current_m505748DFAE38D120623DC9DD69B3A63D9EF65F4B_RuntimeMethod_var);
 				V_11 = L_22;
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:314>
 				List_1_t72348F2C3073FE0378B61B298CD4C295AA31AE3C* L_23 = (List_1_t72348F2C3073FE0378B61B298CD4C295AA31AE3C*)il2cpp_codegen_object_new(List_1_t72348F2C3073FE0378B61B298CD4C295AA31AE3C_il2cpp_TypeInfo_var);
 				List_1__ctor_m212E1A06556A60134F1FDCCA0A7B1084311859BD(L_23, List_1__ctor_m212E1A06556A60134F1FDCCA0A7B1084311859BD_RuntimeMethod_var);
 				V_12 = L_23;
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:316>
 				Waypoint_t58FFDDE716BD6194164ED3C46533EB5A24F27C4E* L_24 = V_11;
 				NullCheck(L_24);
 				List_1_t7729E1060F41FC6EECBE2CC680D48E9C9B707C7A* L_25 = L_24->___neighbours;
@@ -17080,11 +16336,9 @@ FINALLY_00cb_1:
 
 IL_00a8_2:
 					{
-						//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:316>
 						Waypoint_t58FFDDE716BD6194164ED3C46533EB5A24F27C4E* L_27;
 						L_27 = Enumerator_get_Current_mD843CC2E381BBDD2CA4EE4B153512D26E4FE29C1_inline((&V_7), Enumerator_get_Current_mD843CC2E381BBDD2CA4EE4B153512D26E4FE29C1_RuntimeMethod_var);
 						V_13 = L_27;
-						//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:318>
 						List_1_t72348F2C3073FE0378B61B298CD4C295AA31AE3C* L_28 = V_12;
 						Dictionary_2_t69D6BE248BD77CC7A3C1C0FA714B28E504DACF9B* L_29 = V_1;
 						Waypoint_t58FFDDE716BD6194164ED3C46533EB5A24F27C4E* L_30 = V_13;
@@ -17097,7 +16351,6 @@ IL_00a8_2:
 
 IL_00c0_2:
 					{
-						//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:316>
 						bool L_32;
 						L_32 = Enumerator_MoveNext_mDBEA7762D2D4DAE128AC8A7709FEF436D5016CEA((&V_7), Enumerator_MoveNext_mDBEA7762D2D4DAE128AC8A7709FEF436D5016CEA_RuntimeMethod_var);
 						if (L_32)
@@ -17117,7 +16370,6 @@ IL_00c0_2:
 
 IL_00d9_1:
 			{
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:321>
 				Dictionary_2_tD8D72C3964E04617BB6A9CA4914AC8133D1138AD* L_33 = V_2;
 				Dictionary_2_t69D6BE248BD77CC7A3C1C0FA714B28E504DACF9B* L_34 = V_1;
 				Waypoint_t58FFDDE716BD6194164ED3C46533EB5A24F27C4E* L_35 = V_11;
@@ -17131,7 +16383,6 @@ IL_00d9_1:
 
 IL_00e9_1:
 			{
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:312>
 				bool L_38;
 				L_38 = Enumerator_MoveNext_m361C8D73FFB39FD664F22798E5E888DA2403B75A((&V_10), Enumerator_MoveNext_m361C8D73FFB39FD664F22798E5E888DA2403B75A_RuntimeMethod_var);
 				if (L_38)
@@ -17151,7 +16402,6 @@ IL_00e9_1:
 
 IL_0102:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:328>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_39 = ___0_startPosition;
 		float L_40 = __this->___startYOffset;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_41;
@@ -17162,51 +16412,40 @@ IL_0102:
 		Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* L_43 = (Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF*)il2cpp_codegen_object_new(Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF_il2cpp_TypeInfo_var);
 		Node__ctor_mB487A7E29E7F85625A595242B00A44E3AC62D84A(L_43, L_42, NULL);
 		V_3 = L_43;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:329>
 		Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* L_44 = V_3;
 		NullCheck(L_44);
 		L_44->___nodeName = _stringLiteralBD2AE7D2BD991DA638BD6BF001007DD77C5449BC;
 		Il2CppCodeGenWriteBarrier((void**)(&L_44->___nodeName), (void*)_stringLiteralBD2AE7D2BD991DA638BD6BF001007DD77C5449BC);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:330>
 		Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* L_45 = (Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF*)il2cpp_codegen_object_new(Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF_il2cpp_TypeInfo_var);
 		Node__ctor_m2409666665B47D9AEFA71D75186025E70B370157(L_45, NULL);
 		V_4 = L_45;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:331>
 		Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* L_46 = V_4;
 		NullCheck(L_46);
 		L_46->___nodeName = _stringLiteralEAE056D06FE6D2EB4FA22C87897BD5A6362019A7;
 		Il2CppCodeGenWriteBarrier((void**)(&L_46->___nodeName), (void*)_stringLiteralEAE056D06FE6D2EB4FA22C87897BD5A6362019A7);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:332>
 		NavigationGraphManager_EdgeToNearestPointInGraph_mFF1E5C9EC257A139BB650382AE10CB25AAA3A14A(__this, (&V_3), (&V_4), (&V_2), NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:334>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_47 = ___1_endPosition;
 		Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* L_48 = (Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF*)il2cpp_codegen_object_new(Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF_il2cpp_TypeInfo_var);
 		Node__ctor_mB487A7E29E7F85625A595242B00A44E3AC62D84A(L_48, L_47, NULL);
 		V_5 = L_48;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:335>
 		Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* L_49 = V_5;
 		NullCheck(L_49);
 		L_49->___nodeName = _stringLiteral01F57A79DD5A6538508C437111471A765A054FCB;
 		Il2CppCodeGenWriteBarrier((void**)(&L_49->___nodeName), (void*)_stringLiteral01F57A79DD5A6538508C437111471A765A054FCB);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:336>
 		Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* L_50 = (Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF*)il2cpp_codegen_object_new(Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF_il2cpp_TypeInfo_var);
 		Node__ctor_m2409666665B47D9AEFA71D75186025E70B370157(L_50, NULL);
 		V_6 = L_50;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:337>
 		Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* L_51 = V_6;
 		NullCheck(L_51);
 		L_51->___nodeName = _stringLiteral0809C5959567411181131FB5D26AA1EBCBA97ADB;
 		Il2CppCodeGenWriteBarrier((void**)(&L_51->___nodeName), (void*)_stringLiteral0809C5959567411181131FB5D26AA1EBCBA97ADB);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:338>
 		NavigationGraphManager_EdgeToNearestPointInGraph_mFF1E5C9EC257A139BB650382AE10CB25AAA3A14A(__this, (&V_5), (&V_6), (&V_2), NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:340>
 		Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* L_52 = V_3;
 		Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* L_53 = V_5;
 		Dictionary_2_tD8D72C3964E04617BB6A9CA4914AC8133D1138AD* L_54 = V_2;
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_55;
 		L_55 = NavigationGraphManager_GetPathPositions_m005FDD1E2E3F1F873A53BE365EDC50F55F1BA39A(__this, L_52, L_53, L_54, NULL);
 		V_0 = L_55;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:342>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_56 = V_0;
 		NullCheck(L_56);
 		int32_t L_57;
@@ -17217,17 +16456,14 @@ IL_0102:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:344>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteralDCF53C16B2BF8C866847CF956416937C212CAF87, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:345>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_58 = V_0;
 		return L_58;
 	}
 
 IL_01a0:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:348>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_59 = V_0;
 		return L_59;
 	}
@@ -17256,11 +16492,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationGraphManager_GetClosestNode_mF
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_5;
 	memset((&V_5), 0, sizeof(V_5));
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:353>
 		V_0 = (std::numeric_limits<float>::infinity());
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:354>
 		V_1 = (Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF*)NULL;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:356>
 		Dictionary_2_tD8D72C3964E04617BB6A9CA4914AC8133D1138AD** L_0 = ___1_graph;
 		Dictionary_2_tD8D72C3964E04617BB6A9CA4914AC8133D1138AD* L_1 = *((Dictionary_2_tD8D72C3964E04617BB6A9CA4914AC8133D1138AD**)L_0);
 		NullCheck(L_1);
@@ -17289,11 +16522,9 @@ FINALLY_0051:
 
 IL_0017_1:
 			{
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:356>
 				Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* L_4;
 				L_4 = Enumerator_get_Current_mD673ACBB7485BFE292D3C96282CC6B2795040E3F_inline((&V_2), Enumerator_get_Current_mD673ACBB7485BFE292D3C96282CC6B2795040E3F_RuntimeMethod_var);
 				V_3 = L_4;
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:358>
 				Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* L_5 = V_3;
 				NullCheck(L_5);
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = L_5->___position;
@@ -17307,7 +16538,6 @@ IL_0017_1:
 				float L_11;
 				L_11 = Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline((&V_5), NULL);
 				V_4 = L_11;
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:360>
 				float L_12 = V_4;
 				float L_13 = V_0;
 				if ((!(((float)L_12) < ((float)L_13))))
@@ -17316,17 +16546,14 @@ IL_0017_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:362>
 				float L_14 = V_4;
 				V_0 = L_14;
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:363>
 				Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* L_15 = V_3;
 				V_1 = L_15;
 			}
 
 IL_0046_1:
 			{
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:356>
 				bool L_16;
 				L_16 = Enumerator_MoveNext_mE601DD3D5BB9E14BF3BCDBBF7F43A089B01CE2F6((&V_2), Enumerator_MoveNext_mE601DD3D5BB9E14BF3BCDBBF7F43A089B01CE2F6_RuntimeMethod_var);
 				if (L_16)
@@ -17346,7 +16573,6 @@ IL_0046_1:
 
 IL_005f:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:367>
 		Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF** L_17 = ___0_searchNode;
 		Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* L_18 = *((Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF**)L_17);
 		NullCheck(L_18);
@@ -17354,7 +16580,6 @@ IL_005f:
 		Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* L_20 = V_1;
 		NullCheck(L_19);
 		List_1_Add_m59636ACF5BBC2D3E69D9CBCD07FE2998EE706C67_inline(L_19, L_20, List_1_Add_m59636ACF5BBC2D3E69D9CBCD07FE2998EE706C67_RuntimeMethod_var);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:368>
 		Dictionary_2_tD8D72C3964E04617BB6A9CA4914AC8133D1138AD** L_21 = ___1_graph;
 		Dictionary_2_tD8D72C3964E04617BB6A9CA4914AC8133D1138AD* L_22 = *((Dictionary_2_tD8D72C3964E04617BB6A9CA4914AC8133D1138AD**)L_21);
 		Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* L_23 = V_1;
@@ -17365,7 +16590,6 @@ IL_005f:
 		Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* L_26 = *((Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF**)L_25);
 		NullCheck(L_24);
 		List_1_Add_m59636ACF5BBC2D3E69D9CBCD07FE2998EE706C67_inline(L_24, L_26, List_1_Add_m59636ACF5BBC2D3E69D9CBCD07FE2998EE706C67_RuntimeMethod_var);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:369>
 		return;
 	}
 }
@@ -17431,17 +16655,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationGraphManager_EdgeToNearestPoin
 	float V_18 = 0.0f;
 	float V_19 = 0.0f;
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:373>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0;
 		L_0 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		V_0 = L_0;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:374>
 		V_1 = (std::numeric_limits<float>::infinity());
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:376>
 		List_1_tB2DCB647E52FBDE21EA06E475EC427AF1E4D0CF5* L_1 = (List_1_tB2DCB647E52FBDE21EA06E475EC427AF1E4D0CF5*)il2cpp_codegen_object_new(List_1_tB2DCB647E52FBDE21EA06E475EC427AF1E4D0CF5_il2cpp_TypeInfo_var);
 		List_1__ctor_m2044EBAA4A0E130E551238FFEEADA10354FB82DE(L_1, List_1__ctor_m2044EBAA4A0E130E551238FFEEADA10354FB82DE_RuntimeMethod_var);
 		V_2 = L_1;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:377>
 		Dictionary_2_tD8D72C3964E04617BB6A9CA4914AC8133D1138AD** L_2 = ___2_graph;
 		Dictionary_2_tD8D72C3964E04617BB6A9CA4914AC8133D1138AD* L_3 = *((Dictionary_2_tD8D72C3964E04617BB6A9CA4914AC8133D1138AD**)L_2);
 		NullCheck(L_3);
@@ -17467,11 +16687,9 @@ FINALLY_007b:
 
 IL_001d_1:
 			{
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:377>
 				KeyValuePair_2_t3E2B11D9E77F582A2B89D8FFBD8673FB03952348 L_5;
 				L_5 = Enumerator_get_Current_m858BACDC7D8F2BCA70A8ABFF00C3B48FE10D0674_inline((&V_4), Enumerator_get_Current_m858BACDC7D8F2BCA70A8ABFF00C3B48FE10D0674_RuntimeMethod_var);
 				V_5 = L_5;
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:379>
 				List_1_t72348F2C3073FE0378B61B298CD4C295AA31AE3C* L_6;
 				L_6 = KeyValuePair_2_get_Value_m5B1F673D139071B2B1F8EDE4F1F48F9B733158E5_inline((&V_5), KeyValuePair_2_get_Value_m5B1F673D139071B2B1F8EDE4F1F48F9B733158E5_RuntimeMethod_var);
 				NullCheck(L_6);
@@ -17497,18 +16715,15 @@ FINALLY_0062_1:
 
 IL_0036_2:
 					{
-						//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:379>
 						Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* L_8;
 						L_8 = Enumerator_get_Current_mF73F766DCF2BB4600DE3832F7DF5D08296A77F6E_inline((&V_6), Enumerator_get_Current_mF73F766DCF2BB4600DE3832F7DF5D08296A77F6E_RuntimeMethod_var);
 						V_7 = L_8;
-						//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:381>
 						Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* L_9;
 						L_9 = KeyValuePair_2_get_Key_m1EE988574689BAB035257402EDE8E78D46332373_inline((&V_5), KeyValuePair_2_get_Key_m1EE988574689BAB035257402EDE8E78D46332373_RuntimeMethod_var);
 						Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* L_10 = V_7;
 						Edge_t5A6B98770FCB02D787CAE52F0B8380CDA2B98F12* L_11 = (Edge_t5A6B98770FCB02D787CAE52F0B8380CDA2B98F12*)il2cpp_codegen_object_new(Edge_t5A6B98770FCB02D787CAE52F0B8380CDA2B98F12_il2cpp_TypeInfo_var);
 						Edge__ctor_mD04A9134BD5E8B92BE597768CA89143B37DD46EC(L_11, L_9, L_10, NULL);
 						V_8 = L_11;
-						//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:382>
 						List_1_tB2DCB647E52FBDE21EA06E475EC427AF1E4D0CF5* L_12 = V_2;
 						Edge_t5A6B98770FCB02D787CAE52F0B8380CDA2B98F12* L_13 = V_8;
 						NullCheck(L_12);
@@ -17517,7 +16732,6 @@ IL_0036_2:
 
 IL_0057_2:
 					{
-						//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:379>
 						bool L_14;
 						L_14 = Enumerator_MoveNext_mBD94385331989161814F0C2F47FAAF137E440281((&V_6), Enumerator_MoveNext_mBD94385331989161814F0C2F47FAAF137E440281_RuntimeMethod_var);
 						if (L_14)
@@ -17537,7 +16751,6 @@ IL_0057_2:
 
 IL_0070_1:
 			{
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:377>
 				bool L_15;
 				L_15 = Enumerator_MoveNext_mE1E19B58F043B0A39FBC4361822D1AD9C07142E2((&V_4), Enumerator_MoveNext_mE1E19B58F043B0A39FBC4361822D1AD9C07142E2_RuntimeMethod_var);
 				if (L_15)
@@ -17557,9 +16770,7 @@ IL_0070_1:
 
 IL_0089:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:386>
 		V_3 = (Edge_t5A6B98770FCB02D787CAE52F0B8380CDA2B98F12*)NULL;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:387>
 		List_1_tB2DCB647E52FBDE21EA06E475EC427AF1E4D0CF5* L_16 = V_2;
 		NullCheck(L_16);
 		Enumerator_t8B40D062A7C970299E1B01417A265A18BE40DCE7 L_17;
@@ -17584,31 +16795,26 @@ FINALLY_0226:
 
 IL_0098_1:
 			{
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:387>
 				Edge_t5A6B98770FCB02D787CAE52F0B8380CDA2B98F12* L_18;
 				L_18 = Enumerator_get_Current_mF210D83ED9CDFE7D5DBBFE8D2053FCBA4DBC4499_inline((&V_9), Enumerator_get_Current_mF210D83ED9CDFE7D5DBBFE8D2053FCBA4DBC4499_RuntimeMethod_var);
 				V_10 = L_18;
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:390>
 				Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF** L_19 = ___0_searchNode;
 				Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* L_20 = *((Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF**)L_19);
 				NullCheck(L_20);
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_21 = L_20->___position;
 				V_12 = L_21;
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:391>
 				Edge_t5A6B98770FCB02D787CAE52F0B8380CDA2B98F12* L_22 = V_10;
 				NullCheck(L_22);
 				Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* L_23 = L_22->___start;
 				NullCheck(L_23);
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_24 = L_23->___position;
 				V_13 = L_24;
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:392>
 				Edge_t5A6B98770FCB02D787CAE52F0B8380CDA2B98F12* L_25 = V_10;
 				NullCheck(L_25);
 				Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* L_26 = L_25->___end;
 				NullCheck(L_26);
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_27 = L_26->___position;
 				V_14 = L_27;
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:394>
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_28 = V_12;
 				float L_29 = L_28.___x;
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_30 = V_13;
@@ -17622,7 +16828,6 @@ IL_0098_1:
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_38 = V_13;
 				float L_39 = L_38.___z;
 				Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_15), ((float)il2cpp_codegen_subtract(L_29, L_31)), ((float)il2cpp_codegen_subtract(L_33, L_35)), ((float)il2cpp_codegen_subtract(L_37, L_39)), NULL);
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:395>
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_40 = V_14;
 				float L_41 = L_40.___x;
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_42 = V_13;
@@ -17636,12 +16841,10 @@ IL_0098_1:
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_50 = V_13;
 				float L_51 = L_50.___z;
 				Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_16), ((float)il2cpp_codegen_subtract(L_41, L_43)), ((float)il2cpp_codegen_subtract(L_45, L_47)), ((float)il2cpp_codegen_subtract(L_49, L_51)), NULL);
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:397>
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_52 = V_16;
 				float L_53;
 				L_53 = Vector3_SqrMagnitude_m5ED73273031577902F1BED4CA9C5A0E786A680D1_inline(L_52, NULL);
 				V_17 = L_53;
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:398>
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_54 = V_12;
 				float L_55 = L_54.___x;
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_56 = V_13;
@@ -17668,7 +16871,6 @@ IL_0098_1:
 				float L_77 = L_76.___z;
 				float L_78 = V_17;
 				V_18 = ((float)(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_55, L_57)), ((float)il2cpp_codegen_subtract(L_59, L_61)))), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_63, L_65)), ((float)il2cpp_codegen_subtract(L_67, L_69)))))), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_71, L_73)), ((float)il2cpp_codegen_subtract(L_75, L_77))))))/L_78));
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:400>
 				float L_79 = V_18;
 				if ((((float)L_79) < ((float)(0.0f))))
 				{
@@ -17685,7 +16887,6 @@ IL_0098_1:
 
 IL_01ad_1:
 			{
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:402>
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_81 = V_13;
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_82 = V_12;
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_83;
@@ -17704,7 +16905,6 @@ IL_01ad_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:404>
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_89 = V_13;
 				V_11 = L_89;
 				goto IL_01fa_1;
@@ -17712,7 +16912,6 @@ IL_01ad_1:
 
 IL_01d1_1:
 			{
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:408>
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_90 = V_14;
 				V_11 = L_90;
 				goto IL_01fa_1;
@@ -17720,7 +16919,6 @@ IL_01d1_1:
 
 IL_01d7_1:
 			{
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:413>
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_91 = V_13;
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_92 = V_15;
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_93 = V_16;
@@ -17740,7 +16938,6 @@ IL_01d7_1:
 
 IL_01fa_1:
 			{
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:416>
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_101 = V_11;
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_102 = V_12;
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_103;
@@ -17748,7 +16945,6 @@ IL_01fa_1:
 				float L_104;
 				L_104 = Vector3_SqrMagnitude_m5ED73273031577902F1BED4CA9C5A0E786A680D1_inline(L_103, NULL);
 				V_19 = L_104;
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:417>
 				float L_105 = V_19;
 				float L_106 = V_1;
 				if ((!(((float)L_105) < ((float)L_106))))
@@ -17757,20 +16953,16 @@ IL_01fa_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:419>
 				float L_107 = V_19;
 				V_1 = L_107;
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:420>
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_108 = V_11;
 				V_0 = L_108;
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:421>
 				Edge_t5A6B98770FCB02D787CAE52F0B8380CDA2B98F12* L_109 = V_10;
 				V_3 = L_109;
 			}
 
 IL_0218_1:
 			{
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:387>
 				bool L_110;
 				L_110 = Enumerator_MoveNext_m3180F4B44F30C0B637F9748B67C4E2F054BEA98A((&V_9), Enumerator_MoveNext_m3180F4B44F30C0B637F9748B67C4E2F054BEA98A_RuntimeMethod_var);
 				if (L_110)
@@ -17790,13 +16982,11 @@ IL_0218_1:
 
 IL_0234:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:425>
 		Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF** L_111 = ___1_insertNode;
 		Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* L_112 = *((Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF**)L_111);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_113 = V_0;
 		NullCheck(L_112);
 		L_112->___position = L_113;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:427>
 		Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF** L_114 = ___1_insertNode;
 		Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* L_115 = *((Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF**)L_114);
 		NullCheck(L_115);
@@ -17806,7 +16996,6 @@ IL_0234:
 		Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* L_118 = L_117->___start;
 		NullCheck(L_116);
 		List_1_Add_m59636ACF5BBC2D3E69D9CBCD07FE2998EE706C67_inline(L_116, L_118, List_1_Add_m59636ACF5BBC2D3E69D9CBCD07FE2998EE706C67_RuntimeMethod_var);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:428>
 		Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF** L_119 = ___1_insertNode;
 		Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* L_120 = *((Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF**)L_119);
 		NullCheck(L_120);
@@ -17816,7 +17005,6 @@ IL_0234:
 		Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* L_123 = L_122->___end;
 		NullCheck(L_121);
 		List_1_Add_m59636ACF5BBC2D3E69D9CBCD07FE2998EE706C67_inline(L_121, L_123, List_1_Add_m59636ACF5BBC2D3E69D9CBCD07FE2998EE706C67_RuntimeMethod_var);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:430>
 		Dictionary_2_tD8D72C3964E04617BB6A9CA4914AC8133D1138AD** L_124 = ___2_graph;
 		Dictionary_2_tD8D72C3964E04617BB6A9CA4914AC8133D1138AD* L_125 = *((Dictionary_2_tD8D72C3964E04617BB6A9CA4914AC8133D1138AD**)L_124);
 		Edge_t5A6B98770FCB02D787CAE52F0B8380CDA2B98F12* L_126 = V_3;
@@ -17829,7 +17017,6 @@ IL_0234:
 		Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* L_130 = *((Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF**)L_129);
 		NullCheck(L_128);
 		List_1_Add_m59636ACF5BBC2D3E69D9CBCD07FE2998EE706C67_inline(L_128, L_130, List_1_Add_m59636ACF5BBC2D3E69D9CBCD07FE2998EE706C67_RuntimeMethod_var);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:431>
 		Dictionary_2_tD8D72C3964E04617BB6A9CA4914AC8133D1138AD** L_131 = ___2_graph;
 		Dictionary_2_tD8D72C3964E04617BB6A9CA4914AC8133D1138AD* L_132 = *((Dictionary_2_tD8D72C3964E04617BB6A9CA4914AC8133D1138AD**)L_131);
 		Edge_t5A6B98770FCB02D787CAE52F0B8380CDA2B98F12* L_133 = V_3;
@@ -17842,7 +17029,6 @@ IL_0234:
 		Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* L_137 = *((Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF**)L_136);
 		NullCheck(L_135);
 		List_1_Add_m59636ACF5BBC2D3E69D9CBCD07FE2998EE706C67_inline(L_135, L_137, List_1_Add_m59636ACF5BBC2D3E69D9CBCD07FE2998EE706C67_RuntimeMethod_var);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:433>
 		Dictionary_2_tD8D72C3964E04617BB6A9CA4914AC8133D1138AD** L_138 = ___2_graph;
 		Dictionary_2_tD8D72C3964E04617BB6A9CA4914AC8133D1138AD* L_139 = *((Dictionary_2_tD8D72C3964E04617BB6A9CA4914AC8133D1138AD**)L_138);
 		Edge_t5A6B98770FCB02D787CAE52F0B8380CDA2B98F12* L_140 = V_3;
@@ -17857,7 +17043,6 @@ IL_0234:
 		NullCheck(L_142);
 		bool L_145;
 		L_145 = List_1_Remove_mF1613369879E14C67FA6CC2AC4FD264E41067A2D(L_142, L_144, List_1_Remove_mF1613369879E14C67FA6CC2AC4FD264E41067A2D_RuntimeMethod_var);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:434>
 		Dictionary_2_tD8D72C3964E04617BB6A9CA4914AC8133D1138AD** L_146 = ___2_graph;
 		Dictionary_2_tD8D72C3964E04617BB6A9CA4914AC8133D1138AD* L_147 = *((Dictionary_2_tD8D72C3964E04617BB6A9CA4914AC8133D1138AD**)L_146);
 		Edge_t5A6B98770FCB02D787CAE52F0B8380CDA2B98F12* L_148 = V_3;
@@ -17872,7 +17057,6 @@ IL_0234:
 		NullCheck(L_150);
 		bool L_153;
 		L_153 = List_1_Remove_mF1613369879E14C67FA6CC2AC4FD264E41067A2D(L_150, L_152, List_1_Remove_mF1613369879E14C67FA6CC2AC4FD264E41067A2D_RuntimeMethod_var);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:436>
 		Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF** L_154 = ___0_searchNode;
 		Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* L_155 = *((Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF**)L_154);
 		NullCheck(L_155);
@@ -17881,7 +17065,6 @@ IL_0234:
 		Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* L_158 = *((Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF**)L_157);
 		NullCheck(L_156);
 		List_1_Add_m59636ACF5BBC2D3E69D9CBCD07FE2998EE706C67_inline(L_156, L_158, List_1_Add_m59636ACF5BBC2D3E69D9CBCD07FE2998EE706C67_RuntimeMethod_var);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:437>
 		Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF** L_159 = ___1_insertNode;
 		Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* L_160 = *((Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF**)L_159);
 		NullCheck(L_160);
@@ -17890,7 +17073,6 @@ IL_0234:
 		Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* L_163 = *((Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF**)L_162);
 		NullCheck(L_161);
 		List_1_Add_m59636ACF5BBC2D3E69D9CBCD07FE2998EE706C67_inline(L_161, L_163, List_1_Add_m59636ACF5BBC2D3E69D9CBCD07FE2998EE706C67_RuntimeMethod_var);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:439>
 		Dictionary_2_tD8D72C3964E04617BB6A9CA4914AC8133D1138AD** L_164 = ___2_graph;
 		Dictionary_2_tD8D72C3964E04617BB6A9CA4914AC8133D1138AD* L_165 = *((Dictionary_2_tD8D72C3964E04617BB6A9CA4914AC8133D1138AD**)L_164);
 		Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF** L_166 = ___1_insertNode;
@@ -17901,7 +17083,6 @@ IL_0234:
 		List_1_t72348F2C3073FE0378B61B298CD4C295AA31AE3C* L_170 = L_169->___neighbours;
 		NullCheck(L_165);
 		Dictionary_2_set_Item_m7D13ED705584B15B589583414BB7EDA57966571A(L_165, L_167, L_170, Dictionary_2_set_Item_m7D13ED705584B15B589583414BB7EDA57966571A_RuntimeMethod_var);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:440>
 		Dictionary_2_tD8D72C3964E04617BB6A9CA4914AC8133D1138AD** L_171 = ___2_graph;
 		Dictionary_2_tD8D72C3964E04617BB6A9CA4914AC8133D1138AD* L_172 = *((Dictionary_2_tD8D72C3964E04617BB6A9CA4914AC8133D1138AD**)L_171);
 		Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF** L_173 = ___0_searchNode;
@@ -17912,7 +17093,6 @@ IL_0234:
 		List_1_t72348F2C3073FE0378B61B298CD4C295AA31AE3C* L_177 = L_176->___neighbours;
 		NullCheck(L_172);
 		Dictionary_2_set_Item_m7D13ED705584B15B589583414BB7EDA57966571A(L_172, L_174, L_177, Dictionary_2_set_Item_m7D13ED705584B15B589583414BB7EDA57966571A_RuntimeMethod_var);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:441>
 		return;
 	}
 }
@@ -17948,19 +17128,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t77B94703E05C519A9010DD0614F757F974E1C
 	Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* V_6 = NULL;
 	float V_7 = 0.0f;
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:445>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_0 = (List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B*)il2cpp_codegen_object_new(List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B_il2cpp_TypeInfo_var);
 		List_1__ctor_mC54E2BCBE43279A96FC082F5CDE2D76388BD8F9C(L_0, List_1__ctor_mC54E2BCBE43279A96FC082F5CDE2D76388BD8F9C_RuntimeMethod_var);
 		V_0 = L_0;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:446>
 		List_1_t72348F2C3073FE0378B61B298CD4C295AA31AE3C* L_1 = (List_1_t72348F2C3073FE0378B61B298CD4C295AA31AE3C*)il2cpp_codegen_object_new(List_1_t72348F2C3073FE0378B61B298CD4C295AA31AE3C_il2cpp_TypeInfo_var);
 		List_1__ctor_m212E1A06556A60134F1FDCCA0A7B1084311859BD(L_1, List_1__ctor_m212E1A06556A60134F1FDCCA0A7B1084311859BD_RuntimeMethod_var);
 		V_1 = L_1;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:447>
 		List_1_t72348F2C3073FE0378B61B298CD4C295AA31AE3C* L_2 = (List_1_t72348F2C3073FE0378B61B298CD4C295AA31AE3C*)il2cpp_codegen_object_new(List_1_t72348F2C3073FE0378B61B298CD4C295AA31AE3C_il2cpp_TypeInfo_var);
 		List_1__ctor_m212E1A06556A60134F1FDCCA0A7B1084311859BD(L_2, List_1__ctor_m212E1A06556A60134F1FDCCA0A7B1084311859BD_RuntimeMethod_var);
 		V_2 = L_2;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:449>
 		List_1_t72348F2C3073FE0378B61B298CD4C295AA31AE3C* L_3 = V_1;
 		Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* L_4 = ___0_startNode;
 		NullCheck(L_3);
@@ -17970,20 +17146,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t77B94703E05C519A9010DD0614F757F974E1C
 
 IL_001e:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:453>
 		List_1_t72348F2C3073FE0378B61B298CD4C295AA31AE3C* L_5 = V_1;
 		NullCheck(L_5);
 		Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* L_6;
 		L_6 = List_1_get_Item_mED68BB9BB5D4DBF71B17E16025DCE32570FA6EB5(L_5, 0, List_1_get_Item_mED68BB9BB5D4DBF71B17E16025DCE32570FA6EB5_RuntimeMethod_var);
 		V_3 = L_6;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:454>
 		V_4 = 1;
 		goto IL_004f;
 	}
 
 IL_002b:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:456>
 		List_1_t72348F2C3073FE0378B61B298CD4C295AA31AE3C* L_7 = V_1;
 		int32_t L_8 = V_4;
 		NullCheck(L_7);
@@ -18002,7 +17175,6 @@ IL_002b:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:458>
 		List_1_t72348F2C3073FE0378B61B298CD4C295AA31AE3C* L_13 = V_1;
 		int32_t L_14 = V_4;
 		NullCheck(L_13);
@@ -18013,14 +17185,12 @@ IL_002b:
 
 IL_0049:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:454>
 		int32_t L_16 = V_4;
 		V_4 = ((int32_t)il2cpp_codegen_add(L_16, 1));
 	}
 
 IL_004f:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:454>
 		int32_t L_17 = V_4;
 		List_1_t72348F2C3073FE0378B61B298CD4C295AA31AE3C* L_18 = V_1;
 		NullCheck(L_18);
@@ -18032,18 +17202,15 @@ IL_004f:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:462>
 		List_1_t72348F2C3073FE0378B61B298CD4C295AA31AE3C* L_20 = V_1;
 		Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* L_21 = V_3;
 		NullCheck(L_20);
 		bool L_22;
 		L_22 = List_1_Remove_mF1613369879E14C67FA6CC2AC4FD264E41067A2D(L_20, L_21, List_1_Remove_mF1613369879E14C67FA6CC2AC4FD264E41067A2D_RuntimeMethod_var);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:463>
 		List_1_t72348F2C3073FE0378B61B298CD4C295AA31AE3C* L_23 = V_2;
 		Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* L_24 = V_3;
 		NullCheck(L_23);
 		List_1_Add_m59636ACF5BBC2D3E69D9CBCD07FE2998EE706C67_inline(L_23, L_24, List_1_Add_m59636ACF5BBC2D3E69D9CBCD07FE2998EE706C67_RuntimeMethod_var);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:465>
 		Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* L_25 = V_3;
 		Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* L_26 = ___1_endNode;
 		if ((!(((RuntimeObject*)(Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF*)L_25) == ((RuntimeObject*)(Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF*)L_26))))
@@ -18052,20 +17219,17 @@ IL_004f:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:467>
 		Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* L_27 = ___0_startNode;
 		Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* L_28 = ___1_endNode;
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_29;
 		L_29 = NavigationGraphManager_NodesToPathPositions_m77504EEE94FC2DBDC44680A8F3E13EE76431D7BE(__this, L_27, L_28, NULL);
 		V_0 = L_29;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:468>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_30 = V_0;
 		return L_30;
 	}
 
 IL_0077:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:471>
 		Dictionary_2_tD8D72C3964E04617BB6A9CA4914AC8133D1138AD* L_31 = ___2_graph;
 		Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* L_32 = V_3;
 		NullCheck(L_31);
@@ -18094,11 +17258,9 @@ FINALLY_00ed:
 
 IL_0087_1:
 			{
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:471>
 				Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* L_35;
 				L_35 = Enumerator_get_Current_mF73F766DCF2BB4600DE3832F7DF5D08296A77F6E_inline((&V_5), Enumerator_get_Current_mF73F766DCF2BB4600DE3832F7DF5D08296A77F6E_RuntimeMethod_var);
 				V_6 = L_35;
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:473>
 				List_1_t72348F2C3073FE0378B61B298CD4C295AA31AE3C* L_36 = V_2;
 				Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* L_37 = V_6;
 				NullCheck(L_36);
@@ -18110,7 +17272,6 @@ IL_0087_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:475>
 				Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* L_39 = V_3;
 				NullCheck(L_39);
 				float L_40;
@@ -18120,7 +17281,6 @@ IL_0087_1:
 				float L_42;
 				L_42 = Node_get_Cost_mA3E0216EAB834B6850DB5DB363EB0A7BD6403DED_inline(L_41, NULL);
 				V_7 = ((float)il2cpp_codegen_add(L_40, L_42));
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:476>
 				float L_43 = V_7;
 				Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* L_44 = V_6;
 				NullCheck(L_44);
@@ -18145,17 +17305,14 @@ IL_0087_1:
 
 IL_00bf_1:
 			{
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:478>
 				Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* L_49 = V_6;
 				float L_50 = V_7;
 				NullCheck(L_49);
 				Node_set_Cost_m7F44CBBA8F32420C851E7A5211FEA6752E0EDA2B_inline(L_49, L_50, NULL);
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:479>
 				Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* L_51 = V_6;
 				Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* L_52 = V_3;
 				NullCheck(L_51);
 				Node_set_Parent_m16D6DCD3A872D18790A5BDCA3BB25CEECFCE2906_inline(L_51, L_52, NULL);
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:481>
 				List_1_t72348F2C3073FE0378B61B298CD4C295AA31AE3C* L_53 = V_1;
 				Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* L_54 = V_6;
 				NullCheck(L_53);
@@ -18167,7 +17324,6 @@ IL_00bf_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:483>
 				List_1_t72348F2C3073FE0378B61B298CD4C295AA31AE3C* L_56 = V_1;
 				Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* L_57 = V_6;
 				NullCheck(L_56);
@@ -18176,7 +17332,6 @@ IL_00bf_1:
 
 IL_00e2_1:
 			{
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:471>
 				bool L_58;
 				L_58 = Enumerator_MoveNext_mBD94385331989161814F0C2F47FAAF137E440281((&V_5), Enumerator_MoveNext_mBD94385331989161814F0C2F47FAAF137E440281_RuntimeMethod_var);
 				if (L_58)
@@ -18196,7 +17351,6 @@ IL_00e2_1:
 
 IL_00fb:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:451>
 		List_1_t72348F2C3073FE0378B61B298CD4C295AA31AE3C* L_59 = V_1;
 		NullCheck(L_59);
 		int32_t L_60;
@@ -18207,7 +17361,6 @@ IL_00fb:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:490>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_61 = V_0;
 		return L_61;
 	}
@@ -18227,11 +17380,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t77B94703E05C519A9010DD0614F757F974E1C
 	List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* V_0 = NULL;
 	Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* V_1 = NULL;
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:495>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_0 = (List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B*)il2cpp_codegen_object_new(List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B_il2cpp_TypeInfo_var);
 		List_1__ctor_mC54E2BCBE43279A96FC082F5CDE2D76388BD8F9C(L_0, List_1__ctor_mC54E2BCBE43279A96FC082F5CDE2D76388BD8F9C_RuntimeMethod_var);
 		V_0 = L_0;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:496>
 		Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* L_1 = ___1_endNode;
 		V_1 = L_1;
 		goto IL_001d;
@@ -18239,14 +17390,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t77B94703E05C519A9010DD0614F757F974E1C
 
 IL_000a:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:500>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_2 = V_0;
 		Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* L_3 = V_1;
 		NullCheck(L_3);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = L_3->___position;
 		NullCheck(L_2);
 		List_1_Add_m79E50C4F592B1703F4B76A8BE7B4855515460CA1_inline(L_2, L_4, List_1_Add_m79E50C4F592B1703F4B76A8BE7B4855515460CA1_RuntimeMethod_var);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:501>
 		Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* L_5 = V_1;
 		NullCheck(L_5);
 		Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* L_6;
@@ -18256,7 +17405,6 @@ IL_000a:
 
 IL_001d:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:498>
 		Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* L_7 = V_1;
 		Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* L_8 = ___0_startNode;
 		if ((!(((RuntimeObject*)(Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF*)L_7) == ((RuntimeObject*)(Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF*)L_8))))
@@ -18265,18 +17413,15 @@ IL_001d:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:504>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_9 = V_0;
 		Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* L_10 = ___0_startNode;
 		NullCheck(L_10);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11 = L_10->___position;
 		NullCheck(L_9);
 		List_1_Add_m79E50C4F592B1703F4B76A8BE7B4855515460CA1_inline(L_9, L_11, List_1_Add_m79E50C4F592B1703F4B76A8BE7B4855515460CA1_RuntimeMethod_var);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:505>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_12 = V_0;
 		NullCheck(L_12);
 		List_1_Reverse_m6176C1C61287BC196A8039EFD94C4C197C592F72(L_12, List_1_Reverse_m6176C1C61287BC196A8039EFD94C4C197C592F72_RuntimeMethod_var);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:507>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_13 = V_0;
 		return L_13;
 	}
@@ -18294,14 +17439,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationGraphManager__ctor_mF0A75634B0
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:78>
 		__this->___startYOffset = (-0.25f);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:80>
 		List_1_t7729E1060F41FC6EECBE2CC680D48E9C9B707C7A* L_0 = (List_1_t7729E1060F41FC6EECBE2CC680D48E9C9B707C7A*)il2cpp_codegen_object_new(List_1_t7729E1060F41FC6EECBE2CC680D48E9C9B707C7A_il2cpp_TypeInfo_var);
 		List_1__ctor_m34D591DCBA9FA73D3DB45523491E4EECE896E460(L_0, List_1__ctor_m34D591DCBA9FA73D3DB45523491E4EECE896E460_RuntimeMethod_var);
 		__this->___m_Waypoints = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Waypoints), (void*)L_0);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:81>
 		List_1_t142DAD19FC6734A1170B04D060D0AB33D6396848* L_1 = (List_1_t142DAD19FC6734A1170B04D060D0AB33D6396848*)il2cpp_codegen_object_new(List_1_t142DAD19FC6734A1170B04D060D0AB33D6396848_il2cpp_TypeInfo_var);
 		List_1__ctor_m5F129A8990C875EFBAB16A5745E1B00FBA8CBB07(L_1, List_1__ctor_m5F129A8990C875EFBAB16A5745E1B00FBA8CBB07_RuntimeMethod_var);
 		__this->___m_NavigationTargets = L_1;
@@ -18322,15 +17464,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationGraphManager__ctor_mF0A75634B0
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LineSegment__ctor_mB88F9C46644D489060931FA23F47871DE3EF7ACF (LineSegment_tAD0436D367891A411B8CB024703F7EF56FCA65FA* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_start, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_end, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:58>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:60>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_start;
 		__this->___startPosition = L_0;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:61>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___1_end;
 		__this->___endPosition = L_1;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:62>
 		return;
 	}
 }
@@ -18346,17 +17484,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LineSegment__ctor_mB88F9C46644D489060931
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Edge__ctor_mD04A9134BD5E8B92BE597768CA89143B37DD46EC (Edge_t5A6B98770FCB02D787CAE52F0B8380CDA2B98F12* __this, Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* ___0_start, Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* ___1_end, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:70>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:72>
 		Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* L_0 = ___0_start;
 		__this->___start = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___start), (void*)L_0);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:73>
 		Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* L_1 = ___1_end;
 		__this->___end = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___end), (void*)L_1);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:74>
 		return;
 	}
 }
@@ -18374,7 +17508,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 	Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:28>
 		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_0 = __this->___m_collider;
 		NullCheck(L_0);
 		Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 L_1;
@@ -18389,7 +17522,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Waypoint_set_position_m23DE967758DC94BED8D0BA8FD035A68EC1F65870 (Waypoint_t58FFDDE716BD6194164ED3C46533EB5A24F27C4E* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:34>
 		return;
 	}
 }
@@ -18397,19 +17529,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Waypoint_set_position_m23DE967758DC94BED
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Waypoint_Start_mB7FAE822A406C48615DE8E743D097CAC721FD82B (Waypoint_t58FFDDE716BD6194164ED3C46533EB5A24F27C4E* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:54>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_0;
 		L_0 = Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF(NULL);
 		__this->___m_mainCamera = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_mainCamera), (void*)L_0);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:56>
 		Waypoint_InitializeNode_m2C1005D664FB3F79096F8148314D86821FC8B68A(__this, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:57>
 		NavigationGraphManager_t49268BEC9BE27EB2F3270945081B34C4005FFB50* L_1;
 		L_1 = NavigationGraphManager_get_Instance_m11747248E6594D73B981D940C43EF687DF61AF2C(NULL);
 		NullCheck(L_1);
 		NavigationGraphManager_AddWaypoint_m99C2E0E41F954142127469BD5F06C9F167C06661(L_1, __this, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:58>
 		return;
 	}
 }
@@ -18430,12 +17558,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Waypoint_InitializeNode_m2C1005D664FB3F7
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:62>
 		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_0;
 		L_0 = Component_GetComponent_TisCollider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76_m820398EDBF1D3766C3166A0C323A127662A29A14(__this, Component_GetComponent_TisCollider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76_m820398EDBF1D3766C3166A0C323A127662A29A14_RuntimeMethod_var);
 		__this->___m_collider = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_collider), (void*)L_0);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:63>
 		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_1 = __this->___m_collider;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
@@ -18446,7 +17572,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Waypoint_InitializeNode_m2C1005D664FB3F7
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:64>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
 		L_3 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_3);
@@ -18458,7 +17583,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Waypoint_InitializeNode_m2C1005D664FB3F7
 
 IL_002b:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:66>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_5 = __this->___m_Mesh;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_6;
@@ -18469,7 +17593,6 @@ IL_002b:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:67>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_7 = (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4*)il2cpp_codegen_object_new(Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4_il2cpp_TypeInfo_var);
 		Mesh__ctor_m5A9AECEDDAFFD84811ED8928012BDE97A9CEBD00(L_7, NULL);
 		__this->___m_Mesh = L_7;
@@ -18478,17 +17601,14 @@ IL_002b:
 
 IL_0044:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:69>
 		MeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5* L_8;
 		L_8 = Component_GetComponent_TisMeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5_mB82F66059DFB5715DD85BDED1D90BC03A6C9E623(__this, Component_GetComponent_TisMeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5_mB82F66059DFB5715DD85BDED1D90BC03A6C9E623_RuntimeMethod_var);
 		__this->___m_MeshFilter = L_8;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_MeshFilter), (void*)L_8);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:70>
 		MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE* L_9;
 		L_9 = Component_GetComponent_TisMeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE_m0EDA0079FA3617687C4A28623B79A37D618D9CFB(__this, Component_GetComponent_TisMeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE_m0EDA0079FA3617687C4A28623B79A37D618D9CFB_RuntimeMethod_var);
 		__this->___m_MeshRenderer = L_9;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_MeshRenderer), (void*)L_9);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:72>
 		MeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5* L_10 = __this->___m_MeshFilter;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_11;
@@ -18499,7 +17619,6 @@ IL_0044:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:73>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12;
 		L_12 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_12);
@@ -18511,7 +17630,6 @@ IL_0044:
 
 IL_007b:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:75>
 		MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE* L_14 = __this->___m_MeshRenderer;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_15;
@@ -18522,7 +17640,6 @@ IL_007b:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:76>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_16;
 		L_16 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_16);
@@ -18534,12 +17651,10 @@ IL_007b:
 
 IL_009a:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:78>
 		MeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5* L_18 = __this->___m_MeshFilter;
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_19 = __this->___m_Mesh;
 		NullCheck(L_18);
 		MeshFilter_set_mesh_mD2988E2D835205FD6B6CD35A61E1592844D971F8(L_18, L_19, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:79>
 		return;
 	}
 }
@@ -18559,7 +17674,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Waypoint_Update_m31AA8BA9ABC218E60273856
 	RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:83>
 		bool L_0 = __this->___isPressed;
 		if (!L_0)
 		{
@@ -18567,7 +17681,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Waypoint_Update_m31AA8BA9ABC218E60273856
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:85>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_1 = __this->___m_mainCamera;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
 		L_2 = Input_get_mousePosition_mFF21FBD2647DAE2A23BD4C45571CA95D05A0A42C(NULL);
@@ -18583,13 +17696,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Waypoint_Update_m31AA8BA9ABC218E60273856
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8;
 		L_8 = Camera_ScreenToWorldPoint_m5EA3148F070985EC72127AAC3448D8D6ABE6E7E5(L_1, L_7, NULL);
 		V_0 = L_8;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:86>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
 		L_9 = Waypoint_get_position_m8F8DC953170EE4D8EA70D06008389FAA7980D83D(__this, NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = V_0;
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_11 = __this->___m_Mesh;
 		Waypoint_DrawPreviewConnection_m95CB400D90EA02FE75E220FFABC719BA0A30FAD4(__this, L_9, L_10, (0.100000001f), L_11, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:89>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_12;
 		L_12 = Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF(NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13;
@@ -18597,7 +17708,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Waypoint_Update_m31AA8BA9ABC218E60273856
 		NullCheck(L_12);
 		Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 L_14;
 		L_14 = Camera_ScreenPointToRay_m2887B9A49880B7AB670C57D66B67D6A6689FE315(L_12, L_13, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:90>
 		il2cpp_codegen_runtime_class_init_inline(Physics_t1244C2983AEAFA149425AFFC3DF53BC91C18ED56_il2cpp_TypeInfo_var);
 		bool L_15;
 		L_15 = Physics_Raycast_mCAC9F02A1AAB49E16B384EBC8318E2DF30F4B0E5(L_14, (&V_1), NULL);
@@ -18607,7 +17717,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Waypoint_Update_m31AA8BA9ABC218E60273856
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:92>
 		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_16;
 		L_16 = RaycastHit_get_collider_m84B160439BBEAB6D9E94B799F720E25C9E2D444D((&V_1), NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -18619,13 +17728,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Waypoint_Update_m31AA8BA9ABC218E60273856
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:94>
 		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_18;
 		L_18 = RaycastHit_get_collider_m84B160439BBEAB6D9E94B799F720E25C9E2D444D((&V_1), NULL);
 		NullCheck(L_18);
 		Waypoint_t58FFDDE716BD6194164ED3C46533EB5A24F27C4E* L_19;
 		L_19 = Component_GetComponent_TisWaypoint_t58FFDDE716BD6194164ED3C46533EB5A24F27C4E_mDE7B5550C002412E4C580F7811C9952C79E0210B(L_18, Component_GetComponent_TisWaypoint_t58FFDDE716BD6194164ED3C46533EB5A24F27C4E_mDE7B5550C002412E4C580F7811C9952C79E0210B_RuntimeMethod_var);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:95>
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_20;
 		L_20 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_19, __this, NULL);
@@ -18635,7 +17742,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Waypoint_Update_m31AA8BA9ABC218E60273856
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:97>
 		float L_21 = __this->___m_timeHeld;
 		float L_22;
 		L_22 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
@@ -18645,13 +17751,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Waypoint_Update_m31AA8BA9ABC218E60273856
 
 IL_009d:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:101>
 		__this->___m_timeHeld = (0.0f);
 	}
 
 IL_00a8:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:106>
 		float L_23 = __this->___m_timeHeld;
 		float L_24 = __this->___m_ClickHoldTime;
 		if ((!(((float)L_23) >= ((float)L_24))))
@@ -18667,13 +17771,11 @@ IL_00a8:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:108>
 		__this->___isEditing = (bool)1;
 	}
 
 IL_00c5:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:111>
 		bool L_26 = __this->___isEditing;
 		if (!L_26)
 		{
@@ -18681,7 +17783,6 @@ IL_00c5:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:113>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_27;
 		L_27 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_28 = V_0;
@@ -18691,7 +17792,6 @@ IL_00c5:
 
 IL_00d9:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:116>
 		return;
 	}
 }
@@ -18699,12 +17799,10 @@ IL_00d9:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Waypoint_OnDestroy_m39B5F11E78E8CBD071BD3970014302D9468F038A (Waypoint_t58FFDDE716BD6194164ED3C46533EB5A24F27C4E* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:120>
 		NavigationGraphManager_t49268BEC9BE27EB2F3270945081B34C4005FFB50* L_0;
 		L_0 = NavigationGraphManager_get_Instance_m11747248E6594D73B981D940C43EF687DF61AF2C(NULL);
 		NullCheck(L_0);
 		NavigationGraphManager_RemoveWaypoint_m4158ABA7A0E5E5E5C5220A0CAA4FA993709307EC(L_0, __this, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:121>
 		return;
 	}
 }
@@ -18737,7 +17835,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Waypoint_DrawPreviewConnection_m95CB400D
 	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 V_8;
 	memset((&V_8), 0, sizeof(V_8));
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:125>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_0 = __this->___m_mainCamera;
 		NullCheck(L_0);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
@@ -18746,7 +17843,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Waypoint_DrawPreviewConnection_m95CB400D
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
 		L_2 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_1, NULL);
 		V_0 = L_2;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:126>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = ___1_endPosition;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___0_startPosition;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5;
@@ -18754,32 +17850,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Waypoint_DrawPreviewConnection_m95CB400D
 		V_7 = L_5;
 		float L_6;
 		L_6 = Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline((&V_7), NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:128>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_7 = (List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B*)il2cpp_codegen_object_new(List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B_il2cpp_TypeInfo_var);
 		List_1__ctor_mC54E2BCBE43279A96FC082F5CDE2D76388BD8F9C(L_7, List_1__ctor_mC54E2BCBE43279A96FC082F5CDE2D76388BD8F9C_RuntimeMethod_var);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:129>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_8 = L_7;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9 = ___0_startPosition;
 		NullCheck(L_8);
 		List_1_Add_m79E50C4F592B1703F4B76A8BE7B4855515460CA1_inline(L_8, L_9, List_1_Add_m79E50C4F592B1703F4B76A8BE7B4855515460CA1_RuntimeMethod_var);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:130>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = ___1_endPosition;
 		NullCheck(L_8);
 		List_1_Add_m79E50C4F592B1703F4B76A8BE7B4855515460CA1_inline(L_8, L_10, List_1_Add_m79E50C4F592B1703F4B76A8BE7B4855515460CA1_RuntimeMethod_var);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:132>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_11 = (Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)SZArrayNew(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C_il2cpp_TypeInfo_var, (uint32_t)2);
 		V_1 = L_11;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:133>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_12 = (Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)SZArrayNew(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C_il2cpp_TypeInfo_var, (uint32_t)2);
 		V_2 = L_12;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:134>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_13 = (Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)SZArrayNew(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C_il2cpp_TypeInfo_var, (uint32_t)2);
 		V_3 = L_13;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:135>
 		QuaternionU5BU5D_t3C088AFB0F3D2763228C9CAB227021C5DC462AF7* L_14 = (QuaternionU5BU5D_t3C088AFB0F3D2763228C9CAB227021C5DC462AF7*)(QuaternionU5BU5D_t3C088AFB0F3D2763228C9CAB227021C5DC462AF7*)SZArrayNew(QuaternionU5BU5D_t3C088AFB0F3D2763228C9CAB227021C5DC462AF7_il2cpp_TypeInfo_var, (uint32_t)2);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:136>
 		Matrix4x4U5BU5D_t9C51C93425FABC022B506D2DB3A5FA70F9752C4D* L_15 = (Matrix4x4U5BU5D_t9C51C93425FABC022B506D2DB3A5FA70F9752C4D*)(Matrix4x4U5BU5D_t9C51C93425FABC022B506D2DB3A5FA70F9752C4D*)SZArrayNew(Matrix4x4U5BU5D_t9C51C93425FABC022B506D2DB3A5FA70F9752C4D_il2cpp_TypeInfo_var, (uint32_t)2);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:138>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_16 = V_2;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17 = ___1_endPosition;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_18 = ___0_startPosition;
@@ -18790,7 +17877,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Waypoint_DrawPreviewConnection_m95CB400D
 		L_20 = Vector3_get_normalized_m736BBF65D5CDA7A18414370D15B4DFCC1E466F07_inline((&V_7), NULL);
 		NullCheck(L_16);
 		(L_16)->SetAt(static_cast<il2cpp_array_size_t>(0), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_20);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:139>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_21 = V_2;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_22 = ___0_startPosition;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_23 = ___1_endPosition;
@@ -18801,7 +17887,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Waypoint_DrawPreviewConnection_m95CB400D
 		L_25 = Vector3_get_normalized_m736BBF65D5CDA7A18414370D15B4DFCC1E466F07_inline((&V_7), NULL);
 		NullCheck(L_21);
 		(L_21)->SetAt(static_cast<il2cpp_array_size_t>(1), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_25);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:141>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_26 = V_3;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_27 = V_0;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_28 = ___0_startPosition;
@@ -18812,7 +17897,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Waypoint_DrawPreviewConnection_m95CB400D
 		L_30 = Vector3_get_normalized_m736BBF65D5CDA7A18414370D15B4DFCC1E466F07_inline((&V_7), NULL);
 		NullCheck(L_26);
 		(L_26)->SetAt(static_cast<il2cpp_array_size_t>(0), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_30);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:142>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_31 = V_3;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_32 = V_0;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_33 = ___1_endPosition;
@@ -18823,7 +17907,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Waypoint_DrawPreviewConnection_m95CB400D
 		L_35 = Vector3_get_normalized_m736BBF65D5CDA7A18414370D15B4DFCC1E466F07_inline((&V_7), NULL);
 		NullCheck(L_31);
 		(L_31)->SetAt(static_cast<il2cpp_array_size_t>(1), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_35);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:144>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_36 = V_1;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_37 = V_3;
 		NullCheck(L_37);
@@ -18837,7 +17920,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Waypoint_DrawPreviewConnection_m95CB400D
 		L_43 = Vector3_Cross_mF93A280558BCE756D13B6CC5DCD7DE8A43148987_inline(L_39, L_42, NULL);
 		NullCheck(L_36);
 		(L_36)->SetAt(static_cast<il2cpp_array_size_t>(0), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_43);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:145>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_44 = V_1;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_45 = V_3;
 		NullCheck(L_45);
@@ -18853,16 +17935,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Waypoint_DrawPreviewConnection_m95CB400D
 		L_52 = Vector3_Cross_mF93A280558BCE756D13B6CC5DCD7DE8A43148987_inline(L_47, L_51, NULL);
 		NullCheck(L_44);
 		(L_44)->SetAt(static_cast<il2cpp_array_size_t>(1), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_52);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:154>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_53 = (Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)SZArrayNew(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C_il2cpp_TypeInfo_var, (uint32_t)4);
 		V_4 = L_53;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:155>
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_54 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)6);
 		V_5 = L_54;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:156>
 		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_55 = (Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA*)(Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA*)SZArrayNew(Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA_il2cpp_TypeInfo_var, (uint32_t)4);
 		V_6 = L_55;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:158>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_56 = V_4;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_57;
 		L_57 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
@@ -18894,7 +17972,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Waypoint_DrawPreviewConnection_m95CB400D
 		L_73 = Matrix4x4_MultiplyPoint_m20E910B65693559BFDE99382472D8DD02C862E7E((&V_8), L_72, NULL);
 		NullCheck(L_56);
 		(L_56)->SetAt(static_cast<il2cpp_array_size_t>(0), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_73);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:159>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_74 = V_4;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_75;
 		L_75 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
@@ -18926,7 +18003,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Waypoint_DrawPreviewConnection_m95CB400D
 		L_91 = Matrix4x4_MultiplyPoint_m20E910B65693559BFDE99382472D8DD02C862E7E((&V_8), L_90, NULL);
 		NullCheck(L_74);
 		(L_74)->SetAt(static_cast<il2cpp_array_size_t>(1), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_91);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:160>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_92 = V_4;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_93;
 		L_93 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
@@ -18958,7 +18034,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Waypoint_DrawPreviewConnection_m95CB400D
 		L_109 = Matrix4x4_MultiplyPoint_m20E910B65693559BFDE99382472D8DD02C862E7E((&V_8), L_108, NULL);
 		NullCheck(L_92);
 		(L_92)->SetAt(static_cast<il2cpp_array_size_t>(2), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_109);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:161>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_110 = V_4;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_111;
 		L_111 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
@@ -18990,78 +18065,63 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Waypoint_DrawPreviewConnection_m95CB400D
 		L_127 = Matrix4x4_MultiplyPoint_m20E910B65693559BFDE99382472D8DD02C862E7E((&V_8), L_126, NULL);
 		NullCheck(L_110);
 		(L_110)->SetAt(static_cast<il2cpp_array_size_t>(3), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_127);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:163>
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_128 = V_5;
 		NullCheck(L_128);
 		(L_128)->SetAt(static_cast<il2cpp_array_size_t>(0), (int32_t)0);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:164>
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_129 = V_5;
 		NullCheck(L_129);
 		(L_129)->SetAt(static_cast<il2cpp_array_size_t>(1), (int32_t)1);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:165>
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_130 = V_5;
 		NullCheck(L_130);
 		(L_130)->SetAt(static_cast<il2cpp_array_size_t>(2), (int32_t)3);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:166>
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_131 = V_5;
 		NullCheck(L_131);
 		(L_131)->SetAt(static_cast<il2cpp_array_size_t>(3), (int32_t)1);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:167>
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_132 = V_5;
 		NullCheck(L_132);
 		(L_132)->SetAt(static_cast<il2cpp_array_size_t>(4), (int32_t)2);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:168>
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_133 = V_5;
 		NullCheck(L_133);
 		(L_133)->SetAt(static_cast<il2cpp_array_size_t>(5), (int32_t)3);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:170>
 		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_134 = V_6;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_135;
 		memset((&L_135), 0, sizeof(L_135));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_135), (0.0f), (0.0f), NULL);
 		NullCheck(L_134);
 		(L_134)->SetAt(static_cast<il2cpp_array_size_t>(0), (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7)L_135);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:171>
 		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_136 = V_6;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_137;
 		memset((&L_137), 0, sizeof(L_137));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_137), (1.0f), (0.0f), NULL);
 		NullCheck(L_136);
 		(L_136)->SetAt(static_cast<il2cpp_array_size_t>(1), (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7)L_137);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:172>
 		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_138 = V_6;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_139;
 		memset((&L_139), 0, sizeof(L_139));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_139), (1.0f), (1.0f), NULL);
 		NullCheck(L_138);
 		(L_138)->SetAt(static_cast<il2cpp_array_size_t>(2), (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7)L_139);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:173>
 		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_140 = V_6;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_141;
 		memset((&L_141), 0, sizeof(L_141));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_141), (0.0f), (1.0f), NULL);
 		NullCheck(L_140);
 		(L_140)->SetAt(static_cast<il2cpp_array_size_t>(3), (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7)L_141);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:175>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_142 = ___3_mesh;
 		NullCheck(L_142);
 		Mesh_Clear_m0F95397EA143D31AD0B4D332E8C6FA25A7957BC0(L_142, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:176>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_143 = ___3_mesh;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_144 = V_4;
 		NullCheck(L_143);
 		Mesh_set_vertices_m5BB814D89E9ACA00DBF19F7D8E22CB73AC73FE5C(L_143, L_144, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:177>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_145 = ___3_mesh;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_146 = V_5;
 		NullCheck(L_145);
 		Mesh_set_triangles_m124405320579A8D92711BB5A124644963A26F60B(L_145, L_146, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:178>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_147 = ___3_mesh;
 		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_148 = V_6;
 		NullCheck(L_147);
 		Mesh_set_uv_m6ED9C50E0DA8166DD48AC40FD6C828B9AD2E9617(L_147, L_148, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:179>
 		return;
 	}
 }
@@ -19078,7 +18138,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Waypoint_OnPointerDown_m08DD44C1C8C54D0D
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:183>
 		NavigationManager_tFB37C91E0F34482AA82FD6B0090B5A1C0FE5BB53* L_0;
 		L_0 = NavigationManager_get_Instance_m34C8D227FAFBF3E74409758EE201755351704251(NULL);
 		NullCheck(L_0);
@@ -19089,17 +18148,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Waypoint_OnPointerDown_m08DD44C1C8C54D0D
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:185>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral483FCB029978522B2D2CFBC186CBCEAB2334FD5F, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:186>
 		float L_2 = __this->___m_timeHeld;
 		float L_3 = L_2;
 		RuntimeObject* L_4 = Box(il2cpp_defaults.single_class, &L_3);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_4, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:188>
 		__this->___isPressed = (bool)1;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:189>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5;
 		L_5 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_5);
@@ -19138,7 +18193,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Waypoint_OnPointerDown_m08DD44C1C8C54D0D
 
 IL_0081:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:191>
 		return;
 	}
 }
@@ -19159,17 +18213,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Waypoint_OnPointerUp_m9D5BFEB143317AEEE2
 	memset((&V_0), 0, sizeof(V_0));
 	Waypoint_t58FFDDE716BD6194164ED3C46533EB5A24F27C4E* V_1 = NULL;
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:195>
 		__this->___isPressed = (bool)0;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:196>
 		__this->___isEditing = (bool)0;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:197>
 		__this->___m_timeHeld = (0.0f);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:199>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_0 = __this->___m_Mesh;
 		NullCheck(L_0);
 		Mesh_Clear_m0F95397EA143D31AD0B4D332E8C6FA25A7957BC0(L_0, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:201>
 		NavigationManager_tFB37C91E0F34482AA82FD6B0090B5A1C0FE5BB53* L_1;
 		L_1 = NavigationManager_get_Instance_m34C8D227FAFBF3E74409758EE201755351704251(NULL);
 		NullCheck(L_1);
@@ -19180,7 +18229,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Waypoint_OnPointerUp_m9D5BFEB143317AEEE2
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:204>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_3;
 		L_3 = Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF(NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
@@ -19188,7 +18236,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Waypoint_OnPointerUp_m9D5BFEB143317AEEE2
 		NullCheck(L_3);
 		Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 L_5;
 		L_5 = Camera_ScreenPointToRay_m2887B9A49880B7AB670C57D66B67D6A6689FE315(L_3, L_4, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:206>
 		il2cpp_codegen_runtime_class_init_inline(Physics_t1244C2983AEAFA149425AFFC3DF53BC91C18ED56_il2cpp_TypeInfo_var);
 		bool L_6;
 		L_6 = Physics_Raycast_mCAC9F02A1AAB49E16B384EBC8318E2DF30F4B0E5(L_5, (&V_0), NULL);
@@ -19198,7 +18245,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Waypoint_OnPointerUp_m9D5BFEB143317AEEE2
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:208>
 		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_7;
 		L_7 = RaycastHit_get_collider_m84B160439BBEAB6D9E94B799F720E25C9E2D444D((&V_0), NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -19210,14 +18256,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Waypoint_OnPointerUp_m9D5BFEB143317AEEE2
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:210>
 		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_9;
 		L_9 = RaycastHit_get_collider_m84B160439BBEAB6D9E94B799F720E25C9E2D444D((&V_0), NULL);
 		NullCheck(L_9);
 		Waypoint_t58FFDDE716BD6194164ED3C46533EB5A24F27C4E* L_10;
 		L_10 = Component_GetComponent_TisWaypoint_t58FFDDE716BD6194164ED3C46533EB5A24F27C4E_mDE7B5550C002412E4C580F7811C9952C79E0210B(L_9, Component_GetComponent_TisWaypoint_t58FFDDE716BD6194164ED3C46533EB5A24F27C4E_mDE7B5550C002412E4C580F7811C9952C79E0210B_RuntimeMethod_var);
 		V_1 = L_10;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:211>
 		Waypoint_t58FFDDE716BD6194164ED3C46533EB5A24F27C4E* L_11 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_12;
@@ -19238,7 +18282,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Waypoint_OnPointerUp_m9D5BFEB143317AEEE2
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:213>
 		List_1_t7729E1060F41FC6EECBE2CC680D48E9C9B707C7A* L_15 = __this->___neighbours;
 		Waypoint_t58FFDDE716BD6194164ED3C46533EB5A24F27C4E* L_16 = V_1;
 		NullCheck(L_15);
@@ -19250,7 +18293,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Waypoint_OnPointerUp_m9D5BFEB143317AEEE2
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:215>
 		List_1_t7729E1060F41FC6EECBE2CC680D48E9C9B707C7A* L_18 = __this->___neighbours;
 		Waypoint_t58FFDDE716BD6194164ED3C46533EB5A24F27C4E* L_19 = V_1;
 		NullCheck(L_18);
@@ -19259,7 +18301,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Waypoint_OnPointerUp_m9D5BFEB143317AEEE2
 
 IL_0090:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:217>
 		Waypoint_t58FFDDE716BD6194164ED3C46533EB5A24F27C4E* L_20 = V_1;
 		NullCheck(L_20);
 		List_1_t7729E1060F41FC6EECBE2CC680D48E9C9B707C7A* L_21 = L_20->___neighbours;
@@ -19272,7 +18313,6 @@ IL_0090:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:219>
 		Waypoint_t58FFDDE716BD6194164ED3C46533EB5A24F27C4E* L_23 = V_1;
 		NullCheck(L_23);
 		List_1_t7729E1060F41FC6EECBE2CC680D48E9C9B707C7A* L_24 = L_23->___neighbours;
@@ -19282,7 +18322,6 @@ IL_0090:
 
 IL_00aa:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:225>
 		return;
 	}
 }
@@ -19297,12 +18336,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Waypoint__ctor_m1A0182A33198407A582A5016
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:22>
 		List_1_t7729E1060F41FC6EECBE2CC680D48E9C9B707C7A* L_0 = (List_1_t7729E1060F41FC6EECBE2CC680D48E9C9B707C7A*)il2cpp_codegen_object_new(List_1_t7729E1060F41FC6EECBE2CC680D48E9C9B707C7A_il2cpp_TypeInfo_var);
 		List_1__ctor_m34D591DCBA9FA73D3DB45523491E4EECE896E460(L_0, List_1__ctor_m34D591DCBA9FA73D3DB45523491E4EECE896E460_RuntimeMethod_var);
 		__this->___neighbours = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___neighbours), (void*)L_0);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs:38>
 		__this->___m_ClickHoldTime = (1.0f);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -19320,9 +18357,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Waypoint__ctor_m1A0182A33198407A582A5016
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaypointsUI_Start_mDFF85BF71871CDFB15AFD63AA732D41EB900D3B7 (WaypointsUI_tCCA4807BAC11B92EDF12149FADA2FF44715550D6* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/WaypointsUI.cs:35>
 		WaypointsUI_ChangeState_mD7293F7100E879F06EE59B90C7C7B17A571780A0(__this, 0, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/WaypointsUI.cs:36>
 		return;
 	}
 }
@@ -19330,7 +18365,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaypointsUI_Start_mDFF85BF71871CDFB15AFD
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaypointsUI_InitializeUI_mBADC6D9A09ACEEDE6F544F0477E36DDF6EE961DF (WaypointsUI_tCCA4807BAC11B92EDF12149FADA2FF44715550D6* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/WaypointsUI.cs:41>
 		return;
 	}
 }
@@ -19338,7 +18372,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaypointsUI_InitializeUI_mBADC6D9A09ACEE
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaypointsUI_ToggleEditMode_m0F86714FA4E998FC6293B03006EFF81FC87D770F (WaypointsUI_tCCA4807BAC11B92EDF12149FADA2FF44715550D6* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/WaypointsUI.cs:45>
 		int32_t L_0 = __this->___m_State;
 		if ((!(((uint32_t)L_0) == ((uint32_t)1))))
 		{
@@ -19346,23 +18379,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaypointsUI_ToggleEditMode_m0F86714FA4E9
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/WaypointsUI.cs:47>
 		__this->___m_State = 0;
 		goto IL_0019;
 	}
 
 IL_0012:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/WaypointsUI.cs:51>
 		__this->___m_State = 1;
 	}
 
 IL_0019:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/WaypointsUI.cs:53>
 		int32_t L_1 = __this->___m_State;
 		WaypointsUI_ChangeState_mD7293F7100E879F06EE59B90C7C7B17A571780A0(__this, L_1, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/WaypointsUI.cs:54>
 		return;
 	}
 }
@@ -19370,7 +18399,6 @@ IL_0019:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaypointsUI_ToggleSettingsPanel_m1D96F10BAC741D0459F1B218D609747174041015 (WaypointsUI_tCCA4807BAC11B92EDF12149FADA2FF44715550D6* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/WaypointsUI.cs:58>
 		int32_t L_0 = __this->___m_State;
 		if ((!(((uint32_t)L_0) == ((uint32_t)2))))
 		{
@@ -19378,23 +18406,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaypointsUI_ToggleSettingsPanel_m1D96F10
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/WaypointsUI.cs:60>
 		__this->___m_State = 0;
 		goto IL_0019;
 	}
 
 IL_0012:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/WaypointsUI.cs:64>
 		__this->___m_State = 2;
 	}
 
 IL_0019:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/WaypointsUI.cs:66>
 		int32_t L_1 = __this->___m_State;
 		WaypointsUI_ChangeState_mD7293F7100E879F06EE59B90C7C7B17A571780A0(__this, L_1, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/WaypointsUI.cs:67>
 		return;
 	}
 }
@@ -19425,82 +18449,64 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaypointsUI_ChangeState_mD7293F7100E879F
 
 IL_0013:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/WaypointsUI.cs:75>
 		NavigationManager_tFB37C91E0F34482AA82FD6B0090B5A1C0FE5BB53* L_1;
 		L_1 = NavigationManager_get_Instance_m34C8D227FAFBF3E74409758EE201755351704251(NULL);
 		NullCheck(L_1);
 		L_1->___inEditMode = (bool)0;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/WaypointsUI.cs:76>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___m_SettingsPanel;
 		NullCheck(L_2);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_2, (bool)0, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/WaypointsUI.cs:77>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = __this->___m_EditModePanel;
 		NullCheck(L_3);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_3, (bool)0, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/WaypointsUI.cs:78>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = __this->___m_SettingsButton;
 		NullCheck(L_4);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_4, (bool)1, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/WaypointsUI.cs:79>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->___m_EditModeButton;
 		NullCheck(L_5);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_5, (bool)1, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/WaypointsUI.cs:80>
 		return;
 	}
 
 IL_004f:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/WaypointsUI.cs:82>
 		NavigationManager_tFB37C91E0F34482AA82FD6B0090B5A1C0FE5BB53* L_6;
 		L_6 = NavigationManager_get_Instance_m34C8D227FAFBF3E74409758EE201755351704251(NULL);
 		NullCheck(L_6);
 		L_6->___inEditMode = (bool)1;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/WaypointsUI.cs:83>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = __this->___m_SettingsPanel;
 		NullCheck(L_7);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_7, (bool)0, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/WaypointsUI.cs:84>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = __this->___m_EditModePanel;
 		NullCheck(L_8);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_8, (bool)1, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/WaypointsUI.cs:85>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9 = __this->___m_SettingsButton;
 		NullCheck(L_9);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_9, (bool)1, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/WaypointsUI.cs:86>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = __this->___m_EditModeButton;
 		NullCheck(L_10);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_10, (bool)1, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/WaypointsUI.cs:87>
 		return;
 	}
 
 IL_008b:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/WaypointsUI.cs:89>
 		NavigationManager_tFB37C91E0F34482AA82FD6B0090B5A1C0FE5BB53* L_11;
 		L_11 = NavigationManager_get_Instance_m34C8D227FAFBF3E74409758EE201755351704251(NULL);
 		NullCheck(L_11);
 		L_11->___inEditMode = (bool)0;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/WaypointsUI.cs:90>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12 = __this->___m_SettingsPanel;
 		NullCheck(L_12);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_12, (bool)1, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/WaypointsUI.cs:91>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13 = __this->___m_EditModePanel;
 		NullCheck(L_13);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_13, (bool)0, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/WaypointsUI.cs:92>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14 = __this->___m_SettingsButton;
 		NullCheck(L_14);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_14, (bool)1, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/WaypointsUI.cs:93>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15 = __this->___m_EditModeButton;
 		NullCheck(L_15);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_15, (bool)1, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/WaypointsUI.cs:98>
 		return;
 	}
 }
@@ -19534,7 +18540,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 	Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/IsNavigationTarget.cs:26>
 		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_0 = __this->___m_collider;
 		NullCheck(L_0);
 		Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 L_1;
@@ -19549,7 +18554,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IsNavigationTarget_set_position_m188840A5795FC3DC0D32E4321A97180FE0813741 (IsNavigationTarget_t6F09EE82CB69EF5F481C1F4BEC15B0A8BC01DE6A* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/IsNavigationTarget.cs:32>
 		return;
 	}
 }
@@ -19559,7 +18563,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IsNavigationTarget_Start_m4BD2F5D43501B4
 	NavigationGraphManager_t49268BEC9BE27EB2F3270945081B34C4005FFB50* G_B2_0 = NULL;
 	NavigationGraphManager_t49268BEC9BE27EB2F3270945081B34C4005FFB50* G_B1_0 = NULL;
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/IsNavigationTarget.cs:39>
 		NavigationGraphManager_t49268BEC9BE27EB2F3270945081B34C4005FFB50* L_0;
 		L_0 = NavigationGraphManager_get_Instance_m11747248E6594D73B981D940C43EF687DF61AF2C(NULL);
 		NavigationGraphManager_t49268BEC9BE27EB2F3270945081B34C4005FFB50* L_1 = L_0;
@@ -19578,7 +18581,6 @@ IL_000a:
 	{
 		NullCheck(G_B2_0);
 		NavigationGraphManager_AddTarget_mDB6E9B83752B9771239C49607AB7071B42BC5DCE(G_B2_0, __this, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/IsNavigationTarget.cs:40>
 		return;
 	}
 }
@@ -19588,7 +18590,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IsNavigationTarget_OnDestroy_mDB2ADF3C5C
 	NavigationGraphManager_t49268BEC9BE27EB2F3270945081B34C4005FFB50* G_B2_0 = NULL;
 	NavigationGraphManager_t49268BEC9BE27EB2F3270945081B34C4005FFB50* G_B1_0 = NULL;
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/IsNavigationTarget.cs:44>
 		NavigationGraphManager_t49268BEC9BE27EB2F3270945081B34C4005FFB50* L_0;
 		L_0 = NavigationGraphManager_get_Instance_m11747248E6594D73B981D940C43EF687DF61AF2C(NULL);
 		NavigationGraphManager_t49268BEC9BE27EB2F3270945081B34C4005FFB50* L_1 = L_0;
@@ -19607,7 +18608,6 @@ IL_000a:
 	{
 		NullCheck(G_B2_0);
 		NavigationGraphManager_RemoveTarget_mB4686FB0878B98D7418CE1556AD9ED1FC6BFCF21(G_B2_0, __this, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/IsNavigationTarget.cs:45>
 		return;
 	}
 }
@@ -19629,12 +18629,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IsNavigationTarget_OnEnable_mD8232113E82
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/IsNavigationTarget.cs:49>
 		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_0;
 		L_0 = Component_GetComponent_TisCollider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76_m820398EDBF1D3766C3166A0C323A127662A29A14(__this, Component_GetComponent_TisCollider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76_m820398EDBF1D3766C3166A0C323A127662A29A14_RuntimeMethod_var);
 		__this->___m_collider = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_collider), (void*)L_0);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/IsNavigationTarget.cs:51>
 		il2cpp_codegen_runtime_class_init_inline(NavigationTargets_tD82D127A902CAE4211C5A2D601224A42FA500F59_il2cpp_TypeInfo_var);
 		Dictionary_2_t2E1FA6B8D978D1D213729887AEF64EAC5B8F4F4B* L_1 = ((NavigationTargets_tD82D127A902CAE4211C5A2D601224A42FA500F59_StaticFields*)il2cpp_codegen_static_fields_for(NavigationTargets_tD82D127A902CAE4211C5A2D601224A42FA500F59_il2cpp_TypeInfo_var))->___NavigationTargetsDict;
 		int32_t L_2 = __this->___navigationCategory;
@@ -19647,7 +18645,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IsNavigationTarget_OnEnable_mD8232113E82
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/IsNavigationTarget.cs:52>
 		il2cpp_codegen_runtime_class_init_inline(NavigationTargets_tD82D127A902CAE4211C5A2D601224A42FA500F59_il2cpp_TypeInfo_var);
 		Dictionary_2_t2E1FA6B8D978D1D213729887AEF64EAC5B8F4F4B* L_4 = ((NavigationTargets_tD82D127A902CAE4211C5A2D601224A42FA500F59_StaticFields*)il2cpp_codegen_static_fields_for(NavigationTargets_tD82D127A902CAE4211C5A2D601224A42FA500F59_il2cpp_TypeInfo_var))->___NavigationTargetsDict;
 		int32_t L_5 = __this->___navigationCategory;
@@ -19659,7 +18656,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IsNavigationTarget_OnEnable_mD8232113E82
 
 IL_0033:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/IsNavigationTarget.cs:54>
 		il2cpp_codegen_runtime_class_init_inline(NavigationTargets_tD82D127A902CAE4211C5A2D601224A42FA500F59_il2cpp_TypeInfo_var);
 		Dictionary_2_t2E1FA6B8D978D1D213729887AEF64EAC5B8F4F4B* L_7 = ((NavigationTargets_tD82D127A902CAE4211C5A2D601224A42FA500F59_StaticFields*)il2cpp_codegen_static_fields_for(NavigationTargets_tD82D127A902CAE4211C5A2D601224A42FA500F59_il2cpp_TypeInfo_var))->___NavigationTargetsDict;
 		int32_t L_8 = __this->___navigationCategory;
@@ -19670,7 +18666,6 @@ IL_0033:
 		L_10 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_9);
 		List_1_Add_m43FBF207375C6E06B8C45ECE614F9B8008FB686E_inline(L_9, L_10, List_1_Add_m43FBF207375C6E06B8C45ECE614F9B8008FB686E_RuntimeMethod_var);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/IsNavigationTarget.cs:56>
 		String_t* L_11 = __this->___targetName;
 		NullCheck(L_11);
 		bool L_12;
@@ -19681,7 +18676,6 @@ IL_0033:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/IsNavigationTarget.cs:58>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13;
 		L_13 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_13);
@@ -19693,7 +18687,6 @@ IL_0033:
 
 IL_0071:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/IsNavigationTarget.cs:60>
 		return;
 	}
 }
@@ -19710,7 +18703,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IsNavigationTarget_OnDisable_mF8148D9D38
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/IsNavigationTarget.cs:64>
 		il2cpp_codegen_runtime_class_init_inline(NavigationTargets_tD82D127A902CAE4211C5A2D601224A42FA500F59_il2cpp_TypeInfo_var);
 		Dictionary_2_t2E1FA6B8D978D1D213729887AEF64EAC5B8F4F4B* L_0 = ((NavigationTargets_tD82D127A902CAE4211C5A2D601224A42FA500F59_StaticFields*)il2cpp_codegen_static_fields_for(NavigationTargets_tD82D127A902CAE4211C5A2D601224A42FA500F59_il2cpp_TypeInfo_var))->___NavigationTargetsDict;
 		int32_t L_1 = __this->___navigationCategory;
@@ -19723,7 +18715,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IsNavigationTarget_OnDisable_mF8148D9D38
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/IsNavigationTarget.cs:65>
 		il2cpp_codegen_runtime_class_init_inline(NavigationTargets_tD82D127A902CAE4211C5A2D601224A42FA500F59_il2cpp_TypeInfo_var);
 		Dictionary_2_t2E1FA6B8D978D1D213729887AEF64EAC5B8F4F4B* L_3 = ((NavigationTargets_tD82D127A902CAE4211C5A2D601224A42FA500F59_StaticFields*)il2cpp_codegen_static_fields_for(NavigationTargets_tD82D127A902CAE4211C5A2D601224A42FA500F59_il2cpp_TypeInfo_var))->___NavigationTargetsDict;
 		int32_t L_4 = __this->___navigationCategory;
@@ -19739,7 +18730,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IsNavigationTarget_OnDisable_mF8148D9D38
 
 IL_002e:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/IsNavigationTarget.cs:66>
 		return;
 	}
 }
@@ -19747,7 +18737,6 @@ IL_002e:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IsNavigationTarget__ctor_m8DBA7E071C7916A76943E7ADEBF0A47576A36369 (IsNavigationTarget_t6F09EE82CB69EF5F481C1F4BEC15B0A8BC01DE6A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/IsNavigationTarget.cs:19>
 		__this->___navigationCategory = 1;
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -19771,11 +18760,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationTargetListButton_SetText_mCFFD
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Navigation Target List/NavigationTargetListButton.cs:33>
 		String_t* L_0 = ___0_text;
 		__this->___targetName = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___targetName), (void*)L_0);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Navigation Target List/NavigationTargetListButton.cs:34>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_1 = __this->___m_TextMeshProUGUI;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
@@ -19786,7 +18773,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationTargetListButton_SetText_mCFFD
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Navigation Target List/NavigationTargetListButton.cs:36>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_3 = __this->___m_TextMeshProUGUI;
 		String_t* L_4 = __this->___targetName;
 		NullCheck(L_3);
@@ -19795,7 +18781,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationTargetListButton_SetText_mCFFD
 
 IL_0026:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Navigation Target List/NavigationTargetListButton.cs:38>
 		return;
 	}
 }
@@ -19809,7 +18794,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationTargetListButton_SetIcon_mCB86
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Navigation Target List/NavigationTargetListButton.cs:42>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_0 = __this->___m_Image;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -19820,7 +18804,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationTargetListButton_SetIcon_mCB86
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Navigation Target List/NavigationTargetListButton.cs:44>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_2 = __this->___m_Image;
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_3 = ___0_icon;
 		NullCheck(L_2);
@@ -19829,7 +18812,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationTargetListButton_SetIcon_mCB86
 
 IL_001a:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Navigation Target List/NavigationTargetListButton.cs:46>
 		return;
 	}
 }
@@ -19837,11 +18819,9 @@ IL_001a:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationTargetListButton_SetTarget_m02EDE5BDF82895DFAF67A9AF19B7451E59C65337 (NavigationTargetListButton_t1160F9ACEDDDEE3B39D95596E5F169B1561A5B86* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_go, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Navigation Target List/NavigationTargetListButton.cs:50>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = ___0_go;
 		__this->___targetObject = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___targetObject), (void*)L_0);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Navigation Target List/NavigationTargetListButton.cs:51>
 		return;
 	}
 }
@@ -19849,20 +18829,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationTargetListButton_SetTarget_m02
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationTargetListButton_OnPointerClick_m403BB71508D04ADEFE695A14B72E840E36AB113D (NavigationTargetListButton_t1160F9ACEDDDEE3B39D95596E5F169B1561A5B86* __this, PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* ___0_pointerEventData, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Navigation Target List/NavigationTargetListButton.cs:55>
 		NavigationManager_tFB37C91E0F34482AA82FD6B0090B5A1C0FE5BB53* L_0;
 		L_0 = NavigationManager_get_Instance_m34C8D227FAFBF3E74409758EE201755351704251(NULL);
 		NullCheck(L_0);
 		NavigationManager_InitializeNavigation_m6625E0D64743B9738B916F8F30646480586EB5DF(L_0, __this, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Navigation Target List/NavigationTargetListButton.cs:56>
 		NavigationManager_tFB37C91E0F34482AA82FD6B0090B5A1C0FE5BB53* L_1;
 		L_1 = NavigationManager_get_Instance_m34C8D227FAFBF3E74409758EE201755351704251(NULL);
 		NullCheck(L_1);
 		NavigationManager_ToggleTargetsList_m508E659B10DFB629CF3D49EA3FB8AC6D52889A93(L_1, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Navigation Target List/NavigationTargetListButton.cs:57>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_2 = ___0_pointerEventData;
 		Button_OnPointerClick_mB76B80D7374811C7BBE11DA188E2656904AE5422(__this, L_2, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Navigation Target List/NavigationTargetListButton.cs:58>
 		return;
 	}
 }
@@ -19922,7 +18898,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationTargetListControl_GenerateButt
 	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* V_7 = NULL;
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_8 = NULL;
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Navigation Target List/NavigationTargetListControl.cs:32>
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_0 = __this->___m_Buttons;
 		NullCheck(L_0);
 		int32_t L_1;
@@ -19933,13 +18908,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationTargetListControl_GenerateButt
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Navigation Target List/NavigationTargetListControl.cs:34>
 		NavigationTargetListControl_DestroyButtons_mE3788D6E423E6D0F95322EF717730AE93E2AA5B5(__this, NULL);
 	}
 
 IL_0014:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Navigation Target List/NavigationTargetListControl.cs:38>
 		il2cpp_codegen_runtime_class_init_inline(NavigationTargets_tD82D127A902CAE4211C5A2D601224A42FA500F59_il2cpp_TypeInfo_var);
 		Dictionary_2_t2E1FA6B8D978D1D213729887AEF64EAC5B8F4F4B* L_2 = ((NavigationTargets_tD82D127A902CAE4211C5A2D601224A42FA500F59_StaticFields*)il2cpp_codegen_static_fields_for(NavigationTargets_tD82D127A902CAE4211C5A2D601224A42FA500F59_il2cpp_TypeInfo_var))->___NavigationTargetsDict;
 		NullCheck(L_2);
@@ -19965,11 +18938,9 @@ FINALLY_00de:
 
 IL_0024_1:
 			{
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Navigation Target List/NavigationTargetListControl.cs:38>
 				KeyValuePair_2_tA09E4E2A253E126E14A81711FFED4D188F70B650 L_4;
 				L_4 = Enumerator_get_Current_mA366BDBD61D1351F4FDAA668844B0C834570B631_inline((&V_2), Enumerator_get_Current_mA366BDBD61D1351F4FDAA668844B0C834570B631_RuntimeMethod_var);
 				V_3 = L_4;
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Navigation Target List/NavigationTargetListControl.cs:42>
 				List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_5;
 				L_5 = KeyValuePair_2_get_Value_m84A0D85B9F82BE4030030A9889A5DFF211762164_inline((&V_3), KeyValuePair_2_get_Value_m84A0D85B9F82BE4030030A9889A5DFF211762164_RuntimeMethod_var);
 				NullCheck(L_5);
@@ -19995,63 +18966,51 @@ FINALLY_00c2_1:
 
 IL_003c_2:
 					{
-						//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Navigation Target List/NavigationTargetListControl.cs:42>
 						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7;
 						L_7 = Enumerator_get_Current_m7236EBE1CFCB6533F96E030500D322B13D0CA5A4_inline((&V_4), Enumerator_get_Current_m7236EBE1CFCB6533F96E030500D322B13D0CA5A4_RuntimeMethod_var);
 						V_5 = L_7;
-						//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Navigation Target List/NavigationTargetListControl.cs:44>
 						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = V_5;
 						NullCheck(L_8);
 						IsNavigationTarget_t6F09EE82CB69EF5F481C1F4BEC15B0A8BC01DE6A* L_9;
 						L_9 = GameObject_GetComponent_TisIsNavigationTarget_t6F09EE82CB69EF5F481C1F4BEC15B0A8BC01DE6A_m817FF5C9225DF06770A654DCFC2C3B6757B12A91(L_8, GameObject_GetComponent_TisIsNavigationTarget_t6F09EE82CB69EF5F481C1F4BEC15B0A8BC01DE6A_m817FF5C9225DF06770A654DCFC2C3B6757B12A91_RuntimeMethod_var);
-						//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Navigation Target List/NavigationTargetListControl.cs:45>
 						IsNavigationTarget_t6F09EE82CB69EF5F481C1F4BEC15B0A8BC01DE6A* L_10 = L_9;
 						NullCheck(L_10);
 						String_t* L_11 = L_10->___targetName;
 						V_6 = L_11;
-						//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Navigation Target List/NavigationTargetListControl.cs:46>
 						NullCheck(L_10);
 						Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_12 = L_10->___icon;
 						V_7 = L_12;
-						//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Navigation Target List/NavigationTargetListControl.cs:48>
 						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13 = __this->___m_ButtonTemplate;
 						RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_14 = __this->___m_ContentParent;
 						il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15;
 						L_15 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811(L_13, L_14, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811_RuntimeMethod_var);
 						V_8 = L_15;
-						//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Navigation Target List/NavigationTargetListControl.cs:49>
 						List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_16 = __this->___m_Buttons;
 						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_17 = V_8;
 						NullCheck(L_16);
 						List_1_Add_m43FBF207375C6E06B8C45ECE614F9B8008FB686E_inline(L_16, L_17, List_1_Add_m43FBF207375C6E06B8C45ECE614F9B8008FB686E_RuntimeMethod_var);
-						//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Navigation Target List/NavigationTargetListControl.cs:50>
 						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_18 = V_8;
 						NullCheck(L_18);
 						GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_18, (bool)1, NULL);
-						//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Navigation Target List/NavigationTargetListControl.cs:51>
 						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_19 = V_8;
 						String_t* L_20 = V_6;
 						String_t* L_21;
 						L_21 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral6096A20FB33980002ECE61A4D9D56E27BE4C047C, L_20, NULL);
 						NullCheck(L_19);
 						Object_set_name_mC79E6DC8FFD72479C90F0C4CC7F42A0FEAF5AE47(L_19, L_21, NULL);
-						//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Navigation Target List/NavigationTargetListControl.cs:53>
 						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_22 = V_8;
 						NullCheck(L_22);
 						NavigationTargetListButton_t1160F9ACEDDDEE3B39D95596E5F169B1561A5B86* L_23;
 						L_23 = GameObject_GetComponent_TisNavigationTargetListButton_t1160F9ACEDDDEE3B39D95596E5F169B1561A5B86_mDD17CF80181540922FAA43A5F5C3040C53700CAE(L_22, GameObject_GetComponent_TisNavigationTargetListButton_t1160F9ACEDDDEE3B39D95596E5F169B1561A5B86_mDD17CF80181540922FAA43A5F5C3040C53700CAE_RuntimeMethod_var);
-						//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Navigation Target List/NavigationTargetListControl.cs:54>
 						NavigationTargetListButton_t1160F9ACEDDDEE3B39D95596E5F169B1561A5B86* L_24 = L_23;
 						String_t* L_25 = V_6;
 						NullCheck(L_24);
 						NavigationTargetListButton_SetText_mCFFDD0295F2D596D48A37FBAD18795E28ADB6F9D(L_24, L_25, NULL);
-						//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Navigation Target List/NavigationTargetListControl.cs:55>
 						NavigationTargetListButton_t1160F9ACEDDDEE3B39D95596E5F169B1561A5B86* L_26 = L_24;
 						Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_27 = V_7;
 						NullCheck(L_26);
 						NavigationTargetListButton_SetIcon_mCB862F4819F7A5298AAEC1E07C682BA2B8B2C18F(L_26, L_27, NULL);
-						//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Navigation Target List/NavigationTargetListControl.cs:56>
 						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_28 = V_5;
 						NullCheck(L_26);
 						NavigationTargetListButton_SetTarget_m02EDE5BDF82895DFAF67A9AF19B7451E59C65337_inline(L_26, L_28, NULL);
@@ -20059,7 +19018,6 @@ IL_003c_2:
 
 IL_00b4_2:
 					{
-						//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Navigation Target List/NavigationTargetListControl.cs:42>
 						bool L_29;
 						L_29 = Enumerator_MoveNext_m96F4B0BD0A5485C8E8CC57D961DF6F1FA256AF27((&V_4), Enumerator_MoveNext_m96F4B0BD0A5485C8E8CC57D961DF6F1FA256AF27_RuntimeMethod_var);
 						if (L_29)
@@ -20079,7 +19037,6 @@ IL_00b4_2:
 
 IL_00d0_1:
 			{
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Navigation Target List/NavigationTargetListControl.cs:38>
 				bool L_30;
 				L_30 = Enumerator_MoveNext_m49788E4EAEE7D5A0C493E8C31CE01B62A63EFCAC((&V_2), Enumerator_MoveNext_m49788E4EAEE7D5A0C493E8C31CE01B62A63EFCAC_RuntimeMethod_var);
 				if (L_30)
@@ -20099,7 +19056,6 @@ IL_00d0_1:
 
 IL_00ec:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Navigation Target List/NavigationTargetListControl.cs:61>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_31 = __this->___m_ButtonTemplate;
 		NullCheck(L_31);
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_32;
@@ -20109,7 +19065,6 @@ IL_00ec:
 		L_33 = RectTransform_get_sizeDelta_m822A8493F2035677384F1540A2E9E5ACE63010BB(L_32, NULL);
 		float L_34 = L_33.___x;
 		V_0 = L_34;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Navigation Target List/NavigationTargetListControl.cs:62>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_35 = __this->___m_ButtonTemplate;
 		NullCheck(L_35);
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_36;
@@ -20126,10 +19081,8 @@ IL_00ec:
 		int32_t L_42;
 		L_42 = Mathf_Min_m888083F74FF5655778F0403BB5E9608BEFDEA8CB_inline(L_40, L_41, NULL);
 		V_1 = ((float)il2cpp_codegen_multiply(L_38, ((float)L_42)));
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Navigation Target List/NavigationTargetListControl.cs:63>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_43;
 		L_43 = Component_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m0640480E7E38BB88B0D1F6AD59E697C8EE6AAFA4(__this, Component_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m0640480E7E38BB88B0D1F6AD59E697C8EE6AAFA4_RuntimeMethod_var);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Navigation Target List/NavigationTargetListControl.cs:64>
 		float L_44 = V_0;
 		float L_45 = V_1;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_46;
@@ -20137,9 +19090,7 @@ IL_00ec:
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_46), L_44, L_45, NULL);
 		NullCheck(L_43);
 		RectTransform_set_sizeDelta_mC9A980EA6036E6725EF24CEDF3EE80A9B2B50EE5(L_43, L_46, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Navigation Target List/NavigationTargetListControl.cs:66>
 		NavigationTargetListControl_ScrollToTop_mC16FECA2B7168512E75A4F36A483640D8E7C7A09(__this, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Navigation Target List/NavigationTargetListControl.cs:67>
 		return;
 	}
 }
@@ -20160,7 +19111,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationTargetListControl_DestroyButto
 	Enumerator_t88BD1282EF117E59AACFC9EC55B89F0B9EDACE60 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Navigation Target List/NavigationTargetListControl.cs:71>
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_0 = __this->___m_Buttons;
 		NullCheck(L_0);
 		Enumerator_t88BD1282EF117E59AACFC9EC55B89F0B9EDACE60 L_1;
@@ -20185,17 +19135,14 @@ FINALLY_0025:
 
 IL_000e_1:
 			{
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Navigation Target List/NavigationTargetListControl.cs:71>
 				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2;
 				L_2 = Enumerator_get_Current_m7236EBE1CFCB6533F96E030500D322B13D0CA5A4_inline((&V_0), Enumerator_get_Current_m7236EBE1CFCB6533F96E030500D322B13D0CA5A4_RuntimeMethod_var);
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Navigation Target List/NavigationTargetListControl.cs:73>
 				il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 				Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_2, NULL);
 			}
 
 IL_001a_1:
 			{
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Navigation Target List/NavigationTargetListControl.cs:71>
 				bool L_3;
 				L_3 = Enumerator_MoveNext_m96F4B0BD0A5485C8E8CC57D961DF6F1FA256AF27((&V_0), Enumerator_MoveNext_m96F4B0BD0A5485C8E8CC57D961DF6F1FA256AF27_RuntimeMethod_var);
 				if (L_3)
@@ -20215,11 +19162,9 @@ IL_001a_1:
 
 IL_0033:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Navigation Target List/NavigationTargetListControl.cs:75>
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_4 = __this->___m_Buttons;
 		NullCheck(L_4);
 		List_1_Clear_m32D399BDD753B5BD6CE27560249096418F3F0867_inline(L_4, List_1_Clear_m32D399BDD753B5BD6CE27560249096418F3F0867_RuntimeMethod_var);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Navigation Target List/NavigationTargetListControl.cs:76>
 		return;
 	}
 }
@@ -20233,7 +19178,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationTargetListControl_ScrollToTop_
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Navigation Target List/NavigationTargetListControl.cs:80>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
 		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_0);
@@ -20244,7 +19188,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationTargetListControl_ScrollToTop_
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_2), (0.0f), (1.0f), NULL);
 		NullCheck(L_1);
 		ScrollRect_set_normalizedPosition_m8CFC50007450856E3B1FEB9E61A6311FBC0E709E(L_1, L_2, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Navigation Target List/NavigationTargetListControl.cs:81>
 		return;
 	}
 }
@@ -20259,9 +19202,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationTargetListControl__ctor_mB7FD4
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Navigation Target List/NavigationTargetListControl.cs:27>
 		__this->___m_MaxButtonsOnScreen = 4;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Navigation Target List/NavigationTargetListControl.cs:28>
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_0 = (List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B*)il2cpp_codegen_object_new(List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B_il2cpp_TypeInfo_var);
 		List_1__ctor_m447372C1EF7141193B93090A77395B786C72C7BC(L_0, List_1__ctor_m447372C1EF7141193B93090A77395B786C72C7BC_RuntimeMethod_var);
 		__this->___m_Buttons = L_0;
@@ -20294,7 +19235,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LookTowardsTarget_LookAt_mF829C862E302F1
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_2;
 	memset((&V_2), 0, sizeof(V_2));
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Navigation Utilities/LookTowardsTarget.cs:23>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___m_TransformToRotate;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -20305,14 +19245,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LookTowardsTarget_LookAt_mF829C862E302F1
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Navigation Utilities/LookTowardsTarget.cs:25>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2;
 		L_2 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_2);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
 		L_3 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_2, NULL);
 		V_0 = L_3;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Navigation Utilities/LookTowardsTarget.cs:26>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___0_target;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5 = V_0;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6;
@@ -20320,12 +19258,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LookTowardsTarget_LookAt_mF829C862E302F1
 		V_2 = L_6;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
 		L_7 = Vector3_get_normalized_m736BBF65D5CDA7A18414370D15B4DFCC1E466F07_inline((&V_2), NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Navigation Utilities/LookTowardsTarget.cs:27>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = ___1_up;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_9;
 		L_9 = Quaternion_LookRotation_mFB02EDC8F733774DFAC3BEA4B4BB265A228F8307(L_7, L_8, NULL);
 		V_1 = L_9;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Navigation Utilities/LookTowardsTarget.cs:29>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_10 = __this->___m_TransformToRotate;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_11 = V_1;
 		NullCheck(L_10);
@@ -20334,7 +19270,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LookTowardsTarget_LookAt_mF829C862E302F1
 
 IL_003c:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Navigation Utilities/LookTowardsTarget.cs:31>
 		return;
 	}
 }
@@ -20389,7 +19324,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NavigationManager_tFB37C91E0F34482AA82FD6B009
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:104>
 		NavigationManager_tFB37C91E0F34482AA82FD6B0090B5A1C0FE5BB53* L_0 = ((NavigationManager_tFB37C91E0F34482AA82FD6B0090B5A1C0FE5BB53_StaticFields*)il2cpp_codegen_static_fields_for(NavigationManager_tFB37C91E0F34482AA82FD6B0090B5A1C0FE5BB53_il2cpp_TypeInfo_var))->___instance;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -20400,14 +19334,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NavigationManager_tFB37C91E0F34482AA82FD6B009
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:106>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteralA2121438D2C6F655805DF4901E3F273F88B57B15, NULL);
 	}
 
 IL_0017:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:108>
 		NavigationManager_tFB37C91E0F34482AA82FD6B0090B5A1C0FE5BB53* L_2 = ((NavigationManager_tFB37C91E0F34482AA82FD6B0090B5A1C0FE5BB53_StaticFields*)il2cpp_codegen_static_fields_for(NavigationManager_tFB37C91E0F34482AA82FD6B0090B5A1C0FE5BB53_il2cpp_TypeInfo_var))->___instance;
 		return L_2;
 	}
@@ -20416,7 +19348,6 @@ IL_0017:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NavigationManager_get_navigationActive_mE2372D5EF4D07F5DA79C45D421736638D604C6DB (NavigationManager_tFB37C91E0F34482AA82FD6B0090B5A1C0FE5BB53* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:114>
 		bool L_0 = __this->___m_navigationActive;
 		return L_0;
 	}
@@ -20434,7 +19365,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationManager_Awake_m4A008FD8B13217D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:119>
 		NavigationManager_tFB37C91E0F34482AA82FD6B0090B5A1C0FE5BB53* L_0 = ((NavigationManager_tFB37C91E0F34482AA82FD6B0090B5A1C0FE5BB53_StaticFields*)il2cpp_codegen_static_fields_for(NavigationManager_tFB37C91E0F34482AA82FD6B0090B5A1C0FE5BB53_il2cpp_TypeInfo_var))->___instance;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -20445,14 +19375,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationManager_Awake_m4A008FD8B13217D
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:121>
 		((NavigationManager_tFB37C91E0F34482AA82FD6B0090B5A1C0FE5BB53_StaticFields*)il2cpp_codegen_static_fields_for(NavigationManager_tFB37C91E0F34482AA82FD6B0090B5A1C0FE5BB53_il2cpp_TypeInfo_var))->___instance = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&((NavigationManager_tFB37C91E0F34482AA82FD6B0090B5A1C0FE5BB53_StaticFields*)il2cpp_codegen_static_fields_for(NavigationManager_tFB37C91E0F34482AA82FD6B0090B5A1C0FE5BB53_il2cpp_TypeInfo_var))->___instance), (void*)__this);
 	}
 
 IL_0013:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:123>
 		NavigationManager_tFB37C91E0F34482AA82FD6B0090B5A1C0FE5BB53* L_2 = ((NavigationManager_tFB37C91E0F34482AA82FD6B0090B5A1C0FE5BB53_StaticFields*)il2cpp_codegen_static_fields_for(NavigationManager_tFB37C91E0F34482AA82FD6B0090B5A1C0FE5BB53_il2cpp_TypeInfo_var))->___instance;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_3;
@@ -20463,19 +19391,15 @@ IL_0013:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:125>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral7D43DD420189F07612AAA67D8C8F56210F9A2BD3, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:126>
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_DestroyImmediate_m6336EBC83591A5DB64EC70C92132824C6E258705(__this, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:127>
 		return;
 	}
 
 IL_0031:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:129>
 		return;
 	}
 }
@@ -20489,9 +19413,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationManager_Start_mF426F4026ADCFAB
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:133>
 		NavigationManager_InitializeNavigationManager_m57E64EAF7175217F3CA1B48D2C9A688DB64C930A(__this, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:135>
 		bool L_0 = __this->___m_managerInitialized;
 		if (!L_0)
 		{
@@ -20499,12 +19421,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationManager_Start_mF426F4026ADCFAB
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:137>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_1 = __this->___m_TargetsListIcon;
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_2 = __this->___m_ShowListIcon;
 		NullCheck(L_1);
 		Image_set_sprite_mC0C248340BA27AAEE56855A3FAFA0D8CA12956DE(L_1, L_2, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:138>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_3 = __this->___m_TargetsListText;
 		NullCheck(L_3);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_3, _stringLiteral99F9F445F86A48A9C8CD098F76CC9F7A65815FC6);
@@ -20512,7 +19432,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationManager_Start_mF426F4026ADCFAB
 
 IL_002f:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:140>
 		return;
 	}
 }
@@ -20520,7 +19439,6 @@ IL_002f:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationManager_Update_mFF2B13AAAA7580F3F2A8B89DDCE0F21D6FC80638 (NavigationManager_tFB37C91E0F34482AA82FD6B0090B5A1C0FE5BB53* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:144>
 		bool L_0 = __this->___m_managerInitialized;
 		if (!L_0)
 		{
@@ -20535,14 +19453,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationManager_Update_mFF2B13AAAA7580
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:146>
 		IsNavigationTarget_t6F09EE82CB69EF5F481C1F4BEC15B0A8BC01DE6A* L_2 = __this->___m_NavigationTarget;
 		NavigationManager_TryToFindPath_mA7E68648CF1D6E83F9FB3B0544542C6EF1907948(__this, L_2, NULL);
 	}
 
 IL_001d:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:148>
 		return;
 	}
 }
@@ -20558,7 +19474,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationManager_InitializeNavigation_m
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:152>
 		bool L_0 = __this->___m_managerInitialized;
 		if (L_0)
 		{
@@ -20566,16 +19481,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationManager_InitializeNavigation_m
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:154>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteral37863863AB9D0B5A57E2959B2E47064AC518F5AF, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:155>
 		return;
 	}
 
 IL_0013:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:158>
 		NavigationTargetListButton_t1160F9ACEDDDEE3B39D95596E5F169B1561A5B86* L_1 = ___0_button;
 		NullCheck(L_1);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = L_1->___targetObject;
@@ -20584,7 +19496,6 @@ IL_0013:
 		L_3 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_2, NULL);
 		__this->___m_targetTransform = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_targetTransform), (void*)L_3);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:159>
 		NavigationTargetListButton_t1160F9ACEDDDEE3B39D95596E5F169B1561A5B86* L_4 = ___0_button;
 		NullCheck(L_4);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = L_4->___targetObject;
@@ -20593,10 +19504,8 @@ IL_0013:
 		L_6 = GameObject_GetComponent_TisIsNavigationTarget_t6F09EE82CB69EF5F481C1F4BEC15B0A8BC01DE6A_m817FF5C9225DF06770A654DCFC2C3B6757B12A91(L_5, GameObject_GetComponent_TisIsNavigationTarget_t6F09EE82CB69EF5F481C1F4BEC15B0A8BC01DE6A_m817FF5C9225DF06770A654DCFC2C3B6757B12A91_RuntimeMethod_var);
 		__this->___m_NavigationTarget = L_6;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_NavigationTarget), (void*)L_6);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:160>
 		IsNavigationTarget_t6F09EE82CB69EF5F481C1F4BEC15B0A8BC01DE6A* L_7 = __this->___m_NavigationTarget;
 		NavigationManager_TryToFindPath_mA7E68648CF1D6E83F9FB3B0544542C6EF1907948(__this, L_7, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:161>
 		return;
 	}
 }
@@ -20621,25 +19530,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationManager_TryToFindPath_mA7E6864
 	memset((&V_4), 0, sizeof(V_4));
 	int32_t V_5 = 0;
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:168>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___m_playerTransform;
 		NullCheck(L_0);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
 		L_1 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_0, NULL);
 		V_1 = L_1;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:169>
 		IsNavigationTarget_t6F09EE82CB69EF5F481C1F4BEC15B0A8BC01DE6A* L_2 = ___0_navigationTarget;
 		NullCheck(L_2);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
 		L_3 = IsNavigationTarget_get_position_mF15E1E5FE1C562A141A2269D95008A9F44C8AD42(L_2, NULL);
 		V_2 = L_3;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:171>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = V_2;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5 = V_1;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6;
 		L_6 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_4, L_5, NULL);
 		V_3 = L_6;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:172>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7 = V_3;
 		float L_8 = L_7.___x;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9 = V_3;
@@ -20652,7 +19557,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationManager_TryToFindPath_mA7E6864
 		V_4 = L_13;
 		float L_14;
 		L_14 = Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline((&V_4), NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:174>
 		float L_15 = __this->___m_ArrivedDistanceThreshold;
 		if ((!(((float)L_14) < ((float)L_15))))
 		{
@@ -20660,22 +19564,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationManager_TryToFindPath_mA7E6864
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:176>
 		__this->___m_navigationActive = (bool)0;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:178>
 		__this->___m_navigationState = 0;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:179>
 		int32_t L_16 = __this->___m_navigationState;
 		NavigationManager_UpdateNavigationUI_m9D0F2D88D7D5AF5315B1272CBC070C5EDDDA22AF(__this, L_16, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:181>
 		NavigationManager_DisplayArrivedNotification_m15AF3E857BFA19E77C84AE6FED2B8FAC275F5910(__this, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:182>
 		return;
 	}
 
 IL_0064:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:185>
 		int32_t L_17 = __this->___m_navigationMode;
 		V_5 = L_17;
 		int32_t L_18 = V_5;
@@ -20697,7 +19595,6 @@ IL_0064:
 
 IL_0079:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:189>
 		XRSpace_tC870F552BC1481C38048217BEF525758956B2B20* L_20 = __this->___m_XRSpace;
 		NullCheck(L_20);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_21;
@@ -20710,7 +19607,6 @@ IL_0079:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_25;
 		L_25 = NavigationManager_XRSpaceToUnity_m8D8062E57130E7738154969F4A1F6F16FD560002(__this, L_21, L_23, L_24, NULL);
 		V_1 = L_25;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:190>
 		XRSpace_tC870F552BC1481C38048217BEF525758956B2B20* L_26 = __this->___m_XRSpace;
 		NullCheck(L_26);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_27;
@@ -20723,13 +19619,11 @@ IL_0079:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_31;
 		L_31 = NavigationManager_XRSpaceToUnity_m8D8062E57130E7738154969F4A1F6F16FD560002(__this, L_27, L_29, L_30, NULL);
 		V_2 = L_31;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:192>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_32 = V_1;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_33 = V_2;
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_34;
 		L_34 = NavigationManager_FindPathNavMesh_m9FBAF2EDE96216E5D4D2862E700C83AFC34BF4C4(__this, L_32, L_33, NULL);
 		V_0 = L_34;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:193>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_35 = V_0;
 		NullCheck(L_35);
 		int32_t L_36;
@@ -20740,14 +19634,10 @@ IL_0079:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:195>
 		__this->___m_navigationActive = (bool)1;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:197>
 		__this->___m_navigationState = 1;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:198>
 		int32_t L_37 = __this->___m_navigationState;
 		NavigationManager_UpdateNavigationUI_m9D0F2D88D7D5AF5315B1272CBC070C5EDDDA22AF(__this, L_37, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:200>
 		NavigationPath_t303AABC9149CDE6CD1473E8A9BCCF51B142AF7EC* L_38 = __this->___m_navigationPath;
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_39 = V_0;
 		XRSpace_tC870F552BC1481C38048217BEF525758956B2B20* L_40 = __this->___m_XRSpace;
@@ -20759,7 +19649,6 @@ IL_0079:
 		L_42 = Transform_get_up_mE47A9D9D96422224DD0539AA5524DA5440145BB2(L_41, NULL);
 		NullCheck(L_38);
 		NavigationPath_GeneratePath_m986CCE24FF646C01CA3F93222A0714C3748A3352(L_38, L_39, L_42, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:201>
 		NavigationPath_t303AABC9149CDE6CD1473E8A9BCCF51B142AF7EC* L_43 = __this->___m_navigationPath;
 		float L_44 = __this->___m_pathWidth;
 		NullCheck(L_43);
@@ -20769,21 +19658,17 @@ IL_0079:
 
 IL_010f:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:205>
 		NotificationManager_t382AAD0D328D20384698BB77251AB486FE88D1C6* L_45;
 		L_45 = NotificationManager_get_Instance_m7E6E1470622ED62CBE0A81D64FE0FE4C6EFA7D62(NULL);
 		NullCheck(L_45);
 		NotificationManager_GenerateNotification_m3E7D0AA20A3C495CC41DA8F5C33F96A668D75757(L_45, _stringLiteral4ADB39ACCD021C7E37EE4AC27D4D7DF48CD91076, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:206>
 		int32_t L_46 = __this->___m_navigationState;
 		NavigationManager_UpdateNavigationUI_m9D0F2D88D7D5AF5315B1272CBC070C5EDDDA22AF(__this, L_46, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:208>
 		return;
 	}
 
 IL_012b:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:212>
 		NavigationGraphManager_t49268BEC9BE27EB2F3270945081B34C4005FFB50* L_47 = __this->___m_NavigationGraphManager;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_48 = V_1;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_49 = V_2;
@@ -20791,7 +19676,6 @@ IL_012b:
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_50;
 		L_50 = NavigationGraphManager_FindPath_m664AE94C26863033F9EAFA8FBEDDA7BFD3A33627(L_47, L_48, L_49, NULL);
 		V_0 = L_50;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:214>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_51 = V_0;
 		NullCheck(L_51);
 		int32_t L_52;
@@ -20802,14 +19686,10 @@ IL_012b:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:216>
 		__this->___m_navigationActive = (bool)1;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:218>
 		__this->___m_navigationState = 1;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:219>
 		int32_t L_53 = __this->___m_navigationState;
 		NavigationManager_UpdateNavigationUI_m9D0F2D88D7D5AF5315B1272CBC070C5EDDDA22AF(__this, L_53, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:221>
 		NavigationPath_t303AABC9149CDE6CD1473E8A9BCCF51B142AF7EC* L_54 = __this->___m_navigationPath;
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_55 = V_0;
 		XRSpace_tC870F552BC1481C38048217BEF525758956B2B20* L_56 = __this->___m_XRSpace;
@@ -20821,7 +19701,6 @@ IL_012b:
 		L_58 = Transform_get_up_mE47A9D9D96422224DD0539AA5524DA5440145BB2(L_57, NULL);
 		NullCheck(L_54);
 		NavigationPath_GeneratePath_m986CCE24FF646C01CA3F93222A0714C3748A3352(L_54, L_55, L_58, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:222>
 		NavigationPath_t303AABC9149CDE6CD1473E8A9BCCF51B142AF7EC* L_59 = __this->___m_navigationPath;
 		float L_60 = __this->___m_pathWidth;
 		NullCheck(L_59);
@@ -20831,15 +19710,12 @@ IL_012b:
 
 IL_018a:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:226>
 		NotificationManager_t382AAD0D328D20384698BB77251AB486FE88D1C6* L_61;
 		L_61 = NotificationManager_get_Instance_m7E6E1470622ED62CBE0A81D64FE0FE4C6EFA7D62(NULL);
 		NullCheck(L_61);
 		NotificationManager_GenerateNotification_m3E7D0AA20A3C495CC41DA8F5C33F96A668D75757(L_61, _stringLiteral4ADB39ACCD021C7E37EE4AC27D4D7DF48CD91076, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:227>
 		int32_t L_62 = __this->___m_navigationState;
 		NavigationManager_UpdateNavigationUI_m9D0F2D88D7D5AF5315B1272CBC070C5EDDDA22AF(__this, L_62, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:231>
 		return;
 	}
 }
@@ -20870,15 +19746,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t77B94703E05C519A9010DD0614F757F974E1C
 	memset((&V_6), 0, sizeof(V_6));
 	float V_7 = 0.0f;
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:235>
 		NavMeshPath_tC77ABF4A25FC0F0A94E8A70E304E114FE690A3A7* L_0 = (NavMeshPath_tC77ABF4A25FC0F0A94E8A70E304E114FE690A3A7*)il2cpp_codegen_object_new(NavMeshPath_tC77ABF4A25FC0F0A94E8A70E304E114FE690A3A7_il2cpp_TypeInfo_var);
 		NavMeshPath__ctor_mEA40BFC2492814FFC97A71C3AEC2154A9415C37F(L_0, NULL);
 		V_0 = L_0;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:236>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_1 = (List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B*)il2cpp_codegen_object_new(List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B_il2cpp_TypeInfo_var);
 		List_1__ctor_mC54E2BCBE43279A96FC082F5CDE2D76388BD8F9C(L_1, List_1__ctor_mC54E2BCBE43279A96FC082F5CDE2D76388BD8F9C_RuntimeMethod_var);
 		V_1 = L_1;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:238>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___0_startPosition;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = ___1_targetPosition;
 		NavMeshPath_tC77ABF4A25FC0F0A94E8A70E304E114FE690A3A7* L_4 = V_0;
@@ -20890,7 +19763,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t77B94703E05C519A9010DD0614F757F974E1C
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:240>
 		NavMeshPath_tC77ABF4A25FC0F0A94E8A70E304E114FE690A3A7* L_6 = V_0;
 		NullCheck(L_6);
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_7;
@@ -20898,14 +19770,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t77B94703E05C519A9010DD0614F757F974E1C
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_8 = (List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B*)il2cpp_codegen_object_new(List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B_il2cpp_TypeInfo_var);
 		List_1__ctor_mC734A32FAD92BD7492907D4733032FD21348EECD(L_8, (RuntimeObject*)L_7, List_1__ctor_mC734A32FAD92BD7492907D4733032FD21348EECD_RuntimeMethod_var);
 		V_2 = L_8;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:242>
 		V_3 = 0;
 		goto IL_0080;
 	}
 
 IL_002a:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:244>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_9 = V_2;
 		int32_t L_10 = V_3;
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_11 = V_2;
@@ -20921,7 +19791,6 @@ IL_002a:
 		L_16 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_13, L_15, NULL);
 		NullCheck(L_9);
 		List_1_set_Item_m35C8C18BF5DF9A5C8867BF0C872BC39275A41A9C(L_9, L_10, L_16, List_1_set_Item_m35C8C18BF5DF9A5C8867BF0C872BC39275A41A9C_RuntimeMethod_var);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:245>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_17 = V_2;
 		int32_t L_18 = V_3;
 		XRSpace_tC870F552BC1481C38048217BEF525758956B2B20* L_19 = __this->___m_XRSpace;
@@ -20941,14 +19810,12 @@ IL_002a:
 		L_26 = NavigationManager_UnityToXRSpace_m195343247AF33FAD2AC8CAE3861C9828F9B0A6BA(__this, L_20, L_22, L_25, NULL);
 		NullCheck(L_17);
 		List_1_set_Item_m35C8C18BF5DF9A5C8867BF0C872BC39275A41A9C(L_17, L_18, L_26, List_1_set_Item_m35C8C18BF5DF9A5C8867BF0C872BC39275A41A9C_RuntimeMethod_var);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:242>
 		int32_t L_27 = V_3;
 		V_3 = ((int32_t)il2cpp_codegen_add(L_27, 1));
 	}
 
 IL_0080:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:242>
 		int32_t L_28 = V_3;
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_29 = V_2;
 		NullCheck(L_29);
@@ -20960,30 +19827,25 @@ IL_0080:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:248>
 		V_4 = 0;
 		goto IL_00c6;
 	}
 
 IL_008e:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:250>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_31 = V_2;
 		int32_t L_32 = V_4;
 		NullCheck(L_31);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_33;
 		L_33 = List_1_get_Item_m8F2E15FC96DA75186C51228128A0660709E4E810(L_31, L_32, List_1_get_Item_m8F2E15FC96DA75186C51228128A0660709E4E810_RuntimeMethod_var);
 		V_5 = L_33;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:251>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_34 = V_2;
 		int32_t L_35 = V_4;
 		NullCheck(L_34);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_36;
 		L_36 = List_1_get_Item_m8F2E15FC96DA75186C51228128A0660709E4E810(L_34, ((int32_t)il2cpp_codegen_add(L_35, 1)), List_1_get_Item_m8F2E15FC96DA75186C51228128A0660709E4E810_RuntimeMethod_var);
 		V_6 = L_36;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:252>
 		V_7 = (0.75f);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:254>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_37 = V_5;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_38 = V_6;
 		float L_39;
@@ -20995,7 +19857,6 @@ IL_008e:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:256>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_41 = V_1;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_42 = V_5;
 		NullCheck(L_41);
@@ -21004,14 +19865,12 @@ IL_008e:
 
 IL_00c0:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:248>
 		int32_t L_43 = V_4;
 		V_4 = ((int32_t)il2cpp_codegen_add(L_43, 1));
 	}
 
 IL_00c6:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:248>
 		int32_t L_44 = V_4;
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_45 = V_2;
 		NullCheck(L_45);
@@ -21023,7 +19882,6 @@ IL_00c6:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:260>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_47 = V_1;
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_48 = V_2;
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_49 = V_2;
@@ -21039,7 +19897,6 @@ IL_00c6:
 
 IL_00e6:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:263>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_52 = V_1;
 		return L_52;
 	}
@@ -21059,7 +19916,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationManager_ToggleTargetsList_m508
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:268>
 		bool L_0 = __this->___m_managerInitialized;
 		if (L_0)
 		{
@@ -21067,16 +19923,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationManager_ToggleTargetsList_m508
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:270>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteral37863863AB9D0B5A57E2959B2E47064AC518F5AF, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:271>
 		return;
 	}
 
 IL_0013:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:274>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->___m_TargetsList;
 		NullCheck(L_1);
 		bool L_2;
@@ -21087,11 +19940,9 @@ IL_0013:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:276>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = __this->___m_TargetsList;
 		NullCheck(L_3);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_3, (bool)0, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:277>
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_4 = __this->___m_ShowListIcon;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_5;
@@ -21112,7 +19963,6 @@ IL_0013:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:279>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_8 = __this->___m_TargetsListIcon;
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_9 = __this->___m_ShowListIcon;
 		NullCheck(L_8);
@@ -21121,7 +19971,6 @@ IL_0013:
 
 IL_0059:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:281>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_10 = __this->___m_TargetsListText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_11;
@@ -21132,7 +19981,6 @@ IL_0059:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:283>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_12 = __this->___m_TargetsListText;
 		NullCheck(L_12);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_12, _stringLiteral99F9F445F86A48A9C8CD098F76CC9F7A65815FC6);
@@ -21141,18 +19989,15 @@ IL_0059:
 
 IL_0078:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:288>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13 = __this->___m_TargetsList;
 		NullCheck(L_13);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_13, (bool)1, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:289>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14 = __this->___m_TargetsList;
 		NullCheck(L_14);
 		NavigationTargetListControl_tC1BF7A261A24ECE4B73D38B6D67549AF8CF22E09* L_15;
 		L_15 = GameObject_GetComponent_TisNavigationTargetListControl_tC1BF7A261A24ECE4B73D38B6D67549AF8CF22E09_m08EADB2E4DA1624063B1E83BE286B392BDCCD907(L_14, GameObject_GetComponent_TisNavigationTargetListControl_tC1BF7A261A24ECE4B73D38B6D67549AF8CF22E09_m08EADB2E4DA1624063B1E83BE286B392BDCCD907_RuntimeMethod_var);
 		NullCheck(L_15);
 		NavigationTargetListControl_GenerateButtons_m34E58F8C97A73337EDAB66A1127F1090CAD434F7(L_15, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:290>
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_16 = __this->___m_SelectTargetIcon;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_17;
@@ -21173,7 +20018,6 @@ IL_0078:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:292>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_20 = __this->___m_TargetsListIcon;
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_21 = __this->___m_SelectTargetIcon;
 		NullCheck(L_20);
@@ -21182,7 +20026,6 @@ IL_0078:
 
 IL_00c1:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:294>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_22 = __this->___m_TargetsListText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_23;
@@ -21193,7 +20036,6 @@ IL_00c1:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:296>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_24 = __this->___m_TargetsListText;
 		NullCheck(L_24);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_24, _stringLiteral887F0EADC518BA8267FA2A1D0407FB26F8B630F9);
@@ -21201,7 +20043,6 @@ IL_00c1:
 
 IL_00df:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:299>
 		return;
 	}
 }
@@ -21209,10 +20050,8 @@ IL_00df:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationManager_ToggleEditMode_m84419C5FA72CBF820CE3AC2A5F343EE4F81A2A57 (NavigationManager_tFB37C91E0F34482AA82FD6B0090B5A1C0FE5BB53* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:303>
 		bool L_0 = __this->___inEditMode;
 		__this->___inEditMode = (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:304>
 		return;
 	}
 }
@@ -21227,19 +20066,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationManager_DisplayPathNotFoundNot
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:309>
 		Handheld_Vibrate_m820B68A9A3A1C5C0173B99A94C2054778BC3A2F9(NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:311>
 		NotificationManager_t382AAD0D328D20384698BB77251AB486FE88D1C6* L_0;
 		L_0 = NotificationManager_get_Instance_m7E6E1470622ED62CBE0A81D64FE0FE4C6EFA7D62(NULL);
 		NullCheck(L_0);
 		NotificationManager_GenerateNotification_m3E7D0AA20A3C495CC41DA8F5C33F96A668D75757(L_0, _stringLiteralCDC4F9FA9BC871A5B03842FD2E987866B50555EC, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:312>
 		NavigationEvent_t363CC604B1C0B0502757BFDD851FC9FEDEF92F07* L_1 = __this->___onTargetNotFound;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2 = __this->___m_targetTransform;
 		NullCheck(L_1);
 		UnityEvent_1_Invoke_m8FBEE0769F307FC400EDC6446C02ED3CCF607FF9(L_1, L_2, UnityEvent_1_Invoke_m8FBEE0769F307FC400EDC6446C02ED3CCF607FF9_RuntimeMethod_var);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:313>
 		return;
 	}
 }
@@ -21254,19 +20089,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationManager_DisplayArrivedNotifica
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:318>
 		Handheld_Vibrate_m820B68A9A3A1C5C0173B99A94C2054778BC3A2F9(NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:320>
 		NotificationManager_t382AAD0D328D20384698BB77251AB486FE88D1C6* L_0;
 		L_0 = NotificationManager_get_Instance_m7E6E1470622ED62CBE0A81D64FE0FE4C6EFA7D62(NULL);
 		NullCheck(L_0);
 		NotificationManager_GenerateNotification_m3E7D0AA20A3C495CC41DA8F5C33F96A668D75757(L_0, _stringLiteral4D43BB31EFCD24BDE17DBC4DAE5EC413EEF36482, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:321>
 		NavigationEvent_t363CC604B1C0B0502757BFDD851FC9FEDEF92F07* L_1 = __this->___onTargetFound;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2 = __this->___m_targetTransform;
 		NullCheck(L_1);
 		UnityEvent_1_Invoke_m8FBEE0769F307FC400EDC6446C02ED3CCF607FF9(L_1, L_2, UnityEvent_1_Invoke_m8FBEE0769F307FC400EDC6446C02ED3CCF607FF9_RuntimeMethod_var);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:322>
 		return;
 	}
 }
@@ -21280,19 +20111,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationManager_StopNavigation_m6AF84C
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:326>
 		__this->___m_navigationActive = (bool)0;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:328>
 		__this->___m_navigationState = 0;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:329>
 		int32_t L_0 = __this->___m_navigationState;
 		NavigationManager_UpdateNavigationUI_m9D0F2D88D7D5AF5315B1272CBC070C5EDDDA22AF(__this, L_0, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:331>
 		NotificationManager_t382AAD0D328D20384698BB77251AB486FE88D1C6* L_1;
 		L_1 = NotificationManager_get_Instance_m7E6E1470622ED62CBE0A81D64FE0FE4C6EFA7D62(NULL);
 		NullCheck(L_1);
 		NotificationManager_GenerateNotification_m3E7D0AA20A3C495CC41DA8F5C33F96A668D75757(L_1, _stringLiteral2559E3E03664DE6610C9B01311B411B0372757D7, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:332>
 		return;
 	}
 }
@@ -21319,29 +20145,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationManager_UpdateNavigationUI_m9D
 
 IL_0008:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:339>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___m_StopNavigationButton;
 		NullCheck(L_2);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_2, (bool)0, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:340>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = __this->___m_navigationPathObject;
 		NullCheck(L_3);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_3, (bool)0, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:341>
 		return;
 	}
 
 IL_0021:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:343>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = __this->___m_StopNavigationButton;
 		NullCheck(L_4);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_4, (bool)1, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:344>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->___m_navigationPathObject;
 		NullCheck(L_5);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_5, (bool)1, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:347>
 		return;
 	}
 }
@@ -21371,7 +20191,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationManager_InitializeNavigationMa
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:351>
 		XRSpace_tC870F552BC1481C38048217BEF525758956B2B20* L_0 = __this->___m_XRSpace;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -21382,13 +20201,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationManager_InitializeNavigationMa
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:353>
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		XRSpace_tC870F552BC1481C38048217BEF525758956B2B20* L_2;
 		L_2 = Object_FindObjectOfType_TisXRSpace_tC870F552BC1481C38048217BEF525758956B2B20_m20826FC476132959EFD6FD04AA54621BFE301D7E(Object_FindObjectOfType_TisXRSpace_tC870F552BC1481C38048217BEF525758956B2B20_m20826FC476132959EFD6FD04AA54621BFE301D7E_RuntimeMethod_var);
 		__this->___m_XRSpace = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_XRSpace), (void*)L_2);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:355>
 		XRSpace_tC870F552BC1481C38048217BEF525758956B2B20* L_3 = __this->___m_XRSpace;
 		bool L_4;
 		L_4 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_3, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
@@ -21398,21 +20215,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationManager_InitializeNavigationMa
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:357>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteral2AAAE4B49F102986D18E678B738E291B393199B2, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:358>
 		return;
 	}
 
 IL_0032:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:362>
 		NavigationGraphManager_t49268BEC9BE27EB2F3270945081B34C4005FFB50* L_5;
 		L_5 = Component_GetComponent_TisNavigationGraphManager_t49268BEC9BE27EB2F3270945081B34C4005FFB50_m571684822C65591405F1368FAE1AF843BE2F16C4(__this, Component_GetComponent_TisNavigationGraphManager_t49268BEC9BE27EB2F3270945081B34C4005FFB50_m571684822C65591405F1368FAE1AF843BE2F16C4_RuntimeMethod_var);
 		__this->___m_NavigationGraphManager = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_NavigationGraphManager), (void*)L_5);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:363>
 		NavigationGraphManager_t49268BEC9BE27EB2F3270945081B34C4005FFB50* L_6 = __this->___m_NavigationGraphManager;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_7;
@@ -21423,16 +20236,13 @@ IL_0032:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:365>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteral3E8DEC8AECD0AD618BDBC8819BE3C8E9764DCC66, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:366>
 		return;
 	}
 
 IL_0057:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:369>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_8;
 		L_8 = Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF(NULL);
 		NullCheck(L_8);
@@ -21440,7 +20250,6 @@ IL_0057:
 		L_9 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_8, NULL);
 		__this->___m_playerTransform = L_9;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_playerTransform), (void*)L_9);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:370>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_10 = __this->___m_playerTransform;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_11;
@@ -21451,16 +20260,13 @@ IL_0057:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:372>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteral5FF5B74CBA71695558B6E7FAC71236E35300E209, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:373>
 		return;
 	}
 
 IL_0080:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:376>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12 = __this->___m_navigationPathPrefab;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_13;
@@ -21471,16 +20277,13 @@ IL_0080:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:378>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteral1F850830DF0E266116BDD647992622BDBA1B498A, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:379>
 		return;
 	}
 
 IL_0099:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:382>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14 = __this->___m_navigationPathPrefab;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_15;
@@ -21491,7 +20294,6 @@ IL_0099:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:384>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_16 = __this->___m_navigationPathObject;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_17;
@@ -21502,18 +20304,15 @@ IL_0099:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:386>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_18 = __this->___m_navigationPathPrefab;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_19;
 		L_19 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m10D87C6E0708CA912BBB02555BF7D0FBC5D7A2B3(L_18, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m10D87C6E0708CA912BBB02555BF7D0FBC5D7A2B3_RuntimeMethod_var);
 		__this->___m_navigationPathObject = L_19;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_navigationPathObject), (void*)L_19);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:387>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_20 = __this->___m_navigationPathObject;
 		NullCheck(L_20);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_20, (bool)0, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:388>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_21 = __this->___m_navigationPathObject;
 		NullCheck(L_21);
 		NavigationPath_t303AABC9149CDE6CD1473E8A9BCCF51B142AF7EC* L_22;
@@ -21524,7 +20323,6 @@ IL_0099:
 
 IL_00e3:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:391>
 		NavigationPath_t303AABC9149CDE6CD1473E8A9BCCF51B142AF7EC* L_23 = __this->___m_navigationPath;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_24;
@@ -21535,16 +20333,13 @@ IL_00e3:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:393>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteral5F105F371FAE5DCFBDB81DA67A9AAD540A7E3EE4, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:394>
 		return;
 	}
 
 IL_00fc:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:398>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_25 = __this->___m_TargetsList;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_26;
@@ -21555,16 +20350,13 @@ IL_00fc:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:400>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteralC7AC946E943A02297DD7D66F61C9351D19C134B7, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:401>
 		return;
 	}
 
 IL_0115:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:404>
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_27 = __this->___m_ShowListIcon;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_28;
@@ -21575,16 +20367,13 @@ IL_0115:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:406>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteralE65666B0EEB5B3B734D386060256DDE454D63BAF, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:407>
 		return;
 	}
 
 IL_012e:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:410>
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_29 = __this->___m_SelectTargetIcon;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_30;
@@ -21595,16 +20384,13 @@ IL_012e:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:412>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteral99174D1BA4F522D121340B0086F1ADECD262A781, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:413>
 		return;
 	}
 
 IL_0147:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:416>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_31 = __this->___m_TargetsListIcon;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_32;
@@ -21615,16 +20401,13 @@ IL_0147:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:418>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteral50A70DC643B559C9B9B62EAA9B0808910BEEA158, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:419>
 		return;
 	}
 
 IL_0160:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:422>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_33 = __this->___m_TargetsListText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_34;
@@ -21635,16 +20418,13 @@ IL_0160:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:424>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteral22BA1815FF1920FD8CCB229F66E3FB649959679E, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:425>
 		return;
 	}
 
 IL_0179:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:428>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_35 = __this->___m_StopNavigationButton;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_36;
@@ -21655,18 +20435,14 @@ IL_0179:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:430>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteralA6946BF719911B1F3EA793C015597364B5C8991F, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:431>
 		return;
 	}
 
 IL_0192:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:434>
 		__this->___m_managerInitialized = (bool)1;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:435>
 		return;
 	}
 }
@@ -21676,23 +20452,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:439>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = ___0_XRSpace;
 		NullCheck(L_0);
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_1;
 		L_1 = Transform_get_worldToLocalMatrix_mB633C122A01BCE8E51B10B8B8CB95F580750B3F1(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:440>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___2_pos;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
 		L_3 = Matrix4x4_MultiplyPoint_m20E910B65693559BFDE99382472D8DD02C862E7E((&V_0), L_2, NULL);
 		___2_pos = L_3;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:441>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___2_pos;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5;
 		L_5 = Matrix4x4_MultiplyPoint_m20E910B65693559BFDE99382472D8DD02C862E7E((&___1_XRSpaceOffset), L_4, NULL);
 		___2_pos = L_5;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:442>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___2_pos;
 		return L_6;
 	}
@@ -21701,7 +20473,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 NavigationManager_XRSpaceToUnity_m73B5F9F4600F3DC41FD257FDDC84F0B654D0E717 (NavigationManager_tFB37C91E0F34482AA82FD6B0090B5A1C0FE5BB53* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_XRSpace, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_pos, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:447>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = ___0_XRSpace;
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_1;
 		L_1 = Matrix4x4_get_identity_m6568A73831F3E2D587420D20FF423959D7D8AB56_inline(NULL);
@@ -21709,7 +20480,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
 		L_3 = NavigationManager_XRSpaceToUnity_m8D8062E57130E7738154969F4A1F6F16FD560002(__this, L_0, L_1, L_2, NULL);
 		___1_pos = L_3;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:448>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___1_pos;
 		return L_4;
 	}
@@ -21722,7 +20492,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:453>
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_0;
 		L_0 = Matrix4x4_get_inverse_m4F4A881CD789281EA90EB68CFD39F36C8A81E6BD((&___1_XRSpaceOffset), NULL);
 		V_1 = L_0;
@@ -21730,18 +20499,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
 		L_2 = Matrix4x4_MultiplyPoint_m20E910B65693559BFDE99382472D8DD02C862E7E((&V_1), L_1, NULL);
 		___2_pos = L_2;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:454>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3 = ___0_XRSpace;
 		NullCheck(L_3);
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_4;
 		L_4 = Transform_get_localToWorldMatrix_m5D35188766856338DD21DE756F42277C21719E6D(L_3, NULL);
 		V_0 = L_4;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:455>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5 = ___2_pos;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6;
 		L_6 = Matrix4x4_MultiplyPoint_m20E910B65693559BFDE99382472D8DD02C862E7E((&V_0), L_5, NULL);
 		___2_pos = L_6;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:456>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7 = ___2_pos;
 		return L_7;
 	}
@@ -21750,7 +20516,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 NavigationManager_UnityToXRSpace_mC6D2A1E5ECB41B81520116B6EAB90640F3308947 (NavigationManager_tFB37C91E0F34482AA82FD6B0090B5A1C0FE5BB53* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_XRSpace, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_pos, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:461>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = ___0_XRSpace;
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_1;
 		L_1 = Matrix4x4_get_identity_m6568A73831F3E2D587420D20FF423959D7D8AB56_inline(NULL);
@@ -21758,7 +20523,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
 		L_3 = NavigationManager_UnityToXRSpace_m195343247AF33FAD2AC8CAE3861C9828F9B0A6BA(__this, L_0, L_1, L_2, NULL);
 		___1_pos = L_3;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:462>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___1_pos;
 		return L_4;
 	}
@@ -21773,18 +20537,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationManager__ctor_mE4E600E289C693A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:65>
 		__this->___m_ArrivedDistanceThreshold = (1.0f);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:67>
 		__this->___m_pathWidth = (0.300000012f);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:69>
 		__this->___m_heightOffset = (0.5f);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:74>
 		NavigationEvent_t363CC604B1C0B0502757BFDD851FC9FEDEF92F07* L_0 = (NavigationEvent_t363CC604B1C0B0502757BFDD851FC9FEDEF92F07*)il2cpp_codegen_object_new(NavigationEvent_t363CC604B1C0B0502757BFDD851FC9FEDEF92F07_il2cpp_TypeInfo_var);
 		NavigationEvent__ctor_mE59B39DFF348513A47CC347409B30ED6C92CC9C0(L_0, NULL);
 		__this->___onTargetFound = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___onTargetFound), (void*)L_0);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationManager.cs:76>
 		NavigationEvent_t363CC604B1C0B0502757BFDD851FC9FEDEF92F07* L_1 = (NavigationEvent_t363CC604B1C0B0502757BFDD851FC9FEDEF92F07*)il2cpp_codegen_object_new(NavigationEvent_t363CC604B1C0B0502757BFDD851FC9FEDEF92F07_il2cpp_TypeInfo_var);
 		NavigationEvent__ctor_mE59B39DFF348513A47CC347409B30ED6C92CC9C0(L_1, NULL);
 		__this->___onTargetNotFound = L_1;
@@ -21832,7 +20591,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationPath_Awake_m802226A44FCF47439D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:41>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_0 = __this->___m_Mesh;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -21843,7 +20601,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationPath_Awake_m802226A44FCF47439D
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:42>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_2 = (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4*)il2cpp_codegen_object_new(Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4_il2cpp_TypeInfo_var);
 		Mesh__ctor_m5A9AECEDDAFFD84811ED8928012BDE97A9CEBD00(L_2, NULL);
 		__this->___m_Mesh = L_2;
@@ -21852,17 +20609,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationPath_Awake_m802226A44FCF47439D
 
 IL_0019:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:44>
 		MeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5* L_3;
 		L_3 = Component_GetComponent_TisMeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5_mB82F66059DFB5715DD85BDED1D90BC03A6C9E623(__this, Component_GetComponent_TisMeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5_mB82F66059DFB5715DD85BDED1D90BC03A6C9E623_RuntimeMethod_var);
 		__this->___m_MeshFilter = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_MeshFilter), (void*)L_3);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:45>
 		MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE* L_4;
 		L_4 = Component_GetComponent_TisMeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE_m0EDA0079FA3617687C4A28623B79A37D618D9CFB(__this, Component_GetComponent_TisMeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE_m0EDA0079FA3617687C4A28623B79A37D618D9CFB_RuntimeMethod_var);
 		__this->___m_MeshRenderer = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_MeshRenderer), (void*)L_4);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:47>
 		MeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5* L_5 = __this->___m_MeshFilter;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_6;
@@ -21873,7 +20627,6 @@ IL_0019:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:48>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7;
 		L_7 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_7);
@@ -21885,7 +20638,6 @@ IL_0019:
 
 IL_0050:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:50>
 		MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE* L_9 = __this->___m_MeshRenderer;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_10;
@@ -21896,7 +20648,6 @@ IL_0050:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:51>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11;
 		L_11 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_11);
@@ -21908,12 +20659,10 @@ IL_0050:
 
 IL_006f:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:53>
 		MeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5* L_13 = __this->___m_MeshFilter;
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_14 = __this->___m_Mesh;
 		NullCheck(L_13);
 		MeshFilter_set_mesh_mD2988E2D835205FD6B6CD35A61E1592844D971F8(L_13, L_14, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:54>
 		return;
 	}
 }
@@ -21930,7 +20679,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationPath_GeneratePath_m986CCE24FF6
 	}
 	List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* V_0 = NULL;
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:58>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_0 = ___0_points;
 		NullCheck(L_0);
 		int32_t L_1;
@@ -21941,13 +20689,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationPath_GeneratePath_m986CCE24FF6
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:59>
 		return;
 	}
 
 IL_000a:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:61>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_2 = ___0_points;
 		NullCheck(L_2);
 		int32_t L_3;
@@ -21958,7 +20704,6 @@ IL_000a:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:63>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_4 = ___0_points;
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_5 = ___0_points;
 		NullCheck(L_5);
@@ -21972,7 +20717,6 @@ IL_000a:
 		L_9 = Vector3_Lerp_m3A906D0530A94FAABB94F0F905E84D99BE85C3F8_inline(L_6, L_8, (0.333000004f), NULL);
 		NullCheck(L_4);
 		List_1_Insert_mE7623D84AEA50E917A6371C1DD13D356C9190F2F(L_4, 1, L_9, List_1_Insert_mE7623D84AEA50E917A6371C1DD13D356C9190F2F_RuntimeMethod_var);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:64>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_10 = ___0_points;
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_11 = ___0_points;
 		NullCheck(L_11);
@@ -21990,12 +20734,10 @@ IL_000a:
 
 IL_0051:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:67>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_16 = ___0_points;
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_17;
 		L_17 = NavigationPath_CatmullRomCurvePoints_m99139097EBC41E2A12BFA5AFC887A55531F0DA68(__this, L_16, NULL);
 		V_0 = L_17;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:69>
 		bool L_18 = __this->___m_Resample;
 		if (!L_18)
 		{
@@ -22003,7 +20745,6 @@ IL_0051:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:70>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_19 = V_0;
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_20;
 		L_20 = NavigationPath_ResampleCurve_mA7B45AD195242E1535D4A17471F0C541284003CD(__this, L_19, NULL);
@@ -22012,7 +20753,6 @@ IL_0051:
 
 IL_0069:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:72>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_21 = V_0;
 		NullCheck(L_21);
 		int32_t L_22;
@@ -22023,13 +20763,11 @@ IL_0069:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:73>
 		return;
 	}
 
 IL_0073:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:75>
 		bool L_23 = __this->___m_GenerateMesh;
 		if (!L_23)
 		{
@@ -22037,7 +20775,6 @@ IL_0073:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:76>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_24 = V_0;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_25 = ___1_up;
 		NavigationPath_GenerateMesh_m8EC07257576CB89F4F48950425103F62A19D29BD(__this, L_24, L_25, NULL);
@@ -22045,7 +20782,6 @@ IL_0073:
 
 IL_0083:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:77>
 		return;
 	}
 }
@@ -22053,12 +20789,10 @@ IL_0083:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationPath_GeneratePath_m982DB3116AE94DCF561D77F78FC65A8AFC259320 (NavigationPath_t303AABC9149CDE6CD1473E8A9BCCF51B142AF7EC* __this, List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* ___0_points, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:81>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_0 = ___0_points;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
 		L_1 = Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline(NULL);
 		NavigationPath_GeneratePath_m986CCE24FF646C01CA3F93222A0714C3748A3352(__this, L_0, L_1, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:82>
 		return;
 	}
 }
@@ -22072,7 +20806,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationPath_ClearMesh_mE6CD9B2FE5DFE6
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:86>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_0 = __this->___m_Mesh;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -22083,7 +20816,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationPath_ClearMesh_mE6CD9B2FE5DFE6
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:87>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_2 = __this->___m_Mesh;
 		NullCheck(L_2);
 		Mesh_Clear_m0F95397EA143D31AD0B4D332E8C6FA25A7957BC0(L_2, NULL);
@@ -22091,7 +20823,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationPath_ClearMesh_mE6CD9B2FE5DFE6
 
 IL_0018:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:88>
 		return;
 	}
 }
@@ -22099,7 +20830,6 @@ IL_0018:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float NavigationPath_GetT_mC3FC380506B1A07DBBD4038AFE975C6847242E64 (NavigationPath_t303AABC9149CDE6CD1473E8A9BCCF51B142AF7EC* __this, float ___0_t, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_p0, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_p1, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:92>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___2_p1;
 		float L_1 = L_0.___x;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___1_p0;
@@ -22118,14 +20848,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float NavigationPath_GetT_mC3FC380506B1A07DBB
 		float L_13 = L_12.___z;
 		float L_14;
 		L_14 = powf(((float)il2cpp_codegen_subtract(L_11, L_13)), (2.0f));
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:93>
 		float L_15;
 		L_15 = powf(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_4, L_9)), L_14)), (0.5f));
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:94>
 		float L_16 = __this->___m_tension;
 		float L_17;
 		L_17 = powf(L_15, L_16);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:95>
 		float L_18 = ___0_t;
 		return ((float)il2cpp_codegen_add(L_17, L_18));
 	}
@@ -22160,34 +20887,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t77B94703E05C519A9010DD0614F757F974E1C
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_11;
 	memset((&V_11), 0, sizeof(V_11));
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:100>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_0 = (List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B*)il2cpp_codegen_object_new(List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B_il2cpp_TypeInfo_var);
 		List_1__ctor_mC54E2BCBE43279A96FC082F5CDE2D76388BD8F9C(L_0, List_1__ctor_mC54E2BCBE43279A96FC082F5CDE2D76388BD8F9C_RuntimeMethod_var);
 		V_0 = L_0;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:102>
 		V_1 = (1.0f);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:103>
 		float L_1 = V_1;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___0_p0;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = ___1_p1;
 		float L_4;
 		L_4 = NavigationPath_GetT_mC3FC380506B1A07DBBD4038AFE975C6847242E64(__this, L_1, L_2, L_3, NULL);
 		V_2 = L_4;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:104>
 		float L_5 = V_2;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___1_p1;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7 = ___2_p2;
 		float L_8;
 		L_8 = NavigationPath_GetT_mC3FC380506B1A07DBBD4038AFE975C6847242E64(__this, L_5, L_6, L_7, NULL);
 		V_3 = L_8;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:105>
 		float L_9 = V_3;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = ___2_p2;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11 = ___3_p3;
 		float L_12;
 		L_12 = NavigationPath_GetT_mC3FC380506B1A07DBBD4038AFE975C6847242E64(__this, L_9, L_10, L_11, NULL);
 		V_4 = L_12;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:107>
 		float L_13 = V_2;
 		V_5 = L_13;
 		goto IL_0126;
@@ -22195,7 +20916,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t77B94703E05C519A9010DD0614F757F974E1C
 
 IL_0034:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:109>
 		float L_14 = V_2;
 		float L_15 = V_5;
 		float L_16 = V_2;
@@ -22213,7 +20933,6 @@ IL_0034:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_26;
 		L_26 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_19, L_25, NULL);
 		V_6 = L_26;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:110>
 		float L_27 = V_3;
 		float L_28 = V_5;
 		float L_29 = V_3;
@@ -22231,7 +20950,6 @@ IL_0034:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_39;
 		L_39 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_32, L_38, NULL);
 		V_7 = L_39;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:111>
 		float L_40 = V_4;
 		float L_41 = V_5;
 		float L_42 = V_4;
@@ -22249,7 +20967,6 @@ IL_0034:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_52;
 		L_52 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_45, L_51, NULL);
 		V_8 = L_52;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:113>
 		float L_53 = V_3;
 		float L_54 = V_5;
 		float L_55 = V_3;
@@ -22267,7 +20984,6 @@ IL_0034:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_65;
 		L_65 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_58, L_64, NULL);
 		V_9 = L_65;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:114>
 		float L_66 = V_4;
 		float L_67 = V_5;
 		float L_68 = V_4;
@@ -22285,7 +21001,6 @@ IL_0034:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_78;
 		L_78 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_71, L_77, NULL);
 		V_10 = L_78;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:116>
 		float L_79 = V_3;
 		float L_80 = V_5;
 		float L_81 = V_3;
@@ -22303,12 +21018,10 @@ IL_0034:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_91;
 		L_91 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_84, L_90, NULL);
 		V_11 = L_91;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:118>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_92 = V_0;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_93 = V_11;
 		NullCheck(L_92);
 		List_1_Add_m79E50C4F592B1703F4B76A8BE7B4855515460CA1_inline(L_92, L_93, List_1_Add_m79E50C4F592B1703F4B76A8BE7B4855515460CA1_RuntimeMethod_var);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:107>
 		float L_94 = V_5;
 		float L_95 = V_3;
 		float L_96 = V_2;
@@ -22318,7 +21031,6 @@ IL_0034:
 
 IL_0126:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:107>
 		float L_98 = V_5;
 		float L_99 = V_3;
 		if ((((float)L_98) < ((float)L_99)))
@@ -22327,7 +21039,6 @@ IL_0126:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:121>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_100 = V_0;
 		return L_100;
 	}
@@ -22361,18 +21072,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t77B94703E05C519A9010DD0614F757F974E1C
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_8;
 	memset((&V_8), 0, sizeof(V_8));
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:126>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_0 = (List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B*)il2cpp_codegen_object_new(List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B_il2cpp_TypeInfo_var);
 		List_1__ctor_mC54E2BCBE43279A96FC082F5CDE2D76388BD8F9C(L_0, List_1__ctor_mC54E2BCBE43279A96FC082F5CDE2D76388BD8F9C_RuntimeMethod_var);
 		V_0 = L_0;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:128>
 		V_1 = 0;
 		goto IL_00d2;
 	}
 
 IL_000d:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:135>
 		int32_t L_1 = V_1;
 		if (L_1)
 		{
@@ -22380,7 +21088,6 @@ IL_000d:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:137>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_2 = ___0_in_points;
 		int32_t L_3 = V_1;
 		NullCheck(L_2);
@@ -22406,7 +21113,6 @@ IL_000d:
 
 IL_0034:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:141>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_13 = ___0_in_points;
 		int32_t L_14 = V_1;
 		NullCheck(L_13);
@@ -22417,21 +21123,18 @@ IL_0034:
 
 IL_003e:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:144>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_16 = ___0_in_points;
 		int32_t L_17 = V_1;
 		NullCheck(L_16);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_18;
 		L_18 = List_1_get_Item_m8F2E15FC96DA75186C51228128A0660709E4E810(L_16, L_17, List_1_get_Item_m8F2E15FC96DA75186C51228128A0660709E4E810_RuntimeMethod_var);
 		V_3 = L_18;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:145>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_19 = ___0_in_points;
 		int32_t L_20 = V_1;
 		NullCheck(L_19);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_21;
 		L_21 = List_1_get_Item_m8F2E15FC96DA75186C51228128A0660709E4E810(L_19, ((int32_t)il2cpp_codegen_add(L_20, 1)), List_1_get_Item_m8F2E15FC96DA75186C51228128A0660709E4E810_RuntimeMethod_var);
 		V_4 = L_21;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:147>
 		int32_t L_22 = V_1;
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_23 = ___0_in_points;
 		NullCheck(L_23);
@@ -22443,7 +21146,6 @@ IL_003e:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:149>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_25 = ___0_in_points;
 		int32_t L_26 = V_1;
 		NullCheck(L_25);
@@ -22469,7 +21171,6 @@ IL_003e:
 
 IL_0081:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:153>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_36 = ___0_in_points;
 		int32_t L_37 = V_1;
 		NullCheck(L_36);
@@ -22480,7 +21181,6 @@ IL_0081:
 
 IL_008c:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:156>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_39 = V_4;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_40 = V_3;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_41;
@@ -22495,7 +21195,6 @@ IL_008c:
 		float L_46;
 		L_46 = ceilf(((float)(L_42/L_45)));
 		V_6 = L_46;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:158>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_47 = V_2;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_48 = V_3;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_49 = V_4;
@@ -22504,19 +21203,16 @@ IL_008c:
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_52;
 		L_52 = NavigationPath_CatmullRomCurveSegmentPoints_mC92AC40641ECC12BD7F704FA976D0F41B5B2A62F(__this, L_47, L_48, L_49, L_50, L_51, NULL);
 		V_7 = L_52;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:159>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_53 = V_0;
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_54 = V_7;
 		NullCheck(L_53);
 		List_1_AddRange_m5074E49FED0A20D75EEBFEF32BD7C59CBB6F0FEE(L_53, L_54, List_1_AddRange_m5074E49FED0A20D75EEBFEF32BD7C59CBB6F0FEE_RuntimeMethod_var);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:128>
 		int32_t L_55 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_55, 1));
 	}
 
 IL_00d2:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:128>
 		int32_t L_56 = V_1;
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_57 = ___0_in_points;
 		NullCheck(L_57);
@@ -22528,7 +21224,6 @@ IL_00d2:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:162>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_59 = V_0;
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_60 = ___0_in_points;
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_61 = ___0_in_points;
@@ -22540,7 +21235,6 @@ IL_00d2:
 		L_63 = List_1_get_Item_m8F2E15FC96DA75186C51228128A0660709E4E810(L_60, ((int32_t)il2cpp_codegen_subtract(L_62, 1)), List_1_get_Item_m8F2E15FC96DA75186C51228128A0660709E4E810_RuntimeMethod_var);
 		NullCheck(L_59);
 		List_1_Add_m79E50C4F592B1703F4B76A8BE7B4855515460CA1_inline(L_59, L_63, List_1_Add_m79E50C4F592B1703F4B76A8BE7B4855515460CA1_RuntimeMethod_var);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:164>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_64 = V_0;
 		return L_64;
 	}
@@ -22603,45 +21297,35 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t77B94703E05C519A9010DD0614F757F974E1C
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 G_B23_0;
 	memset((&G_B23_0), 0, sizeof(G_B23_0));
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:169>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_0 = (List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B*)il2cpp_codegen_object_new(List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B_il2cpp_TypeInfo_var);
 		List_1__ctor_mC54E2BCBE43279A96FC082F5CDE2D76388BD8F9C(L_0, List_1__ctor_mC54E2BCBE43279A96FC082F5CDE2D76388BD8F9C_RuntimeMethod_var);
 		V_0 = L_0;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:171>
 		List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* L_1 = (List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918*)il2cpp_codegen_object_new(List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918_il2cpp_TypeInfo_var);
 		List_1__ctor_mC29D3D824786832A31096310B3B3016B8B42B802(L_1, List_1__ctor_mC29D3D824786832A31096310B3B3016B8B42B802_RuntimeMethod_var);
 		V_1 = L_1;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:172>
 		List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* L_2 = (List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918*)il2cpp_codegen_object_new(List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918_il2cpp_TypeInfo_var);
 		List_1__ctor_mC29D3D824786832A31096310B3B3016B8B42B802(L_2, List_1__ctor_mC29D3D824786832A31096310B3B3016B8B42B802_RuntimeMethod_var);
 		V_2 = L_2;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:173>
 		List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* L_3 = (List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918*)il2cpp_codegen_object_new(List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918_il2cpp_TypeInfo_var);
 		List_1__ctor_mC29D3D824786832A31096310B3B3016B8B42B802(L_3, List_1__ctor_mC29D3D824786832A31096310B3B3016B8B42B802_RuntimeMethod_var);
 		V_3 = L_3;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:174>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_4 = (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73*)il2cpp_codegen_object_new(List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73_il2cpp_TypeInfo_var);
 		List_1__ctor_m17F501B5A5C289ECE1B4F3D6EBF05DFA421433F8(L_4, List_1__ctor_m17F501B5A5C289ECE1B4F3D6EBF05DFA421433F8_RuntimeMethod_var);
 		V_4 = L_4;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:175>
 		List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* L_5 = (List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918*)il2cpp_codegen_object_new(List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918_il2cpp_TypeInfo_var);
 		List_1__ctor_mC29D3D824786832A31096310B3B3016B8B42B802(L_5, List_1__ctor_mC29D3D824786832A31096310B3B3016B8B42B802_RuntimeMethod_var);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:176>
 		V_5 = (0.0f);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:177>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_6 = ___0_oldPointPositions;
 		NullCheck(L_6);
 		int32_t L_7;
 		L_7 = List_1_get_Count_m46EEFFA770BE665EA0CB3A5332E941DA4B3C1D37_inline(L_6, List_1_get_Count_m46EEFFA770BE665EA0CB3A5332E941DA4B3C1D37_RuntimeMethod_var);
 		V_6 = L_7;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:180>
 		V_8 = 0;
 		goto IL_0081;
 	}
 
 IL_0039:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:184>
 		int32_t L_8 = V_8;
 		if (L_8)
 		{
@@ -22649,27 +21333,23 @@ IL_0039:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:186>
 		V_9 = (0.0f);
 		goto IL_006c;
 	}
 
 IL_0046:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:190>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_9 = ___0_oldPointPositions;
 		int32_t L_10 = V_8;
 		NullCheck(L_9);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11;
 		L_11 = List_1_get_Item_m8F2E15FC96DA75186C51228128A0660709E4E810(L_9, ((int32_t)il2cpp_codegen_subtract(L_10, 1)), List_1_get_Item_m8F2E15FC96DA75186C51228128A0660709E4E810_RuntimeMethod_var);
 		V_10 = L_11;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:191>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_12 = ___0_oldPointPositions;
 		int32_t L_13 = V_8;
 		NullCheck(L_12);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14;
 		L_14 = List_1_get_Item_m8F2E15FC96DA75186C51228128A0660709E4E810(L_12, L_13, List_1_get_Item_m8F2E15FC96DA75186C51228128A0660709E4E810_RuntimeMethod_var);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:192>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_15 = V_10;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16;
 		L_16 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_14, L_15, NULL);
@@ -22681,23 +21361,19 @@ IL_0046:
 
 IL_006c:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:195>
 		float L_18 = V_5;
 		float L_19 = V_9;
 		V_5 = ((float)il2cpp_codegen_add(L_18, L_19));
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:196>
 		List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* L_20 = V_1;
 		float L_21 = V_5;
 		NullCheck(L_20);
 		List_1_Add_m2F86E252D086E288E02FA1C830B7E86C0A431E51_inline(L_20, L_21, List_1_Add_m2F86E252D086E288E02FA1C830B7E86C0A431E51_RuntimeMethod_var);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:180>
 		int32_t L_22 = V_8;
 		V_8 = ((int32_t)il2cpp_codegen_add(L_22, 1));
 	}
 
 IL_0081:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:180>
 		int32_t L_23 = V_8;
 		int32_t L_24 = V_6;
 		if ((((int32_t)L_23) < ((int32_t)L_24)))
@@ -22706,17 +21382,14 @@ IL_0081:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:199>
 		float L_25 = V_5;
 		__this->___m_PathLength = L_25;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:202>
 		V_12 = 0;
 		goto IL_00bc;
 	}
 
 IL_0094:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:205>
 		int32_t L_26 = V_12;
 		if (L_26)
 		{
@@ -22724,14 +21397,12 @@ IL_0094:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:207>
 		V_13 = (0.0f);
 		goto IL_00ae;
 	}
 
 IL_00a1:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:211>
 		List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* L_27 = V_1;
 		int32_t L_28 = V_12;
 		NullCheck(L_27);
@@ -22743,19 +21414,16 @@ IL_00a1:
 
 IL_00ae:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:214>
 		List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* L_31 = V_2;
 		float L_32 = V_13;
 		NullCheck(L_31);
 		List_1_Add_m2F86E252D086E288E02FA1C830B7E86C0A431E51_inline(L_31, L_32, List_1_Add_m2F86E252D086E288E02FA1C830B7E86C0A431E51_RuntimeMethod_var);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:202>
 		int32_t L_33 = V_12;
 		V_12 = ((int32_t)il2cpp_codegen_add(L_33, 1));
 	}
 
 IL_00bc:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:202>
 		int32_t L_34 = V_12;
 		int32_t L_35 = V_6;
 		if ((((int32_t)L_34) < ((int32_t)L_35)))
@@ -22764,7 +21432,6 @@ IL_00bc:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:218>
 		float L_36 = V_5;
 		float L_37 = __this->___m_minStepSize;
 		float L_38 = __this->___m_ResampledStepSize;
@@ -22773,25 +21440,20 @@ IL_00bc:
 		float L_40;
 		L_40 = ceilf(((float)(L_36/L_39)));
 		V_7 = il2cpp_codegen_cast_double_to_int<int32_t>(L_40);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:221>
 		V_14 = 0;
 		goto IL_013e;
 	}
 
 IL_00e3:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:224>
 		int32_t L_41 = V_14;
 		int32_t L_42 = V_7;
 		V_15 = ((float)(((float)L_41)/((float)((float)il2cpp_codegen_subtract(((float)L_42), (1.0f))))));
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:225>
 		List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* L_43 = V_3;
 		float L_44 = V_15;
 		NullCheck(L_43);
 		List_1_Add_m2F86E252D086E288E02FA1C830B7E86C0A431E51_inline(L_43, L_44, List_1_Add_m2F86E252D086E288E02FA1C830B7E86C0A431E51_RuntimeMethod_var);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:227>
 		V_16 = 0;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:228>
 		List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* L_45 = V_2;
 		int32_t L_46 = V_16;
 		NullCheck(L_45);
@@ -22803,14 +21465,12 @@ IL_00e3:
 
 IL_010a:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:232>
 		List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* L_48 = V_2;
 		int32_t L_49 = V_16;
 		NullCheck(L_48);
 		float L_50;
 		L_50 = List_1_get_Item_mFE556F47C4CD09EAC6C898EF39D4A8EC112CFC50(L_48, L_49, List_1_get_Item_mFE556F47C4CD09EAC6C898EF39D4A8EC112CFC50_RuntimeMethod_var);
 		V_17 = L_50;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:233>
 		float L_51 = V_17;
 		float L_52 = V_15;
 		if ((!(((float)L_51) <= ((float)L_52))))
@@ -22819,14 +21479,12 @@ IL_010a:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:235>
 		int32_t L_53 = V_16;
 		V_16 = ((int32_t)il2cpp_codegen_add(L_53, 1));
 	}
 
 IL_0120:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:230>
 		float L_54 = V_17;
 		float L_55 = V_15;
 		if ((((float)L_54) < ((float)L_55)))
@@ -22835,7 +21493,6 @@ IL_0120:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:239>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_56 = V_4;
 		int32_t L_57 = V_6;
 		int32_t L_58 = V_16;
@@ -22843,14 +21500,12 @@ IL_0120:
 		L_59 = Mathf_Min_m888083F74FF5655778F0403BB5E9608BEFDEA8CB_inline(((int32_t)il2cpp_codegen_subtract(L_57, 1)), L_58, NULL);
 		NullCheck(L_56);
 		List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_inline(L_56, L_59, List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:221>
 		int32_t L_60 = V_14;
 		V_14 = ((int32_t)il2cpp_codegen_add(L_60, 1));
 	}
 
 IL_013e:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:221>
 		int32_t L_61 = V_14;
 		int32_t L_62 = V_7;
 		if ((((int32_t)L_61) < ((int32_t)L_62)))
@@ -22859,14 +21514,12 @@ IL_013e:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:242>
 		V_18 = 0;
 		goto IL_01d1;
 	}
 
 IL_014c:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:244>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_63 = V_4;
 		int32_t L_64 = V_18;
 		NullCheck(L_63);
@@ -22875,41 +21528,35 @@ IL_014c:
 		int32_t L_66;
 		L_66 = Mathf_Max_m7FA442918DE37E3A00106D1F2E789D65829792B8_inline(((int32_t)il2cpp_codegen_subtract(L_65, 1)), 0, NULL);
 		V_19 = L_66;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:245>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_67 = V_4;
 		int32_t L_68 = V_18;
 		NullCheck(L_67);
 		int32_t L_69;
 		L_69 = List_1_get_Item_mD99081BEFA1AB3526715F489192B0F7F596C183D(L_67, L_68, List_1_get_Item_mD99081BEFA1AB3526715F489192B0F7F596C183D_RuntimeMethod_var);
 		V_20 = L_69;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:246>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_70 = ___0_oldPointPositions;
 		int32_t L_71 = V_19;
 		NullCheck(L_70);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_72;
 		L_72 = List_1_get_Item_m8F2E15FC96DA75186C51228128A0660709E4E810(L_70, L_71, List_1_get_Item_m8F2E15FC96DA75186C51228128A0660709E4E810_RuntimeMethod_var);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:247>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_73 = ___0_oldPointPositions;
 		int32_t L_74 = V_20;
 		NullCheck(L_73);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_75;
 		L_75 = List_1_get_Item_m8F2E15FC96DA75186C51228128A0660709E4E810(L_73, L_74, List_1_get_Item_m8F2E15FC96DA75186C51228128A0660709E4E810_RuntimeMethod_var);
 		V_21 = L_75;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:249>
 		List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* L_76 = V_2;
 		int32_t L_77 = V_19;
 		NullCheck(L_76);
 		float L_78;
 		L_78 = List_1_get_Item_mFE556F47C4CD09EAC6C898EF39D4A8EC112CFC50(L_76, L_77, List_1_get_Item_mFE556F47C4CD09EAC6C898EF39D4A8EC112CFC50_RuntimeMethod_var);
 		V_22 = L_78;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:250>
 		List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* L_79 = V_2;
 		int32_t L_80 = V_20;
 		NullCheck(L_79);
 		float L_81;
 		L_81 = List_1_get_Item_mFE556F47C4CD09EAC6C898EF39D4A8EC112CFC50(L_79, L_80, List_1_get_Item_mFE556F47C4CD09EAC6C898EF39D4A8EC112CFC50_RuntimeMethod_var);
 		V_23 = L_81;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:253>
 		float L_82 = V_23;
 		float L_83 = V_22;
 		if ((!(((float)((float)il2cpp_codegen_subtract(L_82, L_83))) > ((float)(0.0f)))))
@@ -22920,7 +21567,6 @@ IL_014c:
 		G_B21_0 = L_72;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:255>
 		List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* L_84 = V_3;
 		int32_t L_85 = V_18;
 		NullCheck(L_84);
@@ -22936,32 +21582,27 @@ IL_014c:
 
 IL_01b1:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:259>
 		V_24 = (0.0f);
 		G_B23_0 = G_B22_0;
 	}
 
 IL_01b8:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:262>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_90 = V_21;
 		float L_91 = V_24;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_92;
 		L_92 = Vector3_Lerp_m3A906D0530A94FAABB94F0F905E84D99BE85C3F8_inline(G_B23_0, L_90, L_91, NULL);
 		V_25 = L_92;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:264>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_93 = V_0;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_94 = V_25;
 		NullCheck(L_93);
 		List_1_Add_m79E50C4F592B1703F4B76A8BE7B4855515460CA1_inline(L_93, L_94, List_1_Add_m79E50C4F592B1703F4B76A8BE7B4855515460CA1_RuntimeMethod_var);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:242>
 		int32_t L_95 = V_18;
 		V_18 = ((int32_t)il2cpp_codegen_add(L_95, 1));
 	}
 
 IL_01d1:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:242>
 		int32_t L_96 = V_18;
 		int32_t L_97 = V_7;
 		if ((((int32_t)L_96) < ((int32_t)L_97)))
@@ -22970,7 +21611,6 @@ IL_01d1:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:267>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_98 = V_0;
 		return L_98;
 	}
@@ -23028,18 +21668,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationPath_GenerateMesh_m8EC07257576
 	int32_t V_27 = 0;
 	int32_t V_28 = 0;
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:272>
 		List_1_tCFA270E118B873F542F52B1DD58F21D0AF4D1452* L_0 = (List_1_tCFA270E118B873F542F52B1DD58F21D0AF4D1452*)il2cpp_codegen_object_new(List_1_tCFA270E118B873F542F52B1DD58F21D0AF4D1452_il2cpp_TypeInfo_var);
 		List_1__ctor_m7E96FE86519334BAB0B856C18ACB490B91E293A7(L_0, List_1__ctor_m7E96FE86519334BAB0B856C18ACB490B91E293A7_RuntimeMethod_var);
 		V_0 = L_0;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:274>
 		V_12 = 0;
 		goto IL_00ab;
 	}
 
 IL_000e:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:279>
 		int32_t L_1 = V_12;
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_2 = ___0_points;
 		NullCheck(L_2);
@@ -23051,7 +21688,6 @@ IL_000e:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:281>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_4 = ___0_points;
 		int32_t L_5 = V_12;
 		NullCheck(L_4);
@@ -23073,7 +21709,6 @@ IL_000e:
 
 IL_003e:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:285>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_12 = ___0_points;
 		int32_t L_13 = V_12;
 		NullCheck(L_12);
@@ -23094,12 +21729,10 @@ IL_003e:
 
 IL_0060:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:288>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20 = ___1_y;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_21 = V_13;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_22;
 		L_22 = Vector3_Cross_mF93A280558BCE756D13B6CC5DCD7DE8A43148987_inline(L_20, L_21, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:291>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_23 = V_13;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_24 = ___1_y;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_25;
@@ -23107,7 +21740,6 @@ IL_0060:
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_26;
 		L_26 = Quaternion_LookRotation_mFB02EDC8F733774DFAC3BEA4B4BB265A228F8307(L_23, L_25, NULL);
 		V_14 = L_26;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:292>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_27 = ___0_points;
 		int32_t L_28 = V_12;
 		NullCheck(L_27);
@@ -23120,19 +21752,16 @@ IL_0060:
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_32;
 		L_32 = Matrix4x4_TRS_mCC04FD47347234B451ACC6CCD2CE6D02E1E0E1E3(L_29, L_30, L_31, NULL);
 		V_15 = L_32;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:294>
 		List_1_tCFA270E118B873F542F52B1DD58F21D0AF4D1452* L_33 = V_0;
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_34 = V_15;
 		NullCheck(L_33);
 		List_1_Add_m64F9F4C32CDD01D323D17E7A61A97EB924206093_inline(L_33, L_34, List_1_Add_m64F9F4C32CDD01D323D17E7A61A97EB924206093_RuntimeMethod_var);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:274>
 		int32_t L_35 = V_12;
 		V_12 = ((int32_t)il2cpp_codegen_add(L_35, 1));
 	}
 
 IL_00ab:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:274>
 		int32_t L_36 = V_12;
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_37 = ___0_points;
 		NullCheck(L_37);
@@ -23144,7 +21773,6 @@ IL_00ab:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:301>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_39 = (Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)SZArrayNew(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C_il2cpp_TypeInfo_var, (uint32_t)2);
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_40 = L_39;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_41;
@@ -23159,77 +21787,61 @@ IL_00ab:
 		NullCheck(L_42);
 		(L_42)->SetAt(static_cast<il2cpp_array_size_t>(1), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_43);
 		V_1 = L_42;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:302>
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_44 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)2);
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_45 = L_44;
 		NullCheck(L_45);
 		(L_45)->SetAt(static_cast<il2cpp_array_size_t>(1), (float)(1.0f));
 		V_2 = L_45;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:304>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_46 = V_1;
 		NullCheck(L_46);
 		V_3 = ((int32_t)(((RuntimeArray*)L_46)->max_length));
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:305>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_47 = ___0_points;
 		NullCheck(L_47);
 		int32_t L_48;
 		L_48 = List_1_get_Count_m46EEFFA770BE665EA0CB3A5332E941DA4B3C1D37_inline(L_47, List_1_get_Count_m46EEFFA770BE665EA0CB3A5332E941DA4B3C1D37_RuntimeMethod_var);
 		V_4 = ((int32_t)il2cpp_codegen_subtract(L_48, 1));
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:306>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_49 = ___0_points;
 		NullCheck(L_49);
 		int32_t L_50;
 		L_50 = List_1_get_Count_m46EEFFA770BE665EA0CB3A5332E941DA4B3C1D37_inline(L_49, List_1_get_Count_m46EEFFA770BE665EA0CB3A5332E941DA4B3C1D37_RuntimeMethod_var);
 		V_5 = L_50;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:307>
 		int32_t L_51 = V_3;
 		int32_t L_52 = V_5;
 		V_6 = ((int32_t)il2cpp_codegen_multiply(L_51, L_52));
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:308>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_53 = V_1;
 		NullCheck(L_53);
 		int32_t L_54 = V_4;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:309>
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:311>
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_55 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)((int32_t)il2cpp_codegen_multiply(((int32_t)il2cpp_codegen_multiply(((int32_t)(((RuntimeArray*)L_53)->max_length)), L_54)), 3)));
 		V_7 = L_55;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:312>
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_56 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)2);
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_57 = L_56;
 		NullCheck(L_57);
 		(L_57)->SetAt(static_cast<il2cpp_array_size_t>(1), (int32_t)1);
 		V_8 = L_57;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:314>
 		int32_t L_58 = V_6;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_59 = (Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)SZArrayNew(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C_il2cpp_TypeInfo_var, (uint32_t)L_58);
 		V_9 = L_59;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:315>
 		int32_t L_60 = V_6;
 		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_61 = (Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA*)(Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA*)SZArrayNew(Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA_il2cpp_TypeInfo_var, (uint32_t)L_60);
 		V_10 = L_61;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:317>
 		V_17 = 0;
 		goto IL_01c2;
 	}
 
 IL_0152:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:319>
 		int32_t L_62 = V_17;
 		int32_t L_63 = V_3;
 		V_18 = ((int32_t)il2cpp_codegen_multiply(L_62, L_63));
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:321>
 		V_19 = 0;
 		goto IL_01b7;
 	}
 
 IL_015d:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:323>
 		int32_t L_64 = V_18;
 		int32_t L_65 = V_19;
 		V_20 = ((int32_t)il2cpp_codegen_add(L_64, L_65));
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:324>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_66 = V_9;
 		int32_t L_67 = V_20;
 		List_1_tCFA270E118B873F542F52B1DD58F21D0AF4D1452* L_68 = V_0;
@@ -23250,7 +21862,6 @@ IL_015d:
 		L_77 = Matrix4x4_MultiplyPoint_m20E910B65693559BFDE99382472D8DD02C862E7E((&V_21), L_76, NULL);
 		NullCheck(L_66);
 		(L_66)->SetAt(static_cast<il2cpp_array_size_t>(L_67), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_77);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:325>
 		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_78 = V_10;
 		int32_t L_79 = V_20;
 		int32_t L_80 = V_17;
@@ -23266,14 +21877,12 @@ IL_015d:
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_87), ((float)il2cpp_codegen_multiply(((float)(((float)L_80)/((float)L_81))), L_82)), L_86, NULL);
 		NullCheck(L_78);
 		(L_78)->SetAt(static_cast<il2cpp_array_size_t>(L_79), (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7)L_87);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:321>
 		int32_t L_88 = V_19;
 		V_19 = ((int32_t)il2cpp_codegen_add(L_88, 1));
 	}
 
 IL_01b7:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:321>
 		int32_t L_89 = V_19;
 		int32_t L_90 = V_3;
 		if ((((int32_t)L_89) < ((int32_t)L_90)))
@@ -23282,14 +21891,12 @@ IL_01b7:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:317>
 		int32_t L_91 = V_17;
 		V_17 = ((int32_t)il2cpp_codegen_add(L_91, 1));
 	}
 
 IL_01c2:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:317>
 		int32_t L_92 = V_17;
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_93 = ___0_points;
 		NullCheck(L_93);
@@ -23301,27 +21908,22 @@ IL_01c2:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:329>
 		V_11 = 0;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:330>
 		V_22 = 0;
 		goto IL_027a;
 	}
 
 IL_01d7:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:332>
 		int32_t L_95 = V_22;
 		int32_t L_96 = V_3;
 		V_23 = ((int32_t)il2cpp_codegen_multiply(L_95, L_96));
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:334>
 		V_24 = 0;
 		goto IL_0269;
 	}
 
 IL_01e5:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:336>
 		int32_t L_97 = V_23;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_98 = V_8;
 		int32_t L_99 = V_24;
@@ -23330,7 +21932,6 @@ IL_01e5:
 		int32_t L_101 = (L_98)->GetAt(static_cast<il2cpp_array_size_t>(L_100));
 		int32_t L_102 = V_3;
 		V_25 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add(L_97, L_101)), L_102));
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:337>
 		int32_t L_103 = V_23;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_104 = V_8;
 		int32_t L_105 = V_24;
@@ -23338,7 +21939,6 @@ IL_01e5:
 		int32_t L_106 = L_105;
 		int32_t L_107 = (L_104)->GetAt(static_cast<il2cpp_array_size_t>(L_106));
 		V_26 = ((int32_t)il2cpp_codegen_add(L_103, L_107));
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:338>
 		int32_t L_108 = V_23;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_109 = V_8;
 		int32_t L_110 = V_24;
@@ -23346,7 +21946,6 @@ IL_01e5:
 		int32_t L_111 = ((int32_t)il2cpp_codegen_add(L_110, 1));
 		int32_t L_112 = (L_109)->GetAt(static_cast<il2cpp_array_size_t>(L_111));
 		V_27 = ((int32_t)il2cpp_codegen_add(L_108, L_112));
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:339>
 		int32_t L_113 = V_23;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_114 = V_8;
 		int32_t L_115 = V_24;
@@ -23355,68 +21954,54 @@ IL_01e5:
 		int32_t L_117 = (L_114)->GetAt(static_cast<il2cpp_array_size_t>(L_116));
 		int32_t L_118 = V_3;
 		V_28 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add(L_113, L_117)), L_118));
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:341>
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_119 = V_7;
 		int32_t L_120 = V_11;
 		int32_t L_121 = V_25;
 		NullCheck(L_119);
 		(L_119)->SetAt(static_cast<il2cpp_array_size_t>(L_120), (int32_t)L_121);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:341>
 		int32_t L_122 = V_11;
 		V_11 = ((int32_t)il2cpp_codegen_add(L_122, 1));
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:342>
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_123 = V_7;
 		int32_t L_124 = V_11;
 		int32_t L_125 = V_26;
 		NullCheck(L_123);
 		(L_123)->SetAt(static_cast<il2cpp_array_size_t>(L_124), (int32_t)L_125);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:342>
 		int32_t L_126 = V_11;
 		V_11 = ((int32_t)il2cpp_codegen_add(L_126, 1));
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:343>
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_127 = V_7;
 		int32_t L_128 = V_11;
 		int32_t L_129 = V_27;
 		NullCheck(L_127);
 		(L_127)->SetAt(static_cast<il2cpp_array_size_t>(L_128), (int32_t)L_129);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:343>
 		int32_t L_130 = V_11;
 		V_11 = ((int32_t)il2cpp_codegen_add(L_130, 1));
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:344>
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_131 = V_7;
 		int32_t L_132 = V_11;
 		int32_t L_133 = V_27;
 		NullCheck(L_131);
 		(L_131)->SetAt(static_cast<il2cpp_array_size_t>(L_132), (int32_t)L_133);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:344>
 		int32_t L_134 = V_11;
 		V_11 = ((int32_t)il2cpp_codegen_add(L_134, 1));
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:345>
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_135 = V_7;
 		int32_t L_136 = V_11;
 		int32_t L_137 = V_28;
 		NullCheck(L_135);
 		(L_135)->SetAt(static_cast<il2cpp_array_size_t>(L_136), (int32_t)L_137);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:345>
 		int32_t L_138 = V_11;
 		V_11 = ((int32_t)il2cpp_codegen_add(L_138, 1));
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:346>
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_139 = V_7;
 		int32_t L_140 = V_11;
 		int32_t L_141 = V_25;
 		NullCheck(L_139);
 		(L_139)->SetAt(static_cast<il2cpp_array_size_t>(L_140), (int32_t)L_141);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:346>
 		int32_t L_142 = V_11;
 		V_11 = ((int32_t)il2cpp_codegen_add(L_142, 1));
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:334>
 		int32_t L_143 = V_24;
 		V_24 = ((int32_t)il2cpp_codegen_add(L_143, 2));
 	}
 
 IL_0269:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:334>
 		int32_t L_144 = V_24;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_145 = V_8;
 		NullCheck(L_145);
@@ -23426,14 +22011,12 @@ IL_0269:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:330>
 		int32_t L_146 = V_22;
 		V_22 = ((int32_t)il2cpp_codegen_add(L_146, 1));
 	}
 
 IL_027a:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:330>
 		int32_t L_147 = V_22;
 		int32_t L_148 = V_4;
 		if ((((int32_t)L_147) < ((int32_t)L_148)))
@@ -23442,26 +22025,21 @@ IL_027a:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:350>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_149 = __this->___m_Mesh;
 		NullCheck(L_149);
 		Mesh_Clear_m0F95397EA143D31AD0B4D332E8C6FA25A7957BC0(L_149, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:351>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_150 = __this->___m_Mesh;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_151 = V_9;
 		NullCheck(L_150);
 		Mesh_set_vertices_m5BB814D89E9ACA00DBF19F7D8E22CB73AC73FE5C(L_150, L_151, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:352>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_152 = __this->___m_Mesh;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_153 = V_7;
 		NullCheck(L_152);
 		Mesh_set_triangles_m124405320579A8D92711BB5A124644963A26F60B(L_152, L_153, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:353>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_154 = __this->___m_Mesh;
 		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_155 = V_10;
 		NullCheck(L_154);
 		Mesh_set_uv_m6ED9C50E0DA8166DD48AC40FD6C828B9AD2E9617(L_154, L_155, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:354>
 		return;
 	}
 }
@@ -23469,19 +22047,12 @@ IL_027a:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationPath__ctor_m081A359293137D396ED3FEBA7BBC91D10428967C (NavigationPath_t303AABC9149CDE6CD1473E8A9BCCF51B142AF7EC* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:25>
 		__this->___pathWidth = (0.300000012f);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:27>
 		__this->___m_StepSize = (0.200000003f);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:28>
 		__this->___m_ResampledStepSize = (0.200000003f);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:29>
 		__this->___m_Resample = (bool)1;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:30>
 		__this->___m_GenerateMesh = (bool)1;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:31>
 		__this->___m_tension = (0.5f);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationPath.cs:37>
 		__this->___m_minStepSize = (0.100000001f);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -23499,7 +22070,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationPath__ctor_m081A359293137D396E
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationTargets__ctor_m0225F32EB4E03076DC393FFA9E7359618C05B130 (NavigationTargets_tD82D127A902CAE4211C5A2D601224A42FA500F59* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationTargets.cs:20>
 		__this->___navigationCategories = 1;
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
@@ -23517,7 +22087,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationTargets__cctor_mB1F0A1418A0E0C
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/NavigationTargets.cs:21>
 		Dictionary_2_t2E1FA6B8D978D1D213729887AEF64EAC5B8F4F4B* L_0 = (Dictionary_2_t2E1FA6B8D978D1D213729887AEF64EAC5B8F4F4B*)il2cpp_codegen_object_new(Dictionary_2_t2E1FA6B8D978D1D213729887AEF64EAC5B8F4F4B_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_mFAD3170D9E7829132CBC2D69B71866799C3407CA(L_0, Dictionary_2__ctor_mFAD3170D9E7829132CBC2D69B71866799C3407CA_RuntimeMethod_var);
 		((NavigationTargets_tD82D127A902CAE4211C5A2D601224A42FA500F59_StaticFields*)il2cpp_codegen_static_fields_for(NavigationTargets_tD82D127A902CAE4211C5A2D601224A42FA500F59_il2cpp_TypeInfo_var))->___NavigationTargetsDict = L_0;
@@ -23555,12 +22124,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MappingUIComponent_Start_m3FE135DD227475
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/MappingUIComponent.cs:35>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_0;
 		L_0 = Component_GetComponent_TisImage_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_mE74EE63C85A63FC34DCFC631BC229207B420BC79(__this, Component_GetComponent_TisImage_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_mE74EE63C85A63FC34DCFC631BC229207B420BC79_RuntimeMethod_var);
 		__this->___image = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___image), (void*)L_0);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/MappingUIComponent.cs:36>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_1 = __this->___image;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
@@ -23571,7 +22138,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MappingUIComponent_Start_m3FE135DD227475
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/MappingUIComponent.cs:37>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = __this->___target_button;
 		NullCheck(L_3);
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_4;
@@ -23582,12 +22148,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MappingUIComponent_Start_m3FE135DD227475
 
 IL_002b:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/MappingUIComponent.cs:40>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_5;
 		L_5 = Component_GetComponent_TisButton_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098_mFF8BA4CA5D7158D1D6249559A3289E7A6DF0A2BB(__this, Component_GetComponent_TisButton_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098_mFF8BA4CA5D7158D1D6249559A3289E7A6DF0A2BB_RuntimeMethod_var);
 		__this->___button = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___button), (void*)L_5);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/MappingUIComponent.cs:41>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_6 = __this->___button;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_7;
@@ -23598,7 +22162,6 @@ IL_002b:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/MappingUIComponent.cs:42>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = __this->___target_button;
 		NullCheck(L_8);
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_9;
@@ -23609,7 +22172,6 @@ IL_002b:
 
 IL_0056:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/MappingUIComponent.cs:44>
 		return;
 	}
 }
@@ -23629,7 +22191,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MappingUIComponent_Activate_m68E014F424F
 	int32_t V_2 = 0;
 	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* V_3 = NULL;
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/MappingUIComponent.cs:47>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_0 = __this->___image;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -23640,7 +22201,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MappingUIComponent_Activate_m68E014F424F
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/MappingUIComponent.cs:48>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_2 = __this->___image;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_3 = __this->___button_normalColor;
 		NullCheck(L_2);
@@ -23649,7 +22209,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MappingUIComponent_Activate_m68E014F424F
 
 IL_001f:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/MappingUIComponent.cs:50>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_4 = __this->___button;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_5;
@@ -23660,22 +22219,18 @@ IL_001f:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/MappingUIComponent.cs:51>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_6 = __this->___button;
 		NullCheck(L_6);
 		ColorBlock_tDD7C62E7AFE442652FC98F8D058CE8AE6BFD7C11 L_7;
 		L_7 = Selectable_get_colors_mB53E365D02351D4B64084295C4B2A7AF2DEC4750_inline(L_6, NULL);
 		V_0 = L_7;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/MappingUIComponent.cs:52>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_8 = __this->___icon_normalColor;
 		il2cpp_codegen_runtime_class_init_inline(ColorBlock_tDD7C62E7AFE442652FC98F8D058CE8AE6BFD7C11_il2cpp_TypeInfo_var);
 		ColorBlock_set_normalColor_m3EBF594F6FA2C6494ACA9FCB9B458807D85B96F8_inline((&V_0), L_8, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/MappingUIComponent.cs:53>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_9 = __this->___button;
 		ColorBlock_tDD7C62E7AFE442652FC98F8D058CE8AE6BFD7C11 L_10 = V_0;
 		NullCheck(L_9);
 		Selectable_set_colors_m0A49ED3ACD6647B7E5A2DA10B3D417E8FE1BE55A(L_9, L_10, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/MappingUIComponent.cs:54>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_11 = __this->___button;
 		NullCheck(L_11);
 		Selectable_set_interactable_m8DD581C1AD99B2EFA8B3EE9AF69EDDF26688B492(L_11, (bool)1, NULL);
@@ -23683,7 +22238,6 @@ IL_001f:
 
 IL_005e:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/MappingUIComponent.cs:56>
 		TextMeshProUGUIU5BU5D_tCAB9404D43876DF686DFBB4613543479CC1CC24A* L_12 = __this->___texts;
 		V_1 = L_12;
 		V_2 = 0;
@@ -23692,14 +22246,12 @@ IL_005e:
 
 IL_0069:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/MappingUIComponent.cs:56>
 		TextMeshProUGUIU5BU5D_tCAB9404D43876DF686DFBB4613543479CC1CC24A* L_13 = V_1;
 		int32_t L_14 = V_2;
 		NullCheck(L_13);
 		int32_t L_15 = L_14;
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_16 = (L_13)->GetAt(static_cast<il2cpp_array_size_t>(L_15));
 		V_3 = L_16;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/MappingUIComponent.cs:57>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_17 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_18;
@@ -23710,7 +22262,6 @@ IL_0069:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/MappingUIComponent.cs:58>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_19 = V_3;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_20 = __this->___icon_normalColor;
 		NullCheck(L_19);
@@ -23725,7 +22276,6 @@ IL_0082:
 
 IL_0086:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/MappingUIComponent.cs:56>
 		int32_t L_22 = V_2;
 		TextMeshProUGUIU5BU5D_tCAB9404D43876DF686DFBB4613543479CC1CC24A* L_23 = V_1;
 		NullCheck(L_23);
@@ -23735,7 +22285,6 @@ IL_0086:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/MappingUIComponent.cs:61>
 		return;
 	}
 }
@@ -23755,7 +22304,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MappingUIComponent_Disable_m412548FBF8C8
 	int32_t V_2 = 0;
 	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* V_3 = NULL;
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/MappingUIComponent.cs:64>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_0 = __this->___image;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -23766,7 +22314,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MappingUIComponent_Disable_m412548FBF8C8
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/MappingUIComponent.cs:65>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_2 = __this->___image;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_3 = __this->___button_disabledColor;
 		NullCheck(L_2);
@@ -23775,7 +22322,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MappingUIComponent_Disable_m412548FBF8C8
 
 IL_001f:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/MappingUIComponent.cs:67>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_4 = __this->___button;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_5;
@@ -23786,22 +22332,18 @@ IL_001f:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/MappingUIComponent.cs:68>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_6 = __this->___button;
 		NullCheck(L_6);
 		ColorBlock_tDD7C62E7AFE442652FC98F8D058CE8AE6BFD7C11 L_7;
 		L_7 = Selectable_get_colors_mB53E365D02351D4B64084295C4B2A7AF2DEC4750_inline(L_6, NULL);
 		V_0 = L_7;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/MappingUIComponent.cs:69>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_8 = __this->___icon_disabledColor;
 		il2cpp_codegen_runtime_class_init_inline(ColorBlock_tDD7C62E7AFE442652FC98F8D058CE8AE6BFD7C11_il2cpp_TypeInfo_var);
 		ColorBlock_set_normalColor_m3EBF594F6FA2C6494ACA9FCB9B458807D85B96F8_inline((&V_0), L_8, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/MappingUIComponent.cs:70>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_9 = __this->___button;
 		ColorBlock_tDD7C62E7AFE442652FC98F8D058CE8AE6BFD7C11 L_10 = V_0;
 		NullCheck(L_9);
 		Selectable_set_colors_m0A49ED3ACD6647B7E5A2DA10B3D417E8FE1BE55A(L_9, L_10, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/MappingUIComponent.cs:71>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_11 = __this->___button;
 		NullCheck(L_11);
 		Selectable_set_interactable_m8DD581C1AD99B2EFA8B3EE9AF69EDDF26688B492(L_11, (bool)0, NULL);
@@ -23809,7 +22351,6 @@ IL_001f:
 
 IL_005e:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/MappingUIComponent.cs:73>
 		TextMeshProUGUIU5BU5D_tCAB9404D43876DF686DFBB4613543479CC1CC24A* L_12 = __this->___texts;
 		V_1 = L_12;
 		V_2 = 0;
@@ -23818,14 +22359,12 @@ IL_005e:
 
 IL_0069:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/MappingUIComponent.cs:73>
 		TextMeshProUGUIU5BU5D_tCAB9404D43876DF686DFBB4613543479CC1CC24A* L_13 = V_1;
 		int32_t L_14 = V_2;
 		NullCheck(L_13);
 		int32_t L_15 = L_14;
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_16 = (L_13)->GetAt(static_cast<il2cpp_array_size_t>(L_15));
 		V_3 = L_16;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/MappingUIComponent.cs:74>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_17 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_18;
@@ -23836,7 +22375,6 @@ IL_0069:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/MappingUIComponent.cs:75>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_19 = V_3;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_20 = __this->___icon_disabledColor;
 		NullCheck(L_19);
@@ -23851,7 +22389,6 @@ IL_0082:
 
 IL_0086:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/MappingUIComponent.cs:73>
 		int32_t L_22 = V_2;
 		TextMeshProUGUIU5BU5D_tCAB9404D43876DF686DFBB4613543479CC1CC24A* L_23 = V_1;
 		NullCheck(L_23);
@@ -23861,7 +22398,6 @@ IL_0086:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/MappingUIComponent.cs:78>
 		return;
 	}
 }
@@ -23869,22 +22405,18 @@ IL_0086:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MappingUIComponent__ctor_m7D4771AC14785AE9BA6CE0F317FA9F4524D28EF7 (MappingUIComponent_tFAE4C5F10202C1FE08F9E2FBF6B120EADC8F01D2* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/MappingUIComponent.cs:28>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0;
 		memset((&L_0), 0, sizeof(L_0));
 		Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_0), (0.0f), (0.0f), (0.0f), (0.800000012f), NULL);
 		__this->___button_normalColor = L_0;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/MappingUIComponent.cs:29>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1;
 		memset((&L_1), 0, sizeof(L_1));
 		Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_1), (0.0f), (0.0f), (0.0f), (0.400000006f), NULL);
 		__this->___button_disabledColor = L_1;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/MappingUIComponent.cs:31>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_2;
 		memset((&L_2), 0, sizeof(L_2));
 		Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_2), (1.0f), (1.0f), (1.0f), (1.0f), NULL);
 		__this->___icon_normalColor = L_2;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/MappingUIComponent.cs:32>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_3;
 		memset((&L_3), 0, sizeof(L_3));
 		Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_3), (0.5f), (0.5f), (0.5f), (1.0f), NULL);
@@ -23915,37 +22447,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RealtimeCaptureManager_Start_m5863B3441F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:56>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_0;
 		L_0 = Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF(NULL);
 		__this->___m_MainCamera = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_MainCamera), (void*)L_0);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:57>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_1 = __this->___m_CaptureButtonIcon;
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_2 = __this->___m_StartCaptureSprite;
 		NullCheck(L_1);
 		Image_set_sprite_mC0C248340BA27AAEE56855A3FAFA0D8CA12956DE(L_1, L_2, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:58>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_3 = __this->___m_CaptureButton;
 		NullCheck(L_3);
 		Selectable_set_interactable_m8DD581C1AD99B2EFA8B3EE9AF69EDDF26688B492(L_3, (bool)0, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:60>
 		RealtimeCaptureManager_InitMesh_m3BA90C32FCC51D1DB7E3A1014B6EB34BC55853E5(__this, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:62>
 		RealtimeCaptureManager_LogStatus_mAAB422BFBF89C9F86EECF73C2F4B43626036F8AB(__this, _stringLiteralB2A6F0C9362D4F9A3B01AB781A9494C89EDEC46C, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:64>
 		il2cpp_codegen_runtime_class_init_inline(ImmersalSDK_tA2B473468505E492034E77501B051A95E8923AE7_il2cpp_TypeInfo_var);
 		ImmersalSDK_tA2B473468505E492034E77501B051A95E8923AE7* L_4;
 		L_4 = ImmersalSDK_get_Instance_m05A1121F137AE7ABA31ADC594C9DD81D0F9A9452(NULL);
 		__this->___m_Sdk = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Sdk), (void*)L_4);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:68>
 		ImmersalSDK_tA2B473468505E492034E77501B051A95E8923AE7* L_5 = __this->___m_Sdk;
 		NullCheck(L_5);
 		bool L_6;
 		L_6 = ImmersalSDK_get_IsReady_m254C5B2E21B2F628F0849EAFA4FC6B669F23D8AB_inline(L_5, NULL);
 		__this->___m_SdkInitComplete = L_6;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:69>
 		bool L_7 = __this->___m_SdkInitComplete;
 		if (L_7)
 		{
@@ -23953,7 +22477,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RealtimeCaptureManager_Start_m5863B3441F
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:69>
 		ImmersalSDK_tA2B473468505E492034E77501B051A95E8923AE7* L_8 = __this->___m_Sdk;
 		NullCheck(L_8);
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_9 = L_8->___OnInitializationComplete;
@@ -23965,13 +22488,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RealtimeCaptureManager_Start_m5863B3441F
 
 IL_0079:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:70>
 		ImmersalSDK_tA2B473468505E492034E77501B051A95E8923AE7* L_11 = __this->___m_Sdk;
 		NullCheck(L_11);
 		bool L_12;
 		L_12 = ImmersalSDK_get_HasValidated_m177026BC384871BF42A2080F5CFDC252095BB597_inline(L_11, NULL);
 		__this->___m_UserValidationComplete = L_12;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:71>
 		bool L_13 = __this->___m_UserValidationComplete;
 		if (L_13)
 		{
@@ -23979,7 +22500,6 @@ IL_0079:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:71>
 		ImmersalSDK_tA2B473468505E492034E77501B051A95E8923AE7* L_14 = __this->___m_Sdk;
 		NullCheck(L_14);
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_15 = L_14->___OnUserValidationComplete;
@@ -23991,9 +22511,7 @@ IL_0079:
 
 IL_00ae:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:72>
 		RealtimeCaptureManager_CheckState_m4CF955CBCF6C9E34E4B9BF892D42AA295A37B785(__this, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:73>
 		return;
 	}
 }
@@ -24008,7 +22526,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RealtimeCaptureManager_InitializationCom
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:77>
 		ImmersalSDK_tA2B473468505E492034E77501B051A95E8923AE7* L_0 = __this->___m_Sdk;
 		NullCheck(L_0);
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_1 = L_0->___OnInitializationComplete;
@@ -24016,11 +22533,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RealtimeCaptureManager_InitializationCom
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_2, __this, (intptr_t)((void*)RealtimeCaptureManager_InitializationComplete_m7A27D37FA260FDF241EAA08878DFF224815BA547_RuntimeMethod_var), NULL);
 		NullCheck(L_1);
 		UnityEvent_RemoveListener_m0E138F5575CB4363019D3DA570E98FAD502B812C(L_1, L_2, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:78>
 		__this->___m_SdkInitComplete = (bool)1;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:79>
 		RealtimeCaptureManager_CheckState_m4CF955CBCF6C9E34E4B9BF892D42AA295A37B785(__this, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:80>
 		return;
 	}
 }
@@ -24035,7 +22549,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RealtimeCaptureManager_ValidationComplet
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:84>
 		ImmersalSDK_tA2B473468505E492034E77501B051A95E8923AE7* L_0 = __this->___m_Sdk;
 		NullCheck(L_0);
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_1 = L_0->___OnUserValidationComplete;
@@ -24043,11 +22556,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RealtimeCaptureManager_ValidationComplet
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_2, __this, (intptr_t)((void*)RealtimeCaptureManager_ValidationComplete_m3D6A7F7FD1671EABF7B897E33E23441E21289771_RuntimeMethod_var), NULL);
 		NullCheck(L_1);
 		UnityEvent_RemoveListener_m0E138F5575CB4363019D3DA570E98FAD502B812C(L_1, L_2, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:85>
 		__this->___m_UserValidationComplete = (bool)1;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:86>
 		RealtimeCaptureManager_CheckState_m4CF955CBCF6C9E34E4B9BF892D42AA295A37B785(__this, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:87>
 		return;
 	}
 }
@@ -24063,7 +22573,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RealtimeCaptureManager_CheckState_m4CF95
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:91>
 		bool L_0 = __this->___m_SdkInitComplete;
 		if (!L_0)
 		{
@@ -24080,13 +22589,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RealtimeCaptureManager_CheckState_m4CF95
 
 IL_0010:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:91>
 		return;
 	}
 
 IL_0011:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:94>
 		bool L_2 = __this->___m_IsTracking;
 		if (L_2)
 		{
@@ -24094,7 +22601,6 @@ IL_0011:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:96>
 		bool L_3 = __this->___m_IsMapping;
 		if (!L_3)
 		{
@@ -24102,25 +22608,20 @@ IL_0011:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:98>
 		RealtimeCaptureManager_StopRealtimeCapture_mCC18ADEBD7B2CE99A0172755A59A56BDD6166AAB(__this, NULL);
 	}
 
 IL_0027:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:100>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_4 = __this->___m_CaptureButton;
 		NullCheck(L_4);
 		Selectable_set_interactable_m8DD581C1AD99B2EFA8B3EE9AF69EDDF26688B492(L_4, (bool)0, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:101>
 		RealtimeCaptureManager_LogStatus_mAAB422BFBF89C9F86EECF73C2F4B43626036F8AB(__this, _stringLiteral1B27A75960BB7CDE195E3A9B1052B3CD296C73C6, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:102>
 		return;
 	}
 
 IL_003f:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:106>
 		ImmersalSDK_tA2B473468505E492034E77501B051A95E8923AE7* L_5 = __this->___m_Sdk;
 		NullCheck(L_5);
 		int32_t L_6;
@@ -24131,20 +22632,16 @@ IL_003f:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:108>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_7 = __this->___m_CaptureButton;
 		NullCheck(L_7);
 		Selectable_set_interactable_m8DD581C1AD99B2EFA8B3EE9AF69EDDF26688B492(L_7, (bool)1, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:109>
 		RealtimeCaptureManager_LogStatus_mAAB422BFBF89C9F86EECF73C2F4B43626036F8AB(__this, _stringLiteralC9DED19749A48661A81474DE4485C2452F386245, NULL);
 		return;
 	}
 
 IL_0065:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:113>
 		RealtimeCaptureManager_LogStatus_mAAB422BFBF89C9F86EECF73C2F4B43626036F8AB(__this, _stringLiteralBB26D80785D27684CA10AA1D5076F2402E5A80D0, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:115>
 		return;
 	}
 }
@@ -24159,11 +22656,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RealtimeCaptureManager_OnEnable_m63CA90E
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:119>
 		Action_1_t325C602D999E964DB72210E493635E83F8D6CE68* L_0 = (Action_1_t325C602D999E964DB72210E493635E83F8D6CE68*)il2cpp_codegen_object_new(Action_1_t325C602D999E964DB72210E493635E83F8D6CE68_il2cpp_TypeInfo_var);
 		Action_1__ctor_mC9CFD5CBE62E447D22A4A520EB27144DCD47BBDB(L_0, __this, (intptr_t)((void*)RealtimeCaptureManager_ARSessionStateChanged_mED99BED5E7F15E736CFC3C640AE29A542ED3220C_RuntimeMethod_var), NULL);
 		ARSession_add_stateChanged_mD40004D1EBE89E6CAC651632ABB8EADBE46692FC(L_0, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:120>
 		return;
 	}
 }
@@ -24178,11 +22673,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RealtimeCaptureManager_OnDisable_m7B8657
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:124>
 		Action_1_t325C602D999E964DB72210E493635E83F8D6CE68* L_0 = (Action_1_t325C602D999E964DB72210E493635E83F8D6CE68*)il2cpp_codegen_object_new(Action_1_t325C602D999E964DB72210E493635E83F8D6CE68_il2cpp_TypeInfo_var);
 		Action_1__ctor_mC9CFD5CBE62E447D22A4A520EB27144DCD47BBDB(L_0, __this, (intptr_t)((void*)RealtimeCaptureManager_ARSessionStateChanged_mED99BED5E7F15E736CFC3C640AE29A542ED3220C_RuntimeMethod_var), NULL);
 		ARSession_remove_stateChanged_mDAC5A2DCA86363C495C66FB8CA92F46ABDFE3BE1(L_0, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:125>
 		return;
 	}
 }
@@ -24190,13 +22683,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RealtimeCaptureManager_OnDisable_m7B8657
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RealtimeCaptureManager_ARSessionStateChanged_mED99BED5E7F15E736CFC3C640AE29A542ED3220C (RealtimeCaptureManager_t2B778A041D4ECBBF6AEDC41E739620E7633FCA65* __this, ARSessionStateChangedEventArgs_tC31BD123D6B4F6168FB246762E79AB33962AE822 ___0_args, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:129>
 		int32_t L_0;
 		L_0 = ARSessionStateChangedEventArgs_get_state_mC0A6FB4AF08C068BFD5D9730F60215BE662A950B_inline((&___0_args), NULL);
 		__this->___m_IsTracking = (bool)((((int32_t)L_0) == ((int32_t)7))? 1 : 0);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:130>
 		RealtimeCaptureManager_CheckState_m4CF955CBCF6C9E34E4B9BF892D42AA295A37B785(__this, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:131>
 		return;
 	}
 }
@@ -24210,7 +22700,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RealtimeCaptureManager_LogStatus_mAAB422
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:135>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_0 = __this->___m_StatusText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -24221,7 +22710,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RealtimeCaptureManager_LogStatus_mAAB422
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:137>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_2 = __this->___m_StatusText;
 		String_t* L_3 = ___0_s;
 		NullCheck(L_2);
@@ -24230,7 +22718,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RealtimeCaptureManager_LogStatus_mAAB422
 
 IL_001a:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:139>
 		return;
 	}
 }
@@ -24257,7 +22744,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RealtimeCaptureManager_InitMesh_m3BA90C3
 	}
 	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* V_0 = NULL;
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:143>
 		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_0 = (TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB*)(TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB*)SZArrayNew(TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB_il2cpp_TypeInfo_var, (uint32_t)2);
 		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_1 = L_0;
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_2 = { reinterpret_cast<intptr_t> (MeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5_0_0_0_var) };
@@ -24278,42 +22764,35 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RealtimeCaptureManager_InitMesh_m3BA90C3
 		GameObject__ctor_m721D643351E55308EA4F5F41B67D5446D11C61F0(L_7, _stringLiteral3BDB32B43CA533151BC7434BB24F50C5E6C6416B, L_4, NULL);
 		__this->___m_PointCloud = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_PointCloud), (void*)L_7);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:145>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = __this->___m_PointCloud;
 		NullCheck(L_8);
 		MeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5* L_9;
 		L_9 = GameObject_GetComponent_TisMeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5_mDF6525BCE37B444313BE0AA2305BDF4EB8B92FE8(L_8, GameObject_GetComponent_TisMeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5_mDF6525BCE37B444313BE0AA2305BDF4EB8B92FE8_RuntimeMethod_var);
 		__this->___m_MeshFilter = L_9;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_MeshFilter), (void*)L_9);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:146>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = __this->___m_PointCloud;
 		NullCheck(L_10);
 		MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE* L_11;
 		L_11 = GameObject_GetComponent_TisMeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE_m7FF948365C38BC39333D82B235A7C4EAD219960D(L_10, GameObject_GetComponent_TisMeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE_m7FF948365C38BC39333D82B235A7C4EAD219960D_RuntimeMethod_var);
 		__this->___m_MeshRenderer = L_11;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_MeshRenderer), (void*)L_11);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:147>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_12 = (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4*)il2cpp_codegen_object_new(Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4_il2cpp_TypeInfo_var);
 		Mesh__ctor_m5A9AECEDDAFFD84811ED8928012BDE97A9CEBD00(L_12, NULL);
 		__this->___m_Mesh = L_12;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Mesh), (void*)L_12);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:148>
 		MeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5* L_13 = __this->___m_MeshFilter;
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_14 = __this->___m_Mesh;
 		NullCheck(L_13);
 		MeshFilter_set_mesh_mD2988E2D835205FD6B6CD35A61E1592844D971F8(L_13, L_14, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:150>
 		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_15;
 		L_15 = Shader_Find_m183AA54F78320212DDEC811592F98456898A41C5(_stringLiteral053A5712BD6C2D61DAEED34E5A3E263EF7CC005A, NULL);
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_16 = (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3*)il2cpp_codegen_object_new(Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3_il2cpp_TypeInfo_var);
 		Material__ctor_m7FDF47105D66D19591BE505A0C42B0F90D88C9BF(L_16, L_15, NULL);
 		V_0 = L_16;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:151>
 		MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE* L_17 = __this->___m_MeshRenderer;
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_18 = V_0;
 		NullCheck(L_17);
 		Renderer_set_material_m21E88977071E0A914D62F3D9CFF0193B3117C45A(L_17, L_18, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:152>
 		MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE* L_19 = __this->___m_MeshRenderer;
 		NullCheck(L_19);
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_20;
@@ -24321,14 +22800,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RealtimeCaptureManager_InitMesh_m3BA90C3
 		float L_21 = __this->___m_PointSize;
 		NullCheck(L_20);
 		Material_SetFloat_m879CF81D740BAE6F23C9822400679F4D16365836(L_20, _stringLiteral64347237DF3B2CBE3D2A3F9A5AE03CBF535155F0, L_21, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:153>
 		MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE* L_22 = __this->___m_MeshRenderer;
 		NullCheck(L_22);
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_23;
 		L_23 = Renderer_get_material_m5BA2A00816C4CC66580D4B2E409CF10718C15656(L_22, NULL);
 		NullCheck(L_23);
 		Material_SetFloat_m879CF81D740BAE6F23C9822400679F4D16365836(L_23, _stringLiteral3F784F177D68FC7C9085E72D2AA8A2DDC0D8C175, (0.0f), NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:154>
 		MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE* L_24 = __this->___m_MeshRenderer;
 		NullCheck(L_24);
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_25;
@@ -24336,7 +22813,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RealtimeCaptureManager_InitMesh_m3BA90C3
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_26 = __this->___m_PointColor;
 		NullCheck(L_25);
 		Material_SetColor_mFAB32FAA44461E46FD707B34184EC080CBB3539F(L_25, _stringLiteralA24C9E7F0CE85534DDF0777D51314AEC593DFFA9, L_26, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:155>
 		return;
 	}
 }
@@ -24358,7 +22834,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RealtimeCaptureManager_CreateCloud_m0297
 	int32_t V_4 = 0;
 	int32_t G_B3_0 = 0;
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:159>
 		int32_t L_0 = ___1_totalPoints;
 		if ((((int32_t)L_0) >= ((int32_t)((int32_t)65535))))
 		{
@@ -24379,32 +22854,26 @@ IL_000b:
 IL_0010:
 	{
 		V_0 = G_B3_0;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:160>
 		int32_t L_2 = V_0;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_3 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)L_2);
 		V_1 = L_3;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:161>
 		int32_t L_4 = V_0;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_5 = (Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)SZArrayNew(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C_il2cpp_TypeInfo_var, (uint32_t)L_4);
 		V_2 = L_5;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:162>
 		int32_t L_6 = V_0;
 		Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259* L_7 = (Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259*)(Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259*)SZArrayNew(Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259_il2cpp_TypeInfo_var, (uint32_t)L_6);
 		V_3 = L_7;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:163>
 		V_4 = 0;
 		goto IL_004e;
 	}
 
 IL_002b:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:165>
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_8 = V_1;
 		int32_t L_9 = V_4;
 		int32_t L_10 = V_4;
 		NullCheck(L_8);
 		(L_8)->SetAt(static_cast<il2cpp_array_size_t>(L_9), (int32_t)L_10);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:166>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_11 = V_2;
 		int32_t L_12 = V_4;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_13 = ___0_points;
@@ -24416,14 +22885,12 @@ IL_002b:
 		L_17 = Matrix4x4_MultiplyPoint3x4_mACCBD70AFA82C63DA88555780B7B6B01281AB814((&___2_offset), L_16, NULL);
 		NullCheck(L_11);
 		(L_11)->SetAt(static_cast<il2cpp_array_size_t>(L_12), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_17);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:163>
 		int32_t L_18 = V_4;
 		V_4 = ((int32_t)il2cpp_codegen_add(L_18, 1));
 	}
 
 IL_004e:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:163>
 		int32_t L_19 = V_4;
 		int32_t L_20 = V_0;
 		if ((((int32_t)L_19) < ((int32_t)L_20)))
@@ -24432,26 +22899,21 @@ IL_004e:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:169>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_21 = __this->___m_Mesh;
 		NullCheck(L_21);
 		Mesh_Clear_m0F95397EA143D31AD0B4D332E8C6FA25A7957BC0(L_21, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:170>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_22 = __this->___m_Mesh;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_23 = V_2;
 		NullCheck(L_22);
 		Mesh_set_vertices_m5BB814D89E9ACA00DBF19F7D8E22CB73AC73FE5C(L_22, L_23, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:171>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_24 = __this->___m_Mesh;
 		Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259* L_25 = V_3;
 		NullCheck(L_24);
 		Mesh_set_colors32_m0E4462B7A1D613E6FB15DD7584BCE5491C17820F(L_24, L_25, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:172>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_26 = __this->___m_Mesh;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_27 = V_1;
 		NullCheck(L_26);
 		Mesh_SetIndices_m2AE7ED76A6C77D218C37C011DDB948589FD45B97(L_26, L_27, 5, 0, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:173>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_28 = __this->___m_Mesh;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_29;
 		L_29 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
@@ -24466,7 +22928,6 @@ IL_004e:
 		Bounds__ctor_mAF7B238B9FBF90C495E5D7951760085A93119C5A_inline((&L_32), L_30, L_31, NULL);
 		NullCheck(L_28);
 		Mesh_set_bounds_m2E526E9B61ACA77D644C22A9D8EB49583012B54E(L_28, L_32, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:174>
 		return;
 	}
 }
@@ -24474,13 +22935,11 @@ IL_004e:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RealtimeCaptureManager_CreateCloud_mA776B04E95FB761BEFDB5BDA86CC1FB108D55978 (RealtimeCaptureManager_t2B778A041D4ECBBF6AEDC41E739620E7633FCA65* __this, Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___0_points, int32_t ___1_totalPoints, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:178>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_0 = ___0_points;
 		int32_t L_1 = ___1_totalPoints;
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_2;
 		L_2 = Matrix4x4_get_identity_m6568A73831F3E2D587420D20FF423959D7D8AB56_inline(NULL);
 		RealtimeCaptureManager_CreateCloud_m0297D9426E0C6CB0B6B71FF690AD4F32703DD06F(__this, L_0, L_1, L_2, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:179>
 		return;
 	}
 }
@@ -24495,15 +22954,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RealtimeCaptureManager_ResetPoints_m1789
 	}
 	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* V_0 = NULL;
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:183>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_0 = (Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)SZArrayNew(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C_il2cpp_TypeInfo_var, (uint32_t)0);
 		V_0 = L_0;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:184>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_1 = V_0;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_2 = V_0;
 		NullCheck(L_2);
 		RealtimeCaptureManager_CreateCloud_mA776B04E95FB761BEFDB5BDA86CC1FB108D55978(__this, L_1, ((int32_t)(((RuntimeArray*)L_2)->max_length)), NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:185>
 		return;
 	}
 }
@@ -24511,7 +22967,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RealtimeCaptureManager_ResetPoints_m1789
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RealtimeCaptureManager_ToggleCapture_mBEECCD5BD553837DCFD485A6A8FB54857011ABA0 (RealtimeCaptureManager_t2B778A041D4ECBBF6AEDC41E739620E7633FCA65* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:189>
 		bool L_0 = __this->___m_IsMapping;
 		if (L_0)
 		{
@@ -24519,16 +22974,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RealtimeCaptureManager_ToggleCapture_mBE
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:191>
 		RealtimeCaptureManager_StartRealtimeCapture_m360F6DC53114A787DA6BBADC7E71DD27E592D499(__this, NULL);
 		return;
 	}
 
 IL_000f:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:195>
 		RealtimeCaptureManager_StopRealtimeCapture_mCC18ADEBD7B2CE99A0172755A59A56BDD6166AAB(__this, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:197>
 		return;
 	}
 }
@@ -24676,11 +23128,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA857
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RealtimeCaptureManager__ctor_mB07F37FAAD18070A0EB2AED46E8A8A27E0DE6AFB (RealtimeCaptureManager_t2B778A041D4ECBBF6AEDC41E739620E7633FCA65* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:31>
 		__this->___m_CaptureInterval = (1.0f);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:32>
 		__this->___m_PointSize = (20.0f);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:33>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0;
 		memset((&L_0), 0, sizeof(L_0));
 		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_0), (0.569999993f), (0.930000007f), (0.119999997f), NULL);
@@ -24733,16 +23182,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CStopRealtimeCaptureU3Eb__36_0
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:264>
 		String_t* L_0 = ___0_e;
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_0, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:265>
 		NotificationManager_t382AAD0D328D20384698BB77251AB486FE88D1C6* L_1;
 		L_1 = NotificationManager_get_Instance_m7E6E1470622ED62CBE0A81D64FE0FE4C6EFA7D62(NULL);
 		NullCheck(L_1);
 		NotificationManager_GenerateError_m2071E4DE09F7678B4327372AA76B95A6101C60A7(L_1, _stringLiteralDAAF6B1CFEC77FA6573471060CFD77CB84E80362, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:266>
 		return;
 	}
 }
@@ -24773,8 +23219,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t U3CU3Ec__DisplayClass38_0_U3CRealtime
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:336>
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:337>
 		RuntimeObject* L_0 = __this->___imageData;
 		NullCheck(L_0);
 		intptr_t L_1;
@@ -24875,7 +23319,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRealtimeCaptureU3Ed__38_MoveNext_m49F
 			U3CU3Ec__DisplayClass38_0__ctor_mFC33FBF0718432AE72A276E8CC4B7F48DC3C8463(L_4, NULL);
 			__this->___U3CU3E8__1 = L_4;
 			Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E8__1), (void*)L_4);
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:321>
 			RealtimeCaptureManager_t2B778A041D4ECBBF6AEDC41E739620E7633FCA65* L_5 = V_1;
 			NullCheck(L_5);
 			ImmersalSDK_tA2B473468505E492034E77501B051A95E8923AE7* L_6 = L_5->___m_Sdk;
@@ -24925,7 +23368,6 @@ IL_0081_1:
 			RuntimeObject* L_17;
 			L_17 = TaskAwaiter_1_GetResult_mCB4CB976A2806CC9D7A17324606AEE8546262455((&V_3), TaskAwaiter_1_GetResult_mCB4CB976A2806CC9D7A17324606AEE8546262455_RuntimeMethod_var);
 			V_2 = L_17;
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:323>
 			RuntimeObject* L_18 = V_2;
 			NullCheck(L_18);
 			bool L_19;
@@ -24936,13 +23378,11 @@ IL_0081_1:
 			}
 		}
 		{
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:324>
 			goto IL_0284;
 		}
 
 IL_0096_1:
 		{
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:326>
 			U3CU3Ec__DisplayClass38_0_t78C60CA2DDAFBD6B0F5E6A29481891872AF57615* L_20 = __this->___U3CU3E8__1;
 			RuntimeObject* L_21 = V_2;
 			NullCheck(L_21);
@@ -24951,7 +23391,6 @@ IL_0096_1:
 			NullCheck(L_20);
 			L_20->___cameraData = L_22;
 			Il2CppCodeGenWriteBarrier((void**)(&L_20->___cameraData), (void*)L_22);
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:327>
 			U3CU3Ec__DisplayClass38_0_t78C60CA2DDAFBD6B0F5E6A29481891872AF57615* L_23 = __this->___U3CU3E8__1;
 			U3CU3Ec__DisplayClass38_0_t78C60CA2DDAFBD6B0F5E6A29481891872AF57615* L_24 = __this->___U3CU3E8__1;
 			NullCheck(L_24);
@@ -25013,7 +23452,6 @@ IL_0263_1:
 					}
 				}
 				{
-					//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:329>
 					U3CU3Ec__DisplayClass38_0_t78C60CA2DDAFBD6B0F5E6A29481891872AF57615* L_33 = __this->___U3CU3E8__1;
 					U3CU3Ec__DisplayClass38_0_t78C60CA2DDAFBD6B0F5E6A29481891872AF57615* L_34 = __this->___U3CU3E8__1;
 					NullCheck(L_34);
@@ -25023,7 +23461,6 @@ IL_0263_1:
 					L_36 = InterfaceFuncInvoker0< Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 >::Invoke(10, ICameraData_t94BDE0B3579766E7DE82E2F843FFD08E649E2E6F_il2cpp_TypeInfo_var, L_35);
 					NullCheck(L_33);
 					L_33->___pos = L_36;
-					//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:330>
 					U3CU3Ec__DisplayClass38_0_t78C60CA2DDAFBD6B0F5E6A29481891872AF57615* L_37 = __this->___U3CU3E8__1;
 					U3CU3Ec__DisplayClass38_0_t78C60CA2DDAFBD6B0F5E6A29481891872AF57615* L_38 = __this->___U3CU3E8__1;
 					NullCheck(L_38);
@@ -25033,7 +23470,6 @@ IL_0263_1:
 					L_40 = InterfaceFuncInvoker0< Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 >::Invoke(11, ICameraData_t94BDE0B3579766E7DE82E2F843FFD08E649E2E6F_il2cpp_TypeInfo_var, L_39);
 					NullCheck(L_37);
 					L_37->___r = L_40;
-					//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:331>
 					U3CU3Ec__DisplayClass38_0_t78C60CA2DDAFBD6B0F5E6A29481891872AF57615* L_41 = __this->___U3CU3E8__1;
 					U3CU3Ec__DisplayClass38_0_t78C60CA2DDAFBD6B0F5E6A29481891872AF57615* L_42 = __this->___U3CU3E8__1;
 					NullCheck(L_42);
@@ -25048,19 +23484,16 @@ IL_0263_1:
 					L_47 = Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_inline(L_43, L_46, NULL);
 					NullCheck(L_41);
 					L_41->___r = L_47;
-					//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:332>
 					U3CU3Ec__DisplayClass38_0_t78C60CA2DDAFBD6B0F5E6A29481891872AF57615* L_48 = __this->___U3CU3E8__1;
 					NullCheck(L_48);
 					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_49 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&L_48->___pos);
 					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_50;
 					L_50 = ExtensionMethods_SwitchHandedness_mEBDD95AE8AD84D982C98E1E9CEE1A0BD3D447570(L_49, NULL);
-					//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:333>
 					U3CU3Ec__DisplayClass38_0_t78C60CA2DDAFBD6B0F5E6A29481891872AF57615* L_51 = __this->___U3CU3E8__1;
 					NullCheck(L_51);
 					Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* L_52 = (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974*)(&L_51->___r);
 					Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_53;
 					L_53 = ExtensionMethods_SwitchHandedness_mAD7AC1DBBC79E27774095B7D352DE49E09C40687(L_52, NULL);
-					//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:334>
 					U3CU3Ec__DisplayClass38_0_t78C60CA2DDAFBD6B0F5E6A29481891872AF57615* L_54 = __this->___U3CU3E8__1;
 					U3CU3Ec__DisplayClass38_0_t78C60CA2DDAFBD6B0F5E6A29481891872AF57615* L_55 = __this->___U3CU3E8__1;
 					NullCheck(L_55);
@@ -25070,8 +23503,6 @@ IL_0263_1:
 					L_57 = InterfaceFuncInvoker0< Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 >::Invoke(9, ICameraData_t94BDE0B3579766E7DE82E2F843FFD08E649E2E6F_il2cpp_TypeInfo_var, L_56);
 					NullCheck(L_54);
 					L_54->___intrinsics = L_57;
-					//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:336>
-					//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:337>
 					U3CU3Ec__DisplayClass38_0_t78C60CA2DDAFBD6B0F5E6A29481891872AF57615* L_58 = __this->___U3CU3E8__1;
 					Func_1_tC288CCB64EFD1F5FD49C3F8DE91FE62905E44BCD* L_59 = (Func_1_tC288CCB64EFD1F5FD49C3F8DE91FE62905E44BCD*)il2cpp_codegen_object_new(Func_1_tC288CCB64EFD1F5FD49C3F8DE91FE62905E44BCD_il2cpp_TypeInfo_var);
 					Func_1__ctor_m475512287B9508E6D4721B3022635FED517234D1(L_59, L_58, (intptr_t)((void*)U3CU3Ec__DisplayClass38_0_U3CRealtimeCaptureU3Eb__0_m49ADE26EA90F5F85891B4B0A4C24DBB265D67D25_RuntimeMethod_var), NULL);
@@ -25117,33 +23548,27 @@ IL_01cf_2:
 				{
 					int32_t L_69;
 					L_69 = TaskAwaiter_1_GetResult_mD566511BB0A5669BEAB88D7A98FE0679A4662A80((&V_4), TaskAwaiter_1_GetResult_mD566511BB0A5669BEAB88D7A98FE0679A4662A80_RuntimeMethod_var);
-					//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:339>
 					if (L_69)
 					{
 						goto IL_0240_2;
 					}
 				}
 				{
-					//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:341>
 					int32_t L_70;
 					L_70 = Core_MapPointsGetCount_m736F04C2D156D06FFF20E3176FFF70CA9CE8B7D6(NULL);
 					V_5 = L_70;
-					//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:342>
 					int32_t L_71 = V_5;
 					Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_72 = (Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)SZArrayNew(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C_il2cpp_TypeInfo_var, (uint32_t)L_71);
 					V_6 = L_72;
-					//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:343>
 					Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_73 = V_6;
 					int32_t L_74;
 					L_74 = Core_MapPointsGet_m9F3CFCB0B7E07945E10112D03C7484F13D4FB5D0(L_73, NULL);
-					//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:344>
 					V_8 = 0;
 					goto IL_0212_2;
 				}
 
 IL_01f5_2:
 				{
-					//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:345>
 					Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_75 = V_6;
 					int32_t L_76 = V_8;
 					Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_77 = V_6;
@@ -25153,14 +23578,12 @@ IL_01f5_2:
 					L_79 = ExtensionMethods_SwitchHandedness_mEBDD95AE8AD84D982C98E1E9CEE1A0BD3D447570(((L_77)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_78))), NULL);
 					NullCheck(L_75);
 					(L_75)->SetAt(static_cast<il2cpp_array_size_t>(L_76), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_79);
-					//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:344>
 					int32_t L_80 = V_8;
 					V_8 = ((int32_t)il2cpp_codegen_add(L_80, 1));
 				}
 
 IL_0212_2:
 				{
-					//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:344>
 					int32_t L_81 = V_8;
 					int32_t L_82 = V_5;
 					if ((((int32_t)L_81) < ((int32_t)L_82)))
@@ -25169,17 +23592,14 @@ IL_0212_2:
 					}
 				}
 				{
-					//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:347>
 					RealtimeCaptureManager_t2B778A041D4ECBBF6AEDC41E739620E7633FCA65* L_83 = V_1;
 					Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_84 = V_6;
 					int32_t L_85 = V_5;
 					NullCheck(L_83);
 					RealtimeCaptureManager_CreateCloud_mA776B04E95FB761BEFDB5BDA86CC1FB108D55978(L_83, L_84, L_85, NULL);
-					//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:349>
 					int32_t L_86;
 					L_86 = Core_MapImageGetCount_m947B2E78FD828D9E9B2D0AA213FE016B1E6BD4C5(NULL);
 					V_7 = L_86;
-					//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:350>
 					RealtimeCaptureManager_t2B778A041D4ECBBF6AEDC41E739620E7633FCA65* L_87 = V_1;
 					int32_t L_88 = V_7;
 					int32_t L_89 = L_88;
@@ -25228,7 +23648,6 @@ CATCH_0264:
 
 IL_0284:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:352>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		__this->___U3CU3E8__1 = (U3CU3Ec__DisplayClass38_0_t78C60CA2DDAFBD6B0F5E6A29481891872AF57615*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E8__1), (void*)(U3CU3Ec__DisplayClass38_0_t78C60CA2DDAFBD6B0F5E6A29481891872AF57615*)NULL);
@@ -25330,18 +23749,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSetupMapU3Ed__37_MoveNext_m4B126D1708
 			}
 		}
 		{
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:286>
 			RealtimeCaptureManager_t2B778A041D4ECBBF6AEDC41E739620E7633FCA65* L_3 = V_1;
 			NullCheck(L_3);
 			XRSpace_tC870F552BC1481C38048217BEF525758956B2B20* L_4 = L_3->___m_XRSpace;
 			NullCheck(L_4);
 			Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5;
 			L_5 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_4, NULL);
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:287>
 			il2cpp_codegen_initobj((&V_2), sizeof(SDKJob_t01F134DF9E3126773C8E9417E99DB578691AEEB4));
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:288>
 			(&V_2)->___type = 0;
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:289>
 			SDKMapUploadResult_t98B293712A4563BCB698ABB84360EB49418D4F11* L_6 = (SDKMapUploadResult_t98B293712A4563BCB698ABB84360EB49418D4F11*)(&__this->___result);
 			int32_t L_7 = L_6->___id;
 			if (!L_7)
@@ -25370,28 +23785,13 @@ IL_004c_1:
 IL_0057_1:
 		{
 			G_B5_1->___id = G_B5_0;
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:290>
 			RealtimeCaptureManager_t2B778A041D4ECBBF6AEDC41E739620E7633FCA65* L_11 = V_1;
 			NullCheck(L_11);
 			String_t* L_12;
 			L_12 = Object_get_name_mAC2F6B897CF1303BA4249B4CB55271AFACBB6392(L_11, NULL);
 			(&V_2)->___name = L_12;
 			Il2CppCodeGenWriteBarrier((void**)(&(&V_2)->___name), (void*)L_12);
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:291>
 			(&V_2)->___privacy = 0;
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:293>
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:294>
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:295>
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:296>
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:297>
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:298>
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:299>
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:300>
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:301>
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:302>
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:303>
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:304>
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:305>
 			MapCreationParameters_tBBFF010474FE389FB410983E389B181DEF865A31* L_13 = (MapCreationParameters_tBBFF010474FE389FB410983E389B181DEF865A31*)il2cpp_codegen_object_new(MapCreationParameters_tBBFF010474FE389FB410983E389B181DEF865A31_il2cpp_TypeInfo_var);
 			MapCreationParameters__ctor_m85E6F1527F0D6D4FB301AAB9FBE36145058271C3(L_13, NULL);
 			V_4 = L_13;
@@ -25435,7 +23835,6 @@ IL_0057_1:
 			L_24->___MapOptions = L_26;
 			Il2CppCodeGenWriteBarrier((void**)(&L_24->___MapOptions), (void*)L_26);
 			MapCreationParameters_tBBFF010474FE389FB410983E389B181DEF865A31* L_30 = V_4;
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:307>
 			il2cpp_codegen_runtime_class_init_inline(MapManager_t32B48D5C141E6CBCD5170DE5FD8D8C608B5956A5_il2cpp_TypeInfo_var);
 			Task_1_t60083091D8D075B44614F493513B86B35B28F662* L_31;
 			L_31 = MapManager_TryCreateMap_m8FA4A497E452C9A7F3D631CF32D4D5C78987A3F1(L_30, (bool)0, NULL);
@@ -25478,7 +23877,6 @@ IL_0122_1:
 			MapCreationResult_tFBAF4A76F66FFA3BC65474F0C5CF2F535A89C419* L_40;
 			L_40 = TaskAwaiter_1_GetResult_m2EE74C999CE6D7E4DF5A7B69AC48E08689309F60((&V_5), TaskAwaiter_1_GetResult_m2EE74C999CE6D7E4DF5A7B69AC48E08689309F60_RuntimeMethod_var);
 			V_3 = L_40;
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:309>
 			MapCreationResult_tFBAF4A76F66FFA3BC65474F0C5CF2F535A89C419* L_41 = V_3;
 			NullCheck(L_41);
 			bool L_42 = L_41->___Success;
@@ -25488,7 +23886,6 @@ IL_0122_1:
 			}
 		}
 		{
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:311>
 			RealtimeCaptureManager_t2B778A041D4ECBBF6AEDC41E739620E7633FCA65* L_43 = V_1;
 			MapCreationResult_tFBAF4A76F66FFA3BC65474F0C5CF2F535A89C419* L_44 = V_3;
 			NullCheck(L_44);
@@ -25496,13 +23893,11 @@ IL_0122_1:
 			NullCheck(L_43);
 			L_43->___m_XRMap = L_45;
 			Il2CppCodeGenWriteBarrier((void**)(&L_43->___m_XRMap), (void*)L_45);
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:312>
 			RealtimeCaptureManager_t2B778A041D4ECBBF6AEDC41E739620E7633FCA65* L_46 = V_1;
 			NullCheck(L_46);
 			XRMap_t1C2B47D0CBAE298C19398FEF2C9F7AE3FFD03A15* L_47 = L_46->___m_XRMap;
 			NullCheck(L_47);
 			XRMap_CreateVisualization_m754F1EED34EF0A0F9E846674DC49D9E56C8A5F89(L_47, 2, (bool)1, NULL);
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:313>
 			RealtimeCaptureManager_t2B778A041D4ECBBF6AEDC41E739620E7633FCA65* L_48 = V_1;
 			NullCheck(L_48);
 			XRMap_t1C2B47D0CBAE298C19398FEF2C9F7AE3FFD03A15* L_49 = L_48->___m_XRMap;
@@ -25514,7 +23909,6 @@ IL_0122_1:
 
 IL_015b_1:
 		{
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:316>
 			RealtimeCaptureManager_t2B778A041D4ECBBF6AEDC41E739620E7633FCA65* L_51 = V_1;
 			NullCheck(L_51);
 			RealtimeCaptureManager_LogStatus_mAAB422BFBF89C9F86EECF73C2F4B43626036F8AB(L_51, _stringLiteral9DD4D4F607B20D18FAF15110803C02CDAD2BC5DF, NULL);
@@ -25545,7 +23939,6 @@ CATCH_0168:
 
 IL_0181:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:317>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_55 = (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*)(&__this->___U3CU3Et__builder);
 		AsyncVoidMethodBuilder_SetResult_m008490FDF057D5F5D871F537C7A58BE36027F3DC(L_55, NULL);
@@ -25638,7 +24031,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartRealtimeCaptureU3Ed__35_MoveNext
 			}
 		}
 		{
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:201>
 			il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 			int32_t L_3;
 			L_3 = Application_get_platform_m59EF7D6155D18891B24767F83F388160B1FF2138(NULL);
@@ -25659,11 +24051,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartRealtimeCaptureU3Ed__35_MoveNext
 
 IL_0034_1:
 		{
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:203>
 			RealtimeCaptureManager_t2B778A041D4ECBBF6AEDC41E739620E7633FCA65* L_5 = V_1;
 			NullCheck(L_5);
 			RealtimeCaptureManager_ResetPoints_m1789A3B430114417BB401F35FF7EFBD9507168C3(L_5, NULL);
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:205>
 			RealtimeCaptureManager_t2B778A041D4ECBBF6AEDC41E739620E7633FCA65* L_6 = V_1;
 			NullCheck(L_6);
 			XRMap_t1C2B47D0CBAE298C19398FEF2C9F7AE3FFD03A15* L_7 = L_6->___m_XRMap;
@@ -25676,7 +24066,6 @@ IL_0034_1:
 			}
 		}
 		{
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:207>
 			RealtimeCaptureManager_t2B778A041D4ECBBF6AEDC41E739620E7633FCA65* L_9 = V_1;
 			NullCheck(L_9);
 			XRMap_t1C2B47D0CBAE298C19398FEF2C9F7AE3FFD03A15* L_10 = L_9->___m_XRMap;
@@ -25691,7 +24080,6 @@ IL_0034_1:
 			}
 		}
 		{
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:208>
 			RealtimeCaptureManager_t2B778A041D4ECBBF6AEDC41E739620E7633FCA65* L_13 = V_1;
 			NullCheck(L_13);
 			XRMap_t1C2B47D0CBAE298C19398FEF2C9F7AE3FFD03A15* L_14 = L_13->___m_XRMap;
@@ -25701,7 +24089,6 @@ IL_0034_1:
 
 IL_0069_1:
 		{
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:210>
 			RealtimeCaptureManager_t2B778A041D4ECBBF6AEDC41E739620E7633FCA65* L_15 = V_1;
 			NullCheck(L_15);
 			XRMap_t1C2B47D0CBAE298C19398FEF2C9F7AE3FFD03A15* L_16 = L_15->___m_XRMap;
@@ -25710,7 +24097,6 @@ IL_0069_1:
 			L_17 = XRMap_get_mapId_m78A50BDAF56D8100864F6910C96B2F38D4BDC1F3_inline(L_16, NULL);
 			il2cpp_codegen_runtime_class_init_inline(MapManager_t32B48D5C141E6CBCD5170DE5FD8D8C608B5956A5_il2cpp_TypeInfo_var);
 			MapManager_RemoveMap_m9F117ED840A368C3A43028726E8702DA9BA48A7B(L_17, (bool)1, (bool)0, NULL);
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:211>
 			RealtimeCaptureManager_t2B778A041D4ECBBF6AEDC41E739620E7633FCA65* L_18 = V_1;
 			NullCheck(L_18);
 			ImmersalSDK_tA2B473468505E492034E77501B051A95E8923AE7* L_19 = L_18->___m_Sdk;
@@ -25754,7 +24140,6 @@ IL_00b8_1:
 IL_00d4_1:
 		{
 			TaskAwaiter_GetResult_mC1D712500AE49B4A89C85D6B79D87D1BA9A6B94D((&V_2), NULL);
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:212>
 			RealtimeCaptureManager_t2B778A041D4ECBBF6AEDC41E739620E7633FCA65* L_29 = V_1;
 			NullCheck(L_29);
 			ImmersalSDK_tA2B473468505E492034E77501B051A95E8923AE7* L_30 = L_29->___m_Sdk;
@@ -25767,11 +24152,9 @@ IL_00d4_1:
 
 IL_00eb_1:
 		{
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:215>
 			RealtimeCaptureManager_t2B778A041D4ECBBF6AEDC41E739620E7633FCA65* L_32 = V_1;
 			NullCheck(L_32);
 			L_32->___m_IsMapping = (bool)1;
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:216>
 			RealtimeCaptureManager_t2B778A041D4ECBBF6AEDC41E739620E7633FCA65* L_33 = V_1;
 			NullCheck(L_33);
 			Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_34 = L_33->___m_CaptureButtonIcon;
@@ -25780,11 +24163,9 @@ IL_00eb_1:
 			Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_36 = L_35->___m_StopCaptureSprite;
 			NullCheck(L_34);
 			Image_set_sprite_mC0C248340BA27AAEE56855A3FAFA0D8CA12956DE(L_34, L_36, NULL);
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:217>
 			RealtimeCaptureManager_t2B778A041D4ECBBF6AEDC41E739620E7633FCA65* L_37 = V_1;
 			NullCheck(L_37);
 			RealtimeCaptureManager_LogStatus_mAAB422BFBF89C9F86EECF73C2F4B43626036F8AB(L_37, _stringLiteral6027A15DEC703DF030F642F98CF08C12297BAD96, NULL);
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:219>
 			NotificationManager_t382AAD0D328D20384698BB77251AB486FE88D1C6* L_38;
 			L_38 = NotificationManager_get_Instance_m7E6E1470622ED62CBE0A81D64FE0FE4C6EFA7D62(NULL);
 			NullCheck(L_38);
@@ -25794,7 +24175,6 @@ IL_00eb_1:
 
 IL_0122_1:
 		{
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:223>
 			RealtimeCaptureManager_t2B778A041D4ECBBF6AEDC41E739620E7633FCA65* L_39 = V_1;
 			NullCheck(L_39);
 			Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_40;
@@ -25836,7 +24216,6 @@ IL_015a_1:
 IL_0176_1:
 		{
 			TaskAwaiter_GetResult_mC1D712500AE49B4A89C85D6B79D87D1BA9A6B94D((&V_2), NULL);
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:224>
 			RealtimeCaptureManager_t2B778A041D4ECBBF6AEDC41E739620E7633FCA65* L_49 = V_1;
 			NullCheck(L_49);
 			float L_50 = L_49->___m_CaptureInterval;
@@ -25884,7 +24263,6 @@ IL_01da_1:
 
 IL_01e1_1:
 		{
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:221>
 			RealtimeCaptureManager_t2B778A041D4ECBBF6AEDC41E739620E7633FCA65* L_60 = V_1;
 			NullCheck(L_60);
 			bool L_61 = L_60->___m_IsMapping;
@@ -25899,7 +24277,6 @@ IL_01e1_1:
 
 IL_01ee_1:
 		{
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:229>
 			NotificationManager_t382AAD0D328D20384698BB77251AB486FE88D1C6* L_62;
 			L_62 = NotificationManager_get_Instance_m7E6E1470622ED62CBE0A81D64FE0FE4C6EFA7D62(NULL);
 			NullCheck(L_62);
@@ -25935,7 +24312,6 @@ CATCH_01ff:
 
 IL_0216:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:231>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_66 = (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*)(&__this->___U3CU3Et__builder);
 		AsyncVoidMethodBuilder_SetResult_m008490FDF057D5F5D871F537C7A58BE36027F3DC(L_66, NULL);
@@ -26051,11 +24427,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStopRealtimeCaptureU3Ed__36_MoveNext_
 			}
 		}
 		{
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:235>
 			RealtimeCaptureManager_t2B778A041D4ECBBF6AEDC41E739620E7633FCA65* L_4 = V_1;
 			NullCheck(L_4);
 			L_4->___m_IsMapping = (bool)0;
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:236>
 			RealtimeCaptureManager_t2B778A041D4ECBBF6AEDC41E739620E7633FCA65* L_5 = V_1;
 			NullCheck(L_5);
 			Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_6 = L_5->___m_CaptureButtonIcon;
@@ -26064,12 +24438,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStopRealtimeCaptureU3Ed__36_MoveNext_
 			Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_8 = L_7->___m_StartCaptureSprite;
 			NullCheck(L_6);
 			Image_set_sprite_mC0C248340BA27AAEE56855A3FAFA0D8CA12956DE(L_6, L_8, NULL);
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:238>
 			NotificationManager_t382AAD0D328D20384698BB77251AB486FE88D1C6* L_9;
 			L_9 = NotificationManager_get_Instance_m7E6E1470622ED62CBE0A81D64FE0FE4C6EFA7D62(NULL);
 			NullCheck(L_9);
 			NotificationManager_GenerateNotification_m3E7D0AA20A3C495CC41DA8F5C33F96A668D75757(L_9, _stringLiteral373C0E481EB5D5050AC893E104F1B0D1FA8E6B69, NULL);
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:240>
 			il2cpp_codegen_runtime_class_init_inline(Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_il2cpp_TypeInfo_var);
 			Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_10;
 			L_10 = Task_Delay_m4B84654B4DAADEC41096D9F01C099CCEA9927A48(((int32_t)2000), NULL);
@@ -26110,36 +24482,30 @@ IL_007d_1:
 IL_009a_1:
 		{
 			TaskAwaiter_GetResult_mC1D712500AE49B4A89C85D6B79D87D1BA9A6B94D((&V_4), NULL);
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:242>
 			RealtimeCaptureManager_t2B778A041D4ECBBF6AEDC41E739620E7633FCA65* L_19 = V_1;
 			NullCheck(L_19);
 			RealtimeCaptureManager_ResetPoints_m1789A3B430114417BB401F35FF7EFBD9507168C3(L_19, NULL);
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:244>
 			int32_t L_20;
 			L_20 = Core_MapImageGetCount_m947B2E78FD828D9E9B2D0AA213FE016B1E6BD4C5(NULL);
 			V_2 = L_20;
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:245>
 			int32_t L_21 = V_2;
 			int32_t L_22 = L_21;
 			RuntimeObject* L_23 = Box(il2cpp_defaults.int32_class, &L_22);
 			String_t* L_24;
 			L_24 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral8FD6C66BD4E9E473D17A4957B35DDDADDC714382, L_23, NULL);
 			ImmersalLogger_Log_m54DF1D688E411E5BDC1FE4FCD609E81B033CDA9F(L_24, 0, _stringLiteral2D782486612F409C4BBE826DF45DE03613D70C40, NULL);
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:247>
 			il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 			String_t* L_25;
 			L_25 = Application_get_persistentDataPath_mC58BD3E1A20732E0A536491DBCAE6505B1624399(NULL);
 			int32_t L_26;
 			L_26 = Core_MapPrepare_m4E104EC7AAA6C30FF4C901DD1C6F1BD8CB4D0518(L_25, NULL);
 			V_3 = L_26;
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:248>
 			int32_t L_27 = V_3;
 			int32_t L_28 = L_27;
 			RuntimeObject* L_29 = Box(il2cpp_defaults.int32_class, &L_28);
 			String_t* L_30;
 			L_30 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteralCF53E18FFC2AA5AE4FBCF955AEBC66CCAEE56638, L_29, NULL);
 			ImmersalLogger_Log_m54DF1D688E411E5BDC1FE4FCD609E81B033CDA9F(L_30, 0, _stringLiteral2D782486612F409C4BBE826DF45DE03613D70C40, NULL);
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:250>
 			int32_t L_31 = V_3;
 			if ((((int32_t)L_31) <= ((int32_t)0)))
 			{
@@ -26147,23 +24513,19 @@ IL_009a_1:
 			}
 		}
 		{
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:252>
 			int32_t L_32 = V_3;
 			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_33 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)L_32);
 			__this->___U3CmapU3E5__2 = L_33;
 			Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CmapU3E5__2), (void*)L_33);
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:253>
 			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_34 = __this->___U3CmapU3E5__2;
 			int32_t L_35;
 			L_35 = Core_MapGet_mE66FA1C2174B705FBFA8AE9A2811319F2EB0ED77(L_34, NULL);
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:255>
 			if ((!(((uint32_t)L_35) == ((uint32_t)1))))
 			{
 				goto IL_020c_1;
 			}
 		}
 		{
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:257>
 			RealtimeCaptureManager_t2B778A041D4ECBBF6AEDC41E739620E7633FCA65* L_36 = V_1;
 			NullCheck(L_36);
 			bool L_37 = L_36->___m_SaveMapOnServer;
@@ -26173,25 +24535,17 @@ IL_009a_1:
 			}
 		}
 		{
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:259>
 			JobMapUploadAsync_t56C4FC23A7D4BDBBCF0D9CD5EB4D538BD1086C52* L_38 = (JobMapUploadAsync_t56C4FC23A7D4BDBBCF0D9CD5EB4D538BD1086C52*)il2cpp_codegen_object_new(JobMapUploadAsync_t56C4FC23A7D4BDBBCF0D9CD5EB4D538BD1086C52_il2cpp_TypeInfo_var);
 			JobMapUploadAsync__ctor_mED01674942847F546C56A1870C3E088ED724E7D6(L_38, NULL);
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:260>
 			JobMapUploadAsync_t56C4FC23A7D4BDBBCF0D9CD5EB4D538BD1086C52* L_39 = L_38;
 			NullCheck(L_39);
 			L_39->___name = _stringLiteral76F5076CCC7188CEE113EFD11332D7B0DBE3B7E6;
 			Il2CppCodeGenWriteBarrier((void**)(&L_39->___name), (void*)_stringLiteral76F5076CCC7188CEE113EFD11332D7B0DBE3B7E6);
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:261>
 			JobMapUploadAsync_t56C4FC23A7D4BDBBCF0D9CD5EB4D538BD1086C52* L_40 = L_39;
 			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_41 = __this->___U3CmapU3E5__2;
 			NullCheck(L_40);
 			L_40->___mapData = L_41;
 			Il2CppCodeGenWriteBarrier((void**)(&L_40->___mapData), (void*)L_41);
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:262>
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:263>
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:264>
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:265>
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:266>
 			JobMapUploadAsync_t56C4FC23A7D4BDBBCF0D9CD5EB4D538BD1086C52* L_42 = L_40;
 			JobMapUploadAsync_t56C4FC23A7D4BDBBCF0D9CD5EB4D538BD1086C52* L_43 = L_42;
 			NullCheck(L_43);
@@ -26233,7 +24587,6 @@ IL_015f_1:
 			NullCheck(G_B11_2);
 			((JobAsync_1_tAA3417BEF25BC13F641578D13E1E74916EDC069F*)G_B11_2)->___OnError = ((Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A*)Castclass((RuntimeObject*)L_50, Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A_il2cpp_TypeInfo_var));
 			Il2CppCodeGenWriteBarrier((void**)(&((JobAsync_1_tAA3417BEF25BC13F641578D13E1E74916EDC069F*)G_B11_2)->___OnError), (void*)((Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A*)Castclass((RuntimeObject*)L_50, Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A_il2cpp_TypeInfo_var)));
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:268>
 			il2cpp_codegen_initobj((&V_7), sizeof(CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED));
 			CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED L_51 = V_7;
 			NullCheck(G_B11_3);
@@ -26278,12 +24631,10 @@ IL_01ce_1:
 			SDKMapUploadResult_t98B293712A4563BCB698ABB84360EB49418D4F11 L_61;
 			L_61 = TaskAwaiter_1_GetResult_mEDA55088FEAE12774F9E894AFDD55B56CD11BAC2((&V_6), TaskAwaiter_1_GetResult_mEDA55088FEAE12774F9E894AFDD55B56CD11BAC2_RuntimeMethod_var);
 			V_5 = L_61;
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:270>
 			NotificationManager_t382AAD0D328D20384698BB77251AB486FE88D1C6* L_62;
 			L_62 = NotificationManager_get_Instance_m7E6E1470622ED62CBE0A81D64FE0FE4C6EFA7D62(NULL);
 			NullCheck(L_62);
 			NotificationManager_GenerateSuccess_mD1AD22D8F1107AFEC2EBDC288712EE039BC56D8A(L_62, _stringLiteral6485669BBD2F3BCC6C697DDF7886BB89C3A0EDF4, NULL);
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:272>
 			RealtimeCaptureManager_t2B778A041D4ECBBF6AEDC41E739620E7633FCA65* L_63 = V_1;
 			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_64 = __this->___U3CmapU3E5__2;
 			SDKMapUploadResult_t98B293712A4563BCB698ABB84360EB49418D4F11 L_65 = V_5;
@@ -26294,7 +24645,6 @@ IL_01ce_1:
 
 IL_01f6_1:
 		{
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:276>
 			RealtimeCaptureManager_t2B778A041D4ECBBF6AEDC41E739620E7633FCA65* L_66 = V_1;
 			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_67 = __this->___U3CmapU3E5__2;
 			il2cpp_codegen_initobj((&V_8), sizeof(SDKMapUploadResult_t98B293712A4563BCB698ABB84360EB49418D4F11));
@@ -26305,14 +24655,12 @@ IL_01f6_1:
 
 IL_020c_1:
 		{
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:279>
 			__this->___U3CmapU3E5__2 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)NULL;
 			Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CmapU3E5__2), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)NULL);
 		}
 
 IL_0213_1:
 		{
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:281>
 			int32_t L_69;
 			L_69 = Core_MapResourcesFree_m6222A7C87BC31DAB2C7D15BB67434617B1A3FF87(NULL);
 			goto IL_0234;
@@ -26342,7 +24690,6 @@ CATCH_021b:
 
 IL_0234:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs:282>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_73 = (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*)(&__this->___U3CU3Et__builder);
 		AsyncVoidMethodBuilder_SetResult_m008490FDF057D5F5D871F537C7A58BE36027F3DC(L_73, NULL);
@@ -26398,7 +24745,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ContentStorageManager_tC8E3C8CA3F8A760598EFCD
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/ContentStorageManager.cs:50>
 		ContentStorageManager_tC8E3C8CA3F8A760598EFCD3C01D4C153490E3F8B* L_0 = ((ContentStorageManager_tC8E3C8CA3F8A760598EFCD3C01D4C153490E3F8B_StaticFields*)il2cpp_codegen_static_fields_for(ContentStorageManager_tC8E3C8CA3F8A760598EFCD3C01D4C153490E3F8B_il2cpp_TypeInfo_var))->___instance;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -26409,14 +24755,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ContentStorageManager_tC8E3C8CA3F8A760598EFCD
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/ContentStorageManager.cs:52>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteralFD70519F4BEBB7D5B872A12F5AC95C7694CF4ABD, NULL);
 	}
 
 IL_0017:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/ContentStorageManager.cs:54>
 		ContentStorageManager_tC8E3C8CA3F8A760598EFCD3C01D4C153490E3F8B* L_2 = ((ContentStorageManager_tC8E3C8CA3F8A760598EFCD3C01D4C153490E3F8B_StaticFields*)il2cpp_codegen_static_fields_for(ContentStorageManager_tC8E3C8CA3F8A760598EFCD3C01D4C153490E3F8B_il2cpp_TypeInfo_var))->___instance;
 		return L_2;
 	}
@@ -26435,7 +24779,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ContentStorageManager_Awake_mA0865CC0D91
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/ContentStorageManager.cs:62>
 		ContentStorageManager_tC8E3C8CA3F8A760598EFCD3C01D4C153490E3F8B* L_0 = ((ContentStorageManager_tC8E3C8CA3F8A760598EFCD3C01D4C153490E3F8B_StaticFields*)il2cpp_codegen_static_fields_for(ContentStorageManager_tC8E3C8CA3F8A760598EFCD3C01D4C153490E3F8B_il2cpp_TypeInfo_var))->___instance;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -26446,14 +24789,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ContentStorageManager_Awake_mA0865CC0D91
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/ContentStorageManager.cs:64>
 		((ContentStorageManager_tC8E3C8CA3F8A760598EFCD3C01D4C153490E3F8B_StaticFields*)il2cpp_codegen_static_fields_for(ContentStorageManager_tC8E3C8CA3F8A760598EFCD3C01D4C153490E3F8B_il2cpp_TypeInfo_var))->___instance = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&((ContentStorageManager_tC8E3C8CA3F8A760598EFCD3C01D4C153490E3F8B_StaticFields*)il2cpp_codegen_static_fields_for(ContentStorageManager_tC8E3C8CA3F8A760598EFCD3C01D4C153490E3F8B_il2cpp_TypeInfo_var))->___instance), (void*)__this);
 	}
 
 IL_0013:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/ContentStorageManager.cs:66>
 		ContentStorageManager_tC8E3C8CA3F8A760598EFCD3C01D4C153490E3F8B* L_2 = ((ContentStorageManager_tC8E3C8CA3F8A760598EFCD3C01D4C153490E3F8B_StaticFields*)il2cpp_codegen_static_fields_for(ContentStorageManager_tC8E3C8CA3F8A760598EFCD3C01D4C153490E3F8B_il2cpp_TypeInfo_var))->___instance;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_3;
@@ -26464,19 +24805,15 @@ IL_0013:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/ContentStorageManager.cs:68>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteralFFAFB2A4EDE878A4DCF623898426B4AC4E980CA9, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/ContentStorageManager.cs:69>
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_DestroyImmediate_m6336EBC83591A5DB64EC70C92132824C6E258705(__this, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/ContentStorageManager.cs:70>
 		return;
 	}
 
 IL_0031:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/ContentStorageManager.cs:73>
 		XRSpace_tC870F552BC1481C38048217BEF525758956B2B20* L_4 = __this->___m_XRSpace;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_5;
@@ -26487,7 +24824,6 @@ IL_0031:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/ContentStorageManager.cs:75>
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		XRSpace_tC870F552BC1481C38048217BEF525758956B2B20* L_6;
 		L_6 = Object_FindObjectOfType_TisXRSpace_tC870F552BC1481C38048217BEF525758956B2B20_m20826FC476132959EFD6FD04AA54621BFE301D7E(Object_FindObjectOfType_TisXRSpace_tC870F552BC1481C38048217BEF525758956B2B20_m20826FC476132959EFD6FD04AA54621BFE301D7E_RuntimeMethod_var);
@@ -26497,7 +24833,6 @@ IL_0031:
 
 IL_004a:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/ContentStorageManager.cs:77>
 		return;
 	}
 }
@@ -26511,13 +24846,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ContentStorageManager_Start_m392C993E0F0
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/ContentStorageManager.cs:81>
 		List_1_t48A79112124F677E5835F798F85591C895DE7852* L_0 = __this->___contentList;
 		NullCheck(L_0);
 		List_1_Clear_mC214137FA437FDB50EE9EFD344E1CF55BB5160F5_inline(L_0, List_1_Clear_mC214137FA437FDB50EE9EFD344E1CF55BB5160F5_RuntimeMethod_var);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/ContentStorageManager.cs:82>
 		ContentStorageManager_LoadContents_m3BF9975449BAE59824F7EAF860470AA2D7ACC58B(__this, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/ContentStorageManager.cs:83>
 		return;
 	}
 }
@@ -26533,14 +24865,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ContentStorageManager_AddContent_m3E4B41
 	}
 	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* V_0 = NULL;
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/ContentStorageManager.cs:87>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_0;
 		L_0 = Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF(NULL);
 		NullCheck(L_0);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
 		L_1 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/ContentStorageManager.cs:88>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___m_ContentPrefab;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3 = V_0;
 		NullCheck(L_3);
@@ -26561,7 +24891,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ContentStorageManager_AddContent_m3E4B41
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11;
 		L_11 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_mD136E37F696C00A3A1D4F65724ACAE903E385181(L_2, L_7, L_8, L_10, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_mD136E37F696C00A3A1D4F65724ACAE903E385181_RuntimeMethod_var);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/ContentStorageManager.cs:89>
 		return;
 	}
 }
@@ -26585,11 +24914,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ContentStorageManager_DeleteAllContent_m
 	memset((&V_1), 0, sizeof(V_1));
 	MovableContent_t21CCC118D0D29CB8693DB035A35E6BAE1ADB298B* V_2 = NULL;
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/ContentStorageManager.cs:93>
 		List_1_t48A79112124F677E5835F798F85591C895DE7852* L_0 = (List_1_t48A79112124F677E5835F798F85591C895DE7852*)il2cpp_codegen_object_new(List_1_t48A79112124F677E5835F798F85591C895DE7852_il2cpp_TypeInfo_var);
 		List_1__ctor_m2DDEC3C1B0B5590B5995F1CD09697A7883CECCC4(L_0, List_1__ctor_m2DDEC3C1B0B5590B5995F1CD09697A7883CECCC4_RuntimeMethod_var);
 		V_0 = L_0;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/ContentStorageManager.cs:95>
 		List_1_t48A79112124F677E5835F798F85591C895DE7852* L_1 = __this->___contentList;
 		NullCheck(L_1);
 		Enumerator_t38E8C6D9335AEC35F3395F658263CC81774EB34B L_2;
@@ -26614,11 +24941,9 @@ FINALLY_002e:
 
 IL_0014_1:
 			{
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/ContentStorageManager.cs:95>
 				MovableContent_t21CCC118D0D29CB8693DB035A35E6BAE1ADB298B* L_3;
 				L_3 = Enumerator_get_Current_m57A0C208DB9F4736265C9AD06D9E8108731B78E8_inline((&V_1), Enumerator_get_Current_m57A0C208DB9F4736265C9AD06D9E8108731B78E8_RuntimeMethod_var);
 				V_2 = L_3;
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/ContentStorageManager.cs:97>
 				List_1_t48A79112124F677E5835F798F85591C895DE7852* L_4 = V_0;
 				MovableContent_t21CCC118D0D29CB8693DB035A35E6BAE1ADB298B* L_5 = V_2;
 				NullCheck(L_4);
@@ -26627,7 +24952,6 @@ IL_0014_1:
 
 IL_0023_1:
 			{
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/ContentStorageManager.cs:95>
 				bool L_6;
 				L_6 = Enumerator_MoveNext_m7E8C36DCF1F7819CA7107ED19C592C5BD2A7AAA8((&V_1), Enumerator_MoveNext_m7E8C36DCF1F7819CA7107ED19C592C5BD2A7AAA8_RuntimeMethod_var);
 				if (L_6)
@@ -26647,7 +24971,6 @@ IL_0023_1:
 
 IL_003c:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/ContentStorageManager.cs:100>
 		List_1_t48A79112124F677E5835F798F85591C895DE7852* L_7 = V_0;
 		NullCheck(L_7);
 		Enumerator_t38E8C6D9335AEC35F3395F658263CC81774EB34B L_8;
@@ -26672,17 +24995,14 @@ FINALLY_005c:
 
 IL_0045_1:
 			{
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/ContentStorageManager.cs:100>
 				MovableContent_t21CCC118D0D29CB8693DB035A35E6BAE1ADB298B* L_9;
 				L_9 = Enumerator_get_Current_m57A0C208DB9F4736265C9AD06D9E8108731B78E8_inline((&V_1), Enumerator_get_Current_m57A0C208DB9F4736265C9AD06D9E8108731B78E8_RuntimeMethod_var);
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/ContentStorageManager.cs:102>
 				NullCheck(L_9);
 				MovableContent_RemoveContent_m5FFD2148C8759988E0AEB796BF3A7443CE5B1F73(L_9, NULL);
 			}
 
 IL_0051_1:
 			{
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/ContentStorageManager.cs:100>
 				bool L_10;
 				L_10 = Enumerator_MoveNext_m7E8C36DCF1F7819CA7107ED19C592C5BD2A7AAA8((&V_1), Enumerator_MoveNext_m7E8C36DCF1F7819CA7107ED19C592C5BD2A7AAA8_RuntimeMethod_var);
 				if (L_10)
@@ -26702,7 +25022,6 @@ IL_0051_1:
 
 IL_006a:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/ContentStorageManager.cs:104>
 		return;
 	}
 }
@@ -26728,11 +25047,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ContentStorageManager_SaveContents_m47DC
 	memset((&V_1), 0, sizeof(V_1));
 	MovableContent_t21CCC118D0D29CB8693DB035A35E6BAE1ADB298B* V_2 = NULL;
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/ContentStorageManager.cs:108>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_0 = __this->___m_Positions;
 		NullCheck(L_0);
 		List_1_Clear_m455780C5A45049F9BDC25EAD3BA10A681D16385D_inline(L_0, List_1_Clear_m455780C5A45049F9BDC25EAD3BA10A681D16385D_RuntimeMethod_var);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/ContentStorageManager.cs:109>
 		List_1_t48A79112124F677E5835F798F85591C895DE7852* L_1 = __this->___contentList;
 		NullCheck(L_1);
 		Enumerator_t38E8C6D9335AEC35F3395F658263CC81774EB34B L_2;
@@ -26757,11 +25074,9 @@ FINALLY_0042:
 
 IL_0019_1:
 			{
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/ContentStorageManager.cs:109>
 				MovableContent_t21CCC118D0D29CB8693DB035A35E6BAE1ADB298B* L_3;
 				L_3 = Enumerator_get_Current_m57A0C208DB9F4736265C9AD06D9E8108731B78E8_inline((&V_1), Enumerator_get_Current_m57A0C208DB9F4736265C9AD06D9E8108731B78E8_RuntimeMethod_var);
 				V_2 = L_3;
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/ContentStorageManager.cs:111>
 				List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_4 = __this->___m_Positions;
 				MovableContent_t21CCC118D0D29CB8693DB035A35E6BAE1ADB298B* L_5 = V_2;
 				NullCheck(L_5);
@@ -26776,7 +25091,6 @@ IL_0019_1:
 
 IL_0037_1:
 			{
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/ContentStorageManager.cs:109>
 				bool L_8;
 				L_8 = Enumerator_MoveNext_m7E8C36DCF1F7819CA7107ED19C592C5BD2A7AAA8((&V_1), Enumerator_MoveNext_m7E8C36DCF1F7819CA7107ED19C592C5BD2A7AAA8_RuntimeMethod_var);
 				if (L_8)
@@ -26796,19 +25110,16 @@ IL_0037_1:
 
 IL_0050:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/ContentStorageManager.cs:113>
 		Savefile_t3F97990127F2DA92DCEFBD01063D073EEE825585* L_9 = (Savefile_t3F97990127F2DA92DCEFBD01063D073EEE825585*)(&__this->___m_Savefile);
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_10 = __this->___m_Positions;
 		L_9->___positions = L_10;
 		Il2CppCodeGenWriteBarrier((void**)(&L_9->___positions), (void*)L_10);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/ContentStorageManager.cs:115>
 		Savefile_t3F97990127F2DA92DCEFBD01063D073EEE825585 L_11 = __this->___m_Savefile;
 		Savefile_t3F97990127F2DA92DCEFBD01063D073EEE825585 L_12 = L_11;
 		RuntimeObject* L_13 = Box(Savefile_t3F97990127F2DA92DCEFBD01063D073EEE825585_il2cpp_TypeInfo_var, &L_12);
 		String_t* L_14;
 		L_14 = JsonUtility_ToJson_m53A1FEE0D388CF3A629E093C04B5E1A6D5463B53(L_13, (bool)1, NULL);
 		V_0 = L_14;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/ContentStorageManager.cs:116>
 		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		String_t* L_15;
 		L_15 = Application_get_persistentDataPath_mC58BD3E1A20732E0A536491DBCAE6505B1624399(NULL);
@@ -26816,10 +25127,8 @@ IL_0050:
 		il2cpp_codegen_runtime_class_init_inline(Path_t8A38A801D0219E8209C1B1D90D82D4D755D998BC_il2cpp_TypeInfo_var);
 		String_t* L_17;
 		L_17 = Path_Combine_m1ADAC05CDA2D1D61B172DF65A81E86592696BEAE(L_15, L_16, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/ContentStorageManager.cs:117>
 		String_t* L_18 = V_0;
 		File_WriteAllText_m8AE8932A417928EF1E86F1E6B37C7A41904614D1(L_17, L_18, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/ContentStorageManager.cs:118>
 		return;
 	}
 }
@@ -26853,7 +25162,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ContentStorageManager_LoadContents_m3BF9
 	NullReferenceException_tBDE63A6D24569B964908408389070C6A9F5005BB* V_4 = NULL;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/ContentStorageManager.cs:122>
 		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		String_t* L_0;
 		L_0 = Application_get_persistentDataPath_mC58BD3E1A20732E0A536491DBCAE6505B1624399(NULL);
@@ -26862,7 +25170,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ContentStorageManager_LoadContents_m3BF9
 		String_t* L_2;
 		L_2 = Path_Combine_m1ADAC05CDA2D1D61B172DF65A81E86592696BEAE(L_0, L_1, NULL);
 		V_0 = L_2;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/ContentStorageManager.cs:123>
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_3 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)1);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_4 = L_3;
 		String_t* L_5 = V_0;
@@ -26875,13 +25182,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ContentStorageManager_LoadContents_m3BF9
 	try
 	{
 		{
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/ContentStorageManager.cs:127>
 			String_t* L_6 = V_0;
 			String_t* L_7;
 			L_7 = File_ReadAllText_mA4A939F853D573379F7129AFDC469B91E9747BAA(L_6, NULL);
 			Savefile_t3F97990127F2DA92DCEFBD01063D073EEE825585 L_8;
 			L_8 = JsonUtility_FromJson_TisSavefile_t3F97990127F2DA92DCEFBD01063D073EEE825585_m32AA3DFF07E3AFD85A164BD38DD3371973683A83(L_7, JsonUtility_FromJson_TisSavefile_t3F97990127F2DA92DCEFBD01063D073EEE825585_m32AA3DFF07E3AFD85A164BD38DD3371973683A83_RuntimeMethod_var);
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/ContentStorageManager.cs:129>
 			List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_9 = L_8.___positions;
 			NullCheck(L_9);
 			Enumerator_t609488A9291E792D6A59707FF2BF03FBB727E047 L_10;
@@ -26906,11 +25211,9 @@ FINALLY_0071_1:
 
 IL_003d_2:
 				{
-					//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/ContentStorageManager.cs:129>
 					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11;
 					L_11 = Enumerator_get_Current_m098C9AE095DEFD00B1B0314A772330F537805EE2_inline((&V_1), Enumerator_get_Current_m098C9AE095DEFD00B1B0314A772330F537805EE2_RuntimeMethod_var);
 					V_2 = L_11;
-					//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/ContentStorageManager.cs:131>
 					GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12 = __this->___m_ContentPrefab;
 					XRSpace_tC870F552BC1481C38048217BEF525758956B2B20* L_13 = __this->___m_XRSpace;
 					NullCheck(L_13);
@@ -26919,7 +25222,6 @@ IL_003d_2:
 					il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 					GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15;
 					L_15 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811(L_12, L_14, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811_RuntimeMethod_var);
-					//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/ContentStorageManager.cs:132>
 					NullCheck(L_15);
 					Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_16;
 					L_16 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_15, NULL);
@@ -26930,7 +25232,6 @@ IL_003d_2:
 
 IL_0066_2:
 				{
-					//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/ContentStorageManager.cs:129>
 					bool L_18;
 					L_18 = Enumerator_MoveNext_m9C3D158CB944A2244D518FA7989D8312ACCD7C8A((&V_1), Enumerator_MoveNext_m9C3D158CB944A2244D518FA7989D8312ACCD7C8A_RuntimeMethod_var);
 					if (L_18)
@@ -26950,10 +25251,8 @@ IL_0066_2:
 
 IL_007f_1:
 		{
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/ContentStorageManager.cs:135>
 			il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 			Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral4346A8936901ED901A70DE97F91826F4B7F145CB, NULL);
-			//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/ContentStorageManager.cs:136>
 			goto IL_00db;
 		}
 	}
@@ -26975,9 +25274,7 @@ IL_007f_1:
 CATCH_008b:
 	{
 		FileNotFoundException_t17F1B49AD996E4A60C87C7ADC9D3A25EB5808A9A* L_19 = ((FileNotFoundException_t17F1B49AD996E4A60C87C7ADC9D3A25EB5808A9A*)IL2CPP_GET_ACTIVE_EXCEPTION(FileNotFoundException_t17F1B49AD996E4A60C87C7ADC9D3A25EB5808A9A*));;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/ContentStorageManager.cs:137>
 		V_3 = L_19;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/ContentStorageManager.cs:139>
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_20 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var)), (uint32_t)1);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_21 = L_20;
 		FileNotFoundException_t17F1B49AD996E4A60C87C7ADC9D3A25EB5808A9A* L_22 = V_3;
@@ -26989,10 +25286,8 @@ CATCH_008b:
 		(L_21)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_23);
 		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
 		Debug_LogWarningFormat_mD8224DEBCB6050F4E2BF55151F0C6A29B87DEFBC(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral3D37E8967CD188F2533C973295E980658D542864)), L_21, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/ContentStorageManager.cs:140>
 		String_t* L_24 = V_0;
 		File_WriteAllText_m8AE8932A417928EF1E86F1E6B37C7A41904614D1(L_24, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709)), NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/ContentStorageManager.cs:141>
 		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 		goto IL_00db;
 	}
@@ -27000,9 +25295,7 @@ CATCH_008b:
 CATCH_00b2:
 	{
 		NullReferenceException_tBDE63A6D24569B964908408389070C6A9F5005BB* L_25 = ((NullReferenceException_tBDE63A6D24569B964908408389070C6A9F5005BB*)IL2CPP_GET_ACTIVE_EXCEPTION(NullReferenceException_tBDE63A6D24569B964908408389070C6A9F5005BB*));;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/ContentStorageManager.cs:142>
 		V_4 = L_25;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/ContentStorageManager.cs:144>
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_26 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var)), (uint32_t)1);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_27 = L_26;
 		NullReferenceException_tBDE63A6D24569B964908408389070C6A9F5005BB* L_28 = V_4;
@@ -27014,17 +25307,14 @@ CATCH_00b2:
 		(L_27)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_29);
 		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
 		Debug_LogWarningFormat_mD8224DEBCB6050F4E2BF55151F0C6A29B87DEFBC(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral3D37E8967CD188F2533C973295E980658D542864)), L_27, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/ContentStorageManager.cs:145>
 		String_t* L_30 = V_0;
 		File_WriteAllText_m8AE8932A417928EF1E86F1E6B37C7A41904614D1(L_30, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709)), NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/ContentStorageManager.cs:146>
 		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 		goto IL_00db;
 	}
 
 IL_00db:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/ContentStorageManager.cs:147>
 		return;
 	}
 }
@@ -27042,15 +25332,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ContentStorageManager__ctor_m4C40D9B1440
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/ContentStorageManager.cs:23>
 		List_1_t48A79112124F677E5835F798F85591C895DE7852* L_0 = (List_1_t48A79112124F677E5835F798F85591C895DE7852*)il2cpp_codegen_object_new(List_1_t48A79112124F677E5835F798F85591C895DE7852_il2cpp_TypeInfo_var);
 		List_1__ctor_m2DDEC3C1B0B5590B5995F1CD09697A7883CECCC4(L_0, List_1__ctor_m2DDEC3C1B0B5590B5995F1CD09697A7883CECCC4_RuntimeMethod_var);
 		__this->___contentList = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___contentList), (void*)L_0);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/ContentStorageManager.cs:30>
 		__this->___m_Filename = _stringLiteralCE95BBCF6AC0D2025F7F5BA4577983E9AD7CBBD5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Filename), (void*)_stringLiteralCE95BBCF6AC0D2025F7F5BA4577983E9AD7CBBD5);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/ContentStorageManager.cs:32>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_1 = (List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B*)il2cpp_codegen_object_new(List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B_il2cpp_TypeInfo_var);
 		List_1__ctor_mC54E2BCBE43279A96FC082F5CDE2D76388BD8F9C(L_1, List_1__ctor_mC54E2BCBE43279A96FC082F5CDE2D76388BD8F9C_RuntimeMethod_var);
 		__this->___m_Positions = L_1;
@@ -27133,7 +25420,6 @@ IL2CPP_EXTERN_C void Savefile_t3F97990127F2DA92DCEFBD01063D073EEE825585_marshal_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EditorCameraMovement_Update_m2B8A1233D27320DFCCA79257F7D47DDBF364B190 (EditorCameraMovement_tA3C5C7804ED3CE605A99822D84366780898D4C66* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/EditorCameraMovement.cs:75>
 		return;
 	}
 }
@@ -27143,7 +25429,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EditorCameraMovement_MoveCamera_mFC3A971
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/EditorCameraMovement.cs:79>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
 		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___0_direction;
@@ -27158,7 +25443,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EditorCameraMovement_MoveCamera_mFC3A971
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6;
 		L_6 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_4, L_5, NULL);
 		V_0 = L_6;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/EditorCameraMovement.cs:80>
 		bool L_7 = __this->___m_FlyMode;
 		if (L_7)
 		{
@@ -27166,19 +25450,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EditorCameraMovement_MoveCamera_mFC3A971
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/EditorCameraMovement.cs:82>
 		(&V_0)->___y = (0.0f);
 	}
 
 IL_0036:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/EditorCameraMovement.cs:84>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8;
 		L_8 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9 = V_0;
 		NullCheck(L_8);
 		Transform_Translate_m4A9E3D8836586E7562F6A18EBF5F5B6089D8B649(L_8, L_9, 0, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/EditorCameraMovement.cs:85>
 		return;
 	}
 }
@@ -27186,16 +25467,12 @@ IL_0036:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EditorCameraMovement__ctor_m54C0E6D9BB26404C87B4B0E6DF3F6514C4DBD721 (EditorCameraMovement_tA3C5C7804ED3CE605A99822D84366780898D4C66* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/EditorCameraMovement.cs:19>
 		__this->___m_CameraMoveSpeed = (3.0f);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/EditorCameraMovement.cs:21>
 		__this->___m_MoveSpeedMultiplier = (4.0f);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/EditorCameraMovement.cs:23>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0;
 		memset((&L_0), 0, sizeof(L_0));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_0), (15.0f), (15.0f), NULL);
 		__this->___m_CameraSensitivity = L_0;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/EditorCameraMovement.cs:25>
 		__this->___m_FlyMode = (bool)1;
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -27213,7 +25490,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EditorCameraMovement__ctor_m54C0E6D9BB26
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovableContent_Start_m779D1540115BC2F7D39A03C092858EB4EAC850A5 (MovableContent_t21CCC118D0D29CB8693DB035A35E6BAE1ADB298B* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/MovableContent.cs:29>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_0;
 		L_0 = Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF(NULL);
 		NullCheck(L_0);
@@ -27221,9 +25497,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovableContent_Start_m779D1540115BC2F7D3
 		L_1 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_0, NULL);
 		__this->___m_CameraTransform = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_CameraTransform), (void*)L_1);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/MovableContent.cs:30>
 		MovableContent_StoreContent_m3E4DF3AF63E044B220E645610ED1DB3680ECDAB4(__this, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/MovableContent.cs:31>
 		return;
 	}
 }
@@ -27233,7 +25507,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovableContent_Update_mF078E9382D7607600
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/MovableContent.cs:35>
 		bool L_0 = __this->___m_EditingContent;
 		if (!L_0)
 		{
@@ -27241,7 +25514,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovableContent_Update_mF078E9382D7607600
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/MovableContent.cs:37>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_1;
 		L_1 = Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF(NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
@@ -27258,7 +25530,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovableContent_Update_mF078E9382D7607600
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8;
 		L_8 = Camera_ScreenToWorldPoint_m5EA3148F070985EC72127AAC3448D8D6ABE6E7E5(L_1, L_7, NULL);
 		V_0 = L_8;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/MovableContent.cs:38>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9;
 		L_9 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = V_0;
@@ -27268,7 +25539,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovableContent_Update_mF078E9382D7607600
 
 IL_003e:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/MovableContent.cs:40>
 		return;
 	}
 }
@@ -27283,7 +25553,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovableContent_StoreContent_m3E4DF3AF63E
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/MovableContent.cs:44>
 		ContentStorageManager_tC8E3C8CA3F8A760598EFCD3C01D4C153490E3F8B* L_0;
 		L_0 = ContentStorageManager_get_Instance_mBFD983BF2CAFDBC2D471AEC08BCD569DD8827B7D(NULL);
 		NullCheck(L_0);
@@ -27297,7 +25566,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovableContent_StoreContent_m3E4DF3AF63E
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/MovableContent.cs:46>
 		ContentStorageManager_tC8E3C8CA3F8A760598EFCD3C01D4C153490E3F8B* L_3;
 		L_3 = ContentStorageManager_get_Instance_mBFD983BF2CAFDBC2D471AEC08BCD569DD8827B7D(NULL);
 		NullCheck(L_3);
@@ -27308,12 +25576,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovableContent_StoreContent_m3E4DF3AF63E
 
 IL_0022:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/MovableContent.cs:48>
 		ContentStorageManager_tC8E3C8CA3F8A760598EFCD3C01D4C153490E3F8B* L_5;
 		L_5 = ContentStorageManager_get_Instance_mBFD983BF2CAFDBC2D471AEC08BCD569DD8827B7D(NULL);
 		NullCheck(L_5);
 		ContentStorageManager_SaveContents_m47DCEEB9BC465D36D11289C8FDA5056E5BB7D41D(L_5, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/MovableContent.cs:49>
 		return;
 	}
 }
@@ -27329,7 +25595,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovableContent_RemoveContent_m5FFD2148C8
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/MovableContent.cs:53>
 		ContentStorageManager_tC8E3C8CA3F8A760598EFCD3C01D4C153490E3F8B* L_0;
 		L_0 = ContentStorageManager_get_Instance_mBFD983BF2CAFDBC2D471AEC08BCD569DD8827B7D(NULL);
 		NullCheck(L_0);
@@ -27343,7 +25608,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovableContent_RemoveContent_m5FFD2148C8
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/MovableContent.cs:55>
 		ContentStorageManager_tC8E3C8CA3F8A760598EFCD3C01D4C153490E3F8B* L_3;
 		L_3 = ContentStorageManager_get_Instance_mBFD983BF2CAFDBC2D471AEC08BCD569DD8827B7D(NULL);
 		NullCheck(L_3);
@@ -27355,17 +25619,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovableContent_RemoveContent_m5FFD2148C8
 
 IL_0023:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/MovableContent.cs:57>
 		ContentStorageManager_tC8E3C8CA3F8A760598EFCD3C01D4C153490E3F8B* L_6;
 		L_6 = ContentStorageManager_get_Instance_mBFD983BF2CAFDBC2D471AEC08BCD569DD8827B7D(NULL);
 		NullCheck(L_6);
 		ContentStorageManager_SaveContents_m47DCEEB9BC465D36D11289C8FDA5056E5BB7D41D(L_6, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/MovableContent.cs:58>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7;
 		L_7 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_7, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/MovableContent.cs:59>
 		return;
 	}
 }
@@ -27375,12 +25636,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovableContent_OnMouseDrag_m2251C5AF915A
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/MovableContent.cs:63>
 		float L_0 = __this->___m_timeHold;
 		float L_1;
 		L_1 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
 		__this->___m_timeHold = ((float)il2cpp_codegen_add(L_0, L_1));
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/MovableContent.cs:65>
 		float L_2 = __this->___m_timeHold;
 		float L_3 = __this->___m_ClickHoldTime;
 		if ((!(((float)L_2) >= ((float)L_3))))
@@ -27396,7 +25655,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovableContent_OnMouseDrag_m2251C5AF915A
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/MovableContent.cs:67>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5;
 		L_5 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_5);
@@ -27422,13 +25680,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovableContent_OnMouseDrag_m2251C5AF915A
 		float L_15;
 		L_15 = Vector3_get_sqrMagnitude_m43C27DEC47C4811FB30AB474FF2131A963B66FC8_inline((&V_0), NULL);
 		__this->___m_MovePlaneDistance = ((float)(L_12/L_15));
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/MovableContent.cs:68>
 		__this->___m_EditingContent = (bool)1;
 	}
 
 IL_0074:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/MovableContent.cs:70>
 		return;
 	}
 }
@@ -27436,13 +25692,9 @@ IL_0074:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovableContent_OnMouseUp_m3C45F8D63163FD290C65B8375B725E3F45F3C85B (MovableContent_t21CCC118D0D29CB8693DB035A35E6BAE1ADB298B* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/MovableContent.cs:74>
 		MovableContent_StoreContent_m3E4DF3AF63E044B220E645610ED1DB3680ECDAB4(__this, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/MovableContent.cs:75>
 		__this->___m_timeHold = (0.0f);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/MovableContent.cs:76>
 		__this->___m_EditingContent = (bool)0;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/MovableContent.cs:77>
 		return;
 	}
 }
@@ -27450,7 +25702,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovableContent_OnMouseUp_m3C45F8D63163FD
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovableContent__ctor_mF1021CBB9CAD7065E0619B0DEF15CD05FFDFD357 (MovableContent_t21CCC118D0D29CB8693DB035A35E6BAE1ADB298B* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/MovableContent.cs:19>
 		__this->___m_ClickHoldTime = (0.100000001f);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -27489,7 +25740,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlaceOnAPlane_Place_m78903ABE53314ECC92C
 	Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* G_B1_0 = NULL;
 	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* G_B3_0 = NULL;
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/PlaceOnAPlane.cs:30>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_0;
 		L_0 = Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF(NULL);
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_1 = L_0;
@@ -27516,13 +25766,11 @@ IL_000c:
 IL_0011:
 	{
 		V_0 = G_B3_0;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/PlaceOnAPlane.cs:31>
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		XRSpace_tC870F552BC1481C38048217BEF525758956B2B20* L_3;
 		L_3 = Object_FindObjectOfType_TisXRSpace_tC870F552BC1481C38048217BEF525758956B2B20_m20826FC476132959EFD6FD04AA54621BFE301D7E(Object_FindObjectOfType_TisXRSpace_tC870F552BC1481C38048217BEF525758956B2B20_m20826FC476132959EFD6FD04AA54621BFE301D7E_RuntimeMethod_var);
 		__this->___m_XRSpace = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_XRSpace), (void*)L_3);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/PlaceOnAPlane.cs:33>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4 = V_0;
 		bool L_5;
 		L_5 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_4, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
@@ -27556,18 +25804,15 @@ IL_0011:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/PlaceOnAPlane.cs:36>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_12 = V_0;
 		NullCheck(L_12);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13;
 		L_13 = Transform_get_forward_mFCFACF7165FDAB21E80E384C494DF278386CEE2F(L_12, NULL);
 		V_2 = L_13;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/PlaceOnAPlane.cs:37>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_14 = V_0;
 		NullCheck(L_14);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_15;
 		L_15 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_14, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/PlaceOnAPlane.cs:39>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(Physics_t1244C2983AEAFA149425AFFC3DF53BC91C18ED56_il2cpp_TypeInfo_var);
 		bool L_17;
@@ -27578,7 +25823,6 @@ IL_0011:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/PlaceOnAPlane.cs:41>
 		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_18;
 		L_18 = RaycastHit_get_collider_m84B160439BBEAB6D9E94B799F720E25C9E2D444D((&V_1), NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -27590,13 +25834,11 @@ IL_0011:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/PlaceOnAPlane.cs:43>
 		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_20;
 		L_20 = RaycastHit_get_collider_m84B160439BBEAB6D9E94B799F720E25C9E2D444D((&V_1), NULL);
 		NullCheck(L_20);
 		ARPlane_tB2F02248AD4019D141553B25C1B9005913E98EF0* L_21;
 		L_21 = Component_GetComponentInParent_TisARPlane_tB2F02248AD4019D141553B25C1B9005913E98EF0_m2F38A184E0840D2DED88DA6CA483E8892F885396(L_20, Component_GetComponentInParent_TisARPlane_tB2F02248AD4019D141553B25C1B9005913E98EF0_m2F38A184E0840D2DED88DA6CA483E8892F885396_RuntimeMethod_var);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/PlaceOnAPlane.cs:44>
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_22;
 		L_22 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_21, NULL);
@@ -27606,11 +25848,9 @@ IL_0011:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/PlaceOnAPlane.cs:46>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_23;
 		L_23 = RaycastHit_get_point_m02B764612562AFE0F998CC7CFB2EEDE41BA47F39((&V_1), NULL);
 		V_3 = L_23;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/PlaceOnAPlane.cs:47>
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_24 = __this->___m_objects;
 		int32_t L_25 = ___0_index;
 		NullCheck(L_24);
@@ -27623,7 +25863,6 @@ IL_0011:
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_29;
 		L_29 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811(L_26, L_28, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811_RuntimeMethod_var);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/PlaceOnAPlane.cs:48>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_30 = L_29;
 		NullCheck(L_30);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_31;
@@ -27632,7 +25871,6 @@ IL_0011:
 		L_32 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
 		NullCheck(L_31);
 		Transform_set_localRotation_mAB4A011D134BA58AB780BECC0025CA65F16185FA(L_31, L_32, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/PlaceOnAPlane.cs:49>
 		NullCheck(L_30);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_33;
 		L_33 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_30, NULL);
@@ -27643,7 +25881,6 @@ IL_0011:
 
 IL_00cb:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/PlaceOnAPlane.cs:54>
 		return;
 	}
 }
@@ -27658,7 +25895,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlaceOnAPlane__ctor_m6474D4476B564CD8BE0
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Content Placement/PlaceOnAPlane.cs:24>
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_0 = (List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B*)il2cpp_codegen_object_new(List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B_il2cpp_TypeInfo_var);
 		List_1__ctor_m447372C1EF7141193B93090A77395B786C72C7BC(L_0, List_1__ctor_m447372C1EF7141193B93090A77395B786C72C7BC_RuntimeMethod_var);
 		__this->___m_objects = L_0;
@@ -27686,18 +25922,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Material_t18053F08F347D0DCA5E1140EC7EC4533DD8
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/UI/Scripts/CutoutMaskUI.cs:15>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0;
 		L_0 = Graphic_get_materialForRendering_m4B0017B2B59D2EF578D32ABFCF84A97A835B6B22(__this, NULL);
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_1 = (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3*)il2cpp_codegen_object_new(Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3_il2cpp_TypeInfo_var);
 		Material__ctor_mFCC42FB90257F1E8F7516A8640A79C465A39961C(L_1, L_0, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/UI/Scripts/CutoutMaskUI.cs:16>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_2 = L_1;
 		il2cpp_codegen_runtime_class_init_inline(CutoutMaskUI_t331D7742560D4950E00071EF06D12E7CEB17C4C2_il2cpp_TypeInfo_var);
 		int32_t L_3 = ((CutoutMaskUI_t331D7742560D4950E00071EF06D12E7CEB17C4C2_StaticFields*)il2cpp_codegen_static_fields_for(CutoutMaskUI_t331D7742560D4950E00071EF06D12E7CEB17C4C2_il2cpp_TypeInfo_var))->___k_StencilComp;
 		NullCheck(L_2);
 		Material_SetInt_m9C05C9D7C152CFCC48F8572710F89DDAC9277E39(L_2, L_3, 6, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/UI/Scripts/CutoutMaskUI.cs:17>
 		return L_2;
 	}
 }
@@ -27727,7 +25960,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CutoutMaskUI__cctor_m3FA8526EBAB8E0DFA58
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/UI/Scripts/CutoutMaskUI.cs:9>
 		int32_t L_0;
 		L_0 = Shader_PropertyToID_mE98523D50F5656CAE89B30695C458253EB8956CA(_stringLiteral0F52C788AC4796FE5841155F7DF3896E049C051E, NULL);
 		((CutoutMaskUI_t331D7742560D4950E00071EF06D12E7CEB17C4C2_StaticFields*)il2cpp_codegen_static_fields_for(CutoutMaskUI_t331D7742560D4950E00071EF06D12E7CEB17C4C2_il2cpp_TypeInfo_var))->___k_StencilComp = L_0;
@@ -27746,7 +25978,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CutoutMaskUI__cctor_m3FA8526EBAB8E0DFA58
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* ARPlaneMeshVisualizerFader_get_planeRenderer_mE0F863984F8932C7436F1438715E28DD4C36B4F5 (ARPlaneMeshVisualizerFader_t463985F5CC9F0F5F9C40E10F4E83A37BC2CEFEEC* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARPlaneMeshVisualizerFader.cs:20>
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_0 = __this->___m_PlaneRenderer;
 		return L_0;
 	}
@@ -27755,7 +25986,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Renderer_t320575F223BCB177A982E5DDB5DB19FAA89
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARPlaneMeshVisualizerFader_set_planeRenderer_mB6BD0023FC974413E78865195AFD4CDED6D005C0 (ARPlaneMeshVisualizerFader_t463985F5CC9F0F5F9C40E10F4E83A37BC2CEFEEC* __this, Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARPlaneMeshVisualizerFader.cs:21>
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_0 = ___0_value;
 		__this->___m_PlaneRenderer = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_PlaneRenderer), (void*)L_0);
@@ -27766,7 +25996,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARPlaneMeshVisualizerFader_set_planeRend
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ARPlaneMeshVisualizerFader_get_fadeSpeed_m0D6E35B0AF60E1509038D6FAF9C0D3D149ABEF67 (ARPlaneMeshVisualizerFader_t463985F5CC9F0F5F9C40E10F4E83A37BC2CEFEEC* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARPlaneMeshVisualizerFader.cs:35>
 		float L_0 = __this->___m_FadeSpeed;
 		return L_0;
 	}
@@ -27775,7 +26004,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ARPlaneMeshVisualizerFader_get_fadeSpee
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARPlaneMeshVisualizerFader_set_fadeSpeed_mE25D166F928224C5D272124C535639CE720933C8 (ARPlaneMeshVisualizerFader_t463985F5CC9F0F5F9C40E10F4E83A37BC2CEFEEC* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARPlaneMeshVisualizerFader.cs:36>
 		float L_0 = ___0_value;
 		__this->___m_FadeSpeed = L_0;
 		return;
@@ -27791,20 +26019,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARPlaneMeshVisualizerFader_Awake_mF798E9
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARPlaneMeshVisualizerFader.cs:53>
 		int32_t L_0;
 		L_0 = Shader_PropertyToID_mE98523D50F5656CAE89B30695C458253EB8956CA(_stringLiteral278DDA87522A9019A0147F14D54301096A99F2D1, NULL);
 		__this->___m_ShaderAlphaPropertyID = L_0;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARPlaneMeshVisualizerFader.cs:54>
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_1 = __this->___m_PlaneRenderer;
 		NullCheck(L_1);
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_2;
 		L_2 = Renderer_get_material_m5BA2A00816C4CC66580D4B2E409CF10718C15656(L_1, NULL);
 		__this->___m_PlaneMaterial = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_PlaneMaterial), (void*)L_2);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARPlaneMeshVisualizerFader.cs:55>
 		ARPlaneMeshVisualizerFader_set_visualizeSurfaces_mE9BC4C4A3F5BD1AB7632103E08DF37CA6C6102BE(__this, (bool)1, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARPlaneMeshVisualizerFader.cs:56>
 		return;
 	}
 }
@@ -27818,11 +26042,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARPlaneMeshVisualizerFader_OnDestroy_m03
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARPlaneMeshVisualizerFader.cs:63>
 		FloatTweenableVariable_t19D1F16FBA79A41A8234F4F6C1D7DB51EAC07D48* L_0 = __this->___m_AlphaTweenableVariable;
 		NullCheck(L_0);
 		TweenableVariableAsyncBase_1_Dispose_m8302D545AD62EB13A85B639B2E21FB71843F0CE0(L_0, TweenableVariableAsyncBase_1_Dispose_m8302D545AD62EB13A85B639B2E21FB71843F0CE0_RuntimeMethod_var);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARPlaneMeshVisualizerFader.cs:64>
 		return;
 	}
 }
@@ -27837,30 +26059,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARPlaneMeshVisualizerFader_Update_mC63AC
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARPlaneMeshVisualizerFader.cs:71>
 		FloatTweenableVariable_t19D1F16FBA79A41A8234F4F6C1D7DB51EAC07D48* L_0 = __this->___m_AlphaTweenableVariable;
 		float L_1 = __this->___m_TweenProgress;
 		NullCheck(L_0);
 		TweenableVariableBase_1_HandleTween_m46B71286EECBE0E3F279B742875CE8EF4D068791(L_0, L_1, TweenableVariableBase_1_HandleTween_m46B71286EECBE0E3F279B742875CE8EF4D068791_RuntimeMethod_var);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARPlaneMeshVisualizerFader.cs:72>
 		float L_2 = __this->___m_TweenProgress;
 		float L_3;
 		L_3 = Time_get_unscaledDeltaTime_mF057EECA857E5C0F90A3F910D26D3EE59F27C4B5(NULL);
 		float L_4 = __this->___m_FadeSpeed;
 		__this->___m_TweenProgress = ((float)il2cpp_codegen_add(L_2, ((float)il2cpp_codegen_multiply(L_3, L_4))));
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARPlaneMeshVisualizerFader.cs:73>
 		FloatTweenableVariable_t19D1F16FBA79A41A8234F4F6C1D7DB51EAC07D48* L_5 = __this->___m_AlphaTweenableVariable;
 		NullCheck(L_5);
 		float L_6;
 		L_6 = TweenableVariableAsyncBase_1_get_Value_m5DAFDAB70CA05D176B1C3158F7485F8162F3E8FC(L_5, TweenableVariableAsyncBase_1_get_Value_m5DAFDAB70CA05D176B1C3158F7485F8162F3E8FC_RuntimeMethod_var);
 		__this->___m_SurfaceVisualAlpha = L_6;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARPlaneMeshVisualizerFader.cs:74>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_7 = __this->___m_PlaneMaterial;
 		int32_t L_8 = __this->___m_ShaderAlphaPropertyID;
 		float L_9 = __this->___m_SurfaceVisualAlpha;
 		NullCheck(L_7);
 		Material_SetFloat_m3ECFD92072347A8620254F014865984FA68211A8(L_7, L_8, L_9, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARPlaneMeshVisualizerFader.cs:75>
 		return;
 	}
 }
@@ -27879,9 +26096,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARPlaneMeshVisualizerFader_set_visualize
 	float G_B3_0 = 0.0f;
 	FloatTweenableVariable_t19D1F16FBA79A41A8234F4F6C1D7DB51EAC07D48* G_B3_1 = NULL;
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARPlaneMeshVisualizerFader.cs:84>
 		__this->___m_TweenProgress = (0.0f);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARPlaneMeshVisualizerFader.cs:85>
 		FloatTweenableVariable_t19D1F16FBA79A41A8234F4F6C1D7DB51EAC07D48* L_0 = __this->___m_AlphaTweenableVariable;
 		bool L_1 = ___0_value;
 		if (L_1)
@@ -27907,11 +26122,9 @@ IL_0020:
 	{
 		NullCheck(G_B3_1);
 		TweenableVariableBase_1_set_target_m353B619618455D8C59D23B5D02D69EFB492AAA59(G_B3_1, G_B3_0, TweenableVariableBase_1_set_target_m353B619618455D8C59D23B5D02D69EFB492AAA59_RuntimeMethod_var);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARPlaneMeshVisualizerFader.cs:86>
 		FloatTweenableVariable_t19D1F16FBA79A41A8234F4F6C1D7DB51EAC07D48* L_2 = __this->___m_AlphaTweenableVariable;
 		NullCheck(L_2);
 		TweenableVariableBase_1_HandleTween_m46B71286EECBE0E3F279B742875CE8EF4D068791(L_2, (0.0f), TweenableVariableBase_1_HandleTween_m46B71286EECBE0E3F279B742875CE8EF4D068791_RuntimeMethod_var);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARPlaneMeshVisualizerFader.cs:87>
 		return;
 	}
 }
@@ -27926,16 +26139,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARPlaneMeshVisualizerFader_SetVisualsImm
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARPlaneMeshVisualizerFader.cs:92>
 		FloatTweenableVariable_t19D1F16FBA79A41A8234F4F6C1D7DB51EAC07D48* L_0 = __this->___m_AlphaTweenableVariable;
 		float L_1 = ___0_alpha;
 		NullCheck(L_0);
 		TweenableVariableBase_1_set_target_m353B619618455D8C59D23B5D02D69EFB492AAA59(L_0, L_1, TweenableVariableBase_1_set_target_m353B619618455D8C59D23B5D02D69EFB492AAA59_RuntimeMethod_var);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARPlaneMeshVisualizerFader.cs:93>
 		FloatTweenableVariable_t19D1F16FBA79A41A8234F4F6C1D7DB51EAC07D48* L_2 = __this->___m_AlphaTweenableVariable;
 		NullCheck(L_2);
 		TweenableVariableBase_1_HandleTween_m46B71286EECBE0E3F279B742875CE8EF4D068791(L_2, (1.0f), TweenableVariableBase_1_HandleTween_m46B71286EECBE0E3F279B742875CE8EF4D068791_RuntimeMethod_var);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARPlaneMeshVisualizerFader.cs:94>
 		return;
 	}
 }
@@ -27949,11 +26159,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARPlaneMeshVisualizerFader__ctor_m60EFD5
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARPlaneMeshVisualizerFader.cs:27>
 		__this->___m_FadeSpeed = (1.0f);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARPlaneMeshVisualizerFader.cs:40>
 		__this->___m_SurfaceVisualAlpha = (1.0f);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARPlaneMeshVisualizerFader.cs:45>
 		FloatTweenableVariable_t19D1F16FBA79A41A8234F4F6C1D7DB51EAC07D48* L_0 = (FloatTweenableVariable_t19D1F16FBA79A41A8234F4F6C1D7DB51EAC07D48*)il2cpp_codegen_object_new(FloatTweenableVariable_t19D1F16FBA79A41A8234F4F6C1D7DB51EAC07D48_il2cpp_TypeInfo_var);
 		FloatTweenableVariable__ctor_mE8A1546D61397EB6D999B82E247996198FB2E776(L_0, NULL);
 		__this->___m_AlphaTweenableVariable = L_0;
@@ -27974,7 +26181,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARPlaneMeshVisualizerFader__ctor_m60EFD5
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ARTemplateMenuManager_get_createButton_m406757CA637E53BEA9EA71842A253DA599D02E13 (ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:27>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_0 = __this->___m_CreateButton;
 		return L_0;
 	}
@@ -27983,7 +26189,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_set_createButton_m8BAE9D9A3DBB071AAC2C185954E667813634BB09 (ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* __this, Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:28>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_0 = ___0_value;
 		__this->___m_CreateButton = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_CreateButton), (void*)L_0);
@@ -27994,7 +26199,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_set_createButton_m
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ARTemplateMenuManager_get_deleteButton_mC7336FA4A5557D67AA32100D3A0053FE1C422B0A (ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:40>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_0 = __this->___m_DeleteButton;
 		return L_0;
 	}
@@ -28003,7 +26207,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_set_deleteButton_m06DA868A30F8A38A0943D351E7AE644C54952F60 (ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* __this, Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:41>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_0 = ___0_value;
 		__this->___m_DeleteButton = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_DeleteButton), (void*)L_0);
@@ -28014,7 +26217,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_set_deleteButton_m
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ARTemplateMenuManager_get_objectMenu_mCD36DE747435F40A8BCCAF313C39BA2A5C821829 (ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:53>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___m_ObjectMenu;
 		return L_0;
 	}
@@ -28023,7 +26225,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_set_objectMenu_m85D2A2D58CE1ACD14E1FCC8A24F3E127F174DC91 (ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:54>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = ___0_value;
 		__this->___m_ObjectMenu = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_ObjectMenu), (void*)L_0);
@@ -28034,7 +26235,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_set_objectMenu_m85
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ARTemplateMenuManager_get_modalMenu_m7E1DE3E1FB1BA72B2360EEC4DF766D8015230F36 (ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:66>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___m_ModalMenu;
 		return L_0;
 	}
@@ -28043,7 +26243,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_set_modalMenu_mEFDF9244FADBFA263C7A1EE729F3F4640DD6525F (ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:67>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = ___0_value;
 		__this->___m_ModalMenu = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_ModalMenu), (void*)L_0);
@@ -28054,7 +26253,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_set_modalMenu_mEFD
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* ARTemplateMenuManager_get_objectMenuAnimator_mD7513E6170193E4E871AD680E2E6008AB2ED6AC5 (ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:79>
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_0 = __this->___m_ObjectMenuAnimator;
 		return L_0;
 	}
@@ -28063,7 +26261,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Animator_t8A52E42AE54F76681838FE9E632683EF395
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_set_objectMenuAnimator_m6645E67754B65626A23BDD50A795F6F5A78BA5AE (ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* __this, Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:80>
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_0 = ___0_value;
 		__this->___m_ObjectMenuAnimator = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_ObjectMenuAnimator), (void*)L_0);
@@ -28074,7 +26271,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_set_objectMenuAnim
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectSpawner_t5ACB5F84845F9E874424BADB585AB17DD4644111* ARTemplateMenuManager_get_objectSpawner_m0FFCB3BA803A8A16A7629A844A4998A9D152DCB1 (ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:92>
 		ObjectSpawner_t5ACB5F84845F9E874424BADB585AB17DD4644111* L_0 = __this->___m_ObjectSpawner;
 		return L_0;
 	}
@@ -28083,7 +26279,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectSpawner_t5ACB5F84845F9E874424BADB585AB1
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_set_objectSpawner_mD1D7815120705857A02DDA0201C7E527D0967F8C (ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* __this, ObjectSpawner_t5ACB5F84845F9E874424BADB585AB17DD4644111* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:93>
 		ObjectSpawner_t5ACB5F84845F9E874424BADB585AB17DD4644111* L_0 = ___0_value;
 		__this->___m_ObjectSpawner = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_ObjectSpawner), (void*)L_0);
@@ -28094,7 +26289,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_set_objectSpawner_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ARTemplateMenuManager_get_cancelButton_m41132A169C64ADD848B13206B9D4BEC49242235B (ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:105>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_0 = __this->___m_CancelButton;
 		return L_0;
 	}
@@ -28103,7 +26297,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_set_cancelButton_m7AFEA00CDFEF41E5A181A7EDFCB23EFDE5BF6AC0 (ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* __this, Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:106>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_0 = ___0_value;
 		__this->___m_CancelButton = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_CancelButton), (void*)L_0);
@@ -28114,7 +26307,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_set_cancelButton_m
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR XRInteractionGroup_tC4826C686618B4D279303C4A8CF660C39E8AE91C* ARTemplateMenuManager_get_interactionGroup_m5BAFF9C7428F553084230EE277466221634F1320 (ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:118>
 		XRInteractionGroup_tC4826C686618B4D279303C4A8CF660C39E8AE91C* L_0 = __this->___m_InteractionGroup;
 		return L_0;
 	}
@@ -28123,7 +26315,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR XRInteractionGroup_tC4826C686618B4D279303C4A8
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_set_interactionGroup_m898AABCF30C2267D7BA033B910756832FC523043 (ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* __this, XRInteractionGroup_tC4826C686618B4D279303C4A8CF660C39E8AE91C* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:119>
 		XRInteractionGroup_tC4826C686618B4D279303C4A8CF660C39E8AE91C* L_0 = ___0_value;
 		__this->___m_InteractionGroup = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_InteractionGroup), (void*)L_0);
@@ -28134,7 +26325,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_set_interactionGro
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DebugSlider_tA600859221313A94DA826024E574C2E266D20C16* ARTemplateMenuManager_get_debugPlaneSlider_m76458865CBB5D52D68916230DDDCCF79F9A3F08B (ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:131>
 		DebugSlider_tA600859221313A94DA826024E574C2E266D20C16* L_0 = __this->___m_DebugPlaneSlider;
 		return L_0;
 	}
@@ -28143,7 +26333,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DebugSlider_tA600859221313A94DA826024E574C2E2
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_set_debugPlaneSlider_m8C17F7BA78306BCE40401E4739F217BA2301DEC2 (ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* __this, DebugSlider_tA600859221313A94DA826024E574C2E266D20C16* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:132>
 		DebugSlider_tA600859221313A94DA826024E574C2E266D20C16* L_0 = ___0_value;
 		__this->___m_DebugPlaneSlider = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_DebugPlaneSlider), (void*)L_0);
@@ -28154,7 +26343,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_set_debugPlaneSlid
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ARPlaneManager_t9DA6C512BDCFFBEE8B3DAA7170EB3BFFDE26A928* ARTemplateMenuManager_get_planeManager_m1409352BFEE79725B3F82AD6D3C352FE1F2E3012 (ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:144>
 		ARPlaneManager_t9DA6C512BDCFFBEE8B3DAA7170EB3BFFDE26A928* L_0 = __this->___m_PlaneManager;
 		return L_0;
 	}
@@ -28163,7 +26351,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ARPlaneManager_t9DA6C512BDCFFBEE8B3DAA7170EB3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_set_planeManager_m9B17877B865463BA66D3760B1742AE6B0CAB85D2 (ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* __this, ARPlaneManager_t9DA6C512BDCFFBEE8B3DAA7170EB3BFFDE26A928* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:145>
 		ARPlaneManager_t9DA6C512BDCFFBEE8B3DAA7170EB3BFFDE26A928* L_0 = ___0_value;
 		__this->___m_PlaneManager = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_PlaneManager), (void*)L_0);
@@ -28174,7 +26361,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_set_planeManager_m
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ARTemplateMenuManager_get_useARPlaneFading_m3DA623DC3849983993371A9EBAACC4DD430557DA (ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:157>
 		bool L_0 = __this->___m_UseARPlaneFading;
 		return L_0;
 	}
@@ -28183,7 +26369,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ARTemplateMenuManager_get_useARPlaneFadi
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_set_useARPlaneFading_m15507F3016F352B49D66E6318C4E7FB7F42A4A07 (ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:158>
 		bool L_0 = ___0_value;
 		__this->___m_UseARPlaneFading = L_0;
 		return;
@@ -28193,7 +26378,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_set_useARPlaneFadi
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ARDebugMenu_t6C30A780EA1B4AFEE8BDAE632CF7897AC044F271* ARTemplateMenuManager_get_arDebugMenu_m6A32CDD53005AA1E02B785A0774CF278F08A9387 (ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:170>
 		ARDebugMenu_t6C30A780EA1B4AFEE8BDAE632CF7897AC044F271* L_0 = __this->___m_ARDebugMenu;
 		return L_0;
 	}
@@ -28202,7 +26386,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ARDebugMenu_t6C30A780EA1B4AFEE8BDAE632CF7897A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_set_arDebugMenu_m727865D805293C1F3DF25FF17F42913BE47BB92C (ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* __this, ARDebugMenu_t6C30A780EA1B4AFEE8BDAE632CF7897AC044F271* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:171>
 		ARDebugMenu_t6C30A780EA1B4AFEE8BDAE632CF7897AC044F271* L_0 = ___0_value;
 		__this->___m_ARDebugMenu = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_ARDebugMenu), (void*)L_0);
@@ -28213,7 +26396,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_set_arDebugMenu_m7
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DebugSlider_tA600859221313A94DA826024E574C2E266D20C16* ARTemplateMenuManager_get_debugMenuSlider_mEADC537BE254781633DE4BBCF8D95DA5B7B5BE86 (ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:183>
 		DebugSlider_tA600859221313A94DA826024E574C2E266D20C16* L_0 = __this->___m_DebugMenuSlider;
 		return L_0;
 	}
@@ -28222,7 +26404,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DebugSlider_tA600859221313A94DA826024E574C2E2
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_set_debugMenuSlider_m80312CD8884559930D5586DAC8CC4A7FC97DFA0E (ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* __this, DebugSlider_tA600859221313A94DA826024E574C2E266D20C16* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:184>
 		DebugSlider_tA600859221313A94DA826024E574C2E266D20C16* L_0 = ___0_value;
 		__this->___m_DebugMenuSlider = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_DebugMenuSlider), (void*)L_0);
@@ -28233,7 +26414,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_set_debugMenuSlide
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0* ARTemplateMenuManager_get_tapStartPositionInput_m766DCF6BB7E4D2F6AF35B6148F42B49D4E97327C (ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:196>
 		XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0* L_0 = __this->___m_TapStartPositionInput;
 		return L_0;
 	}
@@ -28248,7 +26428,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_set_tapStartPositi
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:197>
 		XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0** L_0 = (XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0**)(&__this->___m_TapStartPositionInput);
 		XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0* L_1 = ___0_value;
 		XRInputReaderUtility_SetInputProperty_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_m0EF1C2CE77396319306FA2662E25B16EFC6074D2(L_0, L_1, __this, XRInputReaderUtility_SetInputProperty_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_m0EF1C2CE77396319306FA2662E25B16EFC6074D2_RuntimeMethod_var);
@@ -28259,7 +26438,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_set_tapStartPositi
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0* ARTemplateMenuManager_get_dragCurrentPositionInput_m4D53B25C9CF576D55AD4C70EB79C4CC709C1A9FC (ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:209>
 		XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0* L_0 = __this->___m_DragCurrentPositionInput;
 		return L_0;
 	}
@@ -28274,7 +26452,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_set_dragCurrentPos
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:210>
 		XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0** L_0 = (XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0**)(&__this->___m_DragCurrentPositionInput);
 		XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0* L_1 = ___0_value;
 		XRInputReaderUtility_SetInputProperty_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_m0EF1C2CE77396319306FA2662E25B16EFC6074D2(L_0, L_1, __this, XRInputReaderUtility_SetInputProperty_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_m0EF1C2CE77396319306FA2662E25B16EFC6074D2_RuntimeMethod_var);
@@ -28298,7 +26475,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_OnEnable_mE63D4E18
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:231>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_0 = __this->___m_CreateButton;
 		NullCheck(L_0);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_1;
@@ -28307,7 +26483,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_OnEnable_mE63D4E18
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_2, __this, (intptr_t)((void*)ARTemplateMenuManager_ShowMenu_mDB578D954CD0D2CFBADD6D10DA62CDB2BDCF2A4F_RuntimeMethod_var), NULL);
 		NullCheck(L_1);
 		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_1, L_2, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:232>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_3 = __this->___m_CancelButton;
 		NullCheck(L_3);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_4;
@@ -28316,7 +26491,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_OnEnable_mE63D4E18
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_5, __this, (intptr_t)((void*)ARTemplateMenuManager_HideMenu_m2D828D525C645048A2A93A43508D9D4E30A206D5_RuntimeMethod_var), NULL);
 		NullCheck(L_4);
 		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_4, L_5, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:233>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_6 = __this->___m_DeleteButton;
 		NullCheck(L_6);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_7;
@@ -28325,7 +26499,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_OnEnable_mE63D4E18
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_8, __this, (intptr_t)((void*)ARTemplateMenuManager_DeleteFocusedObject_mD129DEC369E92E8E6F808BF21B69AEB48ECD0714_RuntimeMethod_var), NULL);
 		NullCheck(L_7);
 		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_7, L_8, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:234>
 		ARPlaneManager_t9DA6C512BDCFFBEE8B3DAA7170EB3BFFDE26A928* L_9 = __this->___m_PlaneManager;
 		NullCheck(L_9);
 		UnityEvent_1_tA0DC665B6E1CCE7CDDE0EAE36D2294234A30D998* L_10;
@@ -28334,7 +26507,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_OnEnable_mE63D4E18
 		UnityAction_1__ctor_mC73CD5C8E98548CEA3E87C2E1A14B1F2A825365E(L_11, __this, (intptr_t)((void*)ARTemplateMenuManager_OnPlaneChanged_mC4C7B2EC4E6A847208902916F916037D6AA188D9_RuntimeMethod_var), NULL);
 		NullCheck(L_10);
 		UnityEvent_1_AddListener_m0E7576A2A31A1FF338177623DF253203C943A44C(L_10, L_11, UnityEvent_1_AddListener_m0E7576A2A31A1FF338177623DF253203C943A44C_RuntimeMethod_var);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:235>
 		return;
 	}
 }
@@ -28355,9 +26527,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_OnDisable_mB0F06A4
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:242>
 		__this->___m_ShowObjectMenu = (bool)0;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:243>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_0 = __this->___m_CreateButton;
 		NullCheck(L_0);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_1;
@@ -28366,7 +26536,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_OnDisable_mB0F06A4
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_2, __this, (intptr_t)((void*)ARTemplateMenuManager_ShowMenu_mDB578D954CD0D2CFBADD6D10DA62CDB2BDCF2A4F_RuntimeMethod_var), NULL);
 		NullCheck(L_1);
 		UnityEvent_RemoveListener_m0E138F5575CB4363019D3DA570E98FAD502B812C(L_1, L_2, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:244>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_3 = __this->___m_CancelButton;
 		NullCheck(L_3);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_4;
@@ -28375,7 +26544,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_OnDisable_mB0F06A4
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_5, __this, (intptr_t)((void*)ARTemplateMenuManager_HideMenu_m2D828D525C645048A2A93A43508D9D4E30A206D5_RuntimeMethod_var), NULL);
 		NullCheck(L_4);
 		UnityEvent_RemoveListener_m0E138F5575CB4363019D3DA570E98FAD502B812C(L_4, L_5, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:245>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_6 = __this->___m_DeleteButton;
 		NullCheck(L_6);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_7;
@@ -28384,7 +26552,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_OnDisable_mB0F06A4
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_8, __this, (intptr_t)((void*)ARTemplateMenuManager_DeleteFocusedObject_mD129DEC369E92E8E6F808BF21B69AEB48ECD0714_RuntimeMethod_var), NULL);
 		NullCheck(L_7);
 		UnityEvent_RemoveListener_m0E138F5575CB4363019D3DA570E98FAD502B812C(L_7, L_8, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:246>
 		ARPlaneManager_t9DA6C512BDCFFBEE8B3DAA7170EB3BFFDE26A928* L_9 = __this->___m_PlaneManager;
 		NullCheck(L_9);
 		UnityEvent_1_tA0DC665B6E1CCE7CDDE0EAE36D2294234A30D998* L_10;
@@ -28393,7 +26560,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_OnDisable_mB0F06A4
 		UnityAction_1__ctor_mC73CD5C8E98548CEA3E87C2E1A14B1F2A825365E(L_11, __this, (intptr_t)((void*)ARTemplateMenuManager_OnPlaneChanged_mC4C7B2EC4E6A847208902916F916037D6AA188D9_RuntimeMethod_var), NULL);
 		NullCheck(L_10);
 		UnityEvent_1_RemoveListener_m154FBBE6692205398C8FD29CFE58076BE2FE29E2(L_10, L_11, UnityEvent_1_RemoveListener_m154FBBE6692205398C8FD29CFE58076BE2FE29E2_RuntimeMethod_var);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:247>
 		return;
 	}
 }
@@ -28415,7 +26581,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_Start_m6020B2664A0
 	int32_t G_B8_0 = 0;
 	DebugSlider_tA600859221313A94DA826024E574C2E266D20C16* G_B8_1 = NULL;
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:256>
 		ARDebugMenu_t6C30A780EA1B4AFEE8BDAE632CF7897AC044F271* L_0 = __this->___m_ARDebugMenu;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -28426,24 +26591,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_Start_m6020B2664A0
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:258>
 		ARDebugMenu_t6C30A780EA1B4AFEE8BDAE632CF7897AC044F271* L_2 = __this->___m_ARDebugMenu;
 		NullCheck(L_2);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
 		L_3 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_2, NULL);
 		NullCheck(L_3);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_3, (bool)1, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:259>
 		__this->___m_InitializingDebugMenu = (bool)1;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:261>
 		ARTemplateMenuManager_InitializeDebugMenuOffsets_m938637767BF7A65C98324A8E13E496A1ED88E7BF(__this, NULL);
 	}
 
 IL_002c:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:264>
 		ARTemplateMenuManager_HideMenu_m2D828D525C645048A2A93A43508D9D4E30A206D5(__this, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:266>
 		DebugSlider_tA600859221313A94DA826024E574C2E266D20C16* L_4 = __this->___m_DebugMenuSlider;
 		bool L_5 = __this->___m_ShowDebugMenu;
 		if (L_5)
@@ -28469,7 +26629,6 @@ IL_0044:
 	{
 		NullCheck(G_B5_1);
 		VirtualActionInvoker1< float >::Invoke(47, G_B5_1, ((float)G_B5_0));
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:267>
 		DebugSlider_tA600859221313A94DA826024E574C2E266D20C16* L_6 = __this->___m_DebugPlaneSlider;
 		bool L_7 = __this->___m_VisualizePlanes;
 		if (L_7)
@@ -28495,7 +26654,6 @@ IL_005c:
 	{
 		NullCheck(G_B8_1);
 		VirtualActionInvoker1< float >::Invoke(47, G_B8_1, ((float)G_B8_0));
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:268>
 		return;
 	}
 }
@@ -28533,7 +26691,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_Update_m41A25E7691
 	int32_t G_B30_0 = 0;
 	ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* G_B30_1 = NULL;
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:275>
 		bool L_0 = __this->___m_InitializingDebugMenu;
 		if (!L_0)
 		{
@@ -28541,20 +26698,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_Update_m41A25E7691
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:277>
 		ARDebugMenu_t6C30A780EA1B4AFEE8BDAE632CF7897AC044F271* L_1 = __this->___m_ARDebugMenu;
 		NullCheck(L_1);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2;
 		L_2 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_1, NULL);
 		NullCheck(L_2);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_2, (bool)0, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:278>
 		__this->___m_InitializingDebugMenu = (bool)0;
 	}
 
 IL_0020:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:281>
 		bool L_3 = __this->___m_ShowObjectMenu;
 		if (L_3)
 		{
@@ -28571,7 +26725,6 @@ IL_0020:
 
 IL_0033:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:283>
 		bool L_5 = __this->___m_IsPointerOverUI;
 		if (L_5)
 		{
@@ -28601,7 +26754,6 @@ IL_0033:
 
 IL_0059:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:285>
 		bool L_10 = __this->___m_ShowObjectMenu;
 		if (!L_10)
 		{
@@ -28609,13 +26761,11 @@ IL_0059:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:286>
 		ARTemplateMenuManager_HideMenu_m2D828D525C645048A2A93A43508D9D4E30A206D5(__this, NULL);
 	}
 
 IL_0067:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:288>
 		bool L_11 = __this->___m_ShowOptionsModal;
 		if (!L_11)
 		{
@@ -28623,7 +26773,6 @@ IL_0067:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:289>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12 = __this->___m_ModalMenu;
 		NullCheck(L_12);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_12, (bool)0, NULL);
@@ -28631,7 +26780,6 @@ IL_0067:
 
 IL_007b:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:292>
 		bool L_13 = __this->___m_ShowObjectMenu;
 		if (!L_13)
 		{
@@ -28639,7 +26787,6 @@ IL_007b:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:294>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_14 = __this->___m_DeleteButton;
 		NullCheck(L_14);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15;
@@ -28651,7 +26798,6 @@ IL_007b:
 
 IL_0096:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:298>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_16 = __this->___m_DeleteButton;
 		NullCheck(L_16);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_17;
@@ -28690,7 +26836,6 @@ IL_00b3:
 
 IL_00bb:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:301>
 		il2cpp_codegen_runtime_class_init_inline(EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707_il2cpp_TypeInfo_var);
 		EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* L_21;
 		L_21 = EventSystem_get_current_mC87C69FB418563DC2A571A10E2F9DB59A6785016(NULL);
@@ -28731,16 +26876,13 @@ IL_00d7:
 
 IL_00de:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:305>
 		__this->___m_IsPointerOverUI = (bool)0;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:306>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_25 = __this->___m_CreateButton;
 		NullCheck(L_25);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_26;
 		L_26 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_25, NULL);
 		NullCheck(L_26);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_26, (bool)1, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:307>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_27 = __this->___m_DeleteButton;
 		NullCheck(L_27);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_28;
@@ -28779,7 +26921,6 @@ IL_0113:
 
 IL_011b:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:310>
 		bool L_32 = __this->___m_IsPointerOverUI;
 		if (L_32)
 		{
@@ -28794,7 +26935,6 @@ IL_011b:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:312>
 		il2cpp_codegen_runtime_class_init_inline(EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707_il2cpp_TypeInfo_var);
 		EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* L_34;
 		L_34 = EventSystem_get_current_mC87C69FB418563DC2A571A10E2F9DB59A6785016(NULL);
@@ -28834,7 +26974,6 @@ IL_0147:
 
 IL_014c:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:314>
 		return;
 	}
 }
@@ -28852,7 +26991,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_SetObjectToSpawn_m
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:323>
 		ObjectSpawner_t5ACB5F84845F9E874424BADB585AB17DD4644111* L_0 = __this->___m_ObjectSpawner;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -28863,7 +27001,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_SetObjectToSpawn_m
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:325>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteral097F37F3ED2CFD2A42AD5A1A9DB967264145EEB3, NULL);
 		goto IL_0045;
@@ -28871,7 +27008,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_SetObjectToSpawn_m
 
 IL_001a:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:329>
 		ObjectSpawner_t5ACB5F84845F9E874424BADB585AB17DD4644111* L_2 = __this->___m_ObjectSpawner;
 		NullCheck(L_2);
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_3;
@@ -28886,7 +27022,6 @@ IL_001a:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:331>
 		ObjectSpawner_t5ACB5F84845F9E874424BADB585AB17DD4644111* L_6 = __this->___m_ObjectSpawner;
 		int32_t L_7 = ___0_objectIndex;
 		NullCheck(L_6);
@@ -28896,16 +27031,13 @@ IL_001a:
 
 IL_003b:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:335>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteralA852FE3BCFA60509BB6A26DB0CF77DFF88536BDB, NULL);
 	}
 
 IL_0045:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:339>
 		ARTemplateMenuManager_HideMenu_m2D828D525C645048A2A93A43508D9D4E30A206D5(__this, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:340>
 		return;
 	}
 }
@@ -28919,13 +27051,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_ShowMenu_mDB578D95
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:344>
 		__this->___m_ShowObjectMenu = (bool)1;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:345>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___m_ObjectMenu;
 		NullCheck(L_0);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)1, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:346>
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_1 = __this->___m_ObjectMenuAnimator;
 		NullCheck(L_1);
 		bool L_2;
@@ -28936,7 +27065,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_ShowMenu_mDB578D95
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:348>
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_3 = __this->___m_ObjectMenuAnimator;
 		NullCheck(L_3);
 		Animator_SetBool_m6F8D4FAF0770CD4EC1F54406249785DE7391E42B(L_3, _stringLiteralBEF1F71BD3C21C53860EC6863B3105336E4D873B, (bool)1, NULL);
@@ -28944,9 +27072,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_ShowMenu_mDB578D95
 
 IL_0036:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:350>
 		ARTemplateMenuManager_AdjustARDebugMenuPosition_m15BCD49D43DB9A623208862E7D0EACA7A31465BF(__this, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:351>
 		return;
 	}
 }
@@ -28954,7 +27080,6 @@ IL_0036:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_ShowHideModal_m6575D99605DB1537DAB40008DA7200705EE28D7B (ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:358>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___m_ModalMenu;
 		NullCheck(L_0);
 		bool L_1;
@@ -28965,9 +27090,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_ShowHideModal_m657
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:360>
 		__this->___m_ShowOptionsModal = (bool)0;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:361>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___m_ModalMenu;
 		NullCheck(L_2);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_2, (bool)0, NULL);
@@ -28976,13 +27099,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_ShowHideModal_m657
 
 IL_0021:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:365>
 		__this->___m_ShowOptionsModal = (bool)1;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:366>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = __this->___m_ModalMenu;
 		NullCheck(L_3);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_3, (bool)1, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:368>
 		return;
 	}
 }
@@ -28994,10 +27114,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_ShowHideDebugPlane
 	int32_t G_B3_0 = 0;
 	DebugSlider_tA600859221313A94DA826024E574C2E266D20C16* G_B3_1 = NULL;
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:375>
 		bool L_0 = __this->___m_VisualizePlanes;
 		__this->___m_VisualizePlanes = (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:376>
 		DebugSlider_tA600859221313A94DA826024E574C2E266D20C16* L_1 = __this->___m_DebugPlaneSlider;
 		bool L_2 = __this->___m_VisualizePlanes;
 		if (L_2)
@@ -29023,10 +27141,8 @@ IL_0021:
 	{
 		NullCheck(G_B3_1);
 		VirtualActionInvoker1< float >::Invoke(47, G_B3_1, ((float)G_B3_0));
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:377>
 		bool L_3 = __this->___m_VisualizePlanes;
 		ARTemplateMenuManager_ChangePlaneVisibility_m239F74ABC468ED2CE35CCF1B4F81CA55C7BF6A5E(__this, L_3, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:378>
 		return;
 	}
 }
@@ -29038,10 +27154,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_ShowHideDebugMenu_
 	int32_t G_B3_0 = 0;
 	DebugSlider_tA600859221313A94DA826024E574C2E266D20C16* G_B3_1 = NULL;
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:385>
 		bool L_0 = __this->___m_ShowDebugMenu;
 		__this->___m_ShowDebugMenu = (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:386>
 		DebugSlider_tA600859221313A94DA826024E574C2E266D20C16* L_1 = __this->___m_DebugMenuSlider;
 		bool L_2 = __this->___m_ShowDebugMenu;
 		if (L_2)
@@ -29067,7 +27181,6 @@ IL_0021:
 	{
 		NullCheck(G_B3_1);
 		VirtualActionInvoker1< float >::Invoke(47, G_B3_1, ((float)G_B3_0));
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:395>
 		bool L_3 = __this->___m_ShowDebugMenu;
 		if (!L_3)
 		{
@@ -29075,16 +27188,13 @@ IL_0021:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:397>
 		ARDebugMenu_t6C30A780EA1B4AFEE8BDAE632CF7897AC044F271* L_4 = __this->___m_ARDebugMenu;
 		NullCheck(L_4);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5;
 		L_5 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_4, NULL);
 		NullCheck(L_5);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_5, (bool)1, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:398>
 		ARTemplateMenuManager_AdjustARDebugMenuPosition_m15BCD49D43DB9A623208862E7D0EACA7A31465BF(__this, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:399>
 		ARDebugMenu_t6C30A780EA1B4AFEE8BDAE632CF7897AC044F271* L_6 = __this->___m_ARDebugMenu;
 		NullCheck(L_6);
 		DebugSlider_tA600859221313A94DA826024E574C2E266D20C16* L_7;
@@ -29099,7 +27209,6 @@ IL_0021:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:400>
 		ARDebugMenu_t6C30A780EA1B4AFEE8BDAE632CF7897AC044F271* L_10 = __this->___m_ARDebugMenu;
 		NullCheck(L_10);
 		DebugSlider_tA600859221313A94DA826024E574C2E266D20C16* L_11;
@@ -29112,7 +27221,6 @@ IL_0021:
 
 IL_0075:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:404>
 		ARDebugMenu_t6C30A780EA1B4AFEE8BDAE632CF7897AC044F271* L_13 = __this->___m_ARDebugMenu;
 		NullCheck(L_13);
 		DebugSlider_tA600859221313A94DA826024E574C2E266D20C16* L_14;
@@ -29121,7 +27229,6 @@ IL_0075:
 		float L_15;
 		L_15 = VirtualFuncInvoker0< float >::Invoke(46, L_14);
 		__this->___m_DebugMenuPlanesButtonValue = L_15;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:405>
 		float L_16 = __this->___m_DebugMenuPlanesButtonValue;
 		if ((!(((float)L_16) == ((float)(1.0f)))))
 		{
@@ -29129,7 +27236,6 @@ IL_0075:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:406>
 		ARDebugMenu_t6C30A780EA1B4AFEE8BDAE632CF7897AC044F271* L_17 = __this->___m_ARDebugMenu;
 		NullCheck(L_17);
 		DebugSlider_tA600859221313A94DA826024E574C2E266D20C16* L_18;
@@ -29140,7 +27246,6 @@ IL_0075:
 
 IL_00ad:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:408>
 		ARDebugMenu_t6C30A780EA1B4AFEE8BDAE632CF7897AC044F271* L_19 = __this->___m_ARDebugMenu;
 		NullCheck(L_19);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_20;
@@ -29151,7 +27256,6 @@ IL_00ad:
 
 IL_00be:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:410>
 		return;
 	}
 }
@@ -29170,7 +27274,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_ClearAllObjects_m1
 	RuntimeObject* V_0 = NULL;
 	RuntimeObject* V_1 = NULL;
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:417>
 		ObjectSpawner_t5ACB5F84845F9E874424BADB585AB17DD4644111* L_0 = __this->___m_ObjectSpawner;
 		NullCheck(L_0);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
@@ -29215,12 +27318,10 @@ IL_0042:
 
 IL_0013_1:
 			{
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:417>
 				RuntimeObject* L_6 = V_0;
 				NullCheck(L_6);
 				RuntimeObject* L_7;
 				L_7 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(1, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, L_6);
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:419>
 				NullCheck(((Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)CastclassClass((RuntimeObject*)L_7, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1_il2cpp_TypeInfo_var)));
 				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8;
 				L_8 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(((Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)CastclassClass((RuntimeObject*)L_7, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1_il2cpp_TypeInfo_var)), NULL);
@@ -29230,7 +27331,6 @@ IL_0013_1:
 
 IL_0028_1:
 			{
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:417>
 				RuntimeObject* L_9 = V_0;
 				NullCheck(L_9);
 				bool L_10;
@@ -29252,7 +27352,6 @@ IL_0028_1:
 
 IL_0043:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:421>
 		return;
 	}
 }
@@ -29266,15 +27365,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_HideMenu_m2D828D52
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:428>
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_0 = __this->___m_ObjectMenuAnimator;
 		NullCheck(L_0);
 		Animator_SetBool_m6F8D4FAF0770CD4EC1F54406249785DE7391E42B(L_0, _stringLiteralBEF1F71BD3C21C53860EC6863B3105336E4D873B, (bool)0, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:429>
 		__this->___m_ShowObjectMenu = (bool)0;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:430>
 		ARTemplateMenuManager_AdjustARDebugMenuPosition_m15BCD49D43DB9A623208862E7D0EACA7A31465BF(__this, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:431>
 		return;
 	}
 }
@@ -29302,7 +27397,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_ChangePlaneVisibil
 	int32_t G_B6_0 = 0;
 	ARPlaneMeshVisualizer_t21838C8E2676AC524939E67CB965925E924E018F* G_B6_1 = NULL;
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:435>
 		List_1_t10BA05B555C92BD54800DFF82DCAAFC9DE44A077* L_0 = __this->___m_ARPlanes;
 		NullCheck(L_0);
 		Enumerator_tE6027E77A238CF9E57EA53CFB63F856D3AF2CDA3 L_1;
@@ -29327,11 +27421,9 @@ FINALLY_006f:
 
 IL_000e_1:
 			{
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:435>
 				ARPlane_tB2F02248AD4019D141553B25C1B9005913E98EF0* L_2;
 				L_2 = Enumerator_get_Current_mB0E34D608F82F52A9D1FB954D259C3B5AE40EEBA_inline((&V_0), Enumerator_get_Current_mB0E34D608F82F52A9D1FB954D259C3B5AE40EEBA_RuntimeMethod_var);
 				V_1 = L_2;
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:437>
 				Dictionary_2_t83AA7C7AB492C46D749D8888471CCA31450E89BB* L_3 = __this->___m_ARPlaneMeshVisualizers;
 				ARPlane_tB2F02248AD4019D141553B25C1B9005913E98EF0* L_4 = V_1;
 				NullCheck(L_3);
@@ -29343,7 +27435,6 @@ IL_000e_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:439>
 				ARPlaneMeshVisualizer_t21838C8E2676AC524939E67CB965925E924E018F* L_6 = V_2;
 				bool L_7 = __this->___m_UseARPlaneFading;
 				if (L_7)
@@ -29374,7 +27465,6 @@ IL_0033_1:
 
 IL_0038_1:
 			{
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:442>
 				Dictionary_2_t34E71F5B01DCFB4F948FEE124671D9C5832E00F5* L_9 = __this->___m_ARPlaneMeshVisualizerFaders;
 				ARPlane_tB2F02248AD4019D141553B25C1B9005913E98EF0* L_10 = V_1;
 				NullCheck(L_9);
@@ -29386,7 +27476,6 @@ IL_0038_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:444>
 				bool L_12 = __this->___m_UseARPlaneFading;
 				if (!L_12)
 				{
@@ -29394,7 +27483,6 @@ IL_0038_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:445>
 				ARPlaneMeshVisualizerFader_t463985F5CC9F0F5F9C40E10F4E83A37BC2CEFEEC* L_13 = V_3;
 				bool L_14 = ___0_setVisible;
 				NullCheck(L_13);
@@ -29404,7 +27492,6 @@ IL_0038_1:
 
 IL_0059_1:
 			{
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:447>
 				ARPlaneMeshVisualizerFader_t463985F5CC9F0F5F9C40E10F4E83A37BC2CEFEEC* L_15 = V_3;
 				NullCheck(L_15);
 				ARPlaneMeshVisualizerFader_SetVisualsImmediate_mD5E2370C97439CABCA623A48CD81AE8F0ECC041B(L_15, (1.0f), NULL);
@@ -29412,7 +27499,6 @@ IL_0059_1:
 
 IL_0064_1:
 			{
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:435>
 				bool L_16;
 				L_16 = Enumerator_MoveNext_mBEBCACB1FE02CD96775C47002B58503777719BFD((&V_0), Enumerator_MoveNext_mBEBCACB1FE02CD96775C47002B58503777719BFD_RuntimeMethod_var);
 				if (L_16)
@@ -29432,7 +27518,6 @@ IL_0064_1:
 
 IL_007d:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:450>
 		return;
 	}
 }
@@ -29448,13 +27533,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_DeleteFocusedObjec
 	}
 	RuntimeObject* V_0 = NULL;
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:454>
 		XRInteractionGroup_tC4826C686618B4D279303C4A8CF660C39E8AE91C* L_0 = __this->___m_InteractionGroup;
 		NullCheck(L_0);
 		RuntimeObject* L_1;
 		L_1 = XRInteractionGroup_get_focusInteractable_m1EAC5783216B14458479D0E43708E18A8CE95A61_inline(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:455>
 		RuntimeObject* L_2 = V_0;
 		if (!L_2)
 		{
@@ -29462,7 +27545,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_DeleteFocusedObjec
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:457>
 		RuntimeObject* L_3 = V_0;
 		NullCheck(L_3);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4;
@@ -29476,7 +27558,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_DeleteFocusedObjec
 
 IL_001f:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:459>
 		return;
 	}
 }
@@ -29495,7 +27576,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_InitializeDebugMen
 	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D V_2;
 	memset((&V_2), 0, sizeof(V_2));
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:463>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_0 = __this->___m_CreateButton;
 		NullCheck(L_0);
 		bool L_1;
@@ -29506,7 +27586,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_InitializeDebugMen
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:464>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_2 = V_0;
 		NullCheck(L_2);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_3;
@@ -29528,7 +27607,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_InitializeDebugMen
 
 IL_0041:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:466>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_9;
 		memset((&L_9), 0, sizeof(L_9));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_9), (0.0f), (200.0f), NULL);
@@ -29537,7 +27615,6 @@ IL_0041:
 
 IL_0056:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:468>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = __this->___m_ObjectMenu;
 		NullCheck(L_10);
 		bool L_11;
@@ -29548,7 +27625,6 @@ IL_0056:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:469>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_12 = V_1;
 		NullCheck(L_12);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_13;
@@ -29570,12 +27646,10 @@ IL_0056:
 
 IL_0096:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:471>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_19;
 		memset((&L_19), 0, sizeof(L_19));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_19), (0.0f), (345.0f), NULL);
 		__this->___m_ObjectMenuOffset = L_19;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:472>
 		return;
 	}
 }
@@ -29604,7 +27678,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_AdjustARDebugMenuP
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 G_B6_0;
 	memset((&G_B6_0), 0, sizeof(G_B6_0));
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:476>
 		ARDebugMenu_t6C30A780EA1B4AFEE8BDAE632CF7897AC044F271* L_0 = __this->___m_ARDebugMenu;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -29615,25 +27688,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_AdjustARDebugMenuP
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:477>
 		return;
 	}
 
 IL_000f:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:479>
 		int32_t L_2;
 		L_2 = Screen_get_width_mF608FF3252213E7EFA1F0D2F744C28110E9E5AC9(NULL);
 		float L_3;
 		L_3 = Screen_get_dpi_mEEDAA2189F84A47BD69D62A611E031D5C59CFE8E(NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:481>
 		if ((!(((float)((float)(((float)L_2)/L_3))) < ((float)(5.0f)))))
 		{
 			goto IL_0371;
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:483>
 		bool L_4 = __this->___m_ShowObjectMenu;
 		if (L_4)
 		{
@@ -29655,7 +27724,6 @@ IL_0035:
 IL_003b:
 	{
 		V_0 = G_B6_0;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:485>
 		ARDebugMenu_t6C30A780EA1B4AFEE8BDAE632CF7897AC044F271* L_7 = __this->___m_ARDebugMenu;
 		NullCheck(L_7);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8;
@@ -29669,21 +27737,18 @@ IL_003b:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:487>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_10 = V_1;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_11;
 		memset((&L_11), 0, sizeof(L_11));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_11), (0.5f), (0.0f), NULL);
 		NullCheck(L_10);
 		RectTransform_set_anchorMin_m931442ABE3368D6D4309F43DF1D64AB64B0F52E3(L_10, L_11, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:488>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_12 = V_1;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_13;
 		memset((&L_13), 0, sizeof(L_13));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_13), (0.5f), (0.0f), NULL);
 		NullCheck(L_12);
 		RectTransform_set_anchorMax_m52829ABEDD229ABD3DA20BCA676FA1DCA4A39B7D(L_12, L_13, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:489>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_14 = V_1;
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_15 = V_1;
 		NullCheck(L_15);
@@ -29700,7 +27765,6 @@ IL_003b:
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_21), L_17, L_20, (90.0f), NULL);
 		NullCheck(L_14);
 		Transform_set_eulerAngles_m9F0BC484A7915A51FAB87230644229B75BACA004(L_14, L_21, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:490>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_22 = V_1;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_23;
 		memset((&L_23), 0, sizeof(L_23));
@@ -29714,7 +27778,6 @@ IL_003b:
 
 IL_00bb:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:493>
 		ARDebugMenu_t6C30A780EA1B4AFEE8BDAE632CF7897AC044F271* L_26 = __this->___m_ARDebugMenu;
 		NullCheck(L_26);
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_27;
@@ -29728,7 +27791,6 @@ IL_00bb:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:494>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_29 = V_2;
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_30 = V_2;
 		NullCheck(L_30);
@@ -29749,7 +27811,6 @@ IL_00bb:
 
 IL_00f5:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:496>
 		ARDebugMenu_t6C30A780EA1B4AFEE8BDAE632CF7897AC044F271* L_37 = __this->___m_ARDebugMenu;
 		NullCheck(L_37);
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_38;
@@ -29763,7 +27824,6 @@ IL_00f5:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:497>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_40 = V_3;
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_41 = V_3;
 		NullCheck(L_41);
@@ -29784,7 +27844,6 @@ IL_00f5:
 
 IL_012f:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:499>
 		ARDebugMenu_t6C30A780EA1B4AFEE8BDAE632CF7897AC044F271* L_48 = __this->___m_ARDebugMenu;
 		NullCheck(L_48);
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_49;
@@ -29798,7 +27857,6 @@ IL_012f:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:500>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_51 = V_4;
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_52 = V_4;
 		NullCheck(L_52);
@@ -29819,7 +27877,6 @@ IL_012f:
 
 IL_016c:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:502>
 		ARDebugMenu_t6C30A780EA1B4AFEE8BDAE632CF7897AC044F271* L_59 = __this->___m_ARDebugMenu;
 		NullCheck(L_59);
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_60;
@@ -29833,7 +27890,6 @@ IL_016c:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:503>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_62 = V_5;
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_63 = V_5;
 		NullCheck(L_63);
@@ -29854,7 +27910,6 @@ IL_016c:
 
 IL_01a9:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:505>
 		ARDebugMenu_t6C30A780EA1B4AFEE8BDAE632CF7897AC044F271* L_70 = __this->___m_ARDebugMenu;
 		NullCheck(L_70);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_71;
@@ -29868,28 +27923,24 @@ IL_01a9:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:507>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_73 = V_6;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_74;
 		memset((&L_74), 0, sizeof(L_74));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_74), (0.5f), (0.0f), NULL);
 		NullCheck(L_73);
 		RectTransform_set_anchorMin_m931442ABE3368D6D4309F43DF1D64AB64B0F52E3(L_73, L_74, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:508>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_75 = V_6;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_76;
 		memset((&L_76), 0, sizeof(L_76));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_76), (0.5f), (0.0f), NULL);
 		NullCheck(L_75);
 		RectTransform_set_anchorMax_m52829ABEDD229ABD3DA20BCA676FA1DCA4A39B7D(L_75, L_76, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:509>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_77 = V_6;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_78;
 		memset((&L_78), 0, sizeof(L_78));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_78), (0.5f), (0.0f), NULL);
 		NullCheck(L_77);
 		RectTransform_set_pivot_m79D0177D383D432A93C2615F1932B739B1C6E146(L_77, L_78, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:510>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_79 = V_6;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_80;
 		memset((&L_80), 0, sizeof(L_80));
@@ -29903,7 +27954,6 @@ IL_01a9:
 
 IL_021b:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:513>
 		ARDebugMenu_t6C30A780EA1B4AFEE8BDAE632CF7897AC044F271* L_83 = __this->___m_ARDebugMenu;
 		NullCheck(L_83);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_84;
@@ -29917,28 +27967,24 @@ IL_021b:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:515>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_86 = V_7;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_87;
 		memset((&L_87), 0, sizeof(L_87));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_87), (0.5f), (0.0f), NULL);
 		NullCheck(L_86);
 		RectTransform_set_anchorMin_m931442ABE3368D6D4309F43DF1D64AB64B0F52E3(L_86, L_87, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:516>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_88 = V_7;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_89;
 		memset((&L_89), 0, sizeof(L_89));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_89), (0.5f), (0.0f), NULL);
 		NullCheck(L_88);
 		RectTransform_set_anchorMax_m52829ABEDD229ABD3DA20BCA676FA1DCA4A39B7D(L_88, L_89, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:517>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_90 = V_7;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_91;
 		memset((&L_91), 0, sizeof(L_91));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_91), (0.5f), (0.0f), NULL);
 		NullCheck(L_90);
 		RectTransform_set_pivot_m79D0177D383D432A93C2615F1932B739B1C6E146(L_90, L_91, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:518>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_92 = V_7;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_93;
 		memset((&L_93), 0, sizeof(L_93));
@@ -29952,7 +27998,6 @@ IL_021b:
 
 IL_028d:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:521>
 		ARDebugMenu_t6C30A780EA1B4AFEE8BDAE632CF7897AC044F271* L_96 = __this->___m_ARDebugMenu;
 		NullCheck(L_96);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_97;
@@ -29966,28 +28011,24 @@ IL_028d:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:523>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_99 = V_8;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_100;
 		memset((&L_100), 0, sizeof(L_100));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_100), (0.5f), (0.0f), NULL);
 		NullCheck(L_99);
 		RectTransform_set_anchorMin_m931442ABE3368D6D4309F43DF1D64AB64B0F52E3(L_99, L_100, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:524>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_101 = V_8;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_102;
 		memset((&L_102), 0, sizeof(L_102));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_102), (0.5f), (0.0f), NULL);
 		NullCheck(L_101);
 		RectTransform_set_anchorMax_m52829ABEDD229ABD3DA20BCA676FA1DCA4A39B7D(L_101, L_102, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:525>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_103 = V_8;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_104;
 		memset((&L_104), 0, sizeof(L_104));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_104), (0.5f), (0.0f), NULL);
 		NullCheck(L_103);
 		RectTransform_set_pivot_m79D0177D383D432A93C2615F1932B739B1C6E146(L_103, L_104, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:526>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_105 = V_8;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_106;
 		memset((&L_106), 0, sizeof(L_106));
@@ -30001,7 +28042,6 @@ IL_028d:
 
 IL_02ff:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:529>
 		ARDebugMenu_t6C30A780EA1B4AFEE8BDAE632CF7897AC044F271* L_109 = __this->___m_ARDebugMenu;
 		NullCheck(L_109);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_110;
@@ -30015,28 +28055,24 @@ IL_02ff:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:531>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_112 = V_9;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_113;
 		memset((&L_113), 0, sizeof(L_113));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_113), (0.5f), (0.0f), NULL);
 		NullCheck(L_112);
 		RectTransform_set_anchorMin_m931442ABE3368D6D4309F43DF1D64AB64B0F52E3(L_112, L_113, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:532>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_114 = V_9;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_115;
 		memset((&L_115), 0, sizeof(L_115));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_115), (0.5f), (0.0f), NULL);
 		NullCheck(L_114);
 		RectTransform_set_anchorMax_m52829ABEDD229ABD3DA20BCA676FA1DCA4A39B7D(L_114, L_115, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:533>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_116 = V_9;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_117;
 		memset((&L_117), 0, sizeof(L_117));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_117), (0.5f), (0.0f), NULL);
 		NullCheck(L_116);
 		RectTransform_set_pivot_m79D0177D383D432A93C2615F1932B739B1C6E146(L_116, L_117, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:534>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_118 = V_9;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_119;
 		memset((&L_119), 0, sizeof(L_119));
@@ -30050,7 +28086,6 @@ IL_02ff:
 
 IL_0371:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:537>
 		return;
 	}
 }
@@ -30115,7 +28150,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_OnPlaneChanged_mC4
 	ARPlaneMeshVisualizer_t21838C8E2676AC524939E67CB965925E924E018F* V_10 = NULL;
 	ARPlaneMeshVisualizerFader_t463985F5CC9F0F5F9C40E10F4E83A37BC2CEFEEC* V_11 = NULL;
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:541>
 		ReadOnlyList_1_tAD2B36DC226E32782EDF527D5E5702E48CB7D476* L_0;
 		L_0 = ARTrackablesChangedEventArgs_1_get_added_m2CE7C7AE5B3986DC318625D88490B36F8E4D9664_inline((&___0_eventArgs), ARTrackablesChangedEventArgs_1_get_added_m2CE7C7AE5B3986DC318625D88490B36F8E4D9664_RuntimeMethod_var);
 		NullCheck(L_0);
@@ -30127,7 +28161,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager_OnPlaneChanged_mC4
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:543>
 		ReadOnlyList_1_tAD2B36DC226E32782EDF527D5E5702E48CB7D476* L_2;
 		L_2 = ARTrackablesChangedEventArgs_1_get_added_m2CE7C7AE5B3986DC318625D88490B36F8E4D9664_inline((&___0_eventArgs), ARTrackablesChangedEventArgs_1_get_added_m2CE7C7AE5B3986DC318625D88490B36F8E4D9664_RuntimeMethod_var);
 		NullCheck(L_2);
@@ -30153,16 +28186,13 @@ FINALLY_009a:
 
 IL_0021_1:
 			{
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:543>
 				ARPlane_tB2F02248AD4019D141553B25C1B9005913E98EF0* L_4;
 				L_4 = Enumerator_get_Current_mB0E34D608F82F52A9D1FB954D259C3B5AE40EEBA_inline((&V_0), Enumerator_get_Current_mB0E34D608F82F52A9D1FB954D259C3B5AE40EEBA_RuntimeMethod_var);
 				V_1 = L_4;
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:545>
 				List_1_t10BA05B555C92BD54800DFF82DCAAFC9DE44A077* L_5 = __this->___m_ARPlanes;
 				ARPlane_tB2F02248AD4019D141553B25C1B9005913E98EF0* L_6 = V_1;
 				NullCheck(L_5);
 				List_1_Add_m25DC1B85040F2EEFCA32A8B893EFDFFF246EE1FF_inline(L_5, L_6, List_1_Add_m25DC1B85040F2EEFCA32A8B893EFDFFF246EE1FF_RuntimeMethod_var);
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:546>
 				ARPlane_tB2F02248AD4019D141553B25C1B9005913E98EF0* L_7 = V_1;
 				NullCheck(L_7);
 				bool L_8;
@@ -30173,13 +28203,11 @@ IL_0021_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:548>
 				Dictionary_2_t83AA7C7AB492C46D749D8888471CCA31450E89BB* L_9 = __this->___m_ARPlaneMeshVisualizers;
 				ARPlane_tB2F02248AD4019D141553B25C1B9005913E98EF0* L_10 = V_1;
 				ARPlaneMeshVisualizer_t21838C8E2676AC524939E67CB965925E924E018F* L_11 = V_2;
 				NullCheck(L_9);
 				Dictionary_2_Add_mC59DB0831897B947EB077CF4B07E674ABF037789(L_9, L_10, L_11, Dictionary_2_Add_mC59DB0831897B947EB077CF4B07E674ABF037789_RuntimeMethod_var);
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:549>
 				bool L_12 = __this->___m_UseARPlaneFading;
 				if (L_12)
 				{
@@ -30187,7 +28215,6 @@ IL_0021_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:551>
 				ARPlaneMeshVisualizer_t21838C8E2676AC524939E67CB965925E924E018F* L_13 = V_2;
 				bool L_14 = __this->___m_VisualizePlanes;
 				NullCheck(L_13);
@@ -30196,7 +28223,6 @@ IL_0021_1:
 
 IL_0060_1:
 			{
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:555>
 				ARPlane_tB2F02248AD4019D141553B25C1B9005913E98EF0* L_15 = V_1;
 				NullCheck(L_15);
 				bool L_16;
@@ -30207,7 +28233,6 @@ IL_0060_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:557>
 				ARPlane_tB2F02248AD4019D141553B25C1B9005913E98EF0* L_17 = V_1;
 				NullCheck(L_17);
 				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_18;
@@ -30220,13 +28245,11 @@ IL_0060_1:
 
 IL_0076_1:
 			{
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:559>
 				Dictionary_2_t34E71F5B01DCFB4F948FEE124671D9C5832E00F5* L_20 = __this->___m_ARPlaneMeshVisualizerFaders;
 				ARPlane_tB2F02248AD4019D141553B25C1B9005913E98EF0* L_21 = V_1;
 				ARPlaneMeshVisualizerFader_t463985F5CC9F0F5F9C40E10F4E83A37BC2CEFEEC* L_22 = V_3;
 				NullCheck(L_20);
 				Dictionary_2_Add_m5614FD769FB861718711F80F4E225A369118FFF0(L_20, L_21, L_22, Dictionary_2_Add_m5614FD769FB861718711F80F4E225A369118FFF0_RuntimeMethod_var);
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:560>
 				ARPlaneMeshVisualizerFader_t463985F5CC9F0F5F9C40E10F4E83A37BC2CEFEEC* L_23 = V_3;
 				bool L_24 = __this->___m_VisualizePlanes;
 				NullCheck(L_23);
@@ -30235,7 +28258,6 @@ IL_0076_1:
 
 IL_008f_1:
 			{
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:543>
 				bool L_25;
 				L_25 = Enumerator_MoveNext_mBEBCACB1FE02CD96775C47002B58503777719BFD((&V_0), Enumerator_MoveNext_mBEBCACB1FE02CD96775C47002B58503777719BFD_RuntimeMethod_var);
 				if (L_25)
@@ -30255,7 +28277,6 @@ IL_008f_1:
 
 IL_00a8:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:564>
 		ReadOnlyList_1_t735C0285ED386FDA71AE395687A37934B79B4D68* L_26;
 		L_26 = ARTrackablesChangedEventArgs_1_get_removed_m9BF99D9C873BF31176456350C76D7CD1DB160F19_inline((&___0_eventArgs), ARTrackablesChangedEventArgs_1_get_removed_m9BF99D9C873BF31176456350C76D7CD1DB160F19_RuntimeMethod_var);
 		NullCheck(L_26);
@@ -30267,7 +28288,6 @@ IL_00a8:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:566>
 		ReadOnlyList_1_t735C0285ED386FDA71AE395687A37934B79B4D68* L_28;
 		L_28 = ARTrackablesChangedEventArgs_1_get_removed_m9BF99D9C873BF31176456350C76D7CD1DB160F19_inline((&___0_eventArgs), ARTrackablesChangedEventArgs_1_get_removed_m9BF99D9C873BF31176456350C76D7CD1DB160F19_RuntimeMethod_var);
 		NullCheck(L_28);
@@ -30293,15 +28313,12 @@ FINALLY_0148:
 
 IL_00ca_1:
 			{
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:566>
 				KeyValuePair_2_tF4103E1E436E82040535A2C299BE9A183DB1BCA6 L_30;
 				L_30 = Enumerator_get_Current_m65257BBB1921E8492B7AA4E2ACA0AA7D61455DC9_inline((&V_4), Enumerator_get_Current_m65257BBB1921E8492B7AA4E2ACA0AA7D61455DC9_RuntimeMethod_var);
 				V_5 = L_30;
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:568>
 				ARPlane_tB2F02248AD4019D141553B25C1B9005913E98EF0* L_31;
 				L_31 = KeyValuePair_2_get_Value_m8EE4758FF28E491A8B62E8583FF69767EE64ACE3_inline((&V_5), KeyValuePair_2_get_Value_m8EE4758FF28E491A8B62E8583FF69767EE64ACE3_RuntimeMethod_var);
 				V_6 = L_31;
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:569>
 				ARPlane_tB2F02248AD4019D141553B25C1B9005913E98EF0* L_32 = V_6;
 				il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 				bool L_33;
@@ -30312,7 +28329,6 @@ IL_00ca_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:572>
 				List_1_t10BA05B555C92BD54800DFF82DCAAFC9DE44A077* L_34 = __this->___m_ARPlanes;
 				ARPlane_tB2F02248AD4019D141553B25C1B9005913E98EF0* L_35 = V_6;
 				NullCheck(L_34);
@@ -30324,7 +28340,6 @@ IL_00ca_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:573>
 				List_1_t10BA05B555C92BD54800DFF82DCAAFC9DE44A077* L_37 = __this->___m_ARPlanes;
 				ARPlane_tB2F02248AD4019D141553B25C1B9005913E98EF0* L_38 = V_6;
 				NullCheck(L_37);
@@ -30334,7 +28349,6 @@ IL_00ca_1:
 
 IL_0103_1:
 			{
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:575>
 				Dictionary_2_t83AA7C7AB492C46D749D8888471CCA31450E89BB* L_40 = __this->___m_ARPlaneMeshVisualizers;
 				ARPlane_tB2F02248AD4019D141553B25C1B9005913E98EF0* L_41 = V_6;
 				NullCheck(L_40);
@@ -30346,7 +28360,6 @@ IL_0103_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:576>
 				Dictionary_2_t83AA7C7AB492C46D749D8888471CCA31450E89BB* L_43 = __this->___m_ARPlaneMeshVisualizers;
 				ARPlane_tB2F02248AD4019D141553B25C1B9005913E98EF0* L_44 = V_6;
 				NullCheck(L_43);
@@ -30356,7 +28369,6 @@ IL_0103_1:
 
 IL_0120_1:
 			{
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:578>
 				Dictionary_2_t34E71F5B01DCFB4F948FEE124671D9C5832E00F5* L_46 = __this->___m_ARPlaneMeshVisualizerFaders;
 				ARPlane_tB2F02248AD4019D141553B25C1B9005913E98EF0* L_47 = V_6;
 				NullCheck(L_46);
@@ -30368,7 +28380,6 @@ IL_0120_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:579>
 				Dictionary_2_t34E71F5B01DCFB4F948FEE124671D9C5832E00F5* L_49 = __this->___m_ARPlaneMeshVisualizerFaders;
 				ARPlane_tB2F02248AD4019D141553B25C1B9005913E98EF0* L_50 = V_6;
 				NullCheck(L_49);
@@ -30378,7 +28389,6 @@ IL_0120_1:
 
 IL_013d_1:
 			{
-				//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:566>
 				bool L_52;
 				L_52 = Enumerator_MoveNext_m276C7437B6CAC224E26C4053F3D4AB4A387D1CE1((&V_4), Enumerator_MoveNext_m276C7437B6CAC224E26C4053F3D4AB4A387D1CE1_RuntimeMethod_var);
 				if (L_52)
@@ -30398,7 +28408,6 @@ IL_013d_1:
 
 IL_0156:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:584>
 		ARPlaneManager_t9DA6C512BDCFFBEE8B3DAA7170EB3BFFDE26A928* L_53 = __this->___m_PlaneManager;
 		NullCheck(L_53);
 		TrackableCollection_1_t020ABE893108AA7BEFF830BE31295402EFBDDCA7 L_54;
@@ -30416,19 +28425,15 @@ IL_0156:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:586>
 		List_1_t10BA05B555C92BD54800DFF82DCAAFC9DE44A077* L_58 = __this->___m_ARPlanes;
 		NullCheck(L_58);
 		List_1_Clear_m3D8829B6E89C6333DBF58B486AA888F1CBA9BE5D_inline(L_58, List_1_Clear_m3D8829B6E89C6333DBF58B486AA888F1CBA9BE5D_RuntimeMethod_var);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:587>
 		Dictionary_2_t83AA7C7AB492C46D749D8888471CCA31450E89BB* L_59 = __this->___m_ARPlaneMeshVisualizers;
 		NullCheck(L_59);
 		Dictionary_2_Clear_mBB59638F92ADB71D72B7E35A6FD6BF6BCAF1AFE6(L_59, Dictionary_2_Clear_mBB59638F92ADB71D72B7E35A6FD6BF6BCAF1AFE6_RuntimeMethod_var);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:588>
 		Dictionary_2_t34E71F5B01DCFB4F948FEE124671D9C5832E00F5* L_60 = __this->___m_ARPlaneMeshVisualizerFaders;
 		NullCheck(L_60);
 		Dictionary_2_Clear_m72FF2BC4CFCC1BEAF9270099DD5F786CFB99D42D(L_60, Dictionary_2_Clear_m72FF2BC4CFCC1BEAF9270099DD5F786CFB99D42D_RuntimeMethod_var);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:590>
 		ARPlaneManager_t9DA6C512BDCFFBEE8B3DAA7170EB3BFFDE26A928* L_61 = __this->___m_PlaneManager;
 		NullCheck(L_61);
 		TrackableCollection_1_t020ABE893108AA7BEFF830BE31295402EFBDDCA7 L_62;
@@ -30442,16 +28447,13 @@ IL_0156:
 
 IL_01b3:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:590>
 		ARPlane_tB2F02248AD4019D141553B25C1B9005913E98EF0* L_64;
 		L_64 = Enumerator_get_Current_mA7E36939DA28B409D55BE5435221AAC46E40F14C((&V_8), Enumerator_get_Current_mA7E36939DA28B409D55BE5435221AAC46E40F14C_RuntimeMethod_var);
 		V_9 = L_64;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:592>
 		List_1_t10BA05B555C92BD54800DFF82DCAAFC9DE44A077* L_65 = __this->___m_ARPlanes;
 		ARPlane_tB2F02248AD4019D141553B25C1B9005913E98EF0* L_66 = V_9;
 		NullCheck(L_65);
 		List_1_Add_m25DC1B85040F2EEFCA32A8B893EFDFFF246EE1FF_inline(L_65, L_66, List_1_Add_m25DC1B85040F2EEFCA32A8B893EFDFFF246EE1FF_RuntimeMethod_var);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:593>
 		ARPlane_tB2F02248AD4019D141553B25C1B9005913E98EF0* L_67 = V_9;
 		NullCheck(L_67);
 		bool L_68;
@@ -30462,13 +28464,11 @@ IL_01b3:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:595>
 		Dictionary_2_t83AA7C7AB492C46D749D8888471CCA31450E89BB* L_69 = __this->___m_ARPlaneMeshVisualizers;
 		ARPlane_tB2F02248AD4019D141553B25C1B9005913E98EF0* L_70 = V_9;
 		ARPlaneMeshVisualizer_t21838C8E2676AC524939E67CB965925E924E018F* L_71 = V_10;
 		NullCheck(L_69);
 		Dictionary_2_Add_mC59DB0831897B947EB077CF4B07E674ABF037789(L_69, L_70, L_71, Dictionary_2_Add_mC59DB0831897B947EB077CF4B07E674ABF037789_RuntimeMethod_var);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:596>
 		bool L_72 = __this->___m_UseARPlaneFading;
 		if (L_72)
 		{
@@ -30476,7 +28476,6 @@ IL_01b3:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:598>
 		ARPlaneMeshVisualizer_t21838C8E2676AC524939E67CB965925E924E018F* L_73 = V_10;
 		bool L_74 = __this->___m_VisualizePlanes;
 		NullCheck(L_73);
@@ -30485,7 +28484,6 @@ IL_01b3:
 
 IL_01f8:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:602>
 		ARPlane_tB2F02248AD4019D141553B25C1B9005913E98EF0* L_75 = V_9;
 		NullCheck(L_75);
 		bool L_76;
@@ -30496,7 +28494,6 @@ IL_01f8:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:604>
 		ARPlane_tB2F02248AD4019D141553B25C1B9005913E98EF0* L_77 = V_9;
 		NullCheck(L_77);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_78;
@@ -30509,13 +28506,11 @@ IL_01f8:
 
 IL_0211:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:606>
 		Dictionary_2_t34E71F5B01DCFB4F948FEE124671D9C5832E00F5* L_80 = __this->___m_ARPlaneMeshVisualizerFaders;
 		ARPlane_tB2F02248AD4019D141553B25C1B9005913E98EF0* L_81 = V_9;
 		ARPlaneMeshVisualizerFader_t463985F5CC9F0F5F9C40E10F4E83A37BC2CEFEEC* L_82 = V_11;
 		NullCheck(L_80);
 		Dictionary_2_Add_m5614FD769FB861718711F80F4E225A369118FFF0(L_80, L_81, L_82, Dictionary_2_Add_m5614FD769FB861718711F80F4E225A369118FFF0_RuntimeMethod_var);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:607>
 		ARPlaneMeshVisualizerFader_t463985F5CC9F0F5F9C40E10F4E83A37BC2CEFEEC* L_83 = V_11;
 		bool L_84 = __this->___m_VisualizePlanes;
 		NullCheck(L_83);
@@ -30524,7 +28519,6 @@ IL_0211:
 
 IL_022d:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:590>
 		bool L_85;
 		L_85 = Enumerator_MoveNext_mF71F7AD2C7C3D2A3DE840026172981A72436CB47((&V_8), Enumerator_MoveNext_mF71F7AD2C7C3D2A3DE840026172981A72436CB47_RuntimeMethod_var);
 		if (L_85)
@@ -30535,7 +28529,6 @@ IL_022d:
 
 IL_0239:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:610>
 		return;
 	}
 }
@@ -30558,39 +28551,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTemplateMenuManager__ctor_mD204E47547C
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:150>
 		__this->___m_UseARPlaneFading = (bool)1;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:188>
 		XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0* L_0 = (XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0*)il2cpp_codegen_object_new(XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0_il2cpp_TypeInfo_var);
 		XRInputValueReader_1__ctor_mCCE3009EBDA5485C04EB7D2EDC884E3C4F0F185B(L_0, _stringLiteralCF49A3A156338B04F88DE9CA65E316E5C5A5637B, 2, XRInputValueReader_1__ctor_mCCE3009EBDA5485C04EB7D2EDC884E3C4F0F185B_RuntimeMethod_var);
 		__this->___m_TapStartPositionInput = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_TapStartPositionInput), (void*)L_0);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:201>
 		XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0* L_1 = (XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0*)il2cpp_codegen_object_new(XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0_il2cpp_TypeInfo_var);
 		XRInputValueReader_1__ctor_mCCE3009EBDA5485C04EB7D2EDC884E3C4F0F185B(L_1, _stringLiteral0BC7C5801980AE591057F623889B06C0D7FD554C, 2, XRInputValueReader_1__ctor_mCCE3009EBDA5485C04EB7D2EDC884E3C4F0F185B_RuntimeMethod_var);
 		__this->___m_DragCurrentPositionInput = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_DragCurrentPositionInput), (void*)L_1);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:216>
 		__this->___m_VisualizePlanes = (bool)1;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:220>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2;
 		L_2 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
 		__this->___m_ObjectButtonOffset = L_2;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:221>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_3;
 		L_3 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
 		__this->___m_ObjectMenuOffset = L_3;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:222>
 		List_1_t10BA05B555C92BD54800DFF82DCAAFC9DE44A077* L_4 = (List_1_t10BA05B555C92BD54800DFF82DCAAFC9DE44A077*)il2cpp_codegen_object_new(List_1_t10BA05B555C92BD54800DFF82DCAAFC9DE44A077_il2cpp_TypeInfo_var);
 		List_1__ctor_m4C63D78A9C1078418CF81BCFAF4C4B2A88D3C264(L_4, List_1__ctor_m4C63D78A9C1078418CF81BCFAF4C4B2A88D3C264_RuntimeMethod_var);
 		__this->___m_ARPlanes = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_ARPlanes), (void*)L_4);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:223>
 		Dictionary_2_t83AA7C7AB492C46D749D8888471CCA31450E89BB* L_5 = (Dictionary_2_t83AA7C7AB492C46D749D8888471CCA31450E89BB*)il2cpp_codegen_object_new(Dictionary_2_t83AA7C7AB492C46D749D8888471CCA31450E89BB_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_mE616556AFFBFC441CA1CF5AEC9A2A5C9C72E1F70(L_5, Dictionary_2__ctor_mE616556AFFBFC441CA1CF5AEC9A2A5C9C72E1F70_RuntimeMethod_var);
 		__this->___m_ARPlaneMeshVisualizers = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_ARPlaneMeshVisualizers), (void*)L_5);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs:224>
 		Dictionary_2_t34E71F5B01DCFB4F948FEE124671D9C5832E00F5* L_6 = (Dictionary_2_t34E71F5B01DCFB4F948FEE124671D9C5832E00F5*)il2cpp_codegen_object_new(Dictionary_2_t34E71F5B01DCFB4F948FEE124671D9C5832E00F5_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_m766514998DBAC34A4F097FED271DAA22012E20DC(L_6, Dictionary_2__ctor_m766514998DBAC34A4F097FED271DAA22012E20DC_RuntimeMethod_var);
 		__this->___m_ARPlaneMeshVisualizerFaders = L_6;
@@ -31287,7 +29271,6 @@ IL_0021:
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Node_get_Cost_mA3E0216EAB834B6850DB5DB363EB0A7BD6403DED_inline (Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:42>
 		float L_0 = __this->___U3CCostU3Ek__BackingField;
 		return L_0;
 	}
@@ -31296,7 +29279,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Node_get_Cost_mA3E0216EAB83
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Node_set_Cost_m7F44CBBA8F32420C851E7A5211FEA6752E0EDA2B_inline (Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:42>
 		float L_0 = ___0_value;
 		__this->___U3CCostU3Ek__BackingField = L_0;
 		return;
@@ -31306,7 +29288,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Node_set_Cost_m7F44CBBA8F324
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Node_set_Parent_m16D6DCD3A872D18790A5BDCA3BB25CEECFCE2906_inline (Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* __this, Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:47>
 		Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* L_0 = ___0_value;
 		__this->___U3CParentU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CParentU3Ek__BackingField), (void*)L_0);
@@ -31317,7 +29298,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Node_set_Parent_m16D6DCD3A87
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* Node_get_Parent_m79420FE958130241E10E3B9A8710F0DEAE99128A_inline (Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Graph/NavigationGraphManager.cs:47>
 		Node_tC14380A15C4FF89CEF3B97F3AECD18F6DD361CDF* L_0 = __this->___U3CParentU3Ek__BackingField;
 		return L_0;
 	}
@@ -31408,11 +29388,9 @@ IL_002d:
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NavigationTargetListButton_SetTarget_m02EDE5BDF82895DFAF67A9AF19B7451E59C65337_inline (NavigationTargetListButton_t1160F9ACEDDDEE3B39D95596E5F169B1561A5B86* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_go, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Navigation Target List/NavigationTargetListButton.cs:50>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = ___0_go;
 		__this->___targetObject = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___targetObject), (void*)L_0);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/Immersal SDK/2.2.0/Core Samples/Scripts/Navigation/Navigation Target List/NavigationTargetListButton.cs:51>
 		return;
 	}
 }
@@ -31660,7 +29638,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* XRInteractionGroup
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* ObjectSpawner_get_objectPrefabs_mC013B08B69C29F13A750E8715FAB01E8681320CF_inline (ObjectSpawner_t5ACB5F84845F9E874424BADB585AB17DD4644111* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Scripts/ObjectSpawner.cs:38>
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_0 = __this->___m_ObjectPrefabs;
 		return L_0;
 	}
@@ -31669,7 +29646,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR List_1_tB951CE80B58D1BF9650862451
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ObjectSpawner_set_spawnOptionIndex_m5984E7B1712BB73A2E982FE4487FCA033A922711_inline (ObjectSpawner_t5ACB5F84845F9E874424BADB585AB17DD4644111* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Scripts/ObjectSpawner.cs:70>
 		int32_t L_0 = ___0_value;
 		__this->___m_SpawnOptionIndex = L_0;
 		return;

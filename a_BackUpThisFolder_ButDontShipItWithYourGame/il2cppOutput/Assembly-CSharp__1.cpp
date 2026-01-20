@@ -1263,12 +1263,9 @@ IL2CPP_EXTERN_C void Goal_t5B37A06267C447BA491BFE3C7066E4CD76B90ACC_marshal_com_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Goal__ctor_m4452076EE88E564D97BBDD12E7011CAF34E275A3 (Goal_t5B37A06267C447BA491BFE3C7066E4CD76B90ACC* __this, int32_t ___0_goal, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:30>
 		int32_t L_0 = ___0_goal;
 		__this->___CurrentGoal = L_0;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:31>
 		__this->___Completed = (bool)0;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:32>
 		return;
 	}
 }
@@ -1291,7 +1288,6 @@ IL2CPP_EXTERN_C  void Goal__ctor_m4452076EE88E564D97BBDD12E7011CAF34E275A3_Adjus
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t20A6371B98B4B87A72259FDB28D506AE0BE1B298* GoalManager_get_stepList_m6EA5508AEAE197DBFE897C04AD213EDFB8B1A084 (GoalManager_t79F05CF5003C55BC8DB9870829DD84CBA9A7B421* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:106>
 		List_1_t20A6371B98B4B87A72259FDB28D506AE0BE1B298* L_0 = __this->___m_StepList;
 		return L_0;
 	}
@@ -1300,7 +1296,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t20A6371B98B4B87A72259FDB28D506AE0BE1B
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoalManager_set_stepList_mA3E53C66DA58F6AA6C1EF9ABCBA673926DC58476 (GoalManager_t79F05CF5003C55BC8DB9870829DD84CBA9A7B421* __this, List_1_t20A6371B98B4B87A72259FDB28D506AE0BE1B298* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:107>
 		List_1_t20A6371B98B4B87A72259FDB28D506AE0BE1B298* L_0 = ___0_value;
 		__this->___m_StepList = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_StepList), (void*)L_0);
@@ -1311,7 +1306,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoalManager_set_stepList_mA3E53C66DA58F6
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectSpawner_t5ACB5F84845F9E874424BADB585AB17DD4644111* GoalManager_get_objectSpawner_m5C0DA064849D64E0199FE5C7F04374B3E2628DC3 (GoalManager_t79F05CF5003C55BC8DB9870829DD84CBA9A7B421* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:119>
 		ObjectSpawner_t5ACB5F84845F9E874424BADB585AB17DD4644111* L_0 = __this->___m_ObjectSpawner;
 		return L_0;
 	}
@@ -1320,7 +1314,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectSpawner_t5ACB5F84845F9E874424BADB585AB1
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoalManager_set_objectSpawner_mF4927B049EAA1EBFFF1FA84D9FDE1BDB9D805A56 (GoalManager_t79F05CF5003C55BC8DB9870829DD84CBA9A7B421* __this, ObjectSpawner_t5ACB5F84845F9E874424BADB585AB17DD4644111* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:120>
 		ObjectSpawner_t5ACB5F84845F9E874424BADB585AB17DD4644111* L_0 = ___0_value;
 		__this->___m_ObjectSpawner = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_ObjectSpawner), (void*)L_0);
@@ -1331,7 +1324,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoalManager_set_objectSpawner_mF4927B049
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* GoalManager_get_greetingPrompt_mC83C9B94AB3A47C40B0BDC1C6AF2B827D9895B22 (GoalManager_t79F05CF5003C55BC8DB9870829DD84CBA9A7B421* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:132>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___m_GreetingPrompt;
 		return L_0;
 	}
@@ -1340,7 +1332,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoalManager_set_greetingPrompt_m1B4B83D9E61D0F1DD7AC87AD62E955D9007B67EE (GoalManager_t79F05CF5003C55BC8DB9870829DD84CBA9A7B421* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:133>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = ___0_value;
 		__this->___m_GreetingPrompt = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_GreetingPrompt), (void*)L_0);
@@ -1351,7 +1342,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoalManager_set_greetingPrompt_m1B4B83D9
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* GoalManager_get_optionsButton_m7FB7270CA296B926DF782661FB85259EF18F7AAA (GoalManager_t79F05CF5003C55BC8DB9870829DD84CBA9A7B421* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:145>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___m_OptionsButton;
 		return L_0;
 	}
@@ -1360,7 +1350,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoalManager_set_optionsButton_m31A54052EB4E9733563BC61B68CD44642F25DEBF (GoalManager_t79F05CF5003C55BC8DB9870829DD84CBA9A7B421* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:146>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = ___0_value;
 		__this->___m_OptionsButton = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_OptionsButton), (void*)L_0);
@@ -1371,7 +1360,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoalManager_set_optionsButton_m31A54052E
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* GoalManager_get_createButton_mEB6C08112C792D7F80852C5233EB9008AB2F2B1B (GoalManager_t79F05CF5003C55BC8DB9870829DD84CBA9A7B421* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:158>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___m_CreateButton;
 		return L_0;
 	}
@@ -1380,7 +1368,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoalManager_set_createButton_mEA66050F14D4871F920B642A628467D7A4A9A86D (GoalManager_t79F05CF5003C55BC8DB9870829DD84CBA9A7B421* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:159>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = ___0_value;
 		__this->___m_CreateButton = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_CreateButton), (void*)L_0);
@@ -1391,7 +1378,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoalManager_set_createButton_mEA66050F14
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* GoalManager_get_menuManager_m2D7052A638CAE15415D2DD010C2A9B05535A997C (GoalManager_t79F05CF5003C55BC8DB9870829DD84CBA9A7B421* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:171>
 		ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* L_0 = __this->___m_MenuManager;
 		return L_0;
 	}
@@ -1400,7 +1386,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ARTemplateMenuManager_tC3CF87B307CD51E3E48665
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoalManager_set_menuManager_mFDFB3A63C58982FF216205589FFAAEFE4E8325D4 (GoalManager_t79F05CF5003C55BC8DB9870829DD84CBA9A7B421* __this, ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:172>
 		ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* L_0 = ___0_value;
 		__this->___m_MenuManager = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_MenuManager), (void*)L_0);
@@ -1411,7 +1396,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoalManager_set_menuManager_mFDFB3A63C58
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoalManager_Update_mE203497116EDF8D482CC832D08158D65090CA836 (GoalManager_t79F05CF5003C55BC8DB9870829DD84CBA9A7B421* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:186>
 		Pointer_t800EF2832B62E889AC9C182E3B18098AF220E32A* L_0;
 		L_0 = Pointer_get_current_m207443803344C305DEAAEBA56C445980D6C22CB3_inline(NULL);
 		if (!L_0)
@@ -1467,7 +1451,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoalManager_Update_mE203497116EDF8D482CC
 
 IL_004a:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:188>
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_11 = __this->___m_CurrentCoroutine;
 		if (!L_11)
 		{
@@ -1475,20 +1458,17 @@ IL_004a:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:190>
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_12 = __this->___m_CurrentCoroutine;
 		MonoBehaviour_StopCoroutine_mB0FC91BE84203BD8E360B3FBAE5B958B4C5ED22A(__this, L_12, NULL);
 	}
 
 IL_005e:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:192>
 		GoalManager_CompleteGoal_m9C1797EBCE79E796CC041C797ADE7D0E5C3CCE8D(__this, NULL);
 	}
 
 IL_0064:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:194>
 		return;
 	}
 }
@@ -1506,7 +1486,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoalManager_CompleteGoal_m9C1797EBCE79E7
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:198>
 		Goal_t5B37A06267C447BA491BFE3C7066E4CD76B90ACC* L_0 = (Goal_t5B37A06267C447BA491BFE3C7066E4CD76B90ACC*)(&__this->___m_CurrentGoal);
 		int32_t L_1 = L_0->___CurrentGoal;
 		if ((!(((uint32_t)L_1) == ((uint32_t)2))))
@@ -1515,7 +1494,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoalManager_CompleteGoal_m9C1797EBCE79E7
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:199>
 		ObjectSpawner_t5ACB5F84845F9E874424BADB585AB17DD4644111* L_2 = __this->___m_ObjectSpawner;
 		Action_1_tFF0F3D982F6CEB68CBA322555CBBEE6AE1D2519C* L_3 = (Action_1_tFF0F3D982F6CEB68CBA322555CBBEE6AE1D2519C*)il2cpp_codegen_object_new(Action_1_tFF0F3D982F6CEB68CBA322555CBBEE6AE1D2519C_il2cpp_TypeInfo_var);
 		Action_1__ctor_m3FA37AFA5AAB09F49F9C00A7D5B2A5F3D83CBB01(L_3, __this, (intptr_t)((void*)GoalManager_OnObjectSpawned_mAFDD5E4AA054A8A6909BEE5E19D377DB660C2F00_RuntimeMethod_var), NULL);
@@ -1525,13 +1503,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoalManager_CompleteGoal_m9C1797EBCE79E7
 
 IL_0025:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:201>
 		Goal_t5B37A06267C447BA491BFE3C7066E4CD76B90ACC* L_4 = (Goal_t5B37A06267C447BA491BFE3C7066E4CD76B90ACC*)(&__this->___m_CurrentGoal);
 		L_4->___Completed = (bool)1;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:202>
 		int32_t L_5 = __this->___m_CurrentGoalIndex;
 		__this->___m_CurrentGoalIndex = ((int32_t)il2cpp_codegen_add(L_5, 1));
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:203>
 		Queue_1_t9047E409B3024C6C77A6EA9F70254940517E77A6* L_6 = __this->___m_OnboardingGoals;
 		NullCheck(L_6);
 		int32_t L_7;
@@ -1542,13 +1517,11 @@ IL_0025:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:205>
 		Queue_1_t9047E409B3024C6C77A6EA9F70254940517E77A6* L_8 = __this->___m_OnboardingGoals;
 		NullCheck(L_8);
 		Goal_t5B37A06267C447BA491BFE3C7066E4CD76B90ACC L_9;
 		L_9 = Queue_1_Dequeue_m1EBFD468539CD5D75D0102C7593661A2065E0506(L_8, Queue_1_Dequeue_m1EBFD468539CD5D75D0102C7593661A2065E0506_RuntimeMethod_var);
 		__this->___m_CurrentGoal = L_9;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:206>
 		List_1_t20A6371B98B4B87A72259FDB28D506AE0BE1B298* L_10 = __this->___m_StepList;
 		int32_t L_11 = __this->___m_CurrentGoalIndex;
 		NullCheck(L_10);
@@ -1558,7 +1531,6 @@ IL_0025:
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13 = L_12->___stepObject;
 		NullCheck(L_13);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_13, (bool)0, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:207>
 		List_1_t20A6371B98B4B87A72259FDB28D506AE0BE1B298* L_14 = __this->___m_StepList;
 		int32_t L_15 = __this->___m_CurrentGoalIndex;
 		NullCheck(L_14);
@@ -1573,7 +1545,6 @@ IL_0025:
 
 IL_009a:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:211>
 		List_1_t20A6371B98B4B87A72259FDB28D506AE0BE1B298* L_18 = __this->___m_StepList;
 		int32_t L_19 = __this->___m_CurrentGoalIndex;
 		NullCheck(L_18);
@@ -1583,17 +1554,13 @@ IL_009a:
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_21 = L_20->___stepObject;
 		NullCheck(L_21);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_21, (bool)0, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:212>
 		__this->___m_AllGoalsFinished = (bool)1;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:213>
 		return;
 	}
 
 IL_00c0:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:216>
 		GoalManager_PreprocessGoal_m41209A651864747FC74E9F003C7D3E35BAA55A26(__this, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:217>
 		return;
 	}
 }
@@ -1608,7 +1575,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoalManager_PreprocessGoal_m41209A651864
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:221>
 		Goal_t5B37A06267C447BA491BFE3C7066E4CD76B90ACC* L_0 = (Goal_t5B37A06267C447BA491BFE3C7066E4CD76B90ACC*)(&__this->___m_CurrentGoal);
 		int32_t L_1 = L_0->___CurrentGoal;
 		if ((!(((uint32_t)L_1) == ((uint32_t)1))))
@@ -1617,7 +1583,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoalManager_PreprocessGoal_m41209A651864
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:223>
 		RuntimeObject* L_2;
 		L_2 = GoalManager_WaitUntilNextCard_m62A6D1D6FE5E5CEE49C944B9E2B55565D1F0A59D(__this, (5.0f), NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_3;
@@ -1629,7 +1594,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoalManager_PreprocessGoal_m41209A651864
 
 IL_0026:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:225>
 		Goal_t5B37A06267C447BA491BFE3C7066E4CD76B90ACC* L_4 = (Goal_t5B37A06267C447BA491BFE3C7066E4CD76B90ACC*)(&__this->___m_CurrentGoal);
 		int32_t L_5 = L_4->___CurrentGoal;
 		if ((!(((uint32_t)L_5) == ((uint32_t)3))))
@@ -1638,7 +1602,6 @@ IL_0026:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:227>
 		RuntimeObject* L_6;
 		L_6 = GoalManager_WaitUntilNextCard_m62A6D1D6FE5E5CEE49C944B9E2B55565D1F0A59D(__this, (6.0f), NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_7;
@@ -1650,7 +1613,6 @@ IL_0026:
 
 IL_004c:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:229>
 		Goal_t5B37A06267C447BA491BFE3C7066E4CD76B90ACC* L_8 = (Goal_t5B37A06267C447BA491BFE3C7066E4CD76B90ACC*)(&__this->___m_CurrentGoal);
 		int32_t L_9 = L_8->___CurrentGoal;
 		if ((!(((uint32_t)L_9) == ((uint32_t)4))))
@@ -1659,7 +1621,6 @@ IL_004c:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:231>
 		RuntimeObject* L_10;
 		L_10 = GoalManager_WaitUntilNextCard_m62A6D1D6FE5E5CEE49C944B9E2B55565D1F0A59D(__this, (8.0f), NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_11;
@@ -1671,7 +1632,6 @@ IL_004c:
 
 IL_0072:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:233>
 		Goal_t5B37A06267C447BA491BFE3C7066E4CD76B90ACC* L_12 = (Goal_t5B37A06267C447BA491BFE3C7066E4CD76B90ACC*)(&__this->___m_CurrentGoal);
 		int32_t L_13 = L_12->___CurrentGoal;
 		if ((!(((uint32_t)L_13) == ((uint32_t)2))))
@@ -1680,9 +1640,7 @@ IL_0072:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:235>
 		__this->___m_SurfacesTapped = 0;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:236>
 		ObjectSpawner_t5ACB5F84845F9E874424BADB585AB17DD4644111* L_14 = __this->___m_ObjectSpawner;
 		Action_1_tFF0F3D982F6CEB68CBA322555CBBEE6AE1D2519C* L_15 = (Action_1_tFF0F3D982F6CEB68CBA322555CBBEE6AE1D2519C*)il2cpp_codegen_object_new(Action_1_tFF0F3D982F6CEB68CBA322555CBBEE6AE1D2519C_il2cpp_TypeInfo_var);
 		Action_1__ctor_m3FA37AFA5AAB09F49F9C00A7D5B2A5F3D83CBB01(L_15, __this, (intptr_t)((void*)GoalManager_OnObjectSpawned_mAFDD5E4AA054A8A6909BEE5E19D377DB660C2F00_RuntimeMethod_var), NULL);
@@ -1692,7 +1650,6 @@ IL_0072:
 
 IL_009e:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:238>
 		return;
 	}
 }
@@ -1723,9 +1680,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GoalManager_WaitUntilNextCard_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoalManager_ForceCompleteGoal_m7C90BBE0DA79D889DE63885F3F4C30039E8132E3 (GoalManager_t79F05CF5003C55BC8DB9870829DD84CBA9A7B421* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:262>
 		GoalManager_CompleteGoal_m9C1797EBCE79E796CC041C797ADE7D0E5C3CCE8D(__this, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:263>
 		return;
 	}
 }
@@ -1733,10 +1688,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoalManager_ForceCompleteGoal_m7C90BBE0D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoalManager_OnObjectSpawned_mAFDD5E4AA054A8A6909BEE5E19D377DB660C2F00 (GoalManager_t79F05CF5003C55BC8DB9870829DD84CBA9A7B421* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_spawnedObject, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:267>
 		int32_t L_0 = __this->___m_SurfacesTapped;
 		__this->___m_SurfacesTapped = ((int32_t)il2cpp_codegen_add(L_0, 1));
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:268>
 		Goal_t5B37A06267C447BA491BFE3C7066E4CD76B90ACC* L_1 = (Goal_t5B37A06267C447BA491BFE3C7066E4CD76B90ACC*)(&__this->___m_CurrentGoal);
 		int32_t L_2 = L_1->___CurrentGoal;
 		if ((!(((uint32_t)L_2) == ((uint32_t)2))))
@@ -1752,13 +1705,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoalManager_OnObjectSpawned_mAFDD5E4AA05
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:270>
 		GoalManager_CompleteGoal_m9C1797EBCE79E796CC041C797ADE7D0E5C3CCE8D(__this, NULL);
 	}
 
 IL_002b:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:272>
 		return;
 	}
 }
@@ -1791,7 +1742,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoalManager_StartCoaching_mA030D1E995479
 	int32_t V_6 = 0;
 	int32_t G_B7_0 = 0;
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:279>
 		Queue_1_t9047E409B3024C6C77A6EA9F70254940517E77A6* L_0 = __this->___m_OnboardingGoals;
 		if (!L_0)
 		{
@@ -1799,7 +1749,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoalManager_StartCoaching_mA030D1E995479
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:281>
 		Queue_1_t9047E409B3024C6C77A6EA9F70254940517E77A6* L_1 = __this->___m_OnboardingGoals;
 		NullCheck(L_1);
 		Queue_1_Clear_m676D8F27B25B6BB8AB9FBE1092CD7D6E2BD020DD(L_1, Queue_1_Clear_m676D8F27B25B6BB8AB9FBE1092CD7D6E2BD020DD_RuntimeMethod_var);
@@ -1807,12 +1756,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoalManager_StartCoaching_mA030D1E995479
 
 IL_0013:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:284>
 		Queue_1_t9047E409B3024C6C77A6EA9F70254940517E77A6* L_2 = (Queue_1_t9047E409B3024C6C77A6EA9F70254940517E77A6*)il2cpp_codegen_object_new(Queue_1_t9047E409B3024C6C77A6EA9F70254940517E77A6_il2cpp_TypeInfo_var);
 		Queue_1__ctor_mB8D7CFCB6EC856D88B6C425CB897ADDCADE698B3(L_2, Queue_1__ctor_mB8D7CFCB6EC856D88B6C425CB897ADDCADE698B3_RuntimeMethod_var);
 		__this->___m_OnboardingGoals = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_OnboardingGoals), (void*)L_2);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:286>
 		bool L_3 = __this->___m_AllGoalsFinished;
 		if (L_3)
 		{
@@ -1820,9 +1767,7 @@ IL_0013:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:288>
 		Goal__ctor_m4452076EE88E564D97BBDD12E7011CAF34E275A3((&V_5), 1, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:289>
 		Queue_1_t9047E409B3024C6C77A6EA9F70254940517E77A6* L_4 = __this->___m_OnboardingGoals;
 		Goal_t5B37A06267C447BA491BFE3C7066E4CD76B90ACC L_5 = V_5;
 		NullCheck(L_4);
@@ -1831,7 +1776,6 @@ IL_0013:
 
 IL_003b:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:292>
 		bool L_6 = __this->___m_AllGoalsFinished;
 		if (L_6)
 		{
@@ -1851,62 +1795,46 @@ IL_0046:
 IL_0047:
 	{
 		V_0 = G_B7_0;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:294>
 		Goal__ctor_m4452076EE88E564D97BBDD12E7011CAF34E275A3((&V_1), 2, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:295>
 		Goal__ctor_m4452076EE88E564D97BBDD12E7011CAF34E275A3((&V_2), 3, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:296>
 		Goal__ctor_m4452076EE88E564D97BBDD12E7011CAF34E275A3((&V_3), 4, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:297>
 		Goal__ctor_m4452076EE88E564D97BBDD12E7011CAF34E275A3((&V_4), 3, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:299>
 		Queue_1_t9047E409B3024C6C77A6EA9F70254940517E77A6* L_7 = __this->___m_OnboardingGoals;
 		Goal_t5B37A06267C447BA491BFE3C7066E4CD76B90ACC L_8 = V_1;
 		NullCheck(L_7);
 		Queue_1_Enqueue_m8C1333BA265F360C4F35152E7E10D56E5B4909B6(L_7, L_8, Queue_1_Enqueue_m8C1333BA265F360C4F35152E7E10D56E5B4909B6_RuntimeMethod_var);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:300>
 		Queue_1_t9047E409B3024C6C77A6EA9F70254940517E77A6* L_9 = __this->___m_OnboardingGoals;
 		Goal_t5B37A06267C447BA491BFE3C7066E4CD76B90ACC L_10 = V_2;
 		NullCheck(L_9);
 		Queue_1_Enqueue_m8C1333BA265F360C4F35152E7E10D56E5B4909B6(L_9, L_10, Queue_1_Enqueue_m8C1333BA265F360C4F35152E7E10D56E5B4909B6_RuntimeMethod_var);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:301>
 		Queue_1_t9047E409B3024C6C77A6EA9F70254940517E77A6* L_11 = __this->___m_OnboardingGoals;
 		Goal_t5B37A06267C447BA491BFE3C7066E4CD76B90ACC L_12 = V_3;
 		NullCheck(L_11);
 		Queue_1_Enqueue_m8C1333BA265F360C4F35152E7E10D56E5B4909B6(L_11, L_12, Queue_1_Enqueue_m8C1333BA265F360C4F35152E7E10D56E5B4909B6_RuntimeMethod_var);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:302>
 		Queue_1_t9047E409B3024C6C77A6EA9F70254940517E77A6* L_13 = __this->___m_OnboardingGoals;
 		Goal_t5B37A06267C447BA491BFE3C7066E4CD76B90ACC L_14 = V_4;
 		NullCheck(L_13);
 		Queue_1_Enqueue_m8C1333BA265F360C4F35152E7E10D56E5B4909B6(L_13, L_14, Queue_1_Enqueue_m8C1333BA265F360C4F35152E7E10D56E5B4909B6_RuntimeMethod_var);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:304>
 		Queue_1_t9047E409B3024C6C77A6EA9F70254940517E77A6* L_15 = __this->___m_OnboardingGoals;
 		NullCheck(L_15);
 		Goal_t5B37A06267C447BA491BFE3C7066E4CD76B90ACC L_16;
 		L_16 = Queue_1_Dequeue_m1EBFD468539CD5D75D0102C7593661A2065E0506(L_15, Queue_1_Dequeue_m1EBFD468539CD5D75D0102C7593661A2065E0506_RuntimeMethod_var);
 		__this->___m_CurrentGoal = L_16;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:305>
 		__this->___m_AllGoalsFinished = (bool)0;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:306>
 		int32_t L_17 = V_0;
 		__this->___m_CurrentGoalIndex = L_17;
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:308>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_18 = __this->___m_GreetingPrompt;
 		NullCheck(L_18);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_18, (bool)0, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:309>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_19 = __this->___m_OptionsButton;
 		NullCheck(L_19);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_19, (bool)1, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:310>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_20 = __this->___m_CreateButton;
 		NullCheck(L_20);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_20, (bool)1, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:311>
 		ARTemplateMenuManager_tC3CF87B307CD51E3E48665D773A4F233825E0693* L_21 = __this->___m_MenuManager;
 		NullCheck(L_21);
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_21, (bool)1, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:313>
 		int32_t L_22 = V_0;
 		V_6 = L_22;
 		goto IL_0130;
@@ -1914,7 +1842,6 @@ IL_0047:
 
 IL_00ed:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:315>
 		int32_t L_23 = V_6;
 		int32_t L_24 = V_0;
 		if ((!(((uint32_t)L_23) == ((uint32_t)L_24))))
@@ -1923,7 +1850,6 @@ IL_00ed:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:317>
 		List_1_t20A6371B98B4B87A72259FDB28D506AE0BE1B298* L_25 = __this->___m_StepList;
 		int32_t L_26 = V_6;
 		NullCheck(L_25);
@@ -1933,14 +1859,12 @@ IL_00ed:
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_28 = L_27->___stepObject;
 		NullCheck(L_28);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_28, (bool)1, NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:318>
 		GoalManager_PreprocessGoal_m41209A651864747FC74E9F003C7D3E35BAA55A26(__this, NULL);
 		goto IL_012a;
 	}
 
 IL_0112:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:322>
 		List_1_t20A6371B98B4B87A72259FDB28D506AE0BE1B298* L_29 = __this->___m_StepList;
 		int32_t L_30 = V_6;
 		NullCheck(L_29);
@@ -1954,14 +1878,12 @@ IL_0112:
 
 IL_012a:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:313>
 		int32_t L_33 = V_6;
 		V_6 = ((int32_t)il2cpp_codegen_add(L_33, 1));
 	}
 
 IL_0130:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:313>
 		int32_t L_34 = V_6;
 		List_1_t20A6371B98B4B87A72259FDB28D506AE0BE1B298* L_35 = __this->___m_StepList;
 		NullCheck(L_35);
@@ -1973,7 +1895,6 @@ IL_0130:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:326>
 		return;
 	}
 }
@@ -1988,7 +1909,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoalManager__ctor_m3DE714B5F1A03972C4D1D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:99>
 		List_1_t20A6371B98B4B87A72259FDB28D506AE0BE1B298* L_0 = (List_1_t20A6371B98B4B87A72259FDB28D506AE0BE1B298*)il2cpp_codegen_object_new(List_1_t20A6371B98B4B87A72259FDB28D506AE0BE1B298_il2cpp_TypeInfo_var);
 		List_1__ctor_m72CBB9E3CDC878202A832EDC648501F394472373(L_0, List_1__ctor_m72CBB9E3CDC878202A832EDC648501F394472373_RuntimeMethod_var);
 		__this->___m_StepList = L_0;
@@ -2082,7 +2002,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CWaitUntilNextCardU3Ed__36_MoveNext_mE
 IL_0017:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:248>
 		float L_4 = __this->___seconds;
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_5 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_5, L_4, NULL);
@@ -2095,7 +2014,6 @@ IL_0017:
 IL_0038:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:250>
 		Pointer_t800EF2832B62E889AC9C182E3B18098AF220E32A* L_6;
 		L_6 = Pointer_get_current_m207443803344C305DEAAEBA56C445980D6C22CB3_inline(NULL);
 		NullCheck(L_6);
@@ -2110,12 +2028,10 @@ IL_0038:
 		}
 	}
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:252>
 		GoalManager_t79F05CF5003C55BC8DB9870829DD84CBA9A7B421* L_9 = V_1;
 		NullCheck(L_9);
 		L_9->___m_CurrentCoroutine = (Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&L_9->___m_CurrentCoroutine), (void*)(Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B*)NULL);
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:253>
 		GoalManager_t79F05CF5003C55BC8DB9870829DD84CBA9A7B421* L_10 = V_1;
 		NullCheck(L_10);
 		GoalManager_CompleteGoal_m9C1797EBCE79E796CC041C797ADE7D0E5C3CCE8D(L_10, NULL);
@@ -2123,7 +2039,6 @@ IL_0038:
 
 IL_005d:
 	{
-		//<source_info:C:/Users/tamar/OneDrive/Dokumenty/AR_Unity/UniNav/Assets/MobileARTemplateAssets/Scripts/GoalManager.cs:255>
 		return (bool)0;
 	}
 }

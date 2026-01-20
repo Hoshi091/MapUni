@@ -1,0 +1,5 @@
+C:/AR_projekty/AR_Unity/UniNav/.utmp/RelWithDebInfo/5ct6y3kz/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/AR_projekty/AR_Unity/UniNav/.utmp/RelWithDebInfo/5ct6y3kz/arm64-v8a/CMakeFiles/rebuild_cache.dir
+C:/AR_projekty/AR_Unity/UniNav/.utmp/RelWithDebInfo/5ct6y3kz/arm64-v8a/GameActivity/CMakeFiles/game.dir
+C:/AR_projekty/AR_Unity/UniNav/.utmp/RelWithDebInfo/5ct6y3kz/arm64-v8a/GameActivity/CMakeFiles/edit_cache.dir
+C:/AR_projekty/AR_Unity/UniNav/.utmp/RelWithDebInfo/5ct6y3kz/arm64-v8a/GameActivity/CMakeFiles/rebuild_cache.dir

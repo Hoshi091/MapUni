@@ -1,1 +1,1 @@
-C:\Users\tamar\OneDrive\Dokumenty\AR_Unity\UniNav\Library\Bee\artifacts\Android\il2cppOutput\cpp
+C:\AR_projekty\AR_Unity\UniNav\Library\Bee\artifacts\Android\il2cppOutput\cpp
