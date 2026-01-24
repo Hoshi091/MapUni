@@ -47,12 +47,12 @@ namespace Immersal.Samples.Util
 
         public static void OnLocalizerFirstSuccess()
         {
-            NotificationManager.Instance.GenerateSuccess("First successful localization");
+            NotificationManager.Instance.GenerateSuccess("Prvá úspešná lokalizácia");
         }
 
         public static void OnLocalizerSuccess()
         {
-            NotificationManager.Instance.GenerateSuccess("Successful localization");
+            NotificationManager.Instance.GenerateSuccess("Úspešná lokalizácia");
         }
 
         public static void OnLocalizerSuccess(int previousMapId, int newMapId)
@@ -62,7 +62,7 @@ namespace Immersal.Samples.Util
 
         public static void OnLocalizerFail()
         {
-            NotificationManager.Instance.GenerateWarning("Failed localization");
+            NotificationManager.Instance.GenerateWarning("Neúspešná lokalizácia");
         }
 
         public static void OnLocalizationResult(ILocalizationResults results)

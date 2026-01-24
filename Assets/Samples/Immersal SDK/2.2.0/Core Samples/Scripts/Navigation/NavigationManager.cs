@@ -135,7 +135,7 @@ namespace Immersal.Samples.Navigation
             if (m_managerInitialized)
             {
                 m_TargetsListIcon.sprite = m_ShowListIcon;
-                m_TargetsListText.text = "Show Navigation Targets";
+                m_TargetsListText.text = "Zobraziť ciele navigácie";
             }
         }
 
@@ -280,7 +280,7 @@ namespace Immersal.Samples.Navigation
                 }
                 if (m_TargetsListText != null)
                 {
-                    m_TargetsListText.text = "Show Navigation Targets";
+                    m_TargetsListText.text = "Zobraziť ciele navigácie";
                 }
             }
             else
@@ -293,7 +293,7 @@ namespace Immersal.Samples.Navigation
                 }
                 if (m_TargetsListText != null)
                 {
-                    m_TargetsListText.text = "Select Navigation Target";
+                    m_TargetsListText.text = "Vyberte cieľ navigácie";
                 }
             }
         }
@@ -308,7 +308,7 @@ namespace Immersal.Samples.Navigation
 #if !(UNITY_STANDALONE)
             Handheld.Vibrate();
 #endif
-            NotificationManager.Instance.GenerateNotification("Path to target could not be found.");
+            NotificationManager.Instance.GenerateNotification("Cesta k cieľu nebola nájdená.");
             onTargetNotFound.Invoke(m_targetTransform);
         }
 
@@ -317,7 +317,7 @@ namespace Immersal.Samples.Navigation
 #if !(UNITY_STANDALONE)
             Handheld.Vibrate();
 #endif
-            NotificationManager.Instance.GenerateNotification("You have arrived!");
+            NotificationManager.Instance.GenerateNotification("Dorazili ste!");
             onTargetFound.Invoke(m_targetTransform);
         }
 
@@ -328,7 +328,7 @@ namespace Immersal.Samples.Navigation
             m_navigationState = NavigationState.NotNavigating;
             UpdateNavigationUI(m_navigationState);
 
-            NotificationManager.Instance.GenerateNotification("Navigation stopped.");
+            NotificationManager.Instance.GenerateNotification("Navigácia bola zastavená.");
         }
 
         private void UpdateNavigationUI(NavigationState navigationState)
